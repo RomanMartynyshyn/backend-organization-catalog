@@ -1,6 +1,22 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 // TODO: Імпортувати контролери
+const asyncHandler = require("../middleware/asyncHandler");
+const validate = require("../middleware/validate");
+
+const {
+  createOrganizationValidation,
+} = require("../validators/organizationValidators");
+const { createOrganization } = require("../controllers/organizations");
+
+router.post(
+  //POST /api/organizations
+  "/",
+  //chain middleware: валідація, перевірка помилок, async wrapper
+  createOrganizationValidation,
+  validate,
+  asyncHandler(createOrganization),
+);
 
 // A1 - Перегляд каталогу
 // GET /api/organizations?category_id=...
