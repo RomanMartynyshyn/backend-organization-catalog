@@ -1,39 +1,61 @@
-const Organization = require("../models/organization");
+const pool = require("../db"); // підключення пулу MySQL (з'єднання з БД)
 
-// Створення заявки на додавання організації
-// контролер POST запиту (створення заявки)
-const createOrganization = async (req, res) => {
-  const { name, description, website_url, category_ids } = req.body; //отримання даних з body (форми заявки)
-
-  // 1. Перевірка дубліката назви організації через модель
-  // звернення до БД для перевірки чи існує організація з таким name
-  const existing = await Organization.findByName(name);
-
-  //якщо знайдено - вже існує, то  конфлікт
-  if (existing) {
-    const error = new Error("Organization with this name already exists");
-    error.status = 409;
-    error.field = "name";
-    throw error;
-  }
-
-  // Створення організації через модель
-  // бізнес-логіка винесена в model layer (MVC архітектура)
-  const result = await Organization.create(
-    name,
-    description,
-    website_url,
-    category_ids,
+// перевірка дубліката організації по name
+// використовується для запобігання дублюванню записів (409 Conflict у контролері)
+async function findByName(name) {
+  const [rows] = await pool.query(
+    `SELECT org_id FROM organizations WHERE name = ? LIMIT 1`,
+    [name],
   );
 
-  // Відповідь клієнту після успішного створення заявки
-  return res.status(201).json({
-    message: "Organization request created successfully",
-    organization_id: result.orgId,
-    status: result.status,
-  });
-};
+  return rows[0]; // повертаємо перший знайдений запис або undefined
+}
+
+// створення організації + зв'язки many-to-many з категоріями
+async function create(name, description, website_url, category_ids) {
+  const connection = await pool.getConnection(); // створення окремого з'єднання для транзакції
+
+  try {
+    await connection.beginTransaction(); // початок транзакції (успіх або відкат всіх змін)
+
+    // 1. вставка організації зі статусом pending
+    const [result] = await connection.query(
+      `
+      INSERT INTO organizations
+      (name, description, website_url, status, is_active, created_at, updated_at)
+      VALUES (?, ?, ?, 'pending', true, NOW(), NOW())
+      `,
+      [name, description || null, website_url || null],
+    );
+
+    const orgId = result.insertId; // отримання ID створеної організації
+
+    // 2. створення зв'язків many-to-many між organizations і categories
+    for (const categoryId of category_ids) {
+      await connection.query(
+        `
+        INSERT INTO organization_categories (org_id, category_id)
+        VALUES (?, ?)
+        `,
+        [orgId, categoryId],
+      );
+    }
+
+    await connection.commit(); // підтвердження транзакції (збереження запису до БД)
+
+    return {
+      orgId,
+      status: "pending", // статус нової заявки
+    };
+  } catch (error) {
+    await connection.rollback(); // відкат змін у випадку помилки
+    throw error;
+  } finally {
+    connection.release(); // звільнення з'єднання з пулу (для MySQL)
+  }
+}
 
 module.exports = {
-  createOrganization,
+  findByName,
+  create,
 };
