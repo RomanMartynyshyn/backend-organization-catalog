@@ -1,8 +1,17 @@
-const pool = require('../db');
+const { pool } = require("../db");
 
-// TODO: SQL запити до таблиці CATEGORIES
-// Всі CRUD запити мають бути тут
+class Category {
+    static async getAll() {
+        const [rows] = await pool.query(
+        `
+          SELECT category_id, name
+          FROM categories
+          ORDER BY name
+        `
+        );
 
-module.exports = {
-    // Експорт моделей
-};
+        return rows;
+    }
+}
+
+module.exports = Category;
