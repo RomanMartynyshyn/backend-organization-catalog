@@ -1,8 +1,8 @@
-const express = require('express');
-const router = express.Router();
-// TODO: Імпортувати контролери
+import { Router } from 'express'
+import { getCategories } from '../controllers/categories.js'
 
-// A1 - Перегляд категорій
-// GET /api/categories
+const router = Router()
 
-module.exports = router;
+router.get('/', getCategories)
+
+export default router
