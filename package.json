@@ -7,7 +7,7 @@
     "build": "npx prisma validate && npx prisma generate",
     "ci:smoke": "node --input-type=module -e \"const timeout = setTimeout(() => process.exit(0), 1000); import('./index.js').catch((error) => { clearTimeout(timeout); console.error(error); process.exit(1); });\"",
     "validate:ci": "npm run build && npm run ci:smoke",
-    "start": "node index.js --hostname 127.1.8.158",
+    "start": "node index.js",
     "prisma:migrate": "npx prisma migrate dev",
     "prisma:generate": "npx prisma generate",
     "prisma:studio": "npx prisma studio",

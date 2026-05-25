@@ -56,5 +56,5 @@ jobs:
 
             # Перезапускаємо сервер
             pkill -f "node index.js" || true
-            nohup node index.js > /dev/null 2>&1 &
+            nohup node index.js >> ${{ secrets.REMOTE_PATH }}/logs/backend.log 2>&1 &
 
