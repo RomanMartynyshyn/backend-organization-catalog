@@ -55,5 +55,6 @@ jobs:
             npx prisma migrate deploy
 
             # Перезапускаємо сервер
-            pkill -f ${{ secrets.REMOTE_PATH }}/index.js || true
+            PID=$(pgrep -f "${{ secrets.REMOTE_PATH }}/index.js" | grep -v $$)
+            if [ ! -z "$PID" ]; then kill -9 $PID; fi
 
