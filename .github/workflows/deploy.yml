@@ -28,7 +28,7 @@ jobs:
       - name: Deploy via rsync
         uses: burnett01/rsync-deployments@v8
         with:
-          switches: -avzr --delete --exclude='.git*' --exclude='.env' --exclude='node_modules' --exclude='generated'
+          switches: -avzr --delete --exclude-from='.rsyncignore' --exclude='node_modules' --exclude='generated'
           path: ./
           remote_host: ${{ secrets.REMOTE_HOST }}
           remote_user: ${{ secrets.REMOTE_USER }}
@@ -55,6 +55,5 @@ jobs:
             npx prisma migrate deploy
 
             # Перезапускаємо сервер
-            PID=$(pgrep -f "${{ secrets.REMOTE_PATH }}/index.js" | grep -v $$)
-            if [ ! -z "$PID" ]; then kill -9 $PID; fi
+            pkill -9 -f "${{ secrets.REMOTE_PATH }}/index.js" || true
 
