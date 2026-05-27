@@ -14,3 +14,4 @@ docker-compose.*
 *.md 
 *.MD
 .gitignore
+README.md
