@@ -55,5 +55,5 @@ jobs:
             npx prisma migrate deploy
 
             # Перезапускаємо сервер
-            pkill -9 -f "${{ secrets.REMOTE_PATH }}/index.js" || true
+            kill -9 $(pgrep -f "${{ secrets.REMOTE_PATH }}/index.js" | grep -v $$) 2>/dev/null || true
 
