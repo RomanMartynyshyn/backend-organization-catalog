@@ -15,3 +15,5 @@ docker-compose.*
 *.MD
 .gitignore
 README.md
+.github
+.rsyncignore
