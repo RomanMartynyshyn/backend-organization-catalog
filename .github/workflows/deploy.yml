@@ -42,6 +42,7 @@ jobs:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.REMOTE_KEY }}
+          ignore_stderr: true
           script: |
             cd ${{ secrets.REMOTE_PATH }}
 
@@ -56,5 +57,5 @@ jobs:
 
             # Перезапускаємо сервер
             cd ${{ secrets.REMOTE_PATH }}
-            pkill -9 -f index.js || true
+            pkill -f index.js || true
 
