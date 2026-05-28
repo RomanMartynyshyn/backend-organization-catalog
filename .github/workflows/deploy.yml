@@ -56,5 +56,5 @@ jobs:
 
             # Перезапускаємо сервер
             cd ${{ secrets.REMOTE_PATH }}
-            kill -f index.js || true
+            pkill -f index.js || true
 
