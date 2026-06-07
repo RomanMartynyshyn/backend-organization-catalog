@@ -21,10 +21,29 @@ enum OrganizationStatus {
 
 model Organization {
   id          Int                @id @default(autoincrement())
-  name        String
+  name        String             @db.Text
   description String?            @db.Text
   websiteUrl  String?            @map("website_url")
   status      OrganizationStatus @default(pending)
+
+  // === ПОЛЯ ДЛЯ ІМПОРТУ З XML (додані для парсера) ===
+  // ЄДРПОУ організації (унікальне, використовується для пошуку під час оновлення)
+  edrpou      String             @unique
+  // Повна адреса організації (витягується з XML)
+  address     String?            @db.Text
+  // Юридичний статус організації з реєстру (наприклад "зареєстровано")
+  legalStatus String?            @map("legal_status")
+  // Імена засновників / контакти (зберігаємо як довгий текст)
+  founders    String?            @db.Text
+  // Директор / керівник (може бути кілька)
+  director    String?            @db.Text
+  // Організаційно-правова форма (наприклад "ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ")
+  organizationType String?       @map("organization_type") @db.Text
+  // Дата реєстрації
+  registrationDate String?       @map("registration_date") @db.Text
+  // Коротка назва
+  shortName   String?            @map("short_name") @db.Text
+  // ====================================================
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
