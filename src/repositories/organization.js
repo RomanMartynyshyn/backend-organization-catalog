@@ -1,10 +1,11 @@
 import { prisma } from '../db/prisma.js';
 import { OrganizationStatus } from '../db/definitions.js';
+import { getBoundingBox } from '../utils/geoUtils.js';
 
 // Запити до таблиці ORGANIZATIONS
 
-// Запит на додавання нової організації. Крок 1. Створення основних даних організації
-export async function createOrganization(newOrganization, categoryIds) {
+// Створення нової організації.
+export async function createOrganization(newOrganization, categoryIds, locations) {
     try {
         return await prisma.organization.create({
             data: {
@@ -21,13 +22,18 @@ export async function createOrganization(newOrganization, categoryIds) {
                         },
                     })),
                 },
-            },
-            include: {
-                categories: {
-                    select: { category: { select: { id: true, name: true } } },
+                locations: {
+                    create: locations.map((location) => ({
+                        street: location.street,
+                        city: location.city,
+                        region: location.region,
+                        postCode: location.postCode,
+                        latitude: location.latitude,
+                        longitude: location.longitude,
+                    })),
                 },
             },
-
+            include: organizationWithCategoriesAndLocations(),
         });
     } catch (error) {
         console.error('Database Error:', error);
@@ -35,7 +41,7 @@ export async function createOrganization(newOrganization, categoryIds) {
     }
 }
 
-// Запит на додавання нової організації. Крок 2. Додавання категорії до організації
+// Призначення нової категорії до організації(organizationCategory)
 export async function assignCategoryToOrganization(orgId, categoryId) {
     try {
         return await prisma.organizationCategory.create({
@@ -50,61 +56,39 @@ export async function assignCategoryToOrganization(orgId, categoryId) {
     }
 }
 
-// Запит на отримання списку всіх підтверджених організацій
-export async function findAllApprovedOrganizations(){
+// Пошук організацій за query parameters
+export async function findOrganizations(filters, pagination){
     try {
+        const { categoryId, status, geoParams } = filters ?? {};
+
         return await prisma.organization.findMany({
             where: {
-                status: OrganizationStatus.approved,
+                status: status ?? OrganizationStatus.approved,
+                ...categoryFilter(categoryId),
+                ...geoFilter(geoParams),
             },
+            include: organizationWithCategoriesAndLocations(),
             orderBy: {
                 createdAt: 'desc',
             },
-            // paginate: {
-            //     limit: 10,
-            //     offset: 0,
-            // },
+            ...(pagination?.limit !== undefined ? { take: Number(pagination.limit) } : {}),
+            ...(pagination?.offset !== undefined ? { skip: Number(pagination.offset) } : {}),
         });
+
     } catch (error) {
         console.error('Database Error:', error);
-        throw new Error('Failed to fetch all organizations');
+        throw new Error('Failed to fetch organizations by query');
     }
 }
 
-// Запит лист очікування на додавання організації
-export async function findPendingListOfOrganizations(){
-    try {
-        return await prisma.organization.findMany({
-            where: {
-                status: OrganizationStatus.pending,
-            },
-            include: {
-                categories: {
-                    select: { category: { select: { id: true, name: true } } },
-                },
-            },
-            orderBy: {
-                createdAt: 'desc',
-            },
-        });
-    } catch (error) {
-        console.error('Database Error:', error);
-        throw new Error('Failed to fetch pending list of organizations');
-    }
-}
-
-// Запит на отримання організації за її ID
+// Пошук організації за ID
 export async function findOrganizationById(orgId) {
     try {
         return await prisma.organization.findUnique({
             where: {
                 id: Number(orgId),
             },
-            include: {
-                categories: {
-                    select: { category: { select: { id: true, name: true } } },
-                },
-            },
+            include: organizationWithCategoriesAndLocations(),
         });
     } catch (error) {
         console.error('Database Error:', error);
@@ -128,14 +112,51 @@ export async function setOrganizationStatus(
                 status: status,
                 rejectionReason: rejectionReason,
             },
-            include: {
-                categories: {
-                    select: { category: { select: { id: true, name: true } } },
-                },
-            },
+            include: organizationWithCategoriesAndLocations(),
         });
     } catch (error) {
         console.error('Database Error:', error);
         throw new Error(`Failed to set organization status: ${orgId}`);
+    }
+}
+
+/// Filter functions
+
+function geoFilter(geoParams) {
+    if (!geoParams) {
+        return {};
+    }
+
+    const { minLat, maxLat, minLng, maxLng } = getBoundingBox(geoParams);
+
+    return {
+        locations: {
+            some: {
+                latitude: { gte: minLat, lte: maxLat },
+                longitude: { gte: minLng, lte: maxLng },
+            },
+        },
+    };
+}
+
+function categoryFilter(categoryId) {
+    return categoryId === undefined ? {} : {
+        categories: {
+            some: {
+                categoryId: Number(categoryId),
+            },
+        },
+    }
+}
+
+// Include functions
+function organizationWithCategoriesAndLocations() {
+    return {
+        categories: {
+            select: { category: { select: { id: true, name: true } } },
+        },
+        locations: {
+            select: { location: { select: { id: true, street: true, city: true, region: true, postCode: true, latitude: true, longitude: true } } },
+        },
     }
 }

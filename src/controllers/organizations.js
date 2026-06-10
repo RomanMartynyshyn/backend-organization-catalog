@@ -1,22 +1,31 @@
 import {
 	createOrganization,
-	findAllApprovedOrganizations,
-	findPendingListOfOrganizations,
+	findOrganizations,
 	findOrganizationById,
 	setOrganizationStatus,
 } from '../repositories/organization.js'
 import { OrganizationStatus } from '../db/definitions.js'
 import { parseCSV } from '../utils/csvParser.js'
-// GET /api/organizations
-export const getAll = async (req, res) => {
-	const organizations = await findAllApprovedOrganizations()
-	res.json(organizations.map(mapOrganisationToDto))
-}
 
-// GET /api/organizations/pending
-export const getPending = async (req, res) => {
-	const organizations = await findPendingListOfOrganizations()
+// GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5
+export const getOrganisations = async (req, res) => {
+	const { status, category_id: categoryId, lat, lng, radiusKm, limit, offset } = req.query
+	const filters = {
+		categoryId,
+		status,
+		geoParams: lat !== undefined && lng !== undefined && radiusKm !== undefined
+			? { lat, lng, radiusKm }
+			: undefined,
+	}
+	const pagination = { limit, offset }
+
+	const organizations = await findOrganizations(
+		filters,
+		pagination
+	)
+
 	res.json(organizations.map(mapOrganisationToDto))
+
 }
 
 // GET /api/organizations/:id
@@ -40,7 +49,7 @@ export const getById = async (req, res) => {
 
 // POST /api/organizations
 export const create = async (req, res) => {
-	const { name, description, websiteUrl, categoryIds } = req.body
+	const { name, description, websiteUrl, categoryIds, locations } = req.body
 
 	if (!Array.isArray(categoryIds) || categoryIds.length === 0) {
 		return res.status(400).json({
@@ -48,7 +57,15 @@ export const create = async (req, res) => {
 		})
 	}
 
-	const org = await createOrganization({ name, description, websiteUrl }, categoryIds )
+	const org = await createOrganization(
+		{
+			name,
+			description,
+			websiteUrl,
+		},
+		categoryIds,
+		locations,
+	)
 
 	res.status(201).json(mapOrganisationToDto(org))
 }
@@ -129,6 +146,7 @@ export const importCSV = async (req, res) => {
 			name: row.name.trim(),
 			description: row.description?.trim() || null,
 			websiteUrl: row.websiteUrl?.trim() || null,
+			// TODO locations
 		})
 		created.push(org.id)
 	}
@@ -140,5 +158,6 @@ function mapOrganisationToDto(org) {
 	return {
 		...org,
 		categories: org.categories?.map(c => c.category) ?? [],
+		locations: org.locations?.map(l => l.location) ?? [],
 	}
 }
