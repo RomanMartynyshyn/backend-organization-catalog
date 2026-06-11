@@ -158,6 +158,14 @@ function mapOrganisationToDto(org) {
 	return {
 		...org,
 		categories: org.categories?.map(c => c.category) ?? [],
-		locations: org.locations?.map(l => l.location) ?? [],
+		locations: org.locations?.map(l => ({
+			id: l.locationId,
+			street: l.street,
+			city: l.city,
+			region: l.region,
+			postCode: l.postCode,
+			latitude: l.latitude,
+			longitude: l.longitude,
+		})) ?? [],
 	}
 }

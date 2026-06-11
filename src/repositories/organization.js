@@ -57,7 +57,7 @@ export async function assignCategoryToOrganization(orgId, categoryId) {
 }
 
 // Пошук організацій за query parameters
-export async function findOrganizations(filters, pagination){
+export async function findOrganizations(filters, pagination) {
     try {
         const { categoryId, status, geoParams } = filters ?? {};
 
@@ -156,15 +156,7 @@ function organizationWithCategoriesAndLocations() {
             select: { category: { select: { id: true, name: true } } },
         },
         locations: {
-            select: {
-                locationId: true,
-                street: true,
-                city: true,
-                region: true,
-                postCode: true,
-                latitude: true,
-                longitude: true,
-            },
+            select: { locationId: true, street: true, city: true, region: true, postCode: true, latitude: true, longitude: true },
         },
     }
 }
