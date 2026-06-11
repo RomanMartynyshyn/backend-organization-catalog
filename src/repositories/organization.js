@@ -156,7 +156,15 @@ function organizationWithCategoriesAndLocations() {
             select: { category: { select: { id: true, name: true } } },
         },
         locations: {
-            select: { location: { select: { id: true, street: true, city: true, region: true, postCode: true, latitude: true, longitude: true } } },
+            select: {
+                locationId: true,
+                street: true,
+                city: true,
+                region: true,
+                postCode: true,
+                latitude: true,
+                longitude: true,
+            },
         },
     }
 }
