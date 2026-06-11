@@ -20,11 +20,14 @@ enum OrganizationStatus {
 }
 
 model Organization {
-  id          Int                @id @default(autoincrement())
-  name        String
-  description String?            @db.Text
-  websiteUrl  String?            @map("website_url")
-  status      OrganizationStatus @default(pending)
+  id           Int                @id @default(autoincrement())
+  name         String
+  description  String?            @db.Text
+  websiteUrl   String?            @map("website_url")
+  contacts     Json?
+  sociaLinks   Json?              @map("social_links")
+  workingHours String?            @map("working_hours")
+  status       OrganizationStatus @default(pending)
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -33,6 +36,8 @@ model Organization {
   rejectionReason String?   @map("rejection_reason") @db.Text
 
   categories OrganizationCategory[]
+
+  locations Location[]
 
   @@map("organizations")
 }
@@ -55,4 +60,25 @@ model OrganizationCategory {
 
   @@id([organizationId, categoryId])
   @@map("organization_categories")
+}
+
+model Location {
+  locationId     Int @id @default(autoincrement()) @map("location_id")
+  organizationId Int @map("organization_id")
+
+  street   String?
+  city     String
+  region   String
+  postCode String? @map("post_code")
+
+  latitude  Decimal @db.Decimal(10, 7)
+  longitude Decimal @db.Decimal(10, 7)
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@index([city])
+  @@index([region])
+  @@index([latitude, longitude])
+  @@index([organizationId])
+  @@map("locations")
 }

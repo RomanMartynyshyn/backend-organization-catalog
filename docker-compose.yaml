@@ -12,6 +12,10 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
-
+  app:
+    build: .
+    container_name: community_catalog-app
+    ports:
+      - "3000:3000"
 volumes:
   mysql_data:

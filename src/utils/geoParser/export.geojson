@@ -1,0 +1,6324 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-06-08T15:48:14Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/37561249",
+        "addr:housenumber": "31",
+        "addr:postcode": "50076",
+        "addr:street": "вулиця Володимира Зінченка",
+        "building": "retail",
+        "email": "contactcenter@metro.ua",
+        "name": "METRO Кривий Ріг",
+        "name:en": "METRO",
+        "name:uk": "METRO Кривий Ріг",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "operator": "METRO ТЦ N°20",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "0-800-501-401",
+        "phone:UA": "0 800 501 401",
+        "shop": "supermarket",
+        "website": "https://www.metro.ua/stores/kruvuj-rig-tz20",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4225808,
+          47.9307881
+        ]
+      },
+      "id": "way/37561249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103421197",
+        "addr:housenumber": "5",
+        "addr:street": "Німецька вулиця",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch:ru": "Отделение «Приват-Центр»",
+        "brand": "ПриватБанк",
+        "brand:en": "PrivatBank",
+        "brand:uk": "ПриватБанк",
+        "brand:wikidata": "Q1515015",
+        "building": "yes",
+        "name": "ПриватБанк",
+        "name:en": "PrivatBank",
+        "name:uk": "ПриватБанк",
+        "opening_hours": "08:30-19:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3454639,
+          47.9062664
+        ]
+      },
+      "id": "way/103421197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/103525434",
+        "addr:housenumber": "21",
+        "addr:street": "вулиця Степана Бандери",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "name": "ПриватБанк",
+        "name:uk": "ПриватБанк",
+        "opening_hours": "Mo-Sa 08:30-19:00; Su 09:00-16:00",
+        "operator": "отделениеЦентральное",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4033828,
+          47.9047051
+        ]
+      },
+      "id": "way/103525434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107095890",
+        "addr:housenumber": "29б",
+        "addr:postcode": "50006",
+        "addr:street": "вулиця Соборності",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Аркада",
+        "name:ru": "Аркада",
+        "name:uk": "Аркада",
+        "shop": "department_store",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.394818,
+          47.8997265
+        ]
+      },
+      "id": "way/107095890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107095913",
+        "addr:housenumber": "33б",
+        "addr:street": "Соборна вулиця",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Піраміда",
+        "name:ru": "Пирамида",
+        "name:uk": "Піраміда",
+        "shop": "department_store",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3983547,
+          47.9001432
+        ]
+      },
+      "id": "way/107095913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107095959",
+        "addr:housenumber": "4",
+        "addr:street": "вулиця Степана Тільги",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "layer": "3",
+        "name": "Південкомбанк",
+        "name:ru": "Южкомбанк",
+        "name:uk": "Південкомбанк",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3962271,
+          47.8966168
+        ]
+      },
+      "id": "way/107095959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107095969",
+        "addr:housenumber": "22А",
+        "addr:street": "проспект Металургів",
+        "atm": "no",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Явір-2000 Кривий Ріг",
+        "name:ru": "Явир-2000 Кривой Рог",
+        "name:uk": "Явір-2000 Кривий Ріг",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "website": "https://yavir2000.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3949218,
+          47.897667
+        ]
+      },
+      "id": "way/107095969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107096004",
+        "addr:housenumber": "12",
+        "addr:postcode": "50006",
+        "addr:street": "проспект Металургів",
+        "amenity": "dentist",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Стоматологічна поліклініка №2",
+        "name:ru": "Стоматологическая поликлиника №2",
+        "name:uk": "Стоматологічна поліклініка №2",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3956843,
+          47.8947151
+        ]
+      },
+      "id": "way/107096004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107104565",
+        "addr:housenumber": "2",
+        "addr:street": "Мистецька вулиця",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "2 гуся",
+        "name:uk": "2 гуся",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3994431,
+          47.900533
+        ]
+      },
+      "id": "way/107104565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107112783",
+        "addr:housenumber": "37",
+        "addr:street": "вулиця Соборності",
+        "building": "yes",
+        "building:levels": "4",
+        "contact:phone": "+380 564 92 8846;+380 67 990 7461",
+        "name": "Арена",
+        "name:uk": "Арена",
+        "tourism": "hotel",
+        "website": "http://arena.kr.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4014275,
+          47.9008404
+        ]
+      },
+      "id": "way/107112783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107117243",
+        "addr:housenumber": "36",
+        "addr:postcode": "50000-50479",
+        "addr:street": "проспект Металургів",
+        "brand": "Фокстрот",
+        "brand:en": "Foxtrot",
+        "brand:uk": "Фокстрот",
+        "brand:wikidata": "Q16721578",
+        "building": "yes",
+        "building:levels": "3",
+        "contact:phone": "+380 564 09 4343",
+        "contact:website": "https://www.foxtrot.com.ua/",
+        "name": "Фокстрот",
+        "name:en": "Foxtrot",
+        "name:uk": "Фокстрот",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "operator": "Фокстрот",
+        "phone:UA": "0 800 300 353",
+        "shop": "electronics",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3941006,
+          47.9022389
+        ]
+      },
+      "id": "way/107117243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107117249",
+        "addr:housenumber": "2а",
+        "addr:postcode": "50000-50479",
+        "addr:street": "проспект Металургів",
+        "building": "yes",
+        "name": "Європейський дім торгівлі",
+        "name:ru": "Европейский дом торговли",
+        "name:uk": "Європейський дім торгівлі",
+        "shop": "department_store",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3951431,
+          47.9032313
+        ]
+      },
+      "id": "way/107117249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107121139",
+        "addr:housenumber": "3",
+        "addr:street": "Мистецька вулиця",
+        "amenity": "bank",
+        "building": "yes",
+        "name": "UniCreditBank",
+        "name:uk": "UniCreditBank",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3983363,
+          47.9010742
+        ]
+      },
+      "id": "way/107121139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107121157",
+        "addr:housenumber": "34",
+        "addr:postcode": "50006",
+        "addr:street": "вулиця Соборності",
+        "building": "yes",
+        "name": "Водолей",
+        "name:uk": "Водолей",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4060695,
+          47.9004417
+        ]
+      },
+      "id": "way/107121157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107177841",
+        "addr:housenumber": "20а",
+        "addr:street": "вулиця Віталія Матусевича",
+        "building": "yes",
+        "name": "Торговий дім",
+        "name:uk": "Торговий дім",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4067055,
+          47.9033415
+        ]
+      },
+      "id": "way/107177841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107177984",
+        "addr:housenumber": "49",
+        "addr:postcode": "50006",
+        "addr:street": "вулиця Соборності",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building:levels": "2",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "opening_hours": "24/7",
+        "operator": "АТБ",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.407078,
+          47.9013014
+        ]
+      },
+      "id": "way/107177984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107183025",
+        "addr:housenumber": "39",
+        "addr:street": "вулиця Віталія Матусевича",
+        "amenity": "dentist",
+        "building": "yes",
+        "name": "Дитяча стоматологія",
+        "name:ru": "Детская стоматология",
+        "name:uk": "Дитяча стоматологія",
+        "phone": "+380 564 71 1053",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4089541,
+          47.9044191
+        ]
+      },
+      "id": "way/107183025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107196001",
+        "addr:housenumber": "9",
+        "addr:street": "вулиця Дениса Комара",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Імперіал",
+        "name:uk": "Імперіал",
+        "tourism": "hotel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4095349,
+          47.8947657
+        ]
+      },
+      "id": "way/107196001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107196115",
+        "addr:housenumber": "98",
+        "addr:postcode": "50006",
+        "addr:street": "вулиця Соборності",
+        "brand": "АТБ-маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "operator": "АТБ",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4244475,
+          47.8990314
+        ]
+      },
+      "id": "way/107196115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107223184",
+        "addr:housenumber": "2",
+        "addr:street": "Університетський проспект",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "name:en": "McDonald's",
+        "name:ru": "МакДоналдс",
+        "name:uk": "МакДональдз",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "operator": "McDonald's",
+        "phone": "+380 50 463 9116",
+        "service": "drive-through",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.392569,
+          47.9099552
+        ]
+      },
+      "id": "way/107223184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107223226",
+        "addr:housenumber": "42",
+        "addr:postcode": "50000-50479",
+        "addr:street": "проспект Металургів",
+        "building": "retail",
+        "name": "Галерея-Нова ТЦ",
+        "name:uk": "Галерея-Нова ТЦ",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3927965,
+          47.9093418
+        ]
+      },
+      "id": "way/107223226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107223262",
+        "addr:housenumber": "40",
+        "addr:postcode": "50000-50479",
+        "addr:street": "проспект Металургів",
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Аврора",
+        "name:ru": "Аврора",
+        "name:uk": "Аврора",
+        "stars": "4",
+        "tourism": "hotel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3930877,
+          47.9089653
+        ]
+      },
+      "id": "way/107223262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107223273",
+        "addr:housenumber": "4-А",
+        "addr:street": "Університетський проспект",
+        "building": "retail",
+        "name": "Плаза 1",
+        "name:uk": "Плаза 1",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3927578,
+          47.9096771
+        ]
+      },
+      "id": "way/107223273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107223280",
+        "addr:housenumber": "4",
+        "addr:street": "Університетський проспект",
+        "building": "retail",
+        "building:levels": "3",
+        "name": "Плаза 2",
+        "name:uk": "Плаза 2",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3933847,
+          47.9097376
+        ]
+      },
+      "id": "way/107223280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107228302",
+        "addr:housenumber": "58",
+        "addr:street": "Університетський проспект",
+        "amenity": "bank",
+        "brand": "UkrSibbank",
+        "brand:en": "UkrSibbank",
+        "brand:uk": "УкрСиббанк",
+        "brand:wikidata": "Q1976290",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/ukrsibbank",
+        "contact:instagram": "https://www.instagram.com/ukrsibbank",
+        "contact:linkedin": "https://www.linkedin.com/company/ukrsibbank/",
+        "contact:phone": "+380 44 590 0675;+380 44 590 0690;+380 800 505 800",
+        "contact:website": "https://my.ukrsibbank.com/",
+        "contact:youtube": "https://www.youtube.com/user/ukrsibbank",
+        "name": "UkrSibbank",
+        "name:en": "UkrSibbank",
+        "name:uk": "УкрСиббанк",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator": "УКРСИББАНК",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4159727,
+          47.9079277
+        ]
+      },
+      "id": "way/107228302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107228332",
+        "addr:housenumber": "2",
+        "addr:street": "вулиця Петра Дорошенка",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "operator": "АТБ",
+        "roof:shape": "flat",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4206125,
+          47.9072699
+        ]
+      },
+      "id": "way/107228332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107236064",
+        "addr:housenumber": "10",
+        "addr:street": "площа 95-й Квартал",
+        "building": "retail",
+        "name": "Сатурн",
+        "name:ru": "Сатурн",
+        "name:uk": "Сатурн",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3919568,
+          47.9114619
+        ]
+      },
+      "id": "way/107236064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107420313",
+        "addr:housenumber": "1",
+        "addr:street": "Кокчетавська вулиця",
+        "amenity": "dentist",
+        "building": "yes",
+        "name": "Стоматологічна поліклініка №7",
+        "name:ru": "Стоматологическая поликлиника №7",
+        "name:uk": "Стоматологічна поліклініка №7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.457774,
+          47.9030006
+        ]
+      },
+      "id": "way/107420313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107420416",
+        "addr:housenumber": "17а",
+        "addr:street": "Магістральна вулиця",
+        "amenity": "bar",
+        "building": "yes",
+        "indoor_seating": "yes",
+        "name": "Орбіта",
+        "name:ru": "Орбита",
+        "name:uk": "Орбіта",
+        "outdoor_seating": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4603658,
+          47.9034644
+        ]
+      },
+      "id": "way/107420416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107420488",
+        "addr:housenumber": "24",
+        "addr:street": "Колійна вулиця",
+        "building": "yes",
+        "name": "Едельвейс",
+        "name:uk": "Едельвейс",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4667409,
+          47.9178625
+        ]
+      },
+      "id": "way/107420488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107420490",
+        "addr:housenumber": "8",
+        "addr:postcode": "50055",
+        "addr:street": "Магістральна вулиця",
+        "air_conditioning": "yes",
+        "building": "hotel",
+        "building:levels": "4",
+        "contact:email": "kryvyi.rih.hotel@raziotel.com",
+        "internet_access": "wlan",
+        "name": "Raziotel",
+        "name:uk": "Raziotel",
+        "old_name": "Домашній затишок",
+        "phone": "+380 564 04 8008;+380 564 04 8011",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "tourism": "hotel",
+        "website": "www.kr-hotels.com.ua",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4579111,
+          47.9047464
+        ]
+      },
+      "id": "way/107420490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107420495",
+        "addr:housenumber": "76",
+        "addr:street": "вулиця Гетьмана Івана Мазепи",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "operator": "АТБ",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4550141,
+          47.9114718
+        ]
+      },
+      "id": "way/107420495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107458704",
+        "addr:housenumber": "4г",
+        "addr:street": "Нікопольське шосе",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Криворізький центр СНІД",
+        "name:ru": "Криворожский центр СПИД",
+        "name:uk": "Криворізький центр СНІД",
+        "official_name": "Комунальне підприємство \"Криворізький Центр профілактики та боротьби зі СНІДом\"Дніпропетровської обласної ради",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3906145,
+          47.8876539
+        ]
+      },
+      "id": "way/107458704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107458712",
+        "addr:housenumber": "33",
+        "addr:street": "Центральний проспект",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Бульвар",
+        "name:uk": "Бульвар",
+        "shop": "department_store",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3550394,
+          47.9043731
+        ]
+      },
+      "id": "way/107458712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107458714",
+        "addr:housenumber": "2",
+        "addr:street": "площа Визволення",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "3",
+        "name": "Міська дитяча лікарня №1",
+        "name:ru": "Городская детская больница №1",
+        "name:uk": "Міська дитяча лікарня №1",
+        "roof:shape": "hipped",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3406497,
+          47.908194
+        ]
+      },
+      "id": "way/107458714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107458728",
+        "addr:housenumber": "1А",
+        "addr:street": "проспект Героїв-Підпільників",
+        "building": "yes",
+        "building:levels": "1",
+        "contact:phone": "+380 564 99 0121",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:ru": "Варус",
+        "name:uk": "Varus",
+        "opening_hours": "24/7",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.375654,
+          47.9053666
+        ]
+      },
+      "id": "way/107458728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107458767",
+        "addr:housenumber": "44а",
+        "addr:postcode": "50002",
+        "addr:street": "вулиця Чкалова",
+        "amenity": "bank",
+        "brand": "Ощадбанк",
+        "brand:en": "Oschadbank",
+        "brand:uk": "Ощадбанк",
+        "brand:wikidata": "Q4340839",
+        "brand:wikipedia": "uk:Ощадбанк",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:facebook": "https://www.facebook.com/oschadbank",
+        "contact:instagram": "https://www.instagram.com/oschadbank_official",
+        "contact:twitter": "http://twitter.com/ua_oschadbank",
+        "contact:youtube": "http://www.youtube.com/channel/UCtA26dq4YyHMc0bMZfPIaXA",
+        "name": "Ощадбанк",
+        "name:de": "Oschtschadbank",
+        "name:en": "Oschadbank",
+        "name:hu": "Takarékbank",
+        "name:ru": "Ощадбанк",
+        "name:uk": "Ощадбанк",
+        "official_name": "Акціонерне товариство \"Державний ощадний банк України\"",
+        "official_name:en": "Joint Stock Company \"State Savings Bank of Ukraine\"",
+        "official_name:uk": "Акціонерне товариство \"Державний ощадний банк України\"",
+        "opening_hours": "Mo-Fr 00:00-24:00; Su 08:00-17:00; Sa 09:00-13:00",
+        "phone": "+380 564 05 5236",
+        "roof:shape": "flat",
+        "short_name:en": "JSC \"Oschadbank\"",
+        "short_name:uk": "АТ \"Ощадбанк\"",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3539995,
+          47.9030968
+        ]
+      },
+      "id": "way/107458767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107458890",
+        "addr:housenumber": "3а",
+        "addr:street": "площа Шахтарської Слави",
+        "building": "yes",
+        "name": "Економний",
+        "name:uk": "Економний",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3826153,
+          47.9090802
+        ]
+      },
+      "id": "way/107458890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107459019",
+        "addr:housenumber": "78а",
+        "addr:street": "вулиця Героїв АТО",
+        "building": "yes",
+        "name": "Манго",
+        "name:uk": "Манго",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4225075,
+          47.9043089
+        ]
+      },
+      "id": "way/107459019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107459145",
+        "addr:housenumber": "11",
+        "addr:street": "площа Визволення",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Міський пологовий будинок № 1",
+        "name:ru": "Городской родильный дом №1",
+        "name:uk": "Міський пологовий будинок № 1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.339151,
+          47.9071984
+        ]
+      },
+      "id": "way/107459145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107459166",
+        "addr:housenumber": "29в",
+        "addr:street": "проспект Миру",
+        "building": "yes",
+        "name": "Ремпобуттехніка",
+        "name:ru": "Рембыттехника",
+        "name:uk": "Ремпобуттехніка",
+        "shop": "electronics",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3853187,
+          47.9082738
+        ]
+      },
+      "id": "way/107459166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107459170",
+        "addr:housenumber": "13-О",
+        "addr:postcode": "50002",
+        "addr:street": "вулиця Гірничих Інженерів",
+        "amenity": "clinic",
+        "building:part": "yes",
+        "name": "Медіком",
+        "name:ru": "Медиком",
+        "name:uk": "Медіком",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.349745,
+          47.9085214
+        ]
+      },
+      "id": "way/107459170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107459244",
+        "addr:housenumber": "80",
+        "addr:postcode": "50007",
+        "addr:street": "Гетьманська вулиця",
+        "building": "yes",
+        "contact:phone": "+380 67 564 8999;+380 564 26 6545",
+        "email": "gkukrainochka@gmail.com",
+        "fax": "+380 (564) 26-67-17",
+        "name": "Україночка",
+        "name:uk": "Україночка",
+        "roof:shape": "hipped",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "https://uahotel.com.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3758344,
+          47.9071561
+        ]
+      },
+      "id": "way/107459244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107486554",
+        "addr:housenumber": "11а",
+        "addr:street": "площа Визволення",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Гінекологічне відділення",
+        "name:ru": "Гинекологическое отделение",
+        "name:uk": "Гінекологічне відділення",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3401936,
+          47.9071986
+        ]
+      },
+      "id": "way/107486554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107534932",
+        "addr:housenumber": "7а",
+        "addr:street": "вулиця Рахманінова",
+        "building": "yes",
+        "name": "Продовольчі товари",
+        "name:ru": "Промтовары",
+        "name:uk": "Продовольчі товари",
+        "shop": "hardware",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3143954,
+          47.8910159
+        ]
+      },
+      "id": "way/107534932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107546560",
+        "addr:housenumber": "21",
+        "addr:street": "вулиця Миколаївське Шосе",
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:levels": "2",
+        "name": "Амбулаторія ЦПМСД №6",
+        "name:uk": "Амбулаторія ЦПМСД №6",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.286787,
+          47.8853902
+        ]
+      },
+      "id": "way/107546560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107583746",
+        "addr:housenumber": "31",
+        "addr:street": "Каховська вулиця",
+        "building": "yes",
+        "name": "Теплосила",
+        "name:uk": "Теплосила",
+        "shop": "electronics",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3638437,
+          47.8831177
+        ]
+      },
+      "id": "way/107583746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107583760",
+        "addr:housenumber": "5а",
+        "addr:street": "вулиця Криворіжсталі",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Поліклініка",
+        "name:uk": "Поліклініка",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3877289,
+          47.8829254
+        ]
+      },
+      "id": "way/107583760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107583827",
+        "addr:housenumber": "2",
+        "addr:street": "Тбіліська вулиця",
+        "amenity": "bank",
+        "building": "yes",
+        "name": "Південний",
+        "name:ru": "Южный",
+        "name:uk": "Південний",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3692411,
+          47.8808537
+        ]
+      },
+      "id": "way/107583827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/107754931",
+        "addr:housenumber": "65в",
+        "addr:street": "вулиця Всебратське-2",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Взлетка",
+        "name:ru": "Взлетка",
+        "name:uk": "Взлетка",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2563583,
+          47.8805047
+        ]
+      },
+      "id": "way/107754931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/109157699",
+        "addr:housenumber": "35",
+        "addr:street": "вулиця Подлєпи",
+        "amenity": "dentist",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Стоматологічна поліклініка №4",
+        "name:uk": "Стоматологічна поліклініка №4",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3475457,
+          47.8427224
+        ]
+      },
+      "id": "way/109157699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/111636222",
+        "addr:housenumber": "64",
+        "addr:street": "Вечірньокутська вулиця",
+        "building": "yes",
+        "contact:phone": "+380 564 99 0116",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:uk": "Варус",
+        "opening_hours": "24/7",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4477245,
+          47.9243917
+        ]
+      },
+      "id": "way/111636222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/111720826",
+        "addr:housenumber": "34",
+        "addr:street": "вулиця Дніпровське Шосе",
+        "building": "yes",
+        "name": "Терези",
+        "name:uk": "Терези",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4399511,
+          47.9207104
+        ]
+      },
+      "id": "way/111720826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112695698",
+        "addr:housenumber": "4",
+        "addr:street": "вулиця Кармелюка",
+        "building": "yes",
+        "name": "Промінь",
+        "name:uk": "Промінь",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3457869,
+          47.8338192
+        ]
+      },
+      "id": "way/112695698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112695822",
+        "addr:housenumber": "34",
+        "addr:street": "Південний проспект",
+        "brand": "АТБ-маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "operator": "АТБ",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3480332,
+          47.8410219
+        ]
+      },
+      "id": "way/112695822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112695823",
+        "addr:housenumber": "1",
+        "addr:street": "Південний проспект",
+        "amenity": "public_building",
+        "building": "yes",
+        "name": "Державні Юридичні Консультації",
+        "name:uk": "Державні Юридичні Консультації",
+        "office": "lawyer",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.343456,
+          47.8327944
+        ]
+      },
+      "id": "way/112695823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/115287906",
+        "addr:housenumber": "5",
+        "addr:postcode": "50099",
+        "addr:street": "площа Визволення",
+        "amenity": "dentist",
+        "building": "yes",
+        "name": "Стоматологічна поліклініка №1",
+        "name:ru": "Стоматологическая поликлиника №1",
+        "name:uk": "Стоматологічна поліклініка №1",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3400347,
+          47.9089137
+        ]
+      },
+      "id": "way/115287906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/115288431",
+        "addr:housenumber": "5",
+        "addr:postcode": "50000",
+        "addr:street": "Поштовий проспект",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Промінвест банк",
+        "name:uk": "Промінвест банк",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.340776,
+          47.9023282
+        ]
+      },
+      "id": "way/115288431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/115297271",
+        "addr:housenumber": "1а",
+        "addr:street": "Німецька вулиця",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Бочка",
+        "name:uk": "Бочка",
+        "phone": "+380 564 04 3582",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3443342,
+          47.9036569
+        ]
+      },
+      "id": "way/115297271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/115297380",
+        "addr:housenumber": "2б",
+        "addr:postcode": "50000",
+        "addr:street": "Каунаська вулиця",
+        "building": "yes",
+        "building:levels": "2",
+        "historic": "building",
+        "name": "Майстерня тіла",
+        "name:ru": "Мастерская тела",
+        "name:uk": "Майстерня тіла",
+        "old_name": "Готель «Европейские номера»",
+        "shop": "beauty",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3445668,
+          47.9006405
+        ]
+      },
+      "id": "way/115297380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/115297837",
+        "addr:housenumber": "39а",
+        "addr:postcode": "50000",
+        "addr:street": "Поштовий проспект",
+        "brand": "АТБ-маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "opening_hours": "24/7",
+        "operator": "АТБ",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3434298,
+          47.907264
+        ]
+      },
+      "id": "way/115297837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/115472200",
+        "addr:housenumber": "1",
+        "addr:street": "майдан Олександра Химиченка",
+        "alt_name": "ТРЦ \"Сонячна галерея\"",
+        "building": "yes",
+        "building:levels": "3",
+        "internet_access": "wlan",
+        "name": "Сонячна галерея",
+        "name:en": "Sun gallery",
+        "name:ru": "Солнечная галерея",
+        "name:uk": "Сонячна галерея",
+        "official_name": "Торгово-розважальний центр \"Сонячна галерея\"",
+        "opening_hours": "10:00-21:00",
+        "shop": "mall",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4408888,
+          47.9468759
+        ]
+      },
+      "id": "way/115472200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/115620259",
+        "addr:housenumber": "29п",
+        "addr:street": "вулиця Соборності",
+        "building": "retail",
+        "name": "Маяк",
+        "name:ru": "Маяк",
+        "name:uk": "Маяк",
+        "shop": "department_store",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3958546,
+          47.8999566
+        ]
+      },
+      "id": "way/115620259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/116916786",
+        "addr:housenumber": "44а",
+        "addr:street": "Південний проспект",
+        "building": "yes",
+        "name": "Мій супер маркет",
+        "name:ru": "Мой супер маркет",
+        "name:uk": "Мій супер маркет",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3601636,
+          47.8806768
+        ]
+      },
+      "id": "way/116916786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/116936842",
+        "addr:housenumber": "35б",
+        "addr:postcode": "50000",
+        "addr:street": "Поштовий проспект",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "ТЦ \"Ліберті\"",
+        "name:ru": "Либерти торговый центр",
+        "name:uk": "ТЦ \"Ліберті\"",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3426971,
+          47.9061131
+        ]
+      },
+      "id": "way/116936842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118442314",
+        "addr:housenumber": "93",
+        "addr:postcode": "50024",
+        "addr:street": "Кривбасівська вулиця",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Лаванда",
+        "name:en": "Lavanda",
+        "name:ru": "Лаванда",
+        "name:uk": "Лаванда",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+380 98 559 5068",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3336917,
+          47.9160351
+        ]
+      },
+      "id": "way/118442314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118442320",
+        "addr:housenumber": "17а",
+        "addr:postcode": "50069",
+        "addr:street": "проспект Миру",
+        "amenity": "restaurant",
+        "building": "retail",
+        "cuisine": "georgian",
+        "instagram": "https://www.instagram.com/puri_chveni_kr/",
+        "internet_access": "wlan",
+        "internet_access:ssid": "Puri Chveni",
+        "name": "Пурі Чвені",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+380671227373",
+        "website": "https://kr.purichveni.com.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3816321,
+          47.905933
+        ]
+      },
+      "id": "way/118442320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118442326",
+        "addr:housenumber": "28а",
+        "addr:street": "проспект Металургів",
+        "building": "yes",
+        "building:levels": "5",
+        "name": "Соцгород",
+        "name:ru": "Соцгород",
+        "name:uk": "Соцгород",
+        "shop": "department_store",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3940566,
+          47.9007931
+        ]
+      },
+      "id": "way/118442326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/121809373",
+        "addr:housenumber": "11",
+        "addr:street": "проспект Перемоги",
+        "building": "retail",
+        "building:levels": "3",
+        "name": "ATB",
+        "name:uk": "ATB",
+        "roof:shape": "flat",
+        "shop": "supermarket",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1667897,
+          47.6841204
+        ]
+      },
+      "id": "way/121809373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/121840733",
+        "addr:housenumber": "11а",
+        "addr:street": "проспект Перемоги",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Жасмін",
+        "name:uk": "Жасмін",
+        "roof:shape": "mansard",
+        "shop": "convenience",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1663102,
+          47.6839623
+        ]
+      },
+      "id": "way/121840733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/122276743",
+        "addr:housenumber": "4",
+        "addr:street": "Соборна вулиця",
+        "building": "yes",
+        "name": "Вектор",
+        "name:uk": "Вектор",
+        "shop": "hardware",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4382176,
+          47.9455257
+        ]
+      },
+      "id": "way/122276743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124856092",
+        "addr:housenumber": "21а",
+        "addr:postcode": "50000-50479",
+        "addr:street": "вулиця Юрія Камінського",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "building:levels": "1",
+        "contact:email": "ccd@alfabank.kiev.ua",
+        "contact:facebook": "https://www.facebook.com/AlfaBankUkraine/",
+        "contact:phone": "+380 564 99 0027",
+        "contact:website": "https://alfabank.ua/",
+        "name": "Альфа-Банк",
+        "name:uk": "Альфа-Банк",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "operator": "Альфа-Банк",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3928501,
+          47.9018387
+        ]
+      },
+      "id": "way/124856092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124856103",
+        "addr:housenumber": "30-А",
+        "addr:postcode": "50000-50479",
+        "addr:street": "вулиця Героїв АТО",
+        "brand": "Сільпо",
+        "brand:en": "Silpo",
+        "brand:wikidata": "Q4419434",
+        "brand:wikipedia": "uk:Сільпо (торговельна мережа)",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:email": "program@silpo.ua",
+        "contact:facebook": "https://www.facebook.com/silpo",
+        "contact:instagram": "https://www.instagram.com/silpoua/",
+        "contact:telegram": "https://t.me/silposilpo",
+        "contact:viber": "https://invite.viber.com/?g2=AQAt15SGGIlJkUpcckQJ1mAV5nsCAESEJ6JHLm0UCKWWPGQtSUDjRrHVW8Lmj4Xd&lang=uk",
+        "contact:website": "https://silpo.ua",
+        "name": "Сільпо",
+        "name:en": "Silpo",
+        "name:uk": "Сільпо",
+        "opening_hours": "Mo-Su 8:00-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone:UA": "0 800 301 707",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3971027,
+          47.9066619
+        ]
+      },
+      "id": "way/124856103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125018797",
+        "addr:housenumber": "14",
+        "addr:street": "Європейський бульвар",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Дитячий туберкульозний санаторій",
+        "name:ru": "Детский туберкулёзный санаторий",
+        "name:uk": "Дитячий туберкульозний санаторій",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4400655,
+          47.9359967
+        ]
+      },
+      "id": "way/125018797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125018810",
+        "addr:housenumber": "26а",
+        "addr:postcode": "50076",
+        "addr:street": "вулиця Павла Глазового",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Святошин",
+        "name:ru": "Святошин",
+        "name:uk": "Святошин",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4244434,
+          47.9350924
+        ]
+      },
+      "id": "way/125018810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125305986",
+        "addr:housenumber": "1а",
+        "addr:street": "вулиця Генерала Радієвського",
+        "building": "yes",
+        "name": "Брусничка",
+        "name:uk": "Брусничка",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4262561,
+          47.9449838
+        ]
+      },
+      "id": "way/125305986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125306392",
+        "addr:housenumber": "17а",
+        "addr:street": "Спасівська вулиця",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Птиця",
+        "name:ru": "Птица",
+        "name:uk": "Птиця",
+        "opening_hours": "Mo-Su 08:00-13:00, 13:30-21:00",
+        "operator": "Питушков Виктор",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4261317,
+          47.9608975
+        ]
+      },
+      "id": "way/125306392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125311291",
+        "addr:housenumber": "4а",
+        "addr:street": "проспект 200-річчя Кривого Рогу",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Торговий Дім",
+        "name:ru": "Торговый Дом",
+        "name:uk": "Торговий Дім",
+        "shop": "clothes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4367189,
+          47.9602691
+        ]
+      },
+      "id": "way/125311291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125314049",
+        "addr:housenumber": "24",
+        "addr:street": "проспект 200-річчя Кривого Рогу",
+        "building": "yes",
+        "name": "ТЦ Проспект",
+        "name:uk": "ТЦ Проспект",
+        "opening_hours": "07:00-23:00",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4346936,
+          47.9632838
+        ]
+      },
+      "id": "way/125314049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125333208",
+        "addr:housenumber": "1",
+        "addr:street": "Виноградна вулиця",
+        "building": "yes",
+        "name": "Едем",
+        "name:uk": "Едем",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4301336,
+          47.9586937
+        ]
+      },
+      "id": "way/125333208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125509059",
+        "addr:housenumber": "1г",
+        "addr:street": "вулиця Віктора Оцерклевича",
+        "building": "commercial",
+        "name": "АТБ-маркет",
+        "name:ru": "АТБ-маркет",
+        "not:brand:wikidata": "Q4054103",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4280624,
+          47.9631565
+        ]
+      },
+      "id": "way/125509059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125688865",
+        "addr:housenumber": "22",
+        "addr:street": "бульвар Миколи Вороного",
+        "brand": "АТБ-маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "opening_hours": "24/7",
+        "operator": "АТБ",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4473229,
+          47.9678004
+        ]
+      },
+      "id": "way/125688865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125744662",
+        "addr:housenumber": "27а",
+        "addr:postcode": "50071",
+        "addr:street": "вулиця Володимира Великого",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Вилен",
+        "name:ru": "Вилен",
+        "name:uk": "Вилен",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4189841,
+          47.9433539
+        ]
+      },
+      "id": "way/125744662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125760469",
+        "addr:housenumber": "31а",
+        "addr:street": "Вечірній бульвар",
+        "building": "yes",
+        "name": "ФоксМарт",
+        "name:uk": "ФоксМарт",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4337808,
+          47.9358071
+        ]
+      },
+      "id": "way/125760469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/126201701",
+        "addr:housenumber": "24а",
+        "addr:street": "вулиця Лісового",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "opening_hours": "24/7",
+        "phone:UA": "0 800 500 415",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4532138,
+          47.9492089
+        ]
+      },
+      "id": "way/126201701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/133378189",
+        "addr:housenumber": "28а",
+        "addr:postcode": "50000",
+        "addr:street": "Свято-Миколаївська вулиця",
+        "building": "yes",
+        "name": "Вина світу",
+        "name:uk": "Вина світу",
+        "roof:shape": "flat",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3361006,
+          47.9020449
+        ]
+      },
+      "id": "way/133378189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/134772280",
+        "addr:housenumber": "6б",
+        "addr:postcode": "50031",
+        "addr:street": "Женевська вулиця",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Криворізька міська лікарня №9",
+        "name:ru": "Криворожская городская больница №9",
+        "name:uk": "Криворізька міська лікарня №9",
+        "phone": "+380 564 66 2325",
+        "source": "http://krogerc.info/ua/hospitals/9.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4417983,
+          47.9832198
+        ]
+      },
+      "id": "way/134772280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/134772411",
+        "addr:housenumber": "2б",
+        "addr:street": "Шурупова вулиця",
+        "building": "yes",
+        "name": "Зоряна",
+        "name:uk": "Зоряна",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4500089,
+          47.999043
+        ]
+      },
+      "id": "way/134772411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135196739",
+        "addr:housenumber": "23",
+        "addr:postcode": "50079",
+        "addr:street": "Ботанічна вулиця",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Колиба",
+        "name:uk": "Колиба",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5865327,
+          48.1479907
+        ]
+      },
+      "id": "way/135196739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135196820",
+        "addr:housenumber": "1е",
+        "addr:street": "вулиця Володимира Терещенка",
+        "brand": "Varus",
+        "building": "yes",
+        "name": "Voshod Plaza",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5617963,
+          48.1455258
+        ]
+      },
+      "id": "way/135196820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135197584",
+        "addr:housenumber": "1",
+        "addr:postcode": "50079",
+        "addr:street": "вулиця Антона Ігнатченка",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "building": "yes",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:uk": "АТБ-Маркет",
+        "opening_hours": "05:00-23:00",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5651624,
+          48.1434568
+        ]
+      },
+      "id": "way/135197584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135198366",
+        "addr:housenumber": "5а",
+        "addr:postcode": "50079",
+        "addr:street": "вулиця Володимира Терещенка",
+        "building": "yes",
+        "name": "Будинок торгівлі",
+        "name:ru": "Дом торговли",
+        "name:uk": "Будинок торгівлі",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5633014,
+          48.1454172
+        ]
+      },
+      "id": "way/135198366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/139834957",
+        "addr:housenumber": "44",
+        "addr:street": "Університетський проспект",
+        "amenity": "bar",
+        "building": "yes",
+        "internet_access": "no",
+        "name": "Автограф",
+        "name:uk": "Автограф",
+        "opening_hours": "11:00-24:00",
+        "phone": "+380 564 92 2465",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4053758,
+          47.9079754
+        ]
+      },
+      "id": "way/139834957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/140107234",
+        "addr:housenumber": "15А",
+        "addr:postcode": "50024",
+        "addr:street": "вулиця Петра Калнишевського",
+        "brand": "Varus",
+        "brand:wikidata": "Q114944216",
+        "building": "yes",
+        "contact:phone": "+380 564 99 1506",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:uk": "Varus",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "roof:shape": "flat",
+        "shop": "supermarket",
+        "website": "https://varus.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3367855,
+          47.9133658
+        ]
+      },
+      "id": "way/140107234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143033213",
+        "addr:housenumber": "30",
+        "addr:street": "вулиця Олександра Поля",
+        "building": "yes",
+        "name": "Сантехника",
+        "shop": "doityourself",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3502685,
+          47.9020411
+        ]
+      },
+      "id": "way/143033213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/145507381",
+        "addr:housenumber": "3а",
+        "addr:street": "Переяславська вулиця",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Тройка",
+        "name:uk": "Тройка",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3456768,
+          47.8334522
+        ]
+      },
+      "id": "way/145507381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148494124",
+        "addr:housenumber": "53а",
+        "addr:street": "Електрозаводська вулиця",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:facebook": "https://www.facebook.com/33kvadratnyhmetry",
+        "contact:phone": "+380 98 131 7670",
+        "contact:website": "https://33m2.com.ua/",
+        "name": "33м2",
+        "name:uk": "33м2",
+        "opening_hours": "Mo-Su 08:00-19:00",
+        "operator": "33 квадратних метри",
+        "shop": "doityourself",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4902794,
+          47.9951335
+        ]
+      },
+      "id": "way/148494124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148603691",
+        "addr:housenumber": "66А",
+        "addr:postcode": "50059",
+        "addr:street": "вулиця Федора Караманиць",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4806742,
+          48.0103235
+        ]
+      },
+      "id": "way/148603691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148603757",
+        "addr:housenumber": "21Б",
+        "addr:street": "вулиця Кропивницького",
+        "building": "yes",
+        "building:levels": "5",
+        "name": "Optima Hotel Deluxe",
+        "name:uk": "Optima Hotel Deluxe",
+        "phone": "+380 564 09 2545",
+        "tourism": "hotel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4685241,
+          48.0220233
+        ]
+      },
+      "id": "way/148603757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148603909",
+        "addr:housenumber": "39",
+        "addr:postcode": "50059",
+        "addr:street": "вулиця Федора Караманиць",
+        "brand": "Thrash! Траш!",
+        "brand:en": "Thrash!",
+        "brand:uk": "Траш!",
+        "brand:wikidata": "Q56364758",
+        "brand:wikipedia": "uk:Thrash!",
+        "building": "yes",
+        "contact:email": "info@thrash.ua",
+        "contact:facebook": "https://www.facebook.com/thrash.ua",
+        "contact:instagram": "https://www.instagram.com/thrash_market.super",
+        "contact:website": "https://thrash.ua",
+        "height": "12",
+        "name": "Thrash! Траш!",
+        "name:en": "Thrash!",
+        "name:uk": "Траш!",
+        "opening_hours": "Mo-Su 7:00-22:00",
+        "phone:UA": "0 800 300 890",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4734103,
+          48.0213867
+        ]
+      },
+      "id": "way/148603909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148604587",
+        "addr:housenumber": "50",
+        "addr:postcode": "50059",
+        "addr:street": "вулиця Федора Караманиць",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Юкон",
+        "name:uk": "Юкон",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4766406,
+          48.0137658
+        ]
+      },
+      "id": "way/148604587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148605084",
+        "addr:housenumber": "3б",
+        "addr:street": "Електрична вулиця",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "opening_hours": "24/7",
+        "operator": "АТБ",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4449309,
+          48.0026744
+        ]
+      },
+      "id": "way/148605084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148621455",
+        "addr:housenumber": "6а",
+        "addr:street": "вулиця Лисяка",
+        "building": "yes",
+        "name": "Харчі",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4786551,
+          48.0313137
+        ]
+      },
+      "id": "way/148621455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148621645",
+        "addr:housenumber": "17",
+        "addr:street": "вулиця Романа Шухевича",
+        "brand": "Varus",
+        "brand:wikidata": "Q114944216",
+        "building": "retail",
+        "name": "VARUS",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4766573,
+          48.033429
+        ]
+      },
+      "id": "way/148621645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148671818",
+        "addr:housenumber": "16",
+        "addr:street": "вулиця Романа Шухевича",
+        "bar": "yes",
+        "building": "yes",
+        "building:condition": "ruin",
+        "building:levels": "4",
+        "name": "Центральний",
+        "name:en": "Central hotel",
+        "name:ru": "Центральная гостиница",
+        "name:uk": "Центральний",
+        "tourism": "hotel",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4792488,
+          48.034305
+        ]
+      },
+      "id": "way/148671818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/149575656",
+        "addr:housenumber": "14а",
+        "addr:street": "вулиця Дмитра Войчишена",
+        "building": "yes",
+        "name": "Вогник",
+        "name:uk": "Вогник",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4837621,
+          48.0422189
+        ]
+      },
+      "id": "way/149575656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/149575676",
+        "addr:housenumber": "32В",
+        "addr:street": "вулиця Сергія Колачевського",
+        "building": "yes",
+        "name": "Успех",
+        "name:uk": "Успех",
+        "opening_hours": "Mo-Su 07:30-22:00",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4854324,
+          48.0507805
+        ]
+      },
+      "id": "way/149575676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/149861554",
+        "addr:housenumber": "28а",
+        "addr:postcode": "50076",
+        "addr:street": "вулиця Павла Глазового",
+        "building": "yes",
+        "name": "АТБ №47",
+        "name:uk": "АТБ №47",
+        "opening_hours": "24/7",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4224928,
+          47.9355785
+        ]
+      },
+      "id": "way/149861554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/152910312",
+        "addr:housenumber": "23",
+        "addr:street": "Магістральна вулиця",
+        "building:levels": "1",
+        "building:part": "yes",
+        "contact:phone": "+380 564 99 0092",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:en": "Varus",
+        "name:ru": "Варус",
+        "name:uk": "Варус",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4598475,
+          47.9015179
+        ]
+      },
+      "id": "way/152910312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/157525535",
+        "addr:housenumber": "48а",
+        "addr:postcode": "50042",
+        "addr:street": "вулиця Едуарда Фукса",
+        "amenity": "cafe",
+        "name": "Tarantino",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4356923,
+          47.9720416
+        ]
+      },
+      "id": "way/157525535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158693081",
+        "addr:housenumber": "93а",
+        "addr:street": "вулиця Сергія Колачевського",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Бажаємо здоров'я",
+        "name:uk": "Бажаємо здоров'я",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5067648,
+          48.0710258
+        ]
+      },
+      "id": "way/158693081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158694094",
+        "addr:housenumber": "1б",
+        "addr:street": "Чарівна вулиця",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "ТЦ \"TERRA\"",
+        "name:uk": "ТЦ \"ТЕРРА\"",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5152114,
+          48.0744185
+        ]
+      },
+      "id": "way/158694094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158694119",
+        "addr:housenumber": "81/1",
+        "addr:street": "вулиця Сергія Колачевського",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:facebook": "https://www.facebook.com/33kvadratnyhmetry",
+        "contact:phone": "+380 96 650 2491",
+        "contact:website": "https://33m2.com.ua/",
+        "name": "33м2",
+        "name:ru": "33 м2",
+        "name:uk": "33м2",
+        "opening_hours": "Mo-Su 08:00-19:00",
+        "operator": "33 квадратних метри",
+        "shop": "doityourself",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5002041,
+          48.0678618
+        ]
+      },
+      "id": "way/158694119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164229141",
+        "addr:housenumber": "60",
+        "addr:postcode": "50019",
+        "addr:street": "Прорізна вулиця",
+        "building": "yes",
+        "name": "Зручний",
+        "name:uk": "Зручний",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3134542,
+          47.9077286
+        ]
+      },
+      "id": "way/164229141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164467622",
+        "addr:housenumber": "1-К",
+        "addr:street": "площа Визволення",
+        "brand": "Сільпо",
+        "brand:en": "Silpo",
+        "brand:wikidata": "Q4419434",
+        "brand:wikipedia": "uk:Сільпо (торговельна мережа)",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:email": "program@silpo.ua",
+        "contact:facebook": "https://www.facebook.com/silpo",
+        "contact:instagram": "https://www.instagram.com/silpoua/",
+        "contact:telegram": "https://t.me/silposilpo",
+        "contact:viber": "https://invite.viber.com/?g2=AQAt15SGGIlJkUpcckQJ1mAV5nsCAESEJ6JHLm0UCKWWPGQtSUDjRrHVW8Lmj4Xd&lang=uk",
+        "contact:website": "https://silpo.ua",
+        "name": "Сільпо",
+        "name:en": "Silpo",
+        "name:uk": "Сільпо",
+        "opening_hours": "Mo-Su 7:00-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone:UA": "0 800 301 707",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3417075,
+          47.9085421
+        ]
+      },
+      "id": "way/164467622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/167688756",
+        "addr:housenumber": "17",
+        "addr:street": "вулиця Савицького",
+        "amenity": "hospital",
+        "name": "Родонова водолікарня",
+        "name:uk": "Родонова водолікарня",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3496691,
+          47.8369867
+        ]
+      },
+      "id": "way/167688756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/177305188",
+        "addr:housenumber": "53Б",
+        "addr:street": "вулиця Кропивницького",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "РІВ'ЄРА КАФЕ",
+        "name:uk": "РІВ'ЄРА КАФЕ",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4751749,
+          48.0117126
+        ]
+      },
+      "id": "way/177305188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/179242373",
+        "addr:housenumber": "14а",
+        "addr:postcode": "50079",
+        "addr:street": "Ботанічна вулиця",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Водолій",
+        "name:ru": "Водолей",
+        "name:uk": "Водолій",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.583955,
+          48.1449454
+        ]
+      },
+      "id": "way/179242373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/184402503",
+        "addr:housenumber": "9в",
+        "addr:street": "вулиця Криворіжсталі",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "operator": "АТБ",
+        "phone:UA": "0 800 500 415",
+        "shop": "supermarket",
+        "website": "https://www.atbmarket.com/uk",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3832897,
+          47.8819283
+        ]
+      },
+      "id": "way/184402503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/197462545",
+        "addr:housenumber": "28б",
+        "addr:street": "Електрозаводська вулиця",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Холодок",
+        "name:uk": "Холодок",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4885306,
+          47.9946084
+        ]
+      },
+      "id": "way/197462545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/206530913",
+        "addr:country": "UA",
+        "addr:housenumber": "41А",
+        "addr:place": "Сонячний мікрорайон",
+        "addr:postcode": "50056",
+        "addr:street": "Сонячний мікрорайон",
+        "alt_name:uk": "Варус",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:phone": "+380 564 99 0171",
+        "contact:website": "https://varus.ua",
+        "name": "Varus",
+        "name:uk": "Varus",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "ОМЕГА",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4479446,
+          47.9558287
+        ]
+      },
+      "id": "way/206530913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251049172",
+        "addr:housenumber": "32Б",
+        "addr:postcode": "50037",
+        "addr:street": "вулиця Сергія Колачевського",
+        "building": "yes",
+        "name": "Будматеріали",
+        "name:uk": "Будматеріали",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "shop": "doityourself",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4855414,
+          48.0509253
+        ]
+      },
+      "id": "way/251049172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/593665581",
+        "addr:housenumber": "12а",
+        "addr:street": "вулиця Бірюзова",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Ресторан \"Бірюза\"",
+        "name:uk": "Ресторан \"Бірюза\"",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5476927,
+          48.1472385
+        ]
+      },
+      "id": "way/593665581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/686373650",
+        "addr:housenumber": "55",
+        "addr:postcode": "50082",
+        "addr:street": "вулиця Сергія Колачевського",
+        "amenity": "hospital",
+        "email": "8likarnya@gmail.com",
+        "healthcare": "hospital",
+        "name": "Міська лікарня №8",
+        "name:ru": "Городская больница №8",
+        "name:uk": "Міська лікарня №8",
+        "phone": "+380 68 032 8834",
+        "website": "https://krmisto.gov.ua/ua/hospitals/8.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5148844,
+          48.07091
+        ]
+      },
+      "id": "way/686373650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/903184802",
+        "addr:housenumber": "25",
+        "addr:postcode": "50071",
+        "addr:street": "вулиця Володимира Великого",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "biology;gynaecology",
+        "name": "Комунальне підприємство \"Криворізький шкірно-венерологічний диспансер\"",
+        "name:uk": "Комунальне підприємство \"Криворізький шкірно-венерологічний диспансер\"",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4142686,
+          47.9415824
+        ]
+      },
+      "id": "way/903184802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/970713900",
+        "addr:housenumber": "2",
+        "addr:postcode": "50102",
+        "addr:street": "вулиця Каткова",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Криворізька міська лікарня №17",
+        "name:uk": "Криворізька міська лікарня №17",
+        "operator": "Криворізька міська рада",
+        "website": "https://krmisto.gov.ua/ua/hospitals/13.html",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1507245,
+          47.6881738
+        ]
+      },
+      "id": "way/970713900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1231234359",
+        "addr:housenumber": "17",
+        "addr:street": "вулиця Вадима Гурова",
+        "name": "Гурівський",
+        "name:uk": "Нектар",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4038069,
+          47.8954454
+        ]
+      },
+      "id": "node/1231234359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1272895528",
+        "addr:housenumber": "20",
+        "addr:street": "Вечірній бульвар",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "yes",
+        "name": "\"Старий млин\"",
+        "name:uk": "\"Старий млин\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.435172,
+          47.9405412
+        ]
+      },
+      "id": "node/1272895528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1317254712",
+        "addr:housenumber": "1г",
+        "addr:street": "Чарівна вулиця",
+        "name": "GLORY.UA",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5144222,
+          48.0740459
+        ]
+      },
+      "id": "way/1317254712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1348506311",
+        "addr:housenumber": "53б",
+        "addr:street": "вулиця Федора Караманиць",
+        "amenity": "fast_food",
+        "brand": "Pizza Day",
+        "brand:wikidata": "Q122869046",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Day",
+        "takeaway": "only",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4832459,
+          48.0099739
+        ]
+      },
+      "id": "way/1348506311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1393963596",
+        "addr:housenumber": "4а",
+        "addr:street": "вулиця Булди",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Malina",
+        "name:en": "Malina",
+        "name:ru": "Малина",
+        "name:uk": "Малина",
+        "phone": "+380975995509",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4552925,
+          47.9991148
+        ]
+      },
+      "id": "way/1393963596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1435271552",
+        "addr:housenumber": "5а",
+        "addr:street": "вулиця Олексія Різниченка",
+        "building": "yes",
+        "name": "ТЦ «Молодіжний»",
+        "name:uk": "ТЦ «Молодіжний»",
+        "note": "Приблизна схема розташування",
+        "shop": "mall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4426421,
+          47.9707996
+        ]
+      },
+      "id": "way/1435271552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1440549334",
+        "addr:housenumber": "1к",
+        "addr:street": "вулиця Криворіжсталі",
+        "name": "Криворіжелектромонтаж",
+        "name:uk": "Криворіжелектромонтаж",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3575247,
+          47.876532
+        ]
+      },
+      "id": "node/1440549334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1465572707",
+        "addr:housenumber": "1",
+        "addr:postcode": "50084",
+        "addr:street": "вулиця Курчатова",
+        "name": "АТБ №280",
+        "name:uk": "АТБ №280",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "АТБ",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4265433,
+          47.9630788
+        ]
+      },
+      "id": "node/1465572707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1466763113",
+        "addr:housenumber": "50",
+        "addr:street": "вулиця Криворіжсталі",
+        "amenity": "pharmacy",
+        "name": "Вет. аптека \"Чотири лапи\"",
+        "name:ru": "Вет. аптека \"Четыре лапы\"",
+        "name:uk": "Вет. аптека \"Чотири лапи\"",
+        "phone": "+380 98 996 2318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3713703,
+          47.8799775
+        ]
+      },
+      "id": "node/1466763113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1470810088",
+        "addr:housenumber": "15",
+        "addr:street": "проспект Металургів",
+        "amenity": "pharmacy",
+        "brand": "Подорожник",
+        "brand:wikidata": "Q117706903",
+        "contact:phone": "0800303111",
+        "description": "Подорожник – найбільша мережа аптек України. Асортимент налічує понад 20 000 товарів. У аптеці ви можете придбати потрібні ліки, косметику та інші медзасоби.",
+        "healthcare": "pharmacy",
+        "name": "Подорожник",
+        "name:uk": "Аптека Подорожник",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+        "website": "https://podorozhnyk.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3931467,
+          47.9006553
+        ]
+      },
+      "id": "node/1470810088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1480017574",
+        "addr:housenumber": "24",
+        "addr:street": "проспект Металургів",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3951787,
+          47.8992327
+        ]
+      },
+      "id": "node/1480017574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1617522200",
+        "addr:housenumber": "13",
+        "addr:street": "Армавірська вулиця",
+        "name": "Покровський",
+        "name:ru": "Покровский",
+        "old_name": "Скана-2",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.483118,
+          48.0341677
+        ]
+      },
+      "id": "node/1617522200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1628172465",
+        "addr:housenumber": "40",
+        "addr:postcode": "50042",
+        "addr:street": "вулиця Едуарда Фукса",
+        "currency:UAH": "yes",
+        "name": "АТБ №113",
+        "name:en": "ATB #113",
+        "name:ru": "АТБ №113",
+        "name:uk": "АТБ №113",
+        "opening_hours": "24/7",
+        "operator": "АТБ",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4359328,
+          47.9745483
+        ]
+      },
+      "id": "node/1628172465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1641669296",
+        "addr:housenumber": "4",
+        "addr:postcode": "50076",
+        "addr:street": "вулиця Павла Глазового",
+        "name": "Продукти",
+        "name:uk": "Продукти",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.418752,
+          47.9353857
+        ]
+      },
+      "id": "node/1641669296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1768488759",
+        "addr:housenumber": "28",
+        "addr:street": "вулиця Федора Караманиць",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4716738,
+          48.0217651
+        ]
+      },
+      "id": "node/1768488759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1780136221",
+        "addr:housenumber": "2",
+        "addr:postcode": "50031",
+        "addr:street": "Січеславська вулиця",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Гален",
+        "name:en": "Galen",
+        "name:ru": "Гален",
+        "name:uk": "Гален"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4387185,
+          47.9856948
+        ]
+      },
+      "id": "node/1780136221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1789782663",
+        "addr:housenumber": "29а",
+        "addr:street": "вулиця Водопʼянова",
+        "name": "АТБ №92",
+        "name:uk": "АТБ №92",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4384159,
+          47.9337085
+        ]
+      },
+      "id": "node/1789782663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1897660617",
+        "addr:housenumber": "7",
+        "addr:street": "вулиця Романа Шухевича",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "ПриватБанк",
+        "brand:en": "PrivatBank",
+        "brand:uk": "ПриватБанк",
+        "brand:wikidata": "Q1515015",
+        "brand:wikipedia": "uk:ПриватБанк",
+        "name": "ПриватБанк",
+        "name:en": "PrivatBank",
+        "name:uk": "ПриватБанк"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4751162,
+          48.0305638
+        ]
+      },
+      "id": "node/1897660617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2243207737",
+        "addr:housenumber": "19а",
+        "addr:street": "вулиця Романа Шухевича",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:uk": "АТБ-Маркет",
+        "opening_hours": "24/7",
+        "phone:UA": "0 800 500 415",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4796422,
+          48.0369735
+        ]
+      },
+      "id": "node/2243207737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2968825020",
+        "addr:housenumber": "1",
+        "addr:postcode": "50008",
+        "addr:street": "майдан Олександра Химиченка",
+        "brand": "Сільпо",
+        "brand:en": "Silpo",
+        "brand:uk": "Сільпо",
+        "brand:wikidata": "Q4419434",
+        "name": "Сільпо",
+        "name:en": "Silpo",
+        "name:uk": "Сільпо",
+        "opening_hours": "8:30-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4401701,
+          47.9472025
+        ]
+      },
+      "id": "node/2968825020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3217903138",
+        "addr:housenumber": "5",
+        "addr:postcode": "50004",
+        "addr:street": "вулиця Мартіна Шимановського",
+        "name": "Лідер",
+        "name:uk": "Лідер",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.337562,
+          47.8953161
+        ]
+      },
+      "id": "node/3217903138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3232935786",
+        "addr:housenumber": "1к",
+        "addr:street": "площа Визволення",
+        "brand": "EconomClass",
+        "brand:wikidata": "Q120637783",
+        "name": "EconomClass",
+        "name:uk": "Ельдорадо",
+        "second_hand": "only",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3416549,
+          47.9086294
+        ]
+      },
+      "id": "node/3232935786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3354906500",
+        "addr:housenumber": "34а",
+        "addr:postcode": "50102",
+        "addr:street": "проспект Перемоги",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Жар-Піца",
+        "name:uk": "Жар-Піца",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "separated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1575455,
+          47.6834905
+        ]
+      },
+      "id": "node/3354906500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3388107195",
+        "addr:housenumber": "41",
+        "addr:postcode": "50000",
+        "addr:street": "Свято-Миколаївська вулиця",
+        "name": "Салтовски ковбаси",
+        "name:uk": "Салтовски ковбаси",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3395335,
+          47.9018188
+        ]
+      },
+      "id": "node/3388107195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3389504108",
+        "addr:housenumber": "10-А",
+        "addr:street": "Свято-Миколаївська вулиця",
+        "contact:phone": "+380 564 99 0119",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:uk": "Varus",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3309961,
+          47.9061483
+        ]
+      },
+      "id": "node/3389504108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3463001899",
+        "addr:housenumber": "11",
+        "addr:street": "вулиця Калнишевського",
+        "amenity": "pharmacy",
+        "contact:phone": "0800303111",
+        "description": "Подорожник – найбільша мережа аптек України. Асортимент налічує понад 20 000 товарів. У аптеці ви можете придбати потрібні ліки, косметику та інші медзасоби.",
+        "name": "Аптека Подорожник",
+        "name:uk": "Аптека Подорожник",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+        "website": "https://podorozhnyk.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.339421,
+          47.9119446
+        ]
+      },
+      "id": "node/3463001899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3566047600",
+        "addr:housenumber": "44/6",
+        "addr:street": "вулиця Чкалова",
+        "name": "Базарний",
+        "name:uk": "Базарний",
+        "shop": "mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3514315,
+          47.9023097
+        ]
+      },
+      "id": "node/3566047600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3566047601",
+        "addr:housenumber": "18",
+        "addr:street": "Поштовий проспект",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "РАДАБАНК, Відділення №18",
+        "name:en": "RADABANK, №18",
+        "name:ru": "РАДАБАНК, Отделение №18",
+        "name:uk": "РАДАБАНК, Відділення №18",
+        "opening_hours": "Відділення: Пн-Пт 09:00-18:00 Каса: Пн-Пт 09:00-17:45 Тех. перерва: 12:30-13:30",
+        "operator": "АТ \"АБ \"РАДАБАНК\"",
+        "phone": "+380 564 23 3002",
+        "phone:UA": "0 800 500 999",
+        "website": "https://www.radabank.com.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3421825,
+          47.9037148
+        ]
+      },
+      "id": "node/3566047601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3891545895",
+        "addr:housenumber": "7",
+        "addr:postcode": "50014",
+        "addr:street": "Січеславська вулиця",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "ПриватБанк",
+        "brand:en": "PrivatBank",
+        "brand:wikidata": "Q1515015",
+        "brand:wikipedia": "uk:ПриватБанк",
+        "name": "ПриватБанк",
+        "name:en": "PrivatBank",
+        "name:uk": "ПриватБанк"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43776,
+          47.9875439
+        ]
+      },
+      "id": "node/3891545895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3991633808",
+        "addr:housenumber": "7",
+        "addr:street": "проспект Миру",
+        "amenity": "dentist",
+        "name": "Естет",
+        "name:uk": "Естет"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3721746,
+          47.9050667
+        ]
+      },
+      "id": "node/3991633808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4000404916",
+        "addr:housenumber": "89",
+        "addr:street": "Прорізна вулиця",
+        "amenity": "cafe",
+        "name": "Теплая Корчма",
+        "name:uk": "Теплая Корчма"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2974929,
+          47.9072973
+        ]
+      },
+      "id": "node/4000404916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4100647004",
+        "addr:housenumber": "14-А",
+        "addr:street": "вулиця Лісового",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4528756,
+          47.9490311
+        ]
+      },
+      "id": "node/4100647004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4101219389",
+        "addr:housenumber": "8",
+        "addr:street": "Ярославська вулиця",
+        "name": "Апельсин",
+        "name:uk": "Апельсин",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3563463,
+          47.843523
+        ]
+      },
+      "id": "node/4101219389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4194569519",
+        "addr:housenumber": "39",
+        "addr:street": "вулиця Соборності",
+        "name": "Рукоділка",
+        "name:uk": "Рукоділка",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-15:00",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4027296,
+          47.9005422
+        ]
+      },
+      "id": "node/4194569519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4198388690",
+        "addr:housenumber": "3",
+        "addr:street": "Університетський проспект",
+        "name": "777",
+        "name:uk": "777",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3935393,
+          47.910517
+        ]
+      },
+      "id": "node/4198388690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4294642495",
+        "addr:housenumber": "54",
+        "addr:postcode": "50069",
+        "addr:street": "вулиця Упіта",
+        "email": "vents_zao@ukr.net",
+        "internet_access": "wlan",
+        "name": "Вентскомплект",
+        "name:en": "Ventskomplekt ventilation system",
+        "name:ru": "Вентскомплект",
+        "name:uk": "Вентскомплект",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator": "ЧАО \"Вентиляційні системи\"",
+        "operator:ru": "ЧАО \"Вентиляционные системы\"",
+        "operator:uk": "ЧАО \"Вентиляційні системи\"",
+        "phone": "+380 67 638 0108",
+        "shop": "hardware",
+        "website": "https://vents.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3951768,
+          47.9364645
+        ]
+      },
+      "id": "node/4294642495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341727482",
+        "addr:housenumber": "5а",
+        "addr:street": "вулиця Петра Дорошенка",
+        "name": "АлкоМаг",
+        "name:uk": "АлкоМаг",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4199786,
+          47.9016838
+        ]
+      },
+      "id": "node/4341727482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365818795",
+        "addr:housenumber": "153",
+        "addr:street": "вулиця Гетьмана Івана Мазепи",
+        "government": "administrative",
+        "name": "Криворіжська пасажирська вагонна дільниця ПКВЧ-9",
+        "name:ru": "Криворожский пассажирский вагонный участок ПКВЧ-9",
+        "name:uk": "Криворіжська пасажирська вагонна дільниця ПКВЧ-9",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4700042,
+          47.9226811
+        ]
+      },
+      "id": "node/4365818795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4404710193",
+        "addr:housenumber": "58-А",
+        "addr:postcode": "50046",
+        "addr:street": "вулиця Всебратське-2",
+        "entrance": "yes",
+        "name": "Varus",
+        "name:en": "Varus",
+        "name:ru": "Варус",
+        "name:uk": "Варус",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2549447,
+          47.8796065
+        ]
+      },
+      "id": "node/4404710193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4425478093",
+        "addr:housenumber": "17а",
+        "addr:postcode": "50021",
+        "addr:street": "Спасівська вулиця",
+        "email": "snab-kr@mail.ru",
+        "internet_access": "wlan",
+        "name": "ЕлектроСНАБ",
+        "name:uk": "ЕлектроСНАБ",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "phone": "+380 564 93 2028",
+        "shop": "supermarket",
+        "website": "http://elektrosnab.com.ua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4271538,
+          47.9608413
+        ]
+      },
+      "id": "node/4425478093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4590957398",
+        "addr:housenumber": "11",
+        "addr:street": "вулиця Олександра Поля",
+        "amenity": "restaurant",
+        "name": "Львівська майстерня шоколаду",
+        "name:ru": "Львовская мастерская шоколада",
+        "name:uk": "Львівська майстерня шоколаду",
+        "phone": "+380 68 543 1459",
+        "website": "https://www.chocolate.lviv.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3412541,
+          47.902739
+        ]
+      },
+      "id": "node/4590957398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4716180292",
+        "addr:housenumber": "6а",
+        "addr:street": "Рахманівська вулиця",
+        "name": "Гончарова",
+        "name:ru": "Гончарова",
+        "name:uk": "Гончарова",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2438152,
+          47.7999689
+        ]
+      },
+      "id": "node/4716180292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4716186192",
+        "addr:housenumber": "7а",
+        "addr:street": "вулиця Бориса Глінки",
+        "name": "Козоброд",
+        "name:ru": "Козоброд",
+        "name:uk": "Козоброд",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2416601,
+          47.8050365
+        ]
+      },
+      "id": "node/4716186192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4716193289",
+        "addr:housenumber": "32",
+        "addr:street": "вулиця Яцьківа",
+        "name": "Чп Кот",
+        "name:ru": "Чп Кот",
+        "name:uk": "Чп Кот",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.265863,
+          47.8236615
+        ]
+      },
+      "id": "node/4716193289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4727961289",
+        "addr:housenumber": "19/1",
+        "addr:street": "Коломийцевська вулиця",
+        "name": "Лоцман",
+        "name:ru": "Лоцман",
+        "name:uk": "Лоцман",
+        "tourism": "guest_house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5122147,
+          47.9777945
+        ]
+      },
+      "id": "node/4727961289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4750563626",
+        "addr:housenumber": "1-Б",
+        "addr:street": "Чарівна вулиця",
+        "brand": "Varus",
+        "brand:wikidata": "Q114944216",
+        "contact:phone": "+380 564 99 0113",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:en": "Varus",
+        "name:ru": "Варус",
+        "name:uk": "Варус",
+        "opening_hours": "24/7",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5151646,
+          48.0746811
+        ]
+      },
+      "id": "node/4750563626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4852194023",
+        "addr:housenumber": "17а",
+        "addr:street": "вулиця Віталія Матусевича",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Разгуляево",
+        "name:ru": "Разгуляево",
+        "name:uk": "Разгуляево",
+        "opening_hours": "Mo-Su 09:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.403622,
+          47.9046336
+        ]
+      },
+      "id": "node/4852194023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4857759185",
+        "addr:housenumber": "1Б",
+        "addr:postcode": "50000",
+        "addr:street": "Чарівна вулиця",
+        "amenity": "cafe",
+        "name": "Coffee Break",
+        "name:uk": "Coffee Break",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5150632,
+          48.0746354
+        ]
+      },
+      "id": "node/4857759185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4878554721",
+        "addr:housenumber": "42б",
+        "addr:street": "вулиця Петра Веропотвеляна",
+        "amenity": "fast_food",
+        "name": "Східна кухня",
+        "name:ru": "Восточная кухня",
+        "name:uk": "Східна кухня",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3505836,
+          47.9035152
+        ]
+      },
+      "id": "node/4878554721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4905649021",
+        "addr:housenumber": "43",
+        "addr:street": "вулиця Генерала Безручка",
+        "name": "VARUS",
+        "name:ru": "VARUS",
+        "name:uk": "VARUS",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1575751,
+          47.6809378
+        ]
+      },
+      "id": "node/4905649021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4918966953",
+        "addr:housenumber": "40а",
+        "addr:postcode": "50000",
+        "addr:street": "вулиця Глінки",
+        "description": "Компанія Білий вітер займається розробкою веб-сайтів, автоматизацією бізнес-процесів та обліку підприємсв.",
+        "email": "office@wwind.ua",
+        "name": "Білий вітер. Компанія ІТ",
+        "name:uk": "Білий вітер. Компанія ІТ",
+        "office": "it",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "+380 564 09 9403",
+        "website": "https://wwind.ua/",
+        "wikidata": "Q12086605",
+        "wikipedia": "uk:Білий Вітер"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3492829,
+          47.9000117
+        ]
+      },
+      "id": "node/4918966953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5009371421",
+        "addr:housenumber": "11-А",
+        "addr:street": "5-й Зарічний мікрорайон",
+        "brand": "Varus",
+        "brand:wikidata": "Q114944216",
+        "contact:phone": "+380 564 99 0103",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:en": "Varus",
+        "name:ru": "Варус",
+        "name:uk": "Варус",
+        "opening_hours": "24/7",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4824872,
+          48.0014629
+        ]
+      },
+      "id": "node/5009371421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081313122",
+        "addr:housenumber": "21а",
+        "addr:street": "вулиця Івана Авраменка",
+        "amenity": "cafe",
+        "cuisine": "tea;sandwich;cake;coffee_shop",
+        "internet_access": "wlan",
+        "name": "Криворізька кав'ярня",
+        "name:en": "Krivoriz'ka coffee",
+        "name:ru": "Криворожская кофейня",
+        "name:uk": "Криворізька кав'ярня",
+        "opening_hours": "Mo-Su 07:30-20:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4276425,
+          47.9373433
+        ]
+      },
+      "id": "node/5081313122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5355418495",
+        "addr:housenumber": "16",
+        "addr:postcode": "50071",
+        "addr:street": "Бульварний провулок",
+        "name": "Нектар",
+        "name:uk": "Нектар",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.419779,
+          47.9376039
+        ]
+      },
+      "id": "node/5355418495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5590009959",
+        "addr:housenumber": "7",
+        "addr:street": "5-Заречный",
+        "amenity": "pharmacy",
+        "brand": "АНЦ",
+        "brand:wikidata": "Q100148965",
+        "email": "goryachayaliniya@uft.zp.ua",
+        "healthcare": "pharmacy",
+        "name": "Аптека низьких цін",
+        "name:ru": "Аптека низких цен",
+        "name:uk": "Аптека низьких цін",
+        "phone": "+380564430630",
+        "website": "https://www.aptekanizkihcen.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4817251,
+          47.9992686
+        ]
+      },
+      "id": "node/5590009959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5618751122",
+        "addr:housenumber": "12а",
+        "addr:street": "проспект 200-річчя Кривого Рогу",
+        "name": "Техноскарб",
+        "name:uk": "Техноскарб",
+        "opening_hours": "Mo-Su 09:00-14:00,14:30-21:00",
+        "shop": "electronics",
+        "website": "https://tehnoskarb.com.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4352539,
+          47.9655117
+        ]
+      },
+      "id": "node/5618751122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5663948872",
+        "addr:housenumber": "13",
+        "addr:street": "вулиця Джона Маккейна",
+        "brand": "Делві",
+        "brand:wikidata": "Q117866197",
+        "name": "Делві",
+        "name:uk": "Делви",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4832921,
+          48.0344034
+        ]
+      },
+      "id": "node/5663948872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5708031376",
+        "addr:housenumber": "1",
+        "addr:postcode": "50000",
+        "addr:street": "Комерційна вулиця",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "delivery": "yes",
+        "name": "Sushi wok out",
+        "name:en": "Sushi wok out",
+        "name:ru": "Суши вок аут",
+        "name:uk": "Суши вок аут",
+        "outdoor_seating": "no",
+        "short_name": "SWO",
+        "takeaway": "yes",
+        "website": "https://swo.com.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3426848,
+          47.901597
+        ]
+      },
+      "id": "node/5708031376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5808132176",
+        "addr:housenumber": "2",
+        "addr:street": "вулиця Деміденка",
+        "name": "ГІК УКРМЕХАНОБР",
+        "name:ru": "ГОК УКРМЕХАНОБР",
+        "name:uk": "ГІК УКРМЕХАНОБР",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3755341,
+          47.9083784
+        ]
+      },
+      "id": "node/5808132176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6027292110",
+        "addr:housenumber": "7",
+        "addr:street": "вулиця Військового Тилу",
+        "amenity": "cafe",
+        "cuisine": "ukrainian;kebab;steak_house;grill;diner;juice;salad;oriental",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Веселе кафе",
+        "name:uk": "Веселе кафе",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "outdoor_seating": "no",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.468565,
+          48.0168562
+        ]
+      },
+      "id": "node/6027292110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6104162226",
+        "addr:housenumber": "24",
+        "addr:street": "проспект 200-річчя Кривого Рогу",
+        "contact:phone": "+380 564 99 0153",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:uk": "Varus",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4349264,
+          47.9632755
+        ]
+      },
+      "id": "node/6104162226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6414857586",
+        "addr:housenumber": "1в",
+        "addr:street": "вулиця Електроніки",
+        "internet_access": "wlan",
+        "name": "Злагода",
+        "name:en": "Zlagoda",
+        "name:uk": "Злагода",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.355597,
+          47.9139157
+        ]
+      },
+      "id": "node/6414857586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6459940092",
+        "addr:housenumber": "16-Б",
+        "addr:street": "вулиця Незалежності України",
+        "contact:phone": "+380 564 99 0159",
+        "contact:website": "https://varus.ua/",
+        "name": "Varus",
+        "name:en": "Varus",
+        "name:ru": "Варус",
+        "name:uk": "Варус",
+        "opening_hours": "Mo-Su 00:00-22:00",
+        "operator": "ОМЕГА",
+        "phone:UA": "0 800 307 080",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4560353,
+          47.9483088
+        ]
+      },
+      "id": "node/6459940092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6669958764",
+        "addr:housenumber": "37",
+        "addr:street": "Центральний проспект",
+        "brand": "Comfy",
+        "brand:wikidata": "Q12062837",
+        "level": "1",
+        "name": "Comfy",
+        "name:uk": "Comfy",
+        "shop": "electronics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3581936,
+          47.9042208
+        ]
+      },
+      "id": "node/6669958764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7382858135",
+        "addr:housenumber": "15",
+        "addr:street": "вулиця Миколи Світальського",
+        "name": "Varus",
+        "name:uk": "Varus",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4441048,
+          47.9721202
+        ]
+      },
+      "id": "node/7382858135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7621716196",
+        "addr:housenumber": "35",
+        "addr:street": "Південний проспект",
+        "name": "Varus",
+        "name:uk": "Varus",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3468747,
+          47.8412462
+        ]
+      },
+      "id": "node/7621716196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7666596803",
+        "addr:housenumber": "41",
+        "addr:street": "Січеславська вулиця",
+        "name": "Полуничка",
+        "name:uk": "Полуничка",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4440066,
+          47.9971865
+        ]
+      },
+      "id": "node/7666596803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7666596805",
+        "addr:housenumber": "13",
+        "addr:street": "Січеславська вулиця",
+        "name": "Тріумф",
+        "name:uk": "Тріумф",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4397054,
+          47.9957896
+        ]
+      },
+      "id": "node/7666596805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7666596806",
+        "addr:housenumber": "36",
+        "addr:street": "вулиця Едуарда Фукса",
+        "name": "Національний",
+        "name:uk": "Національний",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4359771,
+          47.9753309
+        ]
+      },
+      "id": "node/7666596806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7666596807",
+        "addr:housenumber": "8",
+        "addr:street": "Дніпровське шосе",
+        "name": "Ярок",
+        "name:ru": "Ярок",
+        "name:uk": "Ярок",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4233986,
+          47.9091041
+        ]
+      },
+      "id": "node/7666596807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7666596890",
+        "addr:housenumber": "1а",
+        "addr:street": "Електрична вулиця",
+        "name": "СТРУМ Фрунзе",
+        "name:ru": "ТОК Фрунзе",
+        "name:uk": "СТРУМ Фрунзе",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4474406,
+          48.0047047
+        ]
+      },
+      "id": "node/7666596890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7690557820",
+        "addr:housenumber": "7Д",
+        "addr:postcode": "50084",
+        "addr:street": "проспект 200-річчя Кривого Рогу",
+        "name": "АТБ №356",
+        "name:en": "АТБ #356",
+        "name:ru": "АТБ №356",
+        "name:uk": "АТБ №356",
+        "opening_hours": "24/7",
+        "operator": "АТБ",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4366,
+          47.9644842
+        ]
+      },
+      "id": "node/7690557820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7722333205",
+        "addr:housenumber": "1А",
+        "addr:postcode": "50031",
+        "addr:street": "вулиця Едуарда Фукса",
+        "name": "АТБ №443",
+        "name:uk": "АТБ №443",
+        "opening_hours": "24/7",
+        "operator": "АТБ",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4389304,
+          47.9853183
+        ]
+      },
+      "id": "node/7722333205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7812787522",
+        "addr:housenumber": "26",
+        "addr:street": "вулиця Мусоргського",
+        "amenity": "pharmacy",
+        "contact:phone": "0800303111",
+        "description": "Подорожник – найбільша мережа аптек України. Асортимент налічує понад 20 000 товарів. У аптеці ви можете придбати потрібні ліки, косметику та інші медзасоби.",
+        "name": "Аптека Подорожник",
+        "name:uk": "Аптека Подорожник",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+        "website": "https://podorozhnyk.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4810716,
+          48.0374255
+        ]
+      },
+      "id": "node/7812787522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8679126674",
+        "addr:housenumber": "3",
+        "addr:postcode": "50071",
+        "addr:street": "вулиця Володимира Великого",
+        "name": "Компанія НАВІ",
+        "name:uk": "Компанія НАВІ",
+        "office": "company",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "+380 67 522 6222",
+        "website": "https://www.navi.biz.ua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4012824,
+          47.9360513
+        ]
+      },
+      "id": "node/8679126674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8826586017",
+        "addr:housenumber": "1",
+        "addr:postcode": "50038",
+        "addr:street": "вулиця Водопʼянова",
+        "name": "Пиво-Рыба",
+        "name:uk": "Таврія",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4408185,
+          47.9398689
+        ]
+      },
+      "id": "node/8826586017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8895125206",
+        "addr:housenumber": "22",
+        "addr:street": "вулиця Володимира Великого",
+        "amenity": "bank",
+        "atm": "yes",
+        "description": "Обслуговування юридичних і фізичних осіб; випуск та обслуговування платіжних карток; відкриття та обслуговування зарплатних проектів; депозити (гривня, валюта), РКО, валютні операції (купівля, продаж, обмін), переказ грошових коштів, прийом комунальних",
+        "name": "РАДАБАНК, Відділення №19",
+        "name:en": "RADABANK, №19",
+        "name:ru": "РАДАБАНК, Отделение №19",
+        "name:uk": "РАДАБАНК, Відділення №19",
+        "opening_hours": "Відділення: Пн-Пт 09:00-18:00 Каса: Пн-Пт 09:00-17:45 Тех. перерва: 12:30-13:30",
+        "operator": "АТ \"АБ \"РАДАБАНК\"",
+        "phone": "+380 564 23 3004",
+        "phone:UA": "0 800 500 999",
+        "website": "https://www.radabank.com.ua/ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4112943,
+          47.9393069
+        ]
+      },
+      "id": "node/8895125206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9045408197",
+        "addr:housenumber": "25",
+        "addr:street": "Поштовий проспект",
+        "brand": "Varus",
+        "brand:wikidata": "Q114944216",
+        "name": "Varus",
+        "name:uk": "Varus",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3424035,
+          47.9055316
+        ]
+      },
+      "id": "node/9045408197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170451793",
+        "addr:housenumber": "10А",
+        "addr:street": "Алмазна вулиця",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Амбулаторія №6 ЗПСМ",
+        "name:uk": "Амбулаторія №6 ЗПСМ",
+        "website": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/8.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2957092,
+          47.9021081
+        ]
+      },
+      "id": "node/9170451793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170451794",
+        "addr:housenumber": "21а",
+        "addr:postcode": "50071",
+        "addr:street": "вулиця Володимира Великого",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dentist",
+        "name": "Криворізька міська стоматологічна поліклініка №5",
+        "name:uk": "Криворізька міська стоматологічна поліклініка №5",
+        "website": "https://krmisto.gov.ua/ua/hospitals/30.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.411712,
+          47.9404648
+        ]
+      },
+      "id": "node/9170451794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170451795",
+        "addr:housenumber": "21",
+        "addr:postcode": "50071",
+        "addr:street": "вулиця Володимира Великого",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Центр первинної медико-санітарної допомоги №4",
+        "name:uk": "Центр первинної медико-санітарної допомоги №4",
+        "website": "https://krmisto.gov.ua/ua/hospitals/54.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4109733,
+          47.9424509
+        ]
+      },
+      "id": "node/9170451795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170451796",
+        "addr:housenumber": "21",
+        "addr:postcode": "50071",
+        "addr:street": "вулиця Володимира Великого",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Амбулаторія №1 ЗПСМ",
+        "name:uk": "Амбулаторія №1 ЗПСМ",
+        "website": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/9.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4107024,
+          47.942357
+        ]
+      },
+      "id": "node/9170451796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170451797",
+        "addr:housenumber": "8а",
+        "addr:postcode": "50007",
+        "addr:street": "Святогеоргіївська вулиця",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Амбулаторія №1 ЗПСМ",
+        "name:uk": "Амбулаторія №1 ЗПСМ",
+        "operator": "ЦПМСД №5",
+        "website": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/14.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.383169,
+          47.9041631
+        ]
+      },
+      "id": "node/9170451797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170451798",
+        "addr:housenumber": "55",
+        "addr:postcode": "50082",
+        "addr:street": "вулиця Сергія Колачевського",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Амбулаторія №2 ЗПСМ ЦПМСД №2",
+        "name:uk": "Амбулаторія №2 ЗПСМ ЦПМСД №2",
+        "operator": "ЦПМСД №2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5143428,
+          48.0710453
+        ]
+      },
+      "id": "node/9170451798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170482740",
+        "addr:housenumber": "2",
+        "addr:postcode": "50102",
+        "addr:street": "вулиця Каткова",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Центр первинної медико-санітарної допомоги №7",
+        "name:uk": "Центр первинної медико-санітарної допомоги №7",
+        "website": "https://krmisto.gov.ua/ua/hospitals/57.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1480375,
+          47.68707
+        ]
+      },
+      "id": "node/9170482740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170482741",
+        "addr:housenumber": "2",
+        "addr:postcode": "50102",
+        "addr:street": "вулиця Каткова",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Центр вакцинації",
+        "name:uk": "Центр вакцинації"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1477651,
+          47.6870159
+        ]
+      },
+      "id": "node/9170482741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170593557",
+        "addr:housenumber": "2",
+        "addr:postcode": "50102",
+        "addr:street": "вулиця Каткова",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Криворізька міська лікарня №17",
+        "name:uk": "Криворізька міська лікарня №17",
+        "phone": "+380 67 914 5025",
+        "website": "https://krmisto.gov.ua/ua/hospitals/13.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1512928,
+          47.6879495
+        ]
+      },
+      "id": "node/9170593557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170593558",
+        "addr:housenumber": "2",
+        "addr:postcode": "50102",
+        "addr:street": "вулиця Каткова",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Амбулаторія №1 ЗПСМ",
+        "name:uk": "Амбулаторія №1 ЗПСМ",
+        "website": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/24.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1484691,
+          47.687142
+        ]
+      },
+      "id": "node/9170593558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170593559",
+        "addr:housenumber": "6б",
+        "addr:postcode": "50031",
+        "addr:street": "Женевська вулиця",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Амбулаторія №1 ЗПСМ",
+        "name:uk": "Амбулаторія №1 ЗПСМ",
+        "operator": "КНП \"ЦПМСД №3\" КМР",
+        "website": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/1.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4412395,
+          47.9826054
+        ]
+      },
+      "id": "node/9170593559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170593560",
+        "addr:housenumber": "6б",
+        "addr:street": "Женевська вулиця",
+        "amenity": "clinic",
+        "description": "https://krmisto.gov.ua/ua/hospitals/53.html",
+        "healthcare": "clinic",
+        "name": "Центр первинної медико-санітарної допомоги №3",
+        "name:uk": "Центр первинної медико-санітарної допомоги №3",
+        "website": "https://krcpmsd3.lic.org.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.44124,
+          47.9824579
+        ]
+      },
+      "id": "node/9170593560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170593561",
+        "addr:housenumber": "1а",
+        "addr:postcode": "50089",
+        "addr:street": "вулиця Маршака",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Центр первинної медико-санітарної допомоги №1",
+        "name:uk": "Центр первинної медико-санітарної допомоги №1",
+        "website": "https://krmisto.gov.ua/ua/hospitals/51.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5832327,
+          48.1434287
+        ]
+      },
+      "id": "node/9170593561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9170593562",
+        "addr:housenumber": "1а",
+        "addr:postcode": "50089",
+        "addr:street": "вулиця Маршака",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Амбулаторія №1 КНП \"ЦПМСД №1\"",
+        "name:uk": "Амбулаторія №1 КНП \"ЦПМСД №1\"",
+        "website": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/19.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5835431,
+          48.1434231
+        ]
+      },
+      "id": "node/9170593562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9374499577",
+        "addr:housenumber": "8",
+        "addr:street": "вулиця Захисників Азовсталі",
+        "name": "У Светы",
+        "name:ar": "متجر سفيتلانا",
+        "name:el": "Το κατάστημα της Svetlana",
+        "name:es": "Tienda de Svetlana",
+        "name:ja": "スヴェトラーナの店",
+        "name:tr": "Svetlana'nın",
+        "name:uk": "У Свєти",
+        "name:zh-Hans": "斯韦特兰娜的商店",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4652334,
+          48.0132511
+        ]
+      },
+      "id": "node/9374499577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9393813245",
+        "addr:housenumber": "40",
+        "addr:street": "вулиця Ярослава Мудрого",
+        "name": "Провайдер Altair",
+        "name:uk": "Провайдер Altair",
+        "office": "it",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "+380 96 054 1555",
+        "website": "https://altair.kr.ua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3964953,
+          47.9121781
+        ]
+      },
+      "id": "node/9393813245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10066518282",
+        "addr:housenumber": "72",
+        "addr:street": "Гагаріна",
+        "amenity": "pharmacy",
+        "brand": "АНЦ",
+        "brand:wikidata": "Q100148965",
+        "healthcare": "pharmacy",
+        "name": "АНЦ",
+        "name:uk": "Аптека АНЦ",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4204105,
+          47.9074921
+        ]
+      },
+      "id": "node/10066518282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10066647841",
+        "addr:housenumber": "38",
+        "addr:street": "Гагарина",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Аптека інтернет цін",
+        "name:uk": "Аптека інтернет цін"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4052065,
+          47.9089878
+        ]
+      },
+      "id": "node/10066647841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10066672978",
+        "addr:housenumber": "62б",
+        "addr:street": "Гагарина",
+        "amenity": "cafe",
+        "name": "The budka",
+        "name:uk": "The budka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4175457,
+          47.9079343
+        ]
+      },
+      "id": "node/10066672978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10066685494",
+        "addr:housenumber": "28а",
+        "addr:street": "Металлургов",
+        "amenity": "pharmacy",
+        "brand": "Бажаємо здоровʼя",
+        "brand:wikidata": "Q117404902",
+        "healthcare": "pharmacy",
+        "name": "Бажаємо здоровʼя",
+        "name:uk": "Бажаємо здоров'я"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3940516,
+          47.9010406
+        ]
+      },
+      "id": "node/10066685494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10678467793",
+        "addr:housenumber": "42",
+        "addr:street": "проспект Металургів",
+        "name": "Varus",
+        "name:uk": "Varus",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "Varus",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3926895,
+          47.9092552
+        ]
+      },
+      "id": "node/10678467793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10680849618",
+        "addr:housenumber": "3",
+        "addr:postcode": "50027",
+        "addr:street": "Університетський проспект",
+        "amenity": "bank",
+        "brand": "Unex Bank",
+        "brand:en": "Unex Bank",
+        "brand:uk": "Юнекс Банк",
+        "brand:wikidata": "Q97305672",
+        "name": "Unex Bank",
+        "name:en": "Unex Bank",
+        "name:uk": "Юнекс Банк",
+        "opening_hours": "Mo-Fr 09:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3930735,
+          47.9105526
+        ]
+      },
+      "id": "node/10680849618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10899474009",
+        "addr:housenumber": "13А",
+        "addr:street": "вулиця Лісового",
+        "amenity": "pharmacy",
+        "contact:phone": "0800303111",
+        "description": "Подорожник – найбільша мережа аптек України. Асортимент налічує понад 20 000 товарів. У аптеці ви можете придбати потрібні ліки, косметику та інші медзасоби.",
+        "name": "Аптека Подорожник",
+        "name:uk": "Аптека Подорожник",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+        "website": "https://podorozhnyk.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4517491,
+          47.9494524
+        ]
+      },
+      "id": "node/10899474009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10899484605",
+        "addr:housenumber": "1",
+        "addr:street": "Гірницький мікрорайон",
+        "amenity": "pharmacy",
+        "contact:phone": "0800303111",
+        "description": "Подорожник – найбільша мережа аптек України. Асортимент налічує понад 20 000 товарів. У аптеці ви можете придбати потрібні ліки, косметику та інші медзасоби.",
+        "name": "Аптека Подорожник",
+        "name:uk": "Аптека Подорожник",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+        "website": "https://podorozhnyk.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4572873,
+          47.964513
+        ]
+      },
+      "id": "node/10899484605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10904515405",
+        "addr:housenumber": "54",
+        "addr:street": "Свято-Миколаївська вулиця",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 07:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.33974,
+          47.9014157
+        ]
+      },
+      "id": "node/10904515405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11030818158",
+        "addr:housenumber": "35",
+        "addr:postcode": "50102",
+        "addr:street": "проспект Перемоги",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Подорожник",
+        "name:uk": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "website": "https://podorozhnyk.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1591618,
+          47.6823329
+        ]
+      },
+      "id": "node/11030818158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11330763947",
+        "addr:housenumber": "5",
+        "addr:postcode": "50000",
+        "addr:street": "вулиця Мартіна Шимановського",
+        "amenity": "cafe",
+        "contact:instagram": "gdancivska_kavyarnya",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Гданцівська Кавʼярня",
+        "name:uk": "Гданцівська Кавʼярня",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+380671790029",
+        "website": "https://instagram.com/gdancivska_kavyarnya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3375443,
+          47.895589
+        ]
+      },
+      "id": "node/11330763947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11924915140",
+        "addr:housenumber": "44/13",
+        "addr:postcode": "50000",
+        "addr:street": "Свято-Миколаївська вулиця",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "brand:wikipedia": "uk:АТБ-Маркет",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:ru": "АТБ-Маркет",
+        "name:uk": "АТБ-Маркет",
+        "opening_hours": "24/7",
+        "operator": "АТБ",
+        "shop": "supermarket",
+        "shop_number": "№679",
+        "website": "https://www.atbmarket.com/uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.338388,
+          47.9017481
+        ]
+      },
+      "id": "node/11924915140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11955942491",
+        "addr:city": "Kryvyi Rih",
+        "addr:housenumber": "54",
+        "addr:postcode": "50086",
+        "addr:street": "Haharina Ave",
+        "addr:unit": "в",
+        "amenity": "atm",
+        "cash_in": "yes",
+        "cash_out": "yes",
+        "cash_withdrawal": "yes",
+        "check_date": "2024-06-04",
+        "contact:email": "support@shitcoins.club",
+        "contact:facebook": "https://www.facebook.com/shitcoins.club",
+        "contact:instagram": "https://www.instagram.com/shitcoinsclub",
+        "contact:telegram": "https://t.me/shitcoinsclub",
+        "contact:twitter": "https://twitter.com/BitomatCom",
+        "currency:DASH": "yes",
+        "currency:ETH": "yes",
+        "currency:LTC": "yes",
+        "currency:UAH": "yes",
+        "currency:USDC": "yes",
+        "currency:USDT": "yes",
+        "currency:XBT": "yes",
+        "indoor": "yes",
+        "name": "Bitcoin ATM - Shitcoins.club",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "operator": "Shitcoins.club",
+        "payment:cash": "yes",
+        "payment:lightning": "no",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "phone": "+380 97 433 4473",
+        "website": "https://shitcoins.club/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4094803,
+          47.9082494
+        ]
+      },
+      "id": "node/11955942491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12016398969",
+        "addr:housenumber": "26а",
+        "addr:street": "Паровозна вулиця",
+        "name": "Чугай(Наш)",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.445089,
+          47.9157017
+        ]
+      },
+      "id": "node/12016398969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12459381279",
+        "addr:housenumber": "15",
+        "addr:street": "вулиця Петра Дорошенка",
+        "brand": "Varus",
+        "brand:wikidata": "Q114944216",
+        "name": "Varus",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4192944,
+          47.9012108
+        ]
+      },
+      "id": "node/12459381279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12472150616",
+        "addr:housenumber": "1",
+        "addr:street": "вулиця Симона Петлюри",
+        "brand": "Varus",
+        "brand:wikidata": "Q114944216",
+        "name": "Varus",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4811273,
+          48.0426132
+        ]
+      },
+      "id": "node/12472150616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12473792140",
+        "addr:housenumber": "21",
+        "addr:street": "вулиця Романа Шухевича",
+        "amenity": "fast_food",
+        "brand": "Pizza Day",
+        "brand:wikidata": "Q122869046",
+        "cuisine": "pizza",
+        "name": "Pizza Day",
+        "takeaway": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4803516,
+          48.0374296
+        ]
+      },
+      "id": "node/12473792140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12473792147",
+        "addr:housenumber": "1е",
+        "addr:street": "вулиця Володимира Терещенка",
+        "amenity": "fast_food",
+        "name": "The Budka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5620301,
+          48.1453161
+        ]
+      },
+      "id": "node/12473792147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12473792148",
+        "addr:housenumber": "1е",
+        "addr:street": "вулиця Володимира Терещенка",
+        "brand": "Varus",
+        "brand:wikidata": "Q114944216",
+        "name": "Varus",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5617036,
+          48.14534
+        ]
+      },
+      "id": "node/12473792148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12473792149",
+        "addr:housenumber": "1к",
+        "addr:street": "вулиця Володимира Терещенка",
+        "amenity": "pharmacy",
+        "brand": "АНЦ",
+        "brand:wikidata": "Q100148965",
+        "healthcare": "pharmacy",
+        "name": "АНЦ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.561401,
+          48.1454388
+        ]
+      },
+      "id": "node/12473792149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12473792159",
+        "addr:housenumber": "1-У",
+        "addr:street": "вулиця Володимира Терещенка",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5626316,
+          48.144778
+        ]
+      },
+      "id": "node/12473792159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12652801801",
+        "addr:housenumber": "5А",
+        "addr:postcode": "50050",
+        "addr:street": "Вечірньокутська вулиця",
+        "contact:facebook": "avrora.multimarket",
+        "contact:instagram": "avrora.multimarket",
+        "name": "Аврора",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+380800300066",
+        "shop": "department_store",
+        "website": "https://avrora.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4481362,
+          47.9236286
+        ]
+      },
+      "id": "node/12652801801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12950102236",
+        "addr:housenumber": "5а",
+        "addr:street": "вулиця Петра Дорошенка",
+        "amenity": "cafe",
+        "name": "КОРОНА"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.419996,
+          47.9018121
+        ]
+      },
+      "id": "node/12950102236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12998748538",
+        "addr:housenumber": "13",
+        "addr:street": "проспект Перемоги",
+        "amenity": "pharmacy",
+        "name": "Ощад Аптека",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1653723,
+          47.6835941
+        ]
+      },
+      "id": "node/12998748538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12998748573",
+        "addr:housenumber": "1",
+        "addr:street": "вулиця Олександра Поля",
+        "amenity": "pharmacy",
+        "name": "Аптека Бам",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3410436,
+          47.9037048
+        ]
+      },
+      "id": "node/12998748573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13041297041",
+        "addr:housenumber": "1",
+        "addr:street": "Чарівна вулиця",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5163206,
+          48.0740252
+        ]
+      },
+      "id": "node/13041297041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13143970656",
+        "addr:housenumber": "36",
+        "addr:street": "вулиця Корнія Речмидила",
+        "amenity": "cafe",
+        "cuisine": "fish_and_chips;pizza;coffee_shop;regional;burger;sandwich;chicken;steak_house;breakfast;salad;brunch",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Савойя [Karas'-party]",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4629089,
+          48.0149948
+        ]
+      },
+      "id": "node/13143970656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13192236045",
+        "addr:housenumber": "5а",
+        "addr:street": "вулиця Олексія Різниченка",
+        "brand": "АТБ-Маркет",
+        "brand:en": "ATB-Market",
+        "brand:uk": "АТБ-Маркет",
+        "brand:wikidata": "Q4054103",
+        "name": "АТБ-Маркет",
+        "name:en": "ATB-Market",
+        "name:uk": "АТБ-Маркет",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4426801,
+          47.9707766
+        ]
+      },
+      "id": "node/13192236045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13261984827",
+        "addr:housenumber": "5",
+        "addr:street": "вулиця Джона Маккейна",
+        "air_conditioning": "yes",
+        "brand": "Маркетопт",
+        "brand:wikidata": "Q108472154",
+        "name": "Маркетопт",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "payment:apple_pay": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.480734,
+          48.030978
+        ]
+      },
+      "id": "node/13261984827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13262605804",
+        "addr:city": "Кривий Ріг",
+        "addr:housenumber": "2",
+        "addr:street": "вулиця Джона Маккейна",
+        "brand": "Манго",
+        "level": "0",
+        "name": "Манго",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4796658,
+          48.0290515
+        ]
+      },
+      "id": "node/13262605804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13262605806",
+        "addr:city": "Кривий Ріг",
+        "addr:housenumber": "9",
+        "addr:street": "вулиця Джона Маккейна",
+        "brand": "Манго",
+        "level": "0",
+        "name": "Манго",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4816442,
+          48.0322121
+        ]
+      },
+      "id": "node/13262605806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13263759417",
+        "addr:city": "Кривий Ріг",
+        "addr:housenumber": "26",
+        "addr:street": "вулиця Федора Караманиць",
+        "brand": "Sinsay",
+        "brand:wikidata": "Q107410579",
+        "name": "Sinsay",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "operator": "LPP S.A.",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4714254,
+          48.0220361
+        ]
+      },
+      "id": "node/13263759417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13337744401",
+        "addr:housenumber": "15",
+        "addr:street": "вулиця Миколи Світальського",
+        "amenity": "pharmacy",
+        "name": "АНЦ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4449721,
+          47.9721121
+        ]
+      },
+      "id": "node/13337744401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13337750401",
+        "addr:housenumber": "15",
+        "addr:street": "вулиця Миколи Світальського",
+        "name": "Аврора",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4454315,
+          47.972109
+        ]
+      },
+      "id": "node/13337750401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13385695535",
+        "addr:housenumber": "3-Г",
+        "addr:street": "вулиця Івана Авраменка",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4264666,
+          47.9383802
+        ]
+      },
+      "id": "node/13385695535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13415341038",
+        "addr:housenumber": "21-Ж",
+        "addr:street": "4-й Зарічний мікрорайон",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.480564,
+          47.9996161
+        ]
+      },
+      "id": "node/13415341038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13415348179",
+        "addr:housenumber": "14-А",
+        "addr:street": "проспект 200-річчя Кривого Рогу",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 07:30-20:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4356934,
+          47.9652475
+        ]
+      },
+      "id": "node/13415348179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13415353731",
+        "addr:housenumber": "2",
+        "addr:street": "вулиця Романа Шухевича",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 00:15-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.475602,
+          48.0303296
+        ]
+      },
+      "id": "node/13415353731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13470704060",
+        "addr:housenumber": "5-А",
+        "addr:street": "вулиця Олексія Різниченка",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4423667,
+          47.9708685
+        ]
+      },
+      "id": "node/13470704060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13470704638",
+        "addr:housenumber": "35",
+        "addr:street": "проспект Перемоги",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1591523,
+          47.6822994
+        ]
+      },
+      "id": "node/13470704638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13479137225",
+        "addr:housenumber": "66-А",
+        "addr:street": "вулиця Федора Караманиць",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4809208,
+          48.0103655
+        ]
+      },
+      "id": "node/13479137225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13503767742",
+        "addr:housenumber": "8",
+        "addr:street": "вулиця Соборності",
+        "amenity": "pharmacy",
+        "name": "Аптека Бам",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3963802,
+          47.8993784
+        ]
+      },
+      "id": "node/13503767742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13503767781",
+        "addr:housenumber": "10",
+        "addr:street": "вулиця Гірничих Інженерів",
+        "amenity": "pharmacy",
+        "name": "Аптека",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3489829,
+          47.9081836
+        ]
+      },
+      "id": "node/13503767781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13503781724",
+        "addr:housenumber": "18",
+        "addr:street": "Алмазна вулиця",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2937053,
+          47.897296
+        ]
+      },
+      "id": "node/13503781724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13513794784",
+        "addr:housenumber": "21-К",
+        "addr:street": "4-й Зарічний мікрорайон",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 07:30-20:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4781259,
+          47.9995479
+        ]
+      },
+      "id": "node/13513794784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13513838384",
+        "addr:housenumber": "34-А",
+        "addr:street": "вулиця Лісового",
+        "amenity": "pharmacy",
+        "name": "Подорожник",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4572369,
+          47.951521
+        ]
+      },
+      "id": "node/13513838384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13652327764",
+        "addr:housenumber": "44-А",
+        "addr:street": "вулиця Героїв Маріуполя",
+        "name": "VARUS",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.5891533,
+          48.1429167
+        ]
+      },
+      "id": "node/13652327764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13652327766",
+        "addr:housenumber": "21",
+        "addr:street": "вулиця Івана Авраменка",
+        "name": "VARUS",
+        "opening_hours": "Mo-Su 07:00-21:30",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.427062,
+          47.9372787
+        ]
+      },
+      "id": "node/13652327766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13652327775",
+        "addr:housenumber": "36-Б",
+        "addr:street": "вулиця Володимира Великого",
+        "name": "VARUS",
+        "opening_hours": "Mo-Su 07:00-21:30",
+        "shop": "supermarket",
+        "website": "https://varus.ua/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4254152,
+          47.9447193
+        ]
+      },
+      "id": "node/13652327775"
+    }
+  ]
+}

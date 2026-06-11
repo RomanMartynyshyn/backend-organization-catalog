@@ -15,12 +15,14 @@ if (missingEnvVars.length > 0) {
     process.exit(1);
 }
 
-const seedFilePath = path.join(__dirname, "sample-data.sql");
+// const seedFilePath = path.join(__dirname, "sample-data.sql");
+const seedFilePath = path.join(__dirname, "../utils/geoParser/inserts.sql");
 const resetSql = `
 SET FOREIGN_KEY_CHECKS = 0;
 TRUNCATE TABLE organization_categories;
 TRUNCATE TABLE categories;
 TRUNCATE TABLE organizations;
+TRUNCATE TABLE locations;
 SET FOREIGN_KEY_CHECKS = 1;
 `;
 

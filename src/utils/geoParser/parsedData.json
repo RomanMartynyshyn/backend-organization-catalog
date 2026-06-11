@@ -1,0 +1,6735 @@
+{
+  "CATEGORIES": [
+    {
+      "category_id": 1,
+      "name": "Продукти та супермаркети"
+    },
+    {
+      "category_id": 2,
+      "name": "Бізнес, фінанси та сервіси"
+    },
+    {
+      "category_id": 3,
+      "name": "Торгові центри та Універмаги"
+    },
+    {
+      "category_id": 4,
+      "name": "Медицина та здоров'я"
+    },
+    {
+      "category_id": 5,
+      "name": "Заклади харчування"
+    },
+    {
+      "category_id": 6,
+      "name": "Туризм та відпочинок"
+    },
+    {
+      "category_id": 7,
+      "name": "Електроніка та побутова техніка"
+    },
+    {
+      "category_id": 8,
+      "name": "Будинок, ремонт та будівництво"
+    },
+    {
+      "category_id": 9,
+      "name": "Послуги краси"
+    },
+    {
+      "category_id": 10,
+      "name": "Одяг, взуття та аксесуари"
+    }
+  ],
+  "ORGANIZATIONS": [
+    {
+      "org_id": 1,
+      "name": "METRO Кривий Ріг",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.metro.ua/stores/kruvuj-rig-tz20",
+      "contacts": {
+        "phone_numbers": [
+          "0-800-501-401",
+          "0 800 501 401"
+        ],
+        "email": "contactcenter@metro.ua"
+      },
+      "working_hours": "Mo-Su 07:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 2,
+      "name": "ПриватБанк",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "08:30-19:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 3,
+      "name": "Аркада",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 4,
+      "name": "Піраміда",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 5,
+      "name": "Південкомбанк",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 6,
+      "name": "Явір-2000 Кривий Ріг",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://yavir2000.com/",
+      "contacts": {},
+      "working_hours": "Mo-Fr 08:00-17:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 7,
+      "name": "Стоматологічна поліклініка №2",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 8,
+      "name": "2 гуся",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 9,
+      "name": "Арена",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "http://arena.kr.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 92 8846",
+          "+380 67 990 7461"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 10,
+      "name": "Фокстрот",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.foxtrot.com.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 09 4343",
+          "0 800 300 353"
+        ]
+      },
+      "working_hours": "Mo-Su 09:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 11,
+      "name": "Європейський дім торгівлі",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 12,
+      "name": "UniCreditBank",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 13,
+      "name": "Водолей",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 14,
+      "name": "Торговий дім",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 15,
+      "name": "АТБ-Маркет",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.atbmarket.com/uk",
+      "contacts": {
+        "phone_numbers": [
+          "0 800 500 415"
+        ]
+      },
+      "working_hours": "24/7",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 16,
+      "name": "Дитяча стоматологія",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 71 1053"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 17,
+      "name": "Імперіал",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 18,
+      "name": "McDonald's",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.mcdonalds.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 50 463 9116"
+        ]
+      },
+      "working_hours": "Mo-Su 06:00-23:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 19,
+      "name": "Галерея-Нова ТЦ",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 20,
+      "name": "Аврора",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 21,
+      "name": "Плаза 1",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 22,
+      "name": "Плаза 2",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 23,
+      "name": "UkrSibbank",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "facebook": "https://www.facebook.com/ukrsibbank",
+        "instagram": "https://www.instagram.com/ukrsibbank"
+      },
+      "website_url": "https://my.ukrsibbank.com/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 44 590 0675",
+          "+380 44 590 0690",
+          "+380 800 505 800"
+        ]
+      },
+      "working_hours": "Mo-Fr 09:00-17:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 24,
+      "name": "Сатурн",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 25,
+      "name": "Стоматологічна поліклініка №7",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 26,
+      "name": "Орбіта",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 27,
+      "name": "Едельвейс",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 28,
+      "name": "Raziotel",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "www.kr-hotels.com.ua",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 04 8008",
+          "+380 564 04 8011"
+        ],
+        "email": "kryvyi.rih.hotel@raziotel.com"
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 29,
+      "name": "Криворізький центр СНІД",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 30,
+      "name": "Бульвар",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 31,
+      "name": "Міська дитяча лікарня №1",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 32,
+      "name": "Varus",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://varus.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 99 0121",
+          "0 800 307 080",
+          "+380 564 99 0116",
+          "+380 564 99 1506",
+          "+380 564 99 0092",
+          "+380 564 99 0171",
+          "+380 564 99 0119",
+          "+380 564 99 0113",
+          "+380 564 99 0103",
+          "+380 564 99 0153",
+          "+380 564 99 0159"
+        ]
+      },
+      "working_hours": "24/7",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 33,
+      "name": "Ощадбанк",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "facebook": "https://www.facebook.com/oschadbank",
+        "instagram": "https://www.instagram.com/oschadbank_official"
+      },
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 05 5236"
+        ]
+      },
+      "working_hours": "Mo-Fr 00:00-24:00; Su 08:00-17:00; Sa 09:00-13:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 34,
+      "name": "Економний",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 35,
+      "name": "Манго",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 07:00-21:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 36,
+      "name": "Міський пологовий будинок № 1",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 37,
+      "name": "Ремпобуттехніка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 38,
+      "name": "Медіком",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 39,
+      "name": "Україночка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://uahotel.com.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 67 564 8999",
+          "+380 564 26 6545"
+        ],
+        "email": "gkukrainochka@gmail.com"
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 40,
+      "name": "Гінекологічне відділення",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 41,
+      "name": "Продовольчі товари",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 42,
+      "name": "Амбулаторія ЦПМСД №6",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Fr 08:00-18:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 43,
+      "name": "Теплосила",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 44,
+      "name": "Поліклініка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 45,
+      "name": "Південний",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 46,
+      "name": "Взлетка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 47,
+      "name": "Стоматологічна поліклініка №4",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 48,
+      "name": "Терези",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 49,
+      "name": "Промінь",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 50,
+      "name": "Державні Юридичні Консультації",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 51,
+      "name": "Стоматологічна поліклініка №1",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 52,
+      "name": "Промінвест банк",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 53,
+      "name": "Бочка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 04 3582"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 54,
+      "name": "Майстерня тіла",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 55,
+      "name": "Сонячна галерея",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "10:00-21:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 56,
+      "name": "Маяк",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 57,
+      "name": "Мій супер маркет",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 58,
+      "name": "ТЦ \"Ліберті\"",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 59,
+      "name": "Лаванда",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380 98 559 5068"
+        ]
+      },
+      "working_hours": "Mo-Su 09:00-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 60,
+      "name": "Пурі Чвені",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "instagram": "https://www.instagram.com/puri_chveni_kr/"
+      },
+      "website_url": "https://kr.purichveni.com.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380671227373"
+        ]
+      },
+      "working_hours": "Mo-Su 11:00-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 61,
+      "name": "Соцгород",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 62,
+      "name": "ATB",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 63,
+      "name": "Жасмін",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 64,
+      "name": "Вектор",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 65,
+      "name": "Альфа-Банк",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "facebook": "https://www.facebook.com/AlfaBankUkraine/"
+      },
+      "website_url": "https://alfabank.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 99 0027"
+        ],
+        "email": "ccd@alfabank.kiev.ua"
+      },
+      "working_hours": "Mo-Fr 09:00-18:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 66,
+      "name": "Сільпо",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "facebook": "https://www.facebook.com/silpo",
+        "instagram": "https://www.instagram.com/silpoua/",
+        "telegram": "https://t.me/silposilpo"
+      },
+      "website_url": "https://silpo.ua",
+      "contacts": {
+        "phone_numbers": [
+          "0 800 301 707"
+        ],
+        "email": "program@silpo.ua"
+      },
+      "working_hours": "Mo-Su 8:00-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 67,
+      "name": "Дитячий туберкульозний санаторій",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 68,
+      "name": "Святошин",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 69,
+      "name": "Брусничка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 70,
+      "name": "Птиця",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-13:00, 13:30-21:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 71,
+      "name": "Торговий Дім",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 72,
+      "name": "ТЦ Проспект",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "07:00-23:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 73,
+      "name": "Едем",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 74,
+      "name": "Вилен",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 75,
+      "name": "ФоксМарт",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 76,
+      "name": "Вина світу",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 77,
+      "name": "Криворізька міська лікарня №9",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 66 2325"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 78,
+      "name": "Зоряна",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 79,
+      "name": "Колиба",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 80,
+      "name": "Voshod Plaza",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 81,
+      "name": "Будинок торгівлі",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 82,
+      "name": "Автограф",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 92 2465"
+        ]
+      },
+      "working_hours": "11:00-24:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 83,
+      "name": "Сантехника",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 84,
+      "name": "Тройка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 85,
+      "name": "33м2",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "facebook": "https://www.facebook.com/33kvadratnyhmetry"
+      },
+      "website_url": "https://33m2.com.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 98 131 7670",
+          "+380 96 650 2491"
+        ]
+      },
+      "working_hours": "Mo-Su 08:00-19:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 86,
+      "name": "Optima Hotel Deluxe",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 09 2545"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 87,
+      "name": "Thrash! Траш!",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "facebook": "https://www.facebook.com/thrash.ua",
+        "instagram": "https://www.instagram.com/thrash_market.super"
+      },
+      "website_url": "https://thrash.ua",
+      "contacts": {
+        "phone_numbers": [
+          "0 800 300 890"
+        ],
+        "email": "info@thrash.ua"
+      },
+      "working_hours": "Mo-Su 7:00-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 88,
+      "name": "Юкон",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 89,
+      "name": "Харчі",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 90,
+      "name": "Центральний",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 91,
+      "name": "Вогник",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 92,
+      "name": "Успех",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 07:30-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 93,
+      "name": "АТБ №47",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "24/7",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 94,
+      "name": "Tarantino",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 95,
+      "name": "Бажаємо здоров'я",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 96,
+      "name": "ТЦ \"TERRA\"",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 97,
+      "name": "Зручний",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 98,
+      "name": "Родонова водолікарня",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 99,
+      "name": "РІВ'ЄРА КАФЕ",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 100,
+      "name": "Водолій",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 101,
+      "name": "Холодок",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "24/7",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 102,
+      "name": "Будматеріали",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 09:00-19:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 103,
+      "name": "Ресторан \"Бірюза\"",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 104,
+      "name": "Міська лікарня №8",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/8.html",
+      "contacts": {
+        "phone_numbers": [
+          "+380 68 032 8834"
+        ],
+        "email": "8likarnya@gmail.com"
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 105,
+      "name": "Комунальне підприємство \"Криворізький шкірно-венерологічний диспансер\"",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 106,
+      "name": "Криворізька міська лікарня №17",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/13.html",
+      "contacts": {
+        "phone_numbers": [
+          "+380 67 914 5025"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 107,
+      "name": "Гурівський",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 108,
+      "name": "\"Старий млин\"",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 109,
+      "name": "GLORY.UA",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 110,
+      "name": "Pizza Day",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 111,
+      "name": "Malina",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380975995509"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 112,
+      "name": "ТЦ «Молодіжний»",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 113,
+      "name": "Криворіжелектромонтаж",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 114,
+      "name": "АТБ №280",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 115,
+      "name": "Вет. аптека \"Чотири лапи\"",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {
+        "phone_numbers": [
+          "+380 98 996 2318"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 116,
+      "name": "Подорожник",
+      "description": "Подорожник – найбільша мережа аптек України. Асортимент налічує понад 20 000 товарів. У аптеці ви можете придбати потрібні ліки, косметику та інші медзасоби.",
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://podorozhnyk.com",
+      "contacts": {
+        "phone_numbers": [
+          "0800303111"
+        ]
+      },
+      "working_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 117,
+      "name": "Покровський",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 118,
+      "name": "АТБ №113",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "24/7",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 119,
+      "name": "Продукти",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Sa 08:00-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 120,
+      "name": "Гален",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 121,
+      "name": "АТБ №92",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 122,
+      "name": "Лідер",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 123,
+      "name": "EconomClass",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 124,
+      "name": "Жар-Піца",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 125,
+      "name": "Салтовски ковбаси",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 126,
+      "name": "Аптека Подорожник",
+      "description": "Подорожник – найбільша мережа аптек України. Асортимент налічує понад 20 000 товарів. У аптеці ви можете придбати потрібні ліки, косметику та інші медзасоби.",
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://podorozhnyk.com",
+      "contacts": {
+        "phone_numbers": [
+          "0800303111"
+        ]
+      },
+      "working_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 127,
+      "name": "Базарний",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 128,
+      "name": "РАДАБАНК, Відділення №18",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.radabank.com.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 23 3002",
+          "0 800 500 999"
+        ]
+      },
+      "working_hours": "Відділення: Пн-Пт 09:00-18:00 Каса: Пн-Пт 09:00-17:45 Тех. перерва: 12:30-13:30",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 129,
+      "name": "Естет",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 130,
+      "name": "Теплая Корчма",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 131,
+      "name": "Апельсин",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 132,
+      "name": "Рукоділка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Fr 09:00-18:00; Sa 10:00-15:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 133,
+      "name": "777",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "24/7",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 134,
+      "name": "Вентскомплект",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://vents.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 67 638 0108"
+        ],
+        "email": "vents_zao@ukr.net"
+      },
+      "working_hours": "Mo-Fr 09:00-17:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 135,
+      "name": "АлкоМаг",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 136,
+      "name": "Криворіжська пасажирська вагонна дільниця ПКВЧ-9",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 137,
+      "name": "ЕлектроСНАБ",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "http://elektrosnab.com.ua",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 93 2028"
+        ],
+        "email": "snab-kr@mail.ru"
+      },
+      "working_hours": "Mo-Sa 09:00-18:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 138,
+      "name": "Львівська майстерня шоколаду",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.chocolate.lviv.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 68 543 1459"
+        ]
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 139,
+      "name": "Гончарова",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 140,
+      "name": "Козоброд",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 141,
+      "name": "Чп Кот",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 142,
+      "name": "Лоцман",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 143,
+      "name": "Разгуляево",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 09:00-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 144,
+      "name": "Coffee Break",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 145,
+      "name": "Східна кухня",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 146,
+      "name": "Білий вітер. Компанія ІТ",
+      "description": "Компанія Білий вітер займається розробкою веб-сайтів, автоматизацією бізнес-процесів та обліку підприємсв.",
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://wwind.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 09 9403"
+        ],
+        "email": "office@wwind.ua"
+      },
+      "working_hours": "Mo-Fr 08:00-17:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 147,
+      "name": "Криворізька кав'ярня",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 07:30-20:30",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 148,
+      "name": "Нектар",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 149,
+      "name": "Аптека низьких цін",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.aptekanizkihcen.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380564430630"
+        ],
+        "email": "goryachayaliniya@uft.zp.ua"
+      },
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 150,
+      "name": "Техноскарб",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://tehnoskarb.com.ua/",
+      "contacts": {},
+      "working_hours": "Mo-Su 09:00-14:00,14:30-21:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 151,
+      "name": "Делві",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 152,
+      "name": "Sushi wok out",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://swo.com.ua/",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 153,
+      "name": "ГІК УКРМЕХАНОБР",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 154,
+      "name": "Веселе кафе",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 11:00-23:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 155,
+      "name": "Злагода",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 156,
+      "name": "Comfy",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 157,
+      "name": "Полуничка",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 158,
+      "name": "Тріумф",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 159,
+      "name": "Національний",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 160,
+      "name": "Ярок",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 161,
+      "name": "СТРУМ Фрунзе",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 162,
+      "name": "АТБ №356",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "24/7",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 163,
+      "name": "АТБ №443",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "24/7",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 164,
+      "name": "Компанія НАВІ",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.navi.biz.ua",
+      "contacts": {
+        "phone_numbers": [
+          "+380 67 522 6222"
+        ]
+      },
+      "working_hours": "Mo-Fr 09:00-18:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 165,
+      "name": "Пиво-Рыба",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-22:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 166,
+      "name": "РАДАБАНК, Відділення №19",
+      "description": "Обслуговування юридичних і фізичних осіб; випуск та обслуговування платіжних карток; відкриття та обслуговування зарплатних проектів; депозити (гривня, валюта), РКО, валютні операції (купівля, продаж, обмін), переказ грошових коштів, прийом комунальних",
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://www.radabank.com.ua/ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 564 23 3004",
+          "0 800 500 999"
+        ]
+      },
+      "working_hours": "Відділення: Пн-Пт 09:00-18:00 Каса: Пн-Пт 09:00-17:45 Тех. перерва: 12:30-13:30",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 167,
+      "name": "Амбулаторія №6 ЗПСМ",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/8.html",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 168,
+      "name": "Криворізька міська стоматологічна поліклініка №5",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/30.html",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 169,
+      "name": "Центр первинної медико-санітарної допомоги №4",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/54.html",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 170,
+      "name": "Амбулаторія №1 ЗПСМ",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/9.html",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 171,
+      "name": "Амбулаторія №2 ЗПСМ ЦПМСД №2",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 172,
+      "name": "Центр первинної медико-санітарної допомоги №7",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/57.html",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 173,
+      "name": "Центр вакцинації",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 174,
+      "name": "Центр первинної медико-санітарної допомоги №3",
+      "description": "https://krmisto.gov.ua/ua/hospitals/53.html",
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krcpmsd3.lic.org.ua/",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 175,
+      "name": "Центр первинної медико-санітарної допомоги №1",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/51.html",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 176,
+      "name": "Амбулаторія №1 КНП \"ЦПМСД №1\"",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://krmisto.gov.ua/ua/hospitals/ambulatory/id/19.html",
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 177,
+      "name": "У Светы",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 178,
+      "name": "Провайдер Altair",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": "https://altair.kr.ua",
+      "contacts": {
+        "phone_numbers": [
+          "+380 96 054 1555"
+        ]
+      },
+      "working_hours": "Mo-Su 09:00-18:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 179,
+      "name": "АНЦ",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 180,
+      "name": "Аптека інтернет цін",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 181,
+      "name": "The budka",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 182,
+      "name": "Бажаємо здоровʼя",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 183,
+      "name": "Unex Bank",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Fr 09:00-18:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 184,
+      "name": "Гданцівська Кавʼярня",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "instagram": "gdancivska_kavyarnya"
+      },
+      "website_url": "https://instagram.com/gdancivska_kavyarnya",
+      "contacts": {
+        "phone_numbers": [
+          "+380671790029"
+        ]
+      },
+      "working_hours": "Mo-Su 08:00-21:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 185,
+      "name": "Bitcoin ATM - Shitcoins.club",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "facebook": "https://www.facebook.com/shitcoins.club",
+        "instagram": "https://www.instagram.com/shitcoinsclub",
+        "telegram": "https://t.me/shitcoinsclub"
+      },
+      "website_url": "https://shitcoins.club/",
+      "contacts": {
+        "phone_numbers": [
+          "+380 97 433 4473"
+        ],
+        "email": "support@shitcoins.club"
+      },
+      "working_hours": "Mo-Su 09:00-19:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 186,
+      "name": "Чугай(Наш)",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 187,
+      "name": "Аврора",
+      "description": null,
+      "status": "approved",
+      "social_links": {
+        "facebook": "avrora.multimarket",
+        "instagram": "avrora.multimarket"
+      },
+      "website_url": "https://avrora.ua/",
+      "contacts": {
+        "phone_numbers": [
+          "+380800300066"
+        ]
+      },
+      "working_hours": "Mo-Su 08:00-21:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 188,
+      "name": "КОРОНА",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 189,
+      "name": "Ощад Аптека",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 190,
+      "name": "Аптека Бам",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 191,
+      "name": "Савойя [Karas'-party]",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 192,
+      "name": "Маркетопт",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-21:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 193,
+      "name": "Sinsay",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 10:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 194,
+      "name": "Аврора",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": null,
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    },
+    {
+      "org_id": 195,
+      "name": "Аптека",
+      "description": null,
+      "status": "approved",
+      "social_links": {},
+      "website_url": null,
+      "contacts": {},
+      "working_hours": "Mo-Su 08:00-20:00",
+      "created_at": null,
+      "updated_at": null,
+      "appoved_at": null,
+      "rejection_reason": null
+    }
+  ],
+  "LOCATIONS": [
+    {
+      "location_id": 1,
+      "organization_id": 1,
+      "street": "вулиця Володимира Зінченка",
+      "building": "31",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50076",
+      "latitude": 47.9307881,
+      "longitude": 33.4225808
+    },
+    {
+      "location_id": 2,
+      "organization_id": 2,
+      "street": "Німецька вулиця",
+      "building": "5",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9062664,
+      "longitude": 33.3454639
+    },
+    {
+      "location_id": 3,
+      "organization_id": 2,
+      "street": "вулиця Степана Бандери",
+      "building": "21",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9047051,
+      "longitude": 33.4033828
+    },
+    {
+      "location_id": 4,
+      "organization_id": 3,
+      "street": "вулиця Соборності",
+      "building": "29б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50006",
+      "latitude": 47.8997265,
+      "longitude": 33.394818
+    },
+    {
+      "location_id": 5,
+      "organization_id": 4,
+      "street": "Соборна вулиця",
+      "building": "33б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9001432,
+      "longitude": 33.3983547
+    },
+    {
+      "location_id": 6,
+      "organization_id": 5,
+      "street": "вулиця Степана Тільги",
+      "building": "4",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8966168,
+      "longitude": 33.3962271
+    },
+    {
+      "location_id": 7,
+      "organization_id": 6,
+      "street": "проспект Металургів",
+      "building": "22А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.897667,
+      "longitude": 33.3949218
+    },
+    {
+      "location_id": 8,
+      "organization_id": 7,
+      "street": "проспект Металургів",
+      "building": "12",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50006",
+      "latitude": 47.8947151,
+      "longitude": 33.3956843
+    },
+    {
+      "location_id": 9,
+      "organization_id": 8,
+      "street": "Мистецька вулиця",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.900533,
+      "longitude": 33.3994431
+    },
+    {
+      "location_id": 10,
+      "organization_id": 9,
+      "street": "вулиця Соборності",
+      "building": "37",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9008404,
+      "longitude": 33.4014275
+    },
+    {
+      "location_id": 11,
+      "organization_id": 10,
+      "street": "проспект Металургів",
+      "building": "36",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000-50479",
+      "latitude": 47.9022389,
+      "longitude": 33.3941006
+    },
+    {
+      "location_id": 12,
+      "organization_id": 11,
+      "street": "проспект Металургів",
+      "building": "2а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000-50479",
+      "latitude": 47.9032313,
+      "longitude": 33.3951431
+    },
+    {
+      "location_id": 13,
+      "organization_id": 12,
+      "street": "Мистецька вулиця",
+      "building": "3",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9010742,
+      "longitude": 33.3983363
+    },
+    {
+      "location_id": 14,
+      "organization_id": 13,
+      "street": "вулиця Соборності",
+      "building": "34",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50006",
+      "latitude": 47.9004417,
+      "longitude": 33.4060695
+    },
+    {
+      "location_id": 15,
+      "organization_id": 14,
+      "street": "вулиця Віталія Матусевича",
+      "building": "20а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9033415,
+      "longitude": 33.4067055
+    },
+    {
+      "location_id": 16,
+      "organization_id": 15,
+      "street": "вулиця Соборності",
+      "building": "49",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50006",
+      "latitude": 47.9013014,
+      "longitude": 33.407078
+    },
+    {
+      "location_id": 17,
+      "organization_id": 16,
+      "street": "вулиця Віталія Матусевича",
+      "building": "39",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9044191,
+      "longitude": 33.4089541
+    },
+    {
+      "location_id": 18,
+      "organization_id": 17,
+      "street": "вулиця Дениса Комара",
+      "building": "9",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8947657,
+      "longitude": 33.4095349
+    },
+    {
+      "location_id": 19,
+      "organization_id": 15,
+      "street": "вулиця Соборності",
+      "building": "98",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50006",
+      "latitude": 47.8990314,
+      "longitude": 33.4244475
+    },
+    {
+      "location_id": 20,
+      "organization_id": 18,
+      "street": "Університетський проспект",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9099552,
+      "longitude": 33.392569
+    },
+    {
+      "location_id": 21,
+      "organization_id": 19,
+      "street": "проспект Металургів",
+      "building": "42",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000-50479",
+      "latitude": 47.9093418,
+      "longitude": 33.3927965
+    },
+    {
+      "location_id": 22,
+      "organization_id": 20,
+      "street": "проспект Металургів",
+      "building": "40",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000-50479",
+      "latitude": 47.9089653,
+      "longitude": 33.3930877
+    },
+    {
+      "location_id": 23,
+      "organization_id": 21,
+      "street": "Університетський проспект",
+      "building": "4-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9096771,
+      "longitude": 33.3927578
+    },
+    {
+      "location_id": 24,
+      "organization_id": 22,
+      "street": "Університетський проспект",
+      "building": "4",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9097376,
+      "longitude": 33.3933847
+    },
+    {
+      "location_id": 25,
+      "organization_id": 23,
+      "street": "Університетський проспект",
+      "building": "58",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9079277,
+      "longitude": 33.4159727
+    },
+    {
+      "location_id": 26,
+      "organization_id": 15,
+      "street": "вулиця Петра Дорошенка",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9072699,
+      "longitude": 33.4206125
+    },
+    {
+      "location_id": 27,
+      "organization_id": 24,
+      "street": "площа 95-й Квартал",
+      "building": "10",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9114619,
+      "longitude": 33.3919568
+    },
+    {
+      "location_id": 28,
+      "organization_id": 25,
+      "street": "Кокчетавська вулиця",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9030006,
+      "longitude": 33.457774
+    },
+    {
+      "location_id": 29,
+      "organization_id": 26,
+      "street": "Магістральна вулиця",
+      "building": "17а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9034644,
+      "longitude": 33.4603658
+    },
+    {
+      "location_id": 30,
+      "organization_id": 27,
+      "street": "Колійна вулиця",
+      "building": "24",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9178625,
+      "longitude": 33.4667409
+    },
+    {
+      "location_id": 31,
+      "organization_id": 28,
+      "street": "Магістральна вулиця",
+      "building": "8",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50055",
+      "latitude": 47.9047464,
+      "longitude": 33.4579111
+    },
+    {
+      "location_id": 32,
+      "organization_id": 15,
+      "street": "вулиця Гетьмана Івана Мазепи",
+      "building": "76",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9114718,
+      "longitude": 33.4550141
+    },
+    {
+      "location_id": 33,
+      "organization_id": 29,
+      "street": "Нікопольське шосе",
+      "building": "4г",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8876539,
+      "longitude": 33.3906145
+    },
+    {
+      "location_id": 34,
+      "organization_id": 30,
+      "street": "Центральний проспект",
+      "building": "33",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9043731,
+      "longitude": 33.3550394
+    },
+    {
+      "location_id": 35,
+      "organization_id": 31,
+      "street": "площа Визволення",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.908194,
+      "longitude": 33.3406497
+    },
+    {
+      "location_id": 36,
+      "organization_id": 32,
+      "street": "проспект Героїв-Підпільників",
+      "building": "1А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9053666,
+      "longitude": 33.375654
+    },
+    {
+      "location_id": 37,
+      "organization_id": 33,
+      "street": "вулиця Чкалова",
+      "building": "44а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50002",
+      "latitude": 47.9030968,
+      "longitude": 33.3539995
+    },
+    {
+      "location_id": 38,
+      "organization_id": 34,
+      "street": "площа Шахтарської Слави",
+      "building": "3а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9090802,
+      "longitude": 33.3826153
+    },
+    {
+      "location_id": 39,
+      "organization_id": 35,
+      "street": "вулиця Героїв АТО",
+      "building": "78а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9043089,
+      "longitude": 33.4225075
+    },
+    {
+      "location_id": 40,
+      "organization_id": 36,
+      "street": "площа Визволення",
+      "building": "11",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9071984,
+      "longitude": 33.339151
+    },
+    {
+      "location_id": 41,
+      "organization_id": 37,
+      "street": "проспект Миру",
+      "building": "29в",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9082738,
+      "longitude": 33.3853187
+    },
+    {
+      "location_id": 42,
+      "organization_id": 38,
+      "street": "вулиця Гірничих Інженерів",
+      "building": "13-О",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50002",
+      "latitude": 47.9085214,
+      "longitude": 33.349745
+    },
+    {
+      "location_id": 43,
+      "organization_id": 39,
+      "street": "Гетьманська вулиця",
+      "building": "80",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50007",
+      "latitude": 47.9071561,
+      "longitude": 33.3758344
+    },
+    {
+      "location_id": 44,
+      "organization_id": 40,
+      "street": "площа Визволення",
+      "building": "11а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9071986,
+      "longitude": 33.3401936
+    },
+    {
+      "location_id": 45,
+      "organization_id": 41,
+      "street": "вулиця Рахманінова",
+      "building": "7а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8910159,
+      "longitude": 33.3143954
+    },
+    {
+      "location_id": 46,
+      "organization_id": 42,
+      "street": "вулиця Миколаївське Шосе",
+      "building": "21",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8853902,
+      "longitude": 33.286787
+    },
+    {
+      "location_id": 47,
+      "organization_id": 43,
+      "street": "Каховська вулиця",
+      "building": "31",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8831177,
+      "longitude": 33.3638437
+    },
+    {
+      "location_id": 48,
+      "organization_id": 44,
+      "street": "вулиця Криворіжсталі",
+      "building": "5а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8829254,
+      "longitude": 33.3877289
+    },
+    {
+      "location_id": 49,
+      "organization_id": 45,
+      "street": "Тбіліська вулиця",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8808537,
+      "longitude": 33.3692411
+    },
+    {
+      "location_id": 50,
+      "organization_id": 46,
+      "street": "вулиця Всебратське-2",
+      "building": "65в",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8805047,
+      "longitude": 33.2563583
+    },
+    {
+      "location_id": 51,
+      "organization_id": 47,
+      "street": "вулиця Подлєпи",
+      "building": "35",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8427224,
+      "longitude": 33.3475457
+    },
+    {
+      "location_id": 52,
+      "organization_id": 32,
+      "street": "Вечірньокутська вулиця",
+      "building": "64",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9243917,
+      "longitude": 33.4477245
+    },
+    {
+      "location_id": 53,
+      "organization_id": 48,
+      "street": "вулиця Дніпровське Шосе",
+      "building": "34",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9207104,
+      "longitude": 33.4399511
+    },
+    {
+      "location_id": 54,
+      "organization_id": 49,
+      "street": "вулиця Кармелюка",
+      "building": "4",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8338192,
+      "longitude": 33.3457869
+    },
+    {
+      "location_id": 55,
+      "organization_id": 15,
+      "street": "Південний проспект",
+      "building": "34",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8410219,
+      "longitude": 33.3480332
+    },
+    {
+      "location_id": 56,
+      "organization_id": 50,
+      "street": "Південний проспект",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8327944,
+      "longitude": 33.343456
+    },
+    {
+      "location_id": 57,
+      "organization_id": 51,
+      "street": "площа Визволення",
+      "building": "5",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50099",
+      "latitude": 47.9089137,
+      "longitude": 33.3400347
+    },
+    {
+      "location_id": 58,
+      "organization_id": 52,
+      "street": "Поштовий проспект",
+      "building": "5",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.9023282,
+      "longitude": 33.340776
+    },
+    {
+      "location_id": 59,
+      "organization_id": 53,
+      "street": "Німецька вулиця",
+      "building": "1а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9036569,
+      "longitude": 33.3443342
+    },
+    {
+      "location_id": 60,
+      "organization_id": 54,
+      "street": "Каунаська вулиця",
+      "building": "2б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.9006405,
+      "longitude": 33.3445668
+    },
+    {
+      "location_id": 61,
+      "organization_id": 15,
+      "street": "Поштовий проспект",
+      "building": "39а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.907264,
+      "longitude": 33.3434298
+    },
+    {
+      "location_id": 62,
+      "organization_id": 55,
+      "street": "майдан Олександра Химиченка",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9468759,
+      "longitude": 33.4408888
+    },
+    {
+      "location_id": 63,
+      "organization_id": 56,
+      "street": "вулиця Соборності",
+      "building": "29п",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8999566,
+      "longitude": 33.3958546
+    },
+    {
+      "location_id": 64,
+      "organization_id": 57,
+      "street": "Південний проспект",
+      "building": "44а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8806768,
+      "longitude": 33.3601636
+    },
+    {
+      "location_id": 65,
+      "organization_id": 58,
+      "street": "Поштовий проспект",
+      "building": "35б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.9061131,
+      "longitude": 33.3426971
+    },
+    {
+      "location_id": 66,
+      "organization_id": 59,
+      "street": "Кривбасівська вулиця",
+      "building": "93",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50024",
+      "latitude": 47.9160351,
+      "longitude": 33.3336917
+    },
+    {
+      "location_id": 67,
+      "organization_id": 60,
+      "street": "проспект Миру",
+      "building": "17а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50069",
+      "latitude": 47.905933,
+      "longitude": 33.3816321
+    },
+    {
+      "location_id": 68,
+      "organization_id": 61,
+      "street": "проспект Металургів",
+      "building": "28а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9007931,
+      "longitude": 33.3940566
+    },
+    {
+      "location_id": 69,
+      "organization_id": 62,
+      "street": "проспект Перемоги",
+      "building": "11",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.6841204,
+      "longitude": 33.1667897
+    },
+    {
+      "location_id": 70,
+      "organization_id": 63,
+      "street": "проспект Перемоги",
+      "building": "11а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.6839623,
+      "longitude": 33.1663102
+    },
+    {
+      "location_id": 71,
+      "organization_id": 64,
+      "street": "Соборна вулиця",
+      "building": "4",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9455257,
+      "longitude": 33.4382176
+    },
+    {
+      "location_id": 72,
+      "organization_id": 65,
+      "street": "вулиця Юрія Камінського",
+      "building": "21а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000-50479",
+      "latitude": 47.9018387,
+      "longitude": 33.3928501
+    },
+    {
+      "location_id": 73,
+      "organization_id": 66,
+      "street": "вулиця Героїв АТО",
+      "building": "30-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000-50479",
+      "latitude": 47.9066619,
+      "longitude": 33.3971027
+    },
+    {
+      "location_id": 74,
+      "organization_id": 67,
+      "street": "Європейський бульвар",
+      "building": "14",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9359967,
+      "longitude": 33.4400655
+    },
+    {
+      "location_id": 75,
+      "organization_id": 68,
+      "street": "вулиця Павла Глазового",
+      "building": "26а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50076",
+      "latitude": 47.9350924,
+      "longitude": 33.4244434
+    },
+    {
+      "location_id": 76,
+      "organization_id": 69,
+      "street": "вулиця Генерала Радієвського",
+      "building": "1а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9449838,
+      "longitude": 33.4262561
+    },
+    {
+      "location_id": 77,
+      "organization_id": 70,
+      "street": "Спасівська вулиця",
+      "building": "17а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9608975,
+      "longitude": 33.4261317
+    },
+    {
+      "location_id": 78,
+      "organization_id": 71,
+      "street": "проспект 200-річчя Кривого Рогу",
+      "building": "4а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9602691,
+      "longitude": 33.4367189
+    },
+    {
+      "location_id": 79,
+      "organization_id": 72,
+      "street": "проспект 200-річчя Кривого Рогу",
+      "building": "24",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9632838,
+      "longitude": 33.4346936
+    },
+    {
+      "location_id": 80,
+      "organization_id": 73,
+      "street": "Виноградна вулиця",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9586937,
+      "longitude": 33.4301336
+    },
+    {
+      "location_id": 81,
+      "organization_id": 15,
+      "street": "вулиця Віктора Оцерклевича",
+      "building": "1г",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9631565,
+      "longitude": 33.4280624
+    },
+    {
+      "location_id": 82,
+      "organization_id": 15,
+      "street": "бульвар Миколи Вороного",
+      "building": "22",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9678004,
+      "longitude": 33.4473229
+    },
+    {
+      "location_id": 83,
+      "organization_id": 74,
+      "street": "вулиця Володимира Великого",
+      "building": "27а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50071",
+      "latitude": 47.9433539,
+      "longitude": 33.4189841
+    },
+    {
+      "location_id": 84,
+      "organization_id": 75,
+      "street": "Вечірній бульвар",
+      "building": "31а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9358071,
+      "longitude": 33.4337808
+    },
+    {
+      "location_id": 85,
+      "organization_id": 15,
+      "street": "вулиця Лісового",
+      "building": "24а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9492089,
+      "longitude": 33.4532138
+    },
+    {
+      "location_id": 86,
+      "organization_id": 76,
+      "street": "Свято-Миколаївська вулиця",
+      "building": "28а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.9020449,
+      "longitude": 33.3361006
+    },
+    {
+      "location_id": 87,
+      "organization_id": 77,
+      "street": "Женевська вулиця",
+      "building": "6б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50031",
+      "latitude": 47.9832198,
+      "longitude": 33.4417983
+    },
+    {
+      "location_id": 88,
+      "organization_id": 78,
+      "street": "Шурупова вулиця",
+      "building": "2б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.999043,
+      "longitude": 33.4500089
+    },
+    {
+      "location_id": 89,
+      "organization_id": 79,
+      "street": "Ботанічна вулиця",
+      "building": "23",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50079",
+      "latitude": 48.1479907,
+      "longitude": 33.5865327
+    },
+    {
+      "location_id": 90,
+      "organization_id": 80,
+      "street": "вулиця Володимира Терещенка",
+      "building": "1е",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.1455258,
+      "longitude": 33.5617963
+    },
+    {
+      "location_id": 91,
+      "organization_id": 15,
+      "street": "вулиця Антона Ігнатченка",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50079",
+      "latitude": 48.1434568,
+      "longitude": 33.5651624
+    },
+    {
+      "location_id": 92,
+      "organization_id": 81,
+      "street": "вулиця Володимира Терещенка",
+      "building": "5а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50079",
+      "latitude": 48.1454172,
+      "longitude": 33.5633014
+    },
+    {
+      "location_id": 93,
+      "organization_id": 82,
+      "street": "Університетський проспект",
+      "building": "44",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9079754,
+      "longitude": 33.4053758
+    },
+    {
+      "location_id": 94,
+      "organization_id": 32,
+      "street": "вулиця Петра Калнишевського",
+      "building": "15А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50024",
+      "latitude": 47.9133658,
+      "longitude": 33.3367855
+    },
+    {
+      "location_id": 95,
+      "organization_id": 83,
+      "street": "вулиця Олександра Поля",
+      "building": "30",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9020411,
+      "longitude": 33.3502685
+    },
+    {
+      "location_id": 96,
+      "organization_id": 84,
+      "street": "Переяславська вулиця",
+      "building": "3а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8334522,
+      "longitude": 33.3456768
+    },
+    {
+      "location_id": 97,
+      "organization_id": 85,
+      "street": "Електрозаводська вулиця",
+      "building": "53а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9951335,
+      "longitude": 33.4902794
+    },
+    {
+      "location_id": 98,
+      "organization_id": 15,
+      "street": "вулиця Федора Караманиць",
+      "building": "66А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50059",
+      "latitude": 48.0103235,
+      "longitude": 33.4806742
+    },
+    {
+      "location_id": 99,
+      "organization_id": 86,
+      "street": "вулиця Кропивницького",
+      "building": "21Б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0220233,
+      "longitude": 33.4685241
+    },
+    {
+      "location_id": 100,
+      "organization_id": 87,
+      "street": "вулиця Федора Караманиць",
+      "building": "39",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50059",
+      "latitude": 48.0213867,
+      "longitude": 33.4734103
+    },
+    {
+      "location_id": 101,
+      "organization_id": 88,
+      "street": "вулиця Федора Караманиць",
+      "building": "50",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50059",
+      "latitude": 48.0137658,
+      "longitude": 33.4766406
+    },
+    {
+      "location_id": 102,
+      "organization_id": 15,
+      "street": "Електрична вулиця",
+      "building": "3б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0026744,
+      "longitude": 33.4449309
+    },
+    {
+      "location_id": 103,
+      "organization_id": 89,
+      "street": "вулиця Лисяка",
+      "building": "6а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0313137,
+      "longitude": 33.4786551
+    },
+    {
+      "location_id": 104,
+      "organization_id": 32,
+      "street": "вулиця Романа Шухевича",
+      "building": "17",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.033429,
+      "longitude": 33.4766573
+    },
+    {
+      "location_id": 105,
+      "organization_id": 90,
+      "street": "вулиця Романа Шухевича",
+      "building": "16",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.034305,
+      "longitude": 33.4792488
+    },
+    {
+      "location_id": 106,
+      "organization_id": 91,
+      "street": "вулиця Дмитра Войчишена",
+      "building": "14а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0422189,
+      "longitude": 33.4837621
+    },
+    {
+      "location_id": 107,
+      "organization_id": 92,
+      "street": "вулиця Сергія Колачевського",
+      "building": "32В",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0507805,
+      "longitude": 33.4854324
+    },
+    {
+      "location_id": 108,
+      "organization_id": 93,
+      "street": "вулиця Павла Глазового",
+      "building": "28а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50076",
+      "latitude": 47.9355785,
+      "longitude": 33.4224928
+    },
+    {
+      "location_id": 109,
+      "organization_id": 32,
+      "street": "Магістральна вулиця",
+      "building": "23",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9015179,
+      "longitude": 33.4598475
+    },
+    {
+      "location_id": 110,
+      "organization_id": 94,
+      "street": "вулиця Едуарда Фукса",
+      "building": "48а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50042",
+      "latitude": 47.9720416,
+      "longitude": 33.4356923
+    },
+    {
+      "location_id": 111,
+      "organization_id": 95,
+      "street": "вулиця Сергія Колачевського",
+      "building": "93а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0710258,
+      "longitude": 33.5067648
+    },
+    {
+      "location_id": 112,
+      "organization_id": 96,
+      "street": "Чарівна вулиця",
+      "building": "1б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0744185,
+      "longitude": 33.5152114
+    },
+    {
+      "location_id": 113,
+      "organization_id": 85,
+      "street": "вулиця Сергія Колачевського",
+      "building": "81/1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0678618,
+      "longitude": 33.5002041
+    },
+    {
+      "location_id": 114,
+      "organization_id": 97,
+      "street": "Прорізна вулиця",
+      "building": "60",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50019",
+      "latitude": 47.9077286,
+      "longitude": 33.3134542
+    },
+    {
+      "location_id": 115,
+      "organization_id": 66,
+      "street": "площа Визволення",
+      "building": "1-К",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9085421,
+      "longitude": 33.3417075
+    },
+    {
+      "location_id": 116,
+      "organization_id": 98,
+      "street": "вулиця Савицького",
+      "building": "17",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8369867,
+      "longitude": 33.3496691
+    },
+    {
+      "location_id": 117,
+      "organization_id": 99,
+      "street": "вулиця Кропивницького",
+      "building": "53Б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0117126,
+      "longitude": 33.4751749
+    },
+    {
+      "location_id": 118,
+      "organization_id": 100,
+      "street": "Ботанічна вулиця",
+      "building": "14а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50079",
+      "latitude": 48.1449454,
+      "longitude": 33.583955
+    },
+    {
+      "location_id": 119,
+      "organization_id": 15,
+      "street": "вулиця Криворіжсталі",
+      "building": "9в",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8819283,
+      "longitude": 33.3832897
+    },
+    {
+      "location_id": 120,
+      "organization_id": 101,
+      "street": "Електрозаводська вулиця",
+      "building": "28б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9946084,
+      "longitude": 33.4885306
+    },
+    {
+      "location_id": 121,
+      "organization_id": 32,
+      "street": "Сонячний мікрорайон",
+      "building": "41А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50056",
+      "latitude": 47.9558287,
+      "longitude": 33.4479446
+    },
+    {
+      "location_id": 122,
+      "organization_id": 102,
+      "street": "вулиця Сергія Колачевського",
+      "building": "32Б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50037",
+      "latitude": 48.0509253,
+      "longitude": 33.4855414
+    },
+    {
+      "location_id": 123,
+      "organization_id": 103,
+      "street": "вулиця Бірюзова",
+      "building": "12а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.1472385,
+      "longitude": 33.5476927
+    },
+    {
+      "location_id": 124,
+      "organization_id": 104,
+      "street": "вулиця Сергія Колачевського",
+      "building": "55",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50082",
+      "latitude": 48.07091,
+      "longitude": 33.5148844
+    },
+    {
+      "location_id": 125,
+      "organization_id": 105,
+      "street": "вулиця Володимира Великого",
+      "building": "25",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50071",
+      "latitude": 47.9415824,
+      "longitude": 33.4142686
+    },
+    {
+      "location_id": 126,
+      "organization_id": 106,
+      "street": "вулиця Каткова",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50102",
+      "latitude": 47.6881738,
+      "longitude": 33.1507245
+    },
+    {
+      "location_id": 127,
+      "organization_id": 107,
+      "street": "вулиця Вадима Гурова",
+      "building": "17",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8954454,
+      "longitude": 33.4038069
+    },
+    {
+      "location_id": 128,
+      "organization_id": 108,
+      "street": "Вечірній бульвар",
+      "building": "20",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9405412,
+      "longitude": 33.435172
+    },
+    {
+      "location_id": 129,
+      "organization_id": 109,
+      "street": "Чарівна вулиця",
+      "building": "1г",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0740459,
+      "longitude": 33.5144222
+    },
+    {
+      "location_id": 130,
+      "organization_id": 110,
+      "street": "вулиця Федора Караманиць",
+      "building": "53б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0099739,
+      "longitude": 33.4832459
+    },
+    {
+      "location_id": 131,
+      "organization_id": 111,
+      "street": "вулиця Булди",
+      "building": "4а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9991148,
+      "longitude": 33.4552925
+    },
+    {
+      "location_id": 132,
+      "organization_id": 112,
+      "street": "вулиця Олексія Різниченка",
+      "building": "5а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9707996,
+      "longitude": 33.4426421
+    },
+    {
+      "location_id": 133,
+      "organization_id": 113,
+      "street": "вулиця Криворіжсталі",
+      "building": "1к",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.876532,
+      "longitude": 33.3575247
+    },
+    {
+      "location_id": 134,
+      "organization_id": 114,
+      "street": "вулиця Курчатова",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50084",
+      "latitude": 47.9630788,
+      "longitude": 33.4265433
+    },
+    {
+      "location_id": 135,
+      "organization_id": 115,
+      "street": "вулиця Криворіжсталі",
+      "building": "50",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8799775,
+      "longitude": 33.3713703
+    },
+    {
+      "location_id": 136,
+      "organization_id": 116,
+      "street": "проспект Металургів",
+      "building": "15",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9006553,
+      "longitude": 33.3931467
+    },
+    {
+      "location_id": 137,
+      "organization_id": 116,
+      "street": "проспект Металургів",
+      "building": "24",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8992327,
+      "longitude": 33.3951787
+    },
+    {
+      "location_id": 138,
+      "organization_id": 117,
+      "street": "Армавірська вулиця",
+      "building": "13",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0341677,
+      "longitude": 33.483118
+    },
+    {
+      "location_id": 139,
+      "organization_id": 118,
+      "street": "вулиця Едуарда Фукса",
+      "building": "40",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50042",
+      "latitude": 47.9745483,
+      "longitude": 33.4359328
+    },
+    {
+      "location_id": 140,
+      "organization_id": 119,
+      "street": "вулиця Павла Глазового",
+      "building": "4",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50076",
+      "latitude": 47.9353857,
+      "longitude": 33.418752
+    },
+    {
+      "location_id": 141,
+      "organization_id": 116,
+      "street": "вулиця Федора Караманиць",
+      "building": "28",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0217651,
+      "longitude": 33.4716738
+    },
+    {
+      "location_id": 142,
+      "organization_id": 120,
+      "street": "Січеславська вулиця",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50031",
+      "latitude": 47.9856948,
+      "longitude": 33.4387185
+    },
+    {
+      "location_id": 143,
+      "organization_id": 121,
+      "street": "вулиця Водопʼянова",
+      "building": "29а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9337085,
+      "longitude": 33.4384159
+    },
+    {
+      "location_id": 144,
+      "organization_id": 2,
+      "street": "вулиця Романа Шухевича",
+      "building": "7",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0305638,
+      "longitude": 33.4751162
+    },
+    {
+      "location_id": 145,
+      "organization_id": 15,
+      "street": "вулиця Романа Шухевича",
+      "building": "19а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0369735,
+      "longitude": 33.4796422
+    },
+    {
+      "location_id": 146,
+      "organization_id": 66,
+      "street": "майдан Олександра Химиченка",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50008",
+      "latitude": 47.9472025,
+      "longitude": 33.4401701
+    },
+    {
+      "location_id": 147,
+      "organization_id": 122,
+      "street": "вулиця Мартіна Шимановського",
+      "building": "5",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50004",
+      "latitude": 47.8953161,
+      "longitude": 33.337562
+    },
+    {
+      "location_id": 148,
+      "organization_id": 123,
+      "street": "площа Визволення",
+      "building": "1к",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9086294,
+      "longitude": 33.3416549
+    },
+    {
+      "location_id": 149,
+      "organization_id": 124,
+      "street": "проспект Перемоги",
+      "building": "34а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50102",
+      "latitude": 47.6834905,
+      "longitude": 33.1575455
+    },
+    {
+      "location_id": 150,
+      "organization_id": 125,
+      "street": "Свято-Миколаївська вулиця",
+      "building": "41",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.9018188,
+      "longitude": 33.3395335
+    },
+    {
+      "location_id": 151,
+      "organization_id": 32,
+      "street": "Свято-Миколаївська вулиця",
+      "building": "10-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9061483,
+      "longitude": 33.3309961
+    },
+    {
+      "location_id": 152,
+      "organization_id": 126,
+      "street": "вулиця Калнишевського",
+      "building": "11",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9119446,
+      "longitude": 33.339421
+    },
+    {
+      "location_id": 153,
+      "organization_id": 127,
+      "street": "вулиця Чкалова",
+      "building": "44/6",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9023097,
+      "longitude": 33.3514315
+    },
+    {
+      "location_id": 154,
+      "organization_id": 128,
+      "street": "Поштовий проспект",
+      "building": "18",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9037148,
+      "longitude": 33.3421825
+    },
+    {
+      "location_id": 155,
+      "organization_id": 2,
+      "street": "Січеславська вулиця",
+      "building": "7",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50014",
+      "latitude": 47.9875439,
+      "longitude": 33.43776
+    },
+    {
+      "location_id": 156,
+      "organization_id": 129,
+      "street": "проспект Миру",
+      "building": "7",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9050667,
+      "longitude": 33.3721746
+    },
+    {
+      "location_id": 157,
+      "organization_id": 130,
+      "street": "Прорізна вулиця",
+      "building": "89",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9072973,
+      "longitude": 33.2974929
+    },
+    {
+      "location_id": 158,
+      "organization_id": 116,
+      "street": "вулиця Лісового",
+      "building": "14-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9490311,
+      "longitude": 33.4528756
+    },
+    {
+      "location_id": 159,
+      "organization_id": 131,
+      "street": "Ярославська вулиця",
+      "building": "8",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.843523,
+      "longitude": 33.3563463
+    },
+    {
+      "location_id": 160,
+      "organization_id": 132,
+      "street": "вулиця Соборності",
+      "building": "39",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9005422,
+      "longitude": 33.4027296
+    },
+    {
+      "location_id": 161,
+      "organization_id": 133,
+      "street": "Університетський проспект",
+      "building": "3",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.910517,
+      "longitude": 33.3935393
+    },
+    {
+      "location_id": 162,
+      "organization_id": 134,
+      "street": "вулиця Упіта",
+      "building": "54",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50069",
+      "latitude": 47.9364645,
+      "longitude": 33.3951768
+    },
+    {
+      "location_id": 163,
+      "organization_id": 135,
+      "street": "вулиця Петра Дорошенка",
+      "building": "5а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9016838,
+      "longitude": 33.4199786
+    },
+    {
+      "location_id": 164,
+      "organization_id": 136,
+      "street": "вулиця Гетьмана Івана Мазепи",
+      "building": "153",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9226811,
+      "longitude": 33.4700042
+    },
+    {
+      "location_id": 165,
+      "organization_id": 32,
+      "street": "вулиця Всебратське-2",
+      "building": "58-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50046",
+      "latitude": 47.8796065,
+      "longitude": 33.2549447
+    },
+    {
+      "location_id": 166,
+      "organization_id": 137,
+      "street": "Спасівська вулиця",
+      "building": "17а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50021",
+      "latitude": 47.9608413,
+      "longitude": 33.4271538
+    },
+    {
+      "location_id": 167,
+      "organization_id": 138,
+      "street": "вулиця Олександра Поля",
+      "building": "11",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.902739,
+      "longitude": 33.3412541
+    },
+    {
+      "location_id": 168,
+      "organization_id": 139,
+      "street": "Рахманівська вулиця",
+      "building": "6а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.7999689,
+      "longitude": 33.2438152
+    },
+    {
+      "location_id": 169,
+      "organization_id": 140,
+      "street": "вулиця Бориса Глінки",
+      "building": "7а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8050365,
+      "longitude": 33.2416601
+    },
+    {
+      "location_id": 170,
+      "organization_id": 141,
+      "street": "вулиця Яцьківа",
+      "building": "32",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8236615,
+      "longitude": 33.265863
+    },
+    {
+      "location_id": 171,
+      "organization_id": 142,
+      "street": "Коломийцевська вулиця",
+      "building": "19/1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9777945,
+      "longitude": 33.5122147
+    },
+    {
+      "location_id": 172,
+      "organization_id": 32,
+      "street": "Чарівна вулиця",
+      "building": "1-Б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0746811,
+      "longitude": 33.5151646
+    },
+    {
+      "location_id": 173,
+      "organization_id": 143,
+      "street": "вулиця Віталія Матусевича",
+      "building": "17а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9046336,
+      "longitude": 33.403622
+    },
+    {
+      "location_id": 174,
+      "organization_id": 144,
+      "street": "Чарівна вулиця",
+      "building": "1Б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 48.0746354,
+      "longitude": 33.5150632
+    },
+    {
+      "location_id": 175,
+      "organization_id": 145,
+      "street": "вулиця Петра Веропотвеляна",
+      "building": "42б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9035152,
+      "longitude": 33.3505836
+    },
+    {
+      "location_id": 176,
+      "organization_id": 32,
+      "street": "вулиця Генерала Безручка",
+      "building": "43",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.6809378,
+      "longitude": 33.1575751
+    },
+    {
+      "location_id": 177,
+      "organization_id": 146,
+      "street": "вулиця Глінки",
+      "building": "40а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.9000117,
+      "longitude": 33.3492829
+    },
+    {
+      "location_id": 178,
+      "organization_id": 32,
+      "street": "5-й Зарічний мікрорайон",
+      "building": "11-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0014629,
+      "longitude": 33.4824872
+    },
+    {
+      "location_id": 179,
+      "organization_id": 147,
+      "street": "вулиця Івана Авраменка",
+      "building": "21а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9373433,
+      "longitude": 33.4276425
+    },
+    {
+      "location_id": 180,
+      "organization_id": 148,
+      "street": "Бульварний провулок",
+      "building": "16",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50071",
+      "latitude": 47.9376039,
+      "longitude": 33.419779
+    },
+    {
+      "location_id": 181,
+      "organization_id": 149,
+      "street": "5-Заречный",
+      "building": "7",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9992686,
+      "longitude": 33.4817251
+    },
+    {
+      "location_id": 182,
+      "organization_id": 150,
+      "street": "проспект 200-річчя Кривого Рогу",
+      "building": "12а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9655117,
+      "longitude": 33.4352539
+    },
+    {
+      "location_id": 183,
+      "organization_id": 151,
+      "street": "вулиця Джона Маккейна",
+      "building": "13",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0344034,
+      "longitude": 33.4832921
+    },
+    {
+      "location_id": 184,
+      "organization_id": 152,
+      "street": "Комерційна вулиця",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.901597,
+      "longitude": 33.3426848
+    },
+    {
+      "location_id": 185,
+      "organization_id": 153,
+      "street": "вулиця Деміденка",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9083784,
+      "longitude": 33.3755341
+    },
+    {
+      "location_id": 186,
+      "organization_id": 154,
+      "street": "вулиця Військового Тилу",
+      "building": "7",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0168562,
+      "longitude": 33.468565
+    },
+    {
+      "location_id": 187,
+      "organization_id": 32,
+      "street": "проспект 200-річчя Кривого Рогу",
+      "building": "24",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9632755,
+      "longitude": 33.4349264
+    },
+    {
+      "location_id": 188,
+      "organization_id": 155,
+      "street": "вулиця Електроніки",
+      "building": "1в",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9139157,
+      "longitude": 33.355597
+    },
+    {
+      "location_id": 189,
+      "organization_id": 32,
+      "street": "вулиця Незалежності України",
+      "building": "16-Б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9483088,
+      "longitude": 33.4560353
+    },
+    {
+      "location_id": 190,
+      "organization_id": 156,
+      "street": "Центральний проспект",
+      "building": "37",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9042208,
+      "longitude": 33.3581936
+    },
+    {
+      "location_id": 191,
+      "organization_id": 32,
+      "street": "вулиця Миколи Світальського",
+      "building": "15",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9721202,
+      "longitude": 33.4441048
+    },
+    {
+      "location_id": 192,
+      "organization_id": 32,
+      "street": "Південний проспект",
+      "building": "35",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8412462,
+      "longitude": 33.3468747
+    },
+    {
+      "location_id": 193,
+      "organization_id": 157,
+      "street": "Січеславська вулиця",
+      "building": "41",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9971865,
+      "longitude": 33.4440066
+    },
+    {
+      "location_id": 194,
+      "organization_id": 158,
+      "street": "Січеславська вулиця",
+      "building": "13",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9957896,
+      "longitude": 33.4397054
+    },
+    {
+      "location_id": 195,
+      "organization_id": 159,
+      "street": "вулиця Едуарда Фукса",
+      "building": "36",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9753309,
+      "longitude": 33.4359771
+    },
+    {
+      "location_id": 196,
+      "organization_id": 160,
+      "street": "Дніпровське шосе",
+      "building": "8",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9091041,
+      "longitude": 33.4233986
+    },
+    {
+      "location_id": 197,
+      "organization_id": 161,
+      "street": "Електрична вулиця",
+      "building": "1а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0047047,
+      "longitude": 33.4474406
+    },
+    {
+      "location_id": 198,
+      "organization_id": 162,
+      "street": "проспект 200-річчя Кривого Рогу",
+      "building": "7Д",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50084",
+      "latitude": 47.9644842,
+      "longitude": 33.4366
+    },
+    {
+      "location_id": 199,
+      "organization_id": 163,
+      "street": "вулиця Едуарда Фукса",
+      "building": "1А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50031",
+      "latitude": 47.9853183,
+      "longitude": 33.4389304
+    },
+    {
+      "location_id": 200,
+      "organization_id": 126,
+      "street": "вулиця Мусоргського",
+      "building": "26",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0374255,
+      "longitude": 33.4810716
+    },
+    {
+      "location_id": 201,
+      "organization_id": 164,
+      "street": "вулиця Володимира Великого",
+      "building": "3",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50071",
+      "latitude": 47.9360513,
+      "longitude": 33.4012824
+    },
+    {
+      "location_id": 202,
+      "organization_id": 165,
+      "street": "вулиця Водопʼянова",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50038",
+      "latitude": 47.9398689,
+      "longitude": 33.4408185
+    },
+    {
+      "location_id": 203,
+      "organization_id": 166,
+      "street": "вулиця Володимира Великого",
+      "building": "22",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9393069,
+      "longitude": 33.4112943
+    },
+    {
+      "location_id": 204,
+      "organization_id": 32,
+      "street": "Поштовий проспект",
+      "building": "25",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9055316,
+      "longitude": 33.3424035
+    },
+    {
+      "location_id": 205,
+      "organization_id": 167,
+      "street": "Алмазна вулиця",
+      "building": "10А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9021081,
+      "longitude": 33.2957092
+    },
+    {
+      "location_id": 206,
+      "organization_id": 168,
+      "street": "вулиця Володимира Великого",
+      "building": "21а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50071",
+      "latitude": 47.9404648,
+      "longitude": 33.411712
+    },
+    {
+      "location_id": 207,
+      "organization_id": 169,
+      "street": "вулиця Володимира Великого",
+      "building": "21",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50071",
+      "latitude": 47.9424509,
+      "longitude": 33.4109733
+    },
+    {
+      "location_id": 208,
+      "organization_id": 170,
+      "street": "вулиця Володимира Великого",
+      "building": "21",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50071",
+      "latitude": 47.942357,
+      "longitude": 33.4107024
+    },
+    {
+      "location_id": 209,
+      "organization_id": 170,
+      "street": "Святогеоргіївська вулиця",
+      "building": "8а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50007",
+      "latitude": 47.9041631,
+      "longitude": 33.383169
+    },
+    {
+      "location_id": 210,
+      "organization_id": 171,
+      "street": "вулиця Сергія Колачевського",
+      "building": "55",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50082",
+      "latitude": 48.0710453,
+      "longitude": 33.5143428
+    },
+    {
+      "location_id": 211,
+      "organization_id": 172,
+      "street": "вулиця Каткова",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50102",
+      "latitude": 47.68707,
+      "longitude": 33.1480375
+    },
+    {
+      "location_id": 212,
+      "organization_id": 173,
+      "street": "вулиця Каткова",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50102",
+      "latitude": 47.6870159,
+      "longitude": 33.1477651
+    },
+    {
+      "location_id": 213,
+      "organization_id": 106,
+      "street": "вулиця Каткова",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50102",
+      "latitude": 47.6879495,
+      "longitude": 33.1512928
+    },
+    {
+      "location_id": 214,
+      "organization_id": 170,
+      "street": "вулиця Каткова",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50102",
+      "latitude": 47.687142,
+      "longitude": 33.1484691
+    },
+    {
+      "location_id": 215,
+      "organization_id": 170,
+      "street": "Женевська вулиця",
+      "building": "6б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50031",
+      "latitude": 47.9826054,
+      "longitude": 33.4412395
+    },
+    {
+      "location_id": 216,
+      "organization_id": 174,
+      "street": "Женевська вулиця",
+      "building": "6б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9824579,
+      "longitude": 33.44124
+    },
+    {
+      "location_id": 217,
+      "organization_id": 175,
+      "street": "вулиця Маршака",
+      "building": "1а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50089",
+      "latitude": 48.1434287,
+      "longitude": 33.5832327
+    },
+    {
+      "location_id": 218,
+      "organization_id": 176,
+      "street": "вулиця Маршака",
+      "building": "1а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50089",
+      "latitude": 48.1434231,
+      "longitude": 33.5835431
+    },
+    {
+      "location_id": 219,
+      "organization_id": 177,
+      "street": "вулиця Захисників Азовсталі",
+      "building": "8",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0132511,
+      "longitude": 33.4652334
+    },
+    {
+      "location_id": 220,
+      "organization_id": 178,
+      "street": "вулиця Ярослава Мудрого",
+      "building": "40",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9121781,
+      "longitude": 33.3964953
+    },
+    {
+      "location_id": 221,
+      "organization_id": 179,
+      "street": "Гагаріна",
+      "building": "72",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9074921,
+      "longitude": 33.4204105
+    },
+    {
+      "location_id": 222,
+      "organization_id": 180,
+      "street": "Гагарина",
+      "building": "38",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9089878,
+      "longitude": 33.4052065
+    },
+    {
+      "location_id": 223,
+      "organization_id": 181,
+      "street": "Гагарина",
+      "building": "62б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9079343,
+      "longitude": 33.4175457
+    },
+    {
+      "location_id": 224,
+      "organization_id": 182,
+      "street": "Металлургов",
+      "building": "28а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9010406,
+      "longitude": 33.3940516
+    },
+    {
+      "location_id": 225,
+      "organization_id": 32,
+      "street": "проспект Металургів",
+      "building": "42",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9092552,
+      "longitude": 33.3926895
+    },
+    {
+      "location_id": 226,
+      "organization_id": 183,
+      "street": "Університетський проспект",
+      "building": "3",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50027",
+      "latitude": 47.9105526,
+      "longitude": 33.3930735
+    },
+    {
+      "location_id": 227,
+      "organization_id": 126,
+      "street": "вулиця Лісового",
+      "building": "13А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9494524,
+      "longitude": 33.4517491
+    },
+    {
+      "location_id": 228,
+      "organization_id": 126,
+      "street": "Гірницький мікрорайон",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.964513,
+      "longitude": 33.4572873
+    },
+    {
+      "location_id": 229,
+      "organization_id": 116,
+      "street": "Свято-Миколаївська вулиця",
+      "building": "54",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9014157,
+      "longitude": 33.33974
+    },
+    {
+      "location_id": 230,
+      "organization_id": 116,
+      "street": "проспект Перемоги",
+      "building": "35",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50102",
+      "latitude": 47.6823329,
+      "longitude": 33.1591618
+    },
+    {
+      "location_id": 231,
+      "organization_id": 184,
+      "street": "вулиця Мартіна Шимановського",
+      "building": "5",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.895589,
+      "longitude": 33.3375443
+    },
+    {
+      "location_id": 232,
+      "organization_id": 15,
+      "street": "Свято-Миколаївська вулиця",
+      "building": "44/13",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50000",
+      "latitude": 47.9017481,
+      "longitude": 33.338388
+    },
+    {
+      "location_id": 233,
+      "organization_id": 185,
+      "street": "Haharina Ave",
+      "building": "54",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50086",
+      "latitude": 47.9082494,
+      "longitude": 33.4094803
+    },
+    {
+      "location_id": 234,
+      "organization_id": 186,
+      "street": "Паровозна вулиця",
+      "building": "26а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9157017,
+      "longitude": 33.445089
+    },
+    {
+      "location_id": 235,
+      "organization_id": 32,
+      "street": "вулиця Петра Дорошенка",
+      "building": "15",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9012108,
+      "longitude": 33.4192944
+    },
+    {
+      "location_id": 236,
+      "organization_id": 32,
+      "street": "вулиця Симона Петлюри",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0426132,
+      "longitude": 33.4811273
+    },
+    {
+      "location_id": 237,
+      "organization_id": 110,
+      "street": "вулиця Романа Шухевича",
+      "building": "21",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0374296,
+      "longitude": 33.4803516
+    },
+    {
+      "location_id": 238,
+      "organization_id": 181,
+      "street": "вулиця Володимира Терещенка",
+      "building": "1е",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.1453161,
+      "longitude": 33.5620301
+    },
+    {
+      "location_id": 239,
+      "organization_id": 32,
+      "street": "вулиця Володимира Терещенка",
+      "building": "1е",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.14534,
+      "longitude": 33.5617036
+    },
+    {
+      "location_id": 240,
+      "organization_id": 179,
+      "street": "вулиця Володимира Терещенка",
+      "building": "1к",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.1454388,
+      "longitude": 33.561401
+    },
+    {
+      "location_id": 241,
+      "organization_id": 116,
+      "street": "вулиця Володимира Терещенка",
+      "building": "1-У",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.144778,
+      "longitude": 33.5626316
+    },
+    {
+      "location_id": 242,
+      "organization_id": 187,
+      "street": "Вечірньокутська вулиця",
+      "building": "5А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": "50050",
+      "latitude": 47.9236286,
+      "longitude": 33.4481362
+    },
+    {
+      "location_id": 243,
+      "organization_id": 188,
+      "street": "вулиця Петра Дорошенка",
+      "building": "5а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9018121,
+      "longitude": 33.419996
+    },
+    {
+      "location_id": 244,
+      "organization_id": 189,
+      "street": "проспект Перемоги",
+      "building": "13",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.6835941,
+      "longitude": 33.1653723
+    },
+    {
+      "location_id": 245,
+      "organization_id": 190,
+      "street": "вулиця Олександра Поля",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9037048,
+      "longitude": 33.3410436
+    },
+    {
+      "location_id": 246,
+      "organization_id": 116,
+      "street": "Чарівна вулиця",
+      "building": "1",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0740252,
+      "longitude": 33.5163206
+    },
+    {
+      "location_id": 247,
+      "organization_id": 191,
+      "street": "вулиця Корнія Речмидила",
+      "building": "36",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0149948,
+      "longitude": 33.4629089
+    },
+    {
+      "location_id": 248,
+      "organization_id": 15,
+      "street": "вулиця Олексія Різниченка",
+      "building": "5а",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9707766,
+      "longitude": 33.4426801
+    },
+    {
+      "location_id": 249,
+      "organization_id": 192,
+      "street": "вулиця Джона Маккейна",
+      "building": "5",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.030978,
+      "longitude": 33.480734
+    },
+    {
+      "location_id": 250,
+      "organization_id": 35,
+      "street": "вулиця Джона Маккейна",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0290515,
+      "longitude": 33.4796658
+    },
+    {
+      "location_id": 251,
+      "organization_id": 35,
+      "street": "вулиця Джона Маккейна",
+      "building": "9",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0322121,
+      "longitude": 33.4816442
+    },
+    {
+      "location_id": 252,
+      "organization_id": 193,
+      "street": "вулиця Федора Караманиць",
+      "building": "26",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0220361,
+      "longitude": 33.4714254
+    },
+    {
+      "location_id": 253,
+      "organization_id": 179,
+      "street": "вулиця Миколи Світальського",
+      "building": "15",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9721121,
+      "longitude": 33.4449721
+    },
+    {
+      "location_id": 254,
+      "organization_id": 194,
+      "street": "вулиця Миколи Світальського",
+      "building": "15",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.972109,
+      "longitude": 33.4454315
+    },
+    {
+      "location_id": 255,
+      "organization_id": 116,
+      "street": "вулиця Івана Авраменка",
+      "building": "3-Г",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9383802,
+      "longitude": 33.4264666
+    },
+    {
+      "location_id": 256,
+      "organization_id": 116,
+      "street": "4-й Зарічний мікрорайон",
+      "building": "21-Ж",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9996161,
+      "longitude": 33.480564
+    },
+    {
+      "location_id": 257,
+      "organization_id": 116,
+      "street": "проспект 200-річчя Кривого Рогу",
+      "building": "14-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9652475,
+      "longitude": 33.4356934
+    },
+    {
+      "location_id": 258,
+      "organization_id": 116,
+      "street": "вулиця Романа Шухевича",
+      "building": "2",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0303296,
+      "longitude": 33.475602
+    },
+    {
+      "location_id": 259,
+      "organization_id": 116,
+      "street": "вулиця Олексія Різниченка",
+      "building": "5-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9708685,
+      "longitude": 33.4423667
+    },
+    {
+      "location_id": 260,
+      "organization_id": 116,
+      "street": "проспект Перемоги",
+      "building": "35",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.6822994,
+      "longitude": 33.1591523
+    },
+    {
+      "location_id": 261,
+      "organization_id": 116,
+      "street": "вулиця Федора Караманиць",
+      "building": "66-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.0103655,
+      "longitude": 33.4809208
+    },
+    {
+      "location_id": 262,
+      "organization_id": 190,
+      "street": "вулиця Соборності",
+      "building": "8",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.8993784,
+      "longitude": 33.3963802
+    },
+    {
+      "location_id": 263,
+      "organization_id": 195,
+      "street": "вулиця Гірничих Інженерів",
+      "building": "10",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9081836,
+      "longitude": 33.3489829
+    },
+    {
+      "location_id": 264,
+      "organization_id": 116,
+      "street": "Алмазна вулиця",
+      "building": "18",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.897296,
+      "longitude": 33.2937053
+    },
+    {
+      "location_id": 265,
+      "organization_id": 116,
+      "street": "4-й Зарічний мікрорайон",
+      "building": "21-К",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9995479,
+      "longitude": 33.4781259
+    },
+    {
+      "location_id": 266,
+      "organization_id": 116,
+      "street": "вулиця Лісового",
+      "building": "34-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.951521,
+      "longitude": 33.4572369
+    },
+    {
+      "location_id": 267,
+      "organization_id": 32,
+      "street": "вулиця Героїв Маріуполя",
+      "building": "44-А",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 48.1429167,
+      "longitude": 33.5891533
+    },
+    {
+      "location_id": 268,
+      "organization_id": 32,
+      "street": "вулиця Івана Авраменка",
+      "building": "21",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9372787,
+      "longitude": 33.427062
+    },
+    {
+      "location_id": 269,
+      "organization_id": 32,
+      "street": "вулиця Володимира Великого",
+      "building": "36-Б",
+      "city": "Кривий Ріг",
+      "region": "Дніпропетровська",
+      "post_code": null,
+      "latitude": 47.9447193,
+      "longitude": 33.4254152
+    }
+  ],
+  "ORGANIZATION_CATEGORIES": [
+    {
+      "org_id": 1,
+      "category_id": 1
+    },
+    {
+      "org_id": 2,
+      "category_id": 2
+    },
+    {
+      "org_id": 3,
+      "category_id": 3
+    },
+    {
+      "org_id": 4,
+      "category_id": 3
+    },
+    {
+      "org_id": 5,
+      "category_id": 2
+    },
+    {
+      "org_id": 6,
+      "category_id": 2
+    },
+    {
+      "org_id": 7,
+      "category_id": 4
+    },
+    {
+      "org_id": 8,
+      "category_id": 5
+    },
+    {
+      "org_id": 9,
+      "category_id": 6
+    },
+    {
+      "org_id": 10,
+      "category_id": 7
+    },
+    {
+      "org_id": 11,
+      "category_id": 3
+    },
+    {
+      "org_id": 12,
+      "category_id": 2
+    },
+    {
+      "org_id": 13,
+      "category_id": 1
+    },
+    {
+      "org_id": 14,
+      "category_id": 3
+    },
+    {
+      "org_id": 15,
+      "category_id": 1
+    },
+    {
+      "org_id": 16,
+      "category_id": 4
+    },
+    {
+      "org_id": 17,
+      "category_id": 6
+    },
+    {
+      "org_id": 18,
+      "category_id": 5
+    },
+    {
+      "org_id": 19,
+      "category_id": 3
+    },
+    {
+      "org_id": 20,
+      "category_id": 6
+    },
+    {
+      "org_id": 21,
+      "category_id": 3
+    },
+    {
+      "org_id": 22,
+      "category_id": 3
+    },
+    {
+      "org_id": 23,
+      "category_id": 2
+    },
+    {
+      "org_id": 24,
+      "category_id": 3
+    },
+    {
+      "org_id": 25,
+      "category_id": 4
+    },
+    {
+      "org_id": 26,
+      "category_id": 5
+    },
+    {
+      "org_id": 27,
+      "category_id": 1
+    },
+    {
+      "org_id": 28,
+      "category_id": 6
+    },
+    {
+      "org_id": 29,
+      "category_id": 4
+    },
+    {
+      "org_id": 30,
+      "category_id": 3
+    },
+    {
+      "org_id": 31,
+      "category_id": 4
+    },
+    {
+      "org_id": 32,
+      "category_id": 1
+    },
+    {
+      "org_id": 33,
+      "category_id": 2
+    },
+    {
+      "org_id": 34,
+      "category_id": 1
+    },
+    {
+      "org_id": 35,
+      "category_id": 1
+    },
+    {
+      "org_id": 36,
+      "category_id": 4
+    },
+    {
+      "org_id": 37,
+      "category_id": 7
+    },
+    {
+      "org_id": 38,
+      "category_id": 4
+    },
+    {
+      "org_id": 39,
+      "category_id": 6
+    },
+    {
+      "org_id": 40,
+      "category_id": 4
+    },
+    {
+      "org_id": 41,
+      "category_id": 8
+    },
+    {
+      "org_id": 42,
+      "category_id": 4
+    },
+    {
+      "org_id": 43,
+      "category_id": 7
+    },
+    {
+      "org_id": 44,
+      "category_id": 4
+    },
+    {
+      "org_id": 45,
+      "category_id": 2
+    },
+    {
+      "org_id": 46,
+      "category_id": 5
+    },
+    {
+      "org_id": 47,
+      "category_id": 4
+    },
+    {
+      "org_id": 48,
+      "category_id": 1
+    },
+    {
+      "org_id": 49,
+      "category_id": 1
+    },
+    {
+      "org_id": 50,
+      "category_id": 2
+    },
+    {
+      "org_id": 51,
+      "category_id": 4
+    },
+    {
+      "org_id": 52,
+      "category_id": 2
+    },
+    {
+      "org_id": 53,
+      "category_id": 5
+    },
+    {
+      "org_id": 54,
+      "category_id": 9
+    },
+    {
+      "org_id": 55,
+      "category_id": 3
+    },
+    {
+      "org_id": 56,
+      "category_id": 3
+    },
+    {
+      "org_id": 57,
+      "category_id": 1
+    },
+    {
+      "org_id": 58,
+      "category_id": 3
+    },
+    {
+      "org_id": 59,
+      "category_id": 5
+    },
+    {
+      "org_id": 60,
+      "category_id": 5
+    },
+    {
+      "org_id": 61,
+      "category_id": 3
+    },
+    {
+      "org_id": 62,
+      "category_id": 1
+    },
+    {
+      "org_id": 63,
+      "category_id": 1
+    },
+    {
+      "org_id": 64,
+      "category_id": 8
+    },
+    {
+      "org_id": 65,
+      "category_id": 2
+    },
+    {
+      "org_id": 66,
+      "category_id": 1
+    },
+    {
+      "org_id": 67,
+      "category_id": 4
+    },
+    {
+      "org_id": 68,
+      "category_id": 5
+    },
+    {
+      "org_id": 69,
+      "category_id": 1
+    },
+    {
+      "org_id": 70,
+      "category_id": 1
+    },
+    {
+      "org_id": 71,
+      "category_id": 10
+    },
+    {
+      "org_id": 72,
+      "category_id": 3
+    },
+    {
+      "org_id": 73,
+      "category_id": 1
+    },
+    {
+      "org_id": 74,
+      "category_id": 5
+    },
+    {
+      "org_id": 75,
+      "category_id": 3
+    },
+    {
+      "org_id": 76,
+      "category_id": 1
+    },
+    {
+      "org_id": 77,
+      "category_id": 4
+    },
+    {
+      "org_id": 78,
+      "category_id": 1
+    },
+    {
+      "org_id": 79,
+      "category_id": 5
+    },
+    {
+      "org_id": 80,
+      "category_id": 3
+    },
+    {
+      "org_id": 81,
+      "category_id": 3
+    },
+    {
+      "org_id": 82,
+      "category_id": 5
+    },
+    {
+      "org_id": 83,
+      "category_id": 8
+    },
+    {
+      "org_id": 84,
+      "category_id": 1
+    },
+    {
+      "org_id": 85,
+      "category_id": 8
+    },
+    {
+      "org_id": 86,
+      "category_id": 6
+    },
+    {
+      "org_id": 87,
+      "category_id": 1
+    },
+    {
+      "org_id": 88,
+      "category_id": 3
+    },
+    {
+      "org_id": 89,
+      "category_id": 1
+    },
+    {
+      "org_id": 90,
+      "category_id": 6
+    },
+    {
+      "org_id": 91,
+      "category_id": 1
+    },
+    {
+      "org_id": 92,
+      "category_id": 1
+    },
+    {
+      "org_id": 93,
+      "category_id": 1
+    },
+    {
+      "org_id": 94,
+      "category_id": 5
+    },
+    {
+      "org_id": 95,
+      "category_id": 4
+    },
+    {
+      "org_id": 96,
+      "category_id": 3
+    },
+    {
+      "org_id": 97,
+      "category_id": 1
+    },
+    {
+      "org_id": 98,
+      "category_id": 4
+    },
+    {
+      "org_id": 99,
+      "category_id": 5
+    },
+    {
+      "org_id": 100,
+      "category_id": 5
+    },
+    {
+      "org_id": 101,
+      "category_id": 5
+    },
+    {
+      "org_id": 102,
+      "category_id": 8
+    },
+    {
+      "org_id": 103,
+      "category_id": 5
+    },
+    {
+      "org_id": 104,
+      "category_id": 4
+    },
+    {
+      "org_id": 105,
+      "category_id": 4
+    },
+    {
+      "org_id": 106,
+      "category_id": 4
+    },
+    {
+      "org_id": 107,
+      "category_id": 1
+    },
+    {
+      "org_id": 108,
+      "category_id": 5
+    },
+    {
+      "org_id": 109,
+      "category_id": 3
+    },
+    {
+      "org_id": 110,
+      "category_id": 5
+    },
+    {
+      "org_id": 111,
+      "category_id": 5
+    },
+    {
+      "org_id": 112,
+      "category_id": 3
+    },
+    {
+      "org_id": 113,
+      "category_id": 2
+    },
+    {
+      "org_id": 114,
+      "category_id": 1
+    },
+    {
+      "org_id": 115,
+      "category_id": 4
+    },
+    {
+      "org_id": 116,
+      "category_id": 4
+    },
+    {
+      "org_id": 117,
+      "category_id": 1
+    },
+    {
+      "org_id": 118,
+      "category_id": 1
+    },
+    {
+      "org_id": 119,
+      "category_id": 1
+    },
+    {
+      "org_id": 120,
+      "category_id": 4
+    },
+    {
+      "org_id": 121,
+      "category_id": 1
+    },
+    {
+      "org_id": 122,
+      "category_id": 1
+    },
+    {
+      "org_id": 123,
+      "category_id": 10
+    },
+    {
+      "org_id": 124,
+      "category_id": 5
+    },
+    {
+      "org_id": 125,
+      "category_id": 1
+    },
+    {
+      "org_id": 126,
+      "category_id": 4
+    },
+    {
+      "org_id": 127,
+      "category_id": 3
+    },
+    {
+      "org_id": 128,
+      "category_id": 2
+    },
+    {
+      "org_id": 129,
+      "category_id": 4
+    },
+    {
+      "org_id": 130,
+      "category_id": 5
+    },
+    {
+      "org_id": 131,
+      "category_id": 1
+    },
+    {
+      "org_id": 132,
+      "category_id": 10
+    },
+    {
+      "org_id": 133,
+      "category_id": 1
+    },
+    {
+      "org_id": 134,
+      "category_id": 8
+    },
+    {
+      "org_id": 135,
+      "category_id": 1
+    },
+    {
+      "org_id": 136,
+      "category_id": 2
+    },
+    {
+      "org_id": 137,
+      "category_id": 1
+    },
+    {
+      "org_id": 138,
+      "category_id": 5
+    },
+    {
+      "org_id": 139,
+      "category_id": 1
+    },
+    {
+      "org_id": 140,
+      "category_id": 1
+    },
+    {
+      "org_id": 141,
+      "category_id": 1
+    },
+    {
+      "org_id": 142,
+      "category_id": 6
+    },
+    {
+      "org_id": 143,
+      "category_id": 5
+    },
+    {
+      "org_id": 144,
+      "category_id": 5
+    },
+    {
+      "org_id": 145,
+      "category_id": 5
+    },
+    {
+      "org_id": 146,
+      "category_id": 2
+    },
+    {
+      "org_id": 147,
+      "category_id": 5
+    },
+    {
+      "org_id": 148,
+      "category_id": 1
+    },
+    {
+      "org_id": 149,
+      "category_id": 4
+    },
+    {
+      "org_id": 150,
+      "category_id": 7
+    },
+    {
+      "org_id": 151,
+      "category_id": 1
+    },
+    {
+      "org_id": 152,
+      "category_id": 5
+    },
+    {
+      "org_id": 153,
+      "category_id": 2
+    },
+    {
+      "org_id": 154,
+      "category_id": 5
+    },
+    {
+      "org_id": 155,
+      "category_id": 1
+    },
+    {
+      "org_id": 156,
+      "category_id": 7
+    },
+    {
+      "org_id": 157,
+      "category_id": 1
+    },
+    {
+      "org_id": 158,
+      "category_id": 1
+    },
+    {
+      "org_id": 159,
+      "category_id": 1
+    },
+    {
+      "org_id": 160,
+      "category_id": 1
+    },
+    {
+      "org_id": 161,
+      "category_id": 1
+    },
+    {
+      "org_id": 162,
+      "category_id": 1
+    },
+    {
+      "org_id": 163,
+      "category_id": 1
+    },
+    {
+      "org_id": 164,
+      "category_id": 2
+    },
+    {
+      "org_id": 165,
+      "category_id": 1
+    },
+    {
+      "org_id": 166,
+      "category_id": 2
+    },
+    {
+      "org_id": 167,
+      "category_id": 4
+    },
+    {
+      "org_id": 168,
+      "category_id": 4
+    },
+    {
+      "org_id": 169,
+      "category_id": 4
+    },
+    {
+      "org_id": 170,
+      "category_id": 4
+    },
+    {
+      "org_id": 171,
+      "category_id": 4
+    },
+    {
+      "org_id": 172,
+      "category_id": 4
+    },
+    {
+      "org_id": 173,
+      "category_id": 4
+    },
+    {
+      "org_id": 174,
+      "category_id": 4
+    },
+    {
+      "org_id": 175,
+      "category_id": 4
+    },
+    {
+      "org_id": 176,
+      "category_id": 4
+    },
+    {
+      "org_id": 177,
+      "category_id": 1
+    },
+    {
+      "org_id": 178,
+      "category_id": 2
+    },
+    {
+      "org_id": 179,
+      "category_id": 4
+    },
+    {
+      "org_id": 180,
+      "category_id": 4
+    },
+    {
+      "org_id": 181,
+      "category_id": 5
+    },
+    {
+      "org_id": 182,
+      "category_id": 4
+    },
+    {
+      "org_id": 183,
+      "category_id": 2
+    },
+    {
+      "org_id": 184,
+      "category_id": 5
+    },
+    {
+      "org_id": 185,
+      "category_id": 2
+    },
+    {
+      "org_id": 186,
+      "category_id": 1
+    },
+    {
+      "org_id": 187,
+      "category_id": 3
+    },
+    {
+      "org_id": 188,
+      "category_id": 5
+    },
+    {
+      "org_id": 189,
+      "category_id": 4
+    },
+    {
+      "org_id": 190,
+      "category_id": 4
+    },
+    {
+      "org_id": 191,
+      "category_id": 5
+    },
+    {
+      "org_id": 192,
+      "category_id": 1
+    },
+    {
+      "org_id": 193,
+      "category_id": 10
+    },
+    {
+      "org_id": 194,
+      "category_id": 1
+    },
+    {
+      "org_id": 195,
+      "category_id": 4
+    }
+  ]
+}
