@@ -2,7 +2,7 @@ name: Deploy Backend
 
 on:
   push:
-    branches: [production]
+    branches: []
 
 jobs:
   deploy:
@@ -55,6 +55,6 @@ jobs:
             npx prisma migrate deploy
 
             # Перезапускаємо сервер
-            pkill -f "node index.js" || true
+            pkill -f '^node.*index.js' || true
             nohup node index.js >> ${{ secrets.REMOTE_PATH }}/logs/backend.log 2>&1 &
 
