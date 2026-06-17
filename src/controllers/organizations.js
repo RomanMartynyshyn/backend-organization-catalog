@@ -17,7 +17,16 @@ export const getOrganisations = async (req, res) => {
 			? { lat, lng, radiusKm }
 			: undefined,
 	}
-	const pagination = { limit, offset }
+	// Задаємо ліміт: якщо ліміт передано у запиті, обмежуємо його максимум 15 елементами.
+	// Якщо ліміт не передано, за замовчуванням повертаємо 15 елементів.
+	const parsedLimit = limit !== undefined ? Math.min(parseInt(limit, 10), 15) : 15
+
+	// Задаємо зміщення (offset): якщо передано у запиті, використовуємо його для сторінкової навігації,
+	// інакше за замовчуванням починаємо з 0 (перша сторінка).
+	const parsedOffset = offset !== undefined ? parseInt(offset, 10) : 0
+
+	// Об'єднуємо параметри пагінації для передачі в репозиторій
+	const pagination = { limit: parsedLimit, offset: parsedOffset }
 
 	const organizations = await findOrganizations(
 		filters,
