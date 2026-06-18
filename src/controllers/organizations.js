@@ -67,6 +67,7 @@ export const create = async (req, res) => {
 		})
 	}
 
+	// force update for districts logic
 	const locationsWithDistricts = locations ? await Promise.all(
         locations.map(async (loc) => {
             let districtName = null;
