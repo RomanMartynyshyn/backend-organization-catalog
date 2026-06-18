@@ -25,7 +25,7 @@ model Organization {
   description  String?            @db.Text
   websiteUrl   String?            @map("website_url")
   contacts     Json?
-  sociaLinks   Json?              @map("social_links")
+  socialLinks  Json?              @map("social_links")
   workingHours String?            @map("working_hours")
   status       OrganizationStatus @default(pending)
 
