@@ -14,7 +14,7 @@ export async function createOrganization(newOrganization, categoryIds, locations
                 websiteUrl: newOrganization.websiteUrl,
                 contacts: newOrganization.contacts,
                 socialLinks: newOrganization.socialLinks,
-                workingsHours: newOrganization.workingsHours,
+                workingHours: newOrganization.workingHours,
                 status: OrganizationStatus.pending,
                 categories: {
                     create: categoryIds.map((categoryId) => ({
