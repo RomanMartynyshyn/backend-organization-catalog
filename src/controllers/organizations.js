@@ -175,6 +175,7 @@ function mapOrganisationToDto(org) {
 			postCode: l.postCode,
 			latitude: l.latitude,
 			longitude: l.longitude,
+			district: l.district
 		})) ?? [],
 	}
 }

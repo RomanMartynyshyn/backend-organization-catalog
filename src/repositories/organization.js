@@ -33,6 +33,7 @@ export async function createOrganization(newOrganization, categoryIds, locations
                         postCode: location.postCode,
                         latitude: location.latitude,
                         longitude: location.longitude,
+                        district: location.district,
                     })),
                 },
             },
@@ -159,7 +160,16 @@ function organizationWithCategoriesAndLocations() {
             select: { category: { select: { id: true, name: true } } },
         },
         locations: {
-            select: { locationId: true, street: true, city: true, region: true, postCode: true, latitude: true, longitude: true },
+            select: {
+                locationId: true,
+                street: true,
+                city: true,
+                region: true,
+                postCode: true,
+                latitude: true,
+                longitude: true,
+                district: true
+            },
         },
     }
 }

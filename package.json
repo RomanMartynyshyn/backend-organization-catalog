@@ -20,6 +20,9 @@
   "dependencies": {
     "@prisma/adapter-mariadb": "^7.8.0",
     "@prisma/client": "^7.8.0",
+    "@turf/boolean-point-in-polygon": "^7.3.5",
+    "@turf/helpers": "^7.3.5",
+    "axios": "^1.18.0",
     "cors": "^2.8.6",
     "csv-parser": "^3.2.1",
     "dotenv": "^17.4.2",
