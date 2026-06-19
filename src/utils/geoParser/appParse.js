@@ -69,6 +69,7 @@ const printTableStats = (data) => {
 };
 
 function insertCategories(categories) {
+    // Формуємо SQL-запит для таблиці categories.
     const header = 'INSERT INTO categories (' +
         'id, ' +
         'name' +
@@ -85,6 +86,7 @@ function insertCategories(categories) {
 }
 
 function sqlString(stringValue) {
+    // Екрануємо текстові значення для безпечної вставки в SQL.
     if (!!stringValue) {
         return `'${stringValue.replace(/'/g, "''")}'`
     }
@@ -92,6 +94,7 @@ function sqlString(stringValue) {
 }
 
 function sqlJson(jsonObject) {
+    // Зберігаємо JSON як SQL-рядок або NULL, якщо об'єкт порожній.
     if (Object.keys(jsonObject).length > 0) {
         return `'${JSON.stringify(jsonObject).replace(/'/g, "''")}'`
     }
@@ -99,6 +102,7 @@ function sqlJson(jsonObject) {
 }
 
 function insertOrganizations(organizations) {
+    // Формуємо SQL-запит для таблиці organizations.
     const header = 'INSERT INTO organizations (' +
         'id, \n' +
         'name, \n' +
@@ -133,6 +137,7 @@ function insertOrganizations(organizations) {
 }
 
 function insertLocations(locations) {
+    // Формуємо SQL-запит для таблиці locations.
     const header = 'INSERT INTO locations (' +
         'location_id, \n' +
         'organization_id, \n' +
@@ -174,6 +179,7 @@ function insertLocations(locations) {
 }
 
 function insertOrganizationCategories(organizationCategories) {
+    // Формуємо SQL-запит для зв'язувальної таблиці organization_categories.
     const header = 'INSERT INTO organization_categories (' +
         'organization_id, \n' +
         'category_id\n' +
@@ -231,6 +237,7 @@ const main = () => {
             insertLocations(parsedData.LOCATIONS) + ';\n\n' +
             insertOrganizationCategories(parsedData.ORGANIZATION_CATEGORIES) + ';\n\n'
         ;
+        // Записуємо готові INSERT-и у файл, щоб їх можна було одразу виконати в БД.
         fs.writeFileSync(sqlInsertsFilePath, sqlStatements, 'utf-8');
         
         /*

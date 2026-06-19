@@ -478,6 +478,7 @@ const parseGeoJson = (filePath) => {
           і, за потреби, доповнимо контакти.
         */
         if (!organization) {
+            // Створюємо нову організацію тільки один раз для унікальної комбінації name + category.
             organization = {
                 org_id: organizationId++,
                 name: organizationName,
@@ -491,9 +492,8 @@ const parseGeoJson = (filePath) => {
                 updated_at: null,
 
                 /*
-                  Поле залишено як у твоїй ER-діаграмі.
-                  Якщо в реальній БД воно називається approved_at,
-                  тоді краще перейменувати і тут.
+                  Поле відповідає колонці approved_at у схемі БД.
+                  Раніше була опечатка: appoved_at (пропущена буква "r").
                 */
                 approved_at: null,
 
@@ -515,6 +515,7 @@ const parseGeoJson = (filePath) => {
           і створюємо зв'язок ORGANIZATION_CATEGORIES.
         */
         if (businessCategoryName !== null) {
+            // Додаємо категорію тільки якщо вона була розпізнана з сирих полів.
             let category = categoriesMap.get(businessCategoryName);
 
             if (!category) {
@@ -536,6 +537,7 @@ const parseGeoJson = (filePath) => {
             if (!organizationCategoriesSet.has(relationKey)) {
                 organizationCategoriesSet.add(relationKey);
 
+                // Зв'язок організації з категорією зберігаємо без дублювань.
                 organizationCategories.push({
                     org_id: organization.org_id,
                     category_id: category.category_id
@@ -559,6 +561,7 @@ const parseGeoJson = (filePath) => {
           Кожен feature у GeoJSON відповідає одній фізичній локації.
           Навіть якщо організація вже існує, локацію все одно додаємо нову.
         */
+        // Кожен feature перетворюємо на окремий запис локації, навіть якщо організація вже існує.
         locations.push({
             location_id: locationId++,
             organization_id: organization.org_id,
