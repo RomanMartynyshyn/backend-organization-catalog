@@ -25,7 +25,7 @@ function initGeoData() {
 // Ініціалізація даних при старті бекенду
 initGeoData();
 
-export async function getDistrictByCoords(lat, lon) {
+export function getDistrictByCoords(lat, lon) {
   if (krDistricts.length === 0) {
     initGeoData();
   }

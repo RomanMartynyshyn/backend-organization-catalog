@@ -45,8 +45,9 @@ export const createOrganizationValidation = [
 
   body("locations.*.street")
     .trim()
-    .notEmpty()
-    .withMessage("Street is required for each location"),
+    .isString()
+    .optional()
+    .withMessage("Street is optional for each location"),
 
   body("locations.*.city")
     .trim()
@@ -58,8 +59,9 @@ export const createOrganizationValidation = [
     .withMessage("Region is required for each location"),
   body("locations.*.postCode")
     .trim()
-    .notEmpty()
-    .withMessage("Post code is required for each location")
+    .optional()
+    .isString()
+    .withMessage("Post code is optional for each location")
     .isLength({ min: 5, max: 5 }),
   body("locations.*.latitude")
     .trim()
@@ -70,5 +72,10 @@ export const createOrganizationValidation = [
     .trim()
     .notEmpty()
     .withMessage("Longitude is required for each location")
-    .isFloat({ min: -180, max: 180 })
+    .isFloat({ min: -180, max: 180 }),
+  body("locations.*.district")
+    .trim()
+    .optional()
+    .isString()
+    .withMessage("District is optional for each location")
 ];

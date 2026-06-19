@@ -6,7 +6,6 @@ import {
 } from '../repositories/organization.js'
 import { OrganizationStatus } from '../db/definitions.js'
 import { parseCSV } from '../utils/csvParser.js'
-import { getDistrictByCoords } from '../utils/districtDefiner.js';
 
 // GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5
 export const getOrganisations = async (req, res) => {
@@ -67,20 +66,6 @@ export const create = async (req, res) => {
 		})
 	}
 
-	// force update for districts logic
-	const locationsWithDistricts = locations ? await Promise.all(
-        locations.map(async (loc) => {
-            let districtName = null;
-            if (loc.latitude && loc.longitude) {
-                districtName = await getDistrictByCoords(loc.latitude, loc.longitude);
-            }
-            return {
-                ...loc,
-                district: districtName
-            };
-        })
-    ) : locations;
-
 	const org = await createOrganization(
 		{
 			name,
@@ -88,7 +73,7 @@ export const create = async (req, res) => {
 			websiteUrl,
 		},
 		categoryIds,
-		locationsWithDistricts,
+		locations,
 	)
 
 	res.status(201).json(mapOrganisationToDto(org))
