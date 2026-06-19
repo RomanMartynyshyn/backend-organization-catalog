@@ -58,7 +58,7 @@ export const getById = async (req, res) => {
 
 // POST /api/organizations
 export const create = async (req, res) => {
-	const { name, description, websiteUrl, categoryIds, locations } = req.body
+	const { name, description, websiteUrl, contacts, socialLinks, workingHours, categoryIds, locations } = req.body
 
 	if (!Array.isArray(categoryIds) || categoryIds.length === 0) {
 		return res.status(400).json({
@@ -71,6 +71,9 @@ export const create = async (req, res) => {
 			name,
 			description,
 			websiteUrl,
+			contacts,
+			socialLinks,
+			workingHours,
 		},
 		categoryIds,
 		locations,
