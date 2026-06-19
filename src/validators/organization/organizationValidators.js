@@ -25,6 +25,32 @@ export const createOrganizationValidation = [
     })
     .withMessage("Website URL must be a valid HTTPS URL"),
 
+  body("contacts")
+    .optional({ nullable: true, checkFalsy: true })
+    .isObject(),
+  body("contacts.email")
+    .optional({ nullable: true, checkFalsy: true })
+    .isEmail()
+    .withMessage("Contact email is not valid"),
+  body("contacts.phoneNumbers")
+    .optional({ nullable: true, checkFalsy: true })
+    .isArray(),
+  body("contacts.phoneNumbers.*")
+    .isString(),
+
+  body("socialLinks")
+    .optional({ nullable: true, checkFalsy: true })
+    .isObject(),
+  body("socialLinks.facebook")
+      .isURL(),
+  body("socialLinks.instagram")
+      .isURL(),
+
+  body("workingHours")
+    .optional({ nullable: true, checkFalsy: true })
+    .isString()
+    .isLength({ max: 100 }),
+
   // Перевірка масиву категорій
   body("categoryIds")
     .notEmpty()
@@ -46,36 +72,45 @@ export const createOrganizationValidation = [
   body("locations.*.street")
     .trim()
     .isString()
+    .isLength({ max: 50 })
     .optional()
     .withMessage("Street is optional for each location"),
 
   body("locations.*.city")
     .trim()
     .notEmpty()
+    .isLength({ max: 50 })
     .withMessage("City is required for each location"),
+
   body("locations.*.region")
     .trim()
     .notEmpty()
+    .isLength({ max: 50 })
     .withMessage("Region is required for each location"),
+
   body("locations.*.postCode")
     .trim()
     .optional()
     .isString()
     .withMessage("Post code is optional for each location")
     .isLength({ min: 5, max: 5 }),
+
   body("locations.*.latitude")
     .trim()
     .notEmpty()
     .withMessage("Latitude is required for each location")
     .isFloat({ min: -90, max: 90 }),
+
   body("locations.*.longitude")
     .trim()
     .notEmpty()
     .withMessage("Longitude is required for each location")
     .isFloat({ min: -180, max: 180 }),
+
   body("locations.*.district")
     .trim()
     .optional()
     .isString()
+    .isLength({ max: 50 })
     .withMessage("District is optional for each location")
 ];

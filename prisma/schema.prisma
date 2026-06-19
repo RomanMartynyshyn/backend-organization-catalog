@@ -21,12 +21,12 @@ enum OrganizationStatus {
 
 model Organization {
   id           Int                @id @default(autoincrement())
-  name         String
+  name         String             @db.VarChar(255)
   description  String?            @db.Text
-  websiteUrl   String?            @map("website_url")
+  websiteUrl   String?            @map("website_url") @db.VarChar(50)
   contacts     Json?
   socialLinks  Json?              @map("social_links")
-  workingHours String?            @map("working_hours")
+  workingHours String?            @map("working_hours") @db.VarChar(100)
   status       OrganizationStatus @default(pending)
 
   createdAt DateTime @default(now()) @map("created_at")
@@ -66,14 +66,14 @@ model Location {
   locationId     Int @id @default(autoincrement()) @map("location_id")
   organizationId Int @map("organization_id")
 
-  street   String?
-  city     String
-  region   String
+  street   String? @db.VarChar(50)
+  city     String  @db.VarChar(50)
+  region   String  @db.VarChar(50)
   postCode String? @map("post_code")
 
   latitude  Decimal @db.Decimal(10, 7)
   longitude Decimal @db.Decimal(10, 7)
-  district  String?
+  district  String? @db.VarChar(50)
 
   organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
 
