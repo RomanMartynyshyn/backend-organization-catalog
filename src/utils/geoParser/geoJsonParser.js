@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { getDistrictByCoords } from './districtResolver.js';
 
 /*
   Усі організації у GeoJSON належать до Кривого Рогу,
@@ -565,7 +566,7 @@ const parseGeoJson = (filePath) => {
             building: properties['addr:housenumber'] ?? null,
             city: CITY,
             region: REGION,
-            // region: properties['addr:region'] ?? null,
+            district: getDistrictByCoords(latitude, longitude),
             post_code: properties['addr:postcode'] ?? null,
             latitude,
             longitude

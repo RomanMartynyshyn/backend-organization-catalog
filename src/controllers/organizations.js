@@ -17,7 +17,16 @@ export const getOrganisations = async (req, res) => {
 			? { lat, lng, radiusKm }
 			: undefined,
 	}
-	const pagination = { limit, offset }
+	// Задаємо ліміт: якщо ліміт передано у запиті, обмежуємо його максимум 15 елементами.
+	// Якщо ліміт не передано, за замовчуванням повертаємо 15 елементів.
+	const parsedLimit = limit !== undefined ? Math.min(parseInt(limit, 10), 15) : 15
+
+	// Задаємо зміщення (offset): якщо передано у запиті, використовуємо його для сторінкової навігації,
+	// інакше за замовчуванням починаємо з 0 (перша сторінка).
+	const parsedOffset = offset !== undefined ? parseInt(offset, 10) : 0
+
+	// Об'єднуємо параметри пагінації для передачі в репозиторій
+	const pagination = { limit: parsedLimit, offset: parsedOffset }
 
 	const organizations = await findOrganizations(
 		filters,
@@ -49,7 +58,7 @@ export const getById = async (req, res) => {
 
 // POST /api/organizations
 export const create = async (req, res) => {
-	const { name, description, websiteUrl, categoryIds, locations } = req.body
+	const { name, description, websiteUrl, contacts, socialLinks, workingHours, categoryIds, locations } = req.body
 
 	if (!Array.isArray(categoryIds) || categoryIds.length === 0) {
 		return res.status(400).json({
@@ -62,6 +71,9 @@ export const create = async (req, res) => {
 			name,
 			description,
 			websiteUrl,
+			contacts,
+			socialLinks,
+			workingHours,
 		},
 		categoryIds,
 		locations,
@@ -166,6 +178,7 @@ function mapOrganisationToDto(org) {
 			postCode: l.postCode,
 			latitude: l.latitude,
 			longitude: l.longitude,
+			district: l.district
 		})) ?? [],
 	}
 }

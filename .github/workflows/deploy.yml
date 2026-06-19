@@ -1,0 +1,60 @@
+name: Deploy Backend
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # Встановлюємо залежності та генеруємо Prisma Client для валідації
+      - name: Install dependencies & generate Prisma client
+        run: |
+          npm ci
+          npx prisma generate
+
+      # Копіюємо весь проект на сервер (без node_modules, .git, .env)
+      - name: Deploy via rsync
+        uses: burnett01/rsync-deployments@v8
+        with:
+          switches: -avzr --delete --exclude-from='.rsyncignore' --exclude='node_modules' --exclude='generated'
+          path: ./
+          remote_host: ${{ secrets.REMOTE_HOST }}
+          remote_user: ${{ secrets.REMOTE_USER }}
+          remote_key: ${{ secrets.REMOTE_KEY }}
+          remote_path: ${{ secrets.REMOTE_PATH }}
+
+      # На сервері: встановлюємо deps, генеруємо клієнт, мігруємо БД, перезапускаємо
+      - name: Install, migrate & restart on server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.REMOTE_KEY }}
+          script: |
+            cd ${{ secrets.REMOTE_PATH }}
+
+            # Встановлюємо production залежності
+            npm install --omit=dev
+
+            # Генеруємо Prisma Client на сервері
+            npx prisma generate
+
+            # Застосовуємо міграції (створює/оновлює таблиці)
+            npx prisma migrate deploy
+
+            # Перезапускаємо сервер
+            cd ${{ secrets.REMOTE_PATH }}
+            pkill -f '^node.*index.js' || true
+            exit 0

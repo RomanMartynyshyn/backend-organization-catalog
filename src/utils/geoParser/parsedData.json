@@ -2997,6 +2997,7 @@
       "building": "31",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50076",
       "latitude": 47.9307881,
       "longitude": 33.4225808
@@ -3008,6 +3009,7 @@
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9062664,
       "longitude": 33.3454639
@@ -3019,6 +3021,7 @@
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9047051,
       "longitude": 33.4033828
@@ -3030,6 +3033,7 @@
       "building": "29б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50006",
       "latitude": 47.8997265,
       "longitude": 33.394818
@@ -3041,6 +3045,7 @@
       "building": "33б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9001432,
       "longitude": 33.3983547
@@ -3052,6 +3057,7 @@
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8966168,
       "longitude": 33.3962271
@@ -3063,6 +3069,7 @@
       "building": "22А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.897667,
       "longitude": 33.3949218
@@ -3074,6 +3081,7 @@
       "building": "12",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50006",
       "latitude": 47.8947151,
       "longitude": 33.3956843
@@ -3085,6 +3093,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.900533,
       "longitude": 33.3994431
@@ -3096,6 +3105,7 @@
       "building": "37",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9008404,
       "longitude": 33.4014275
@@ -3107,6 +3117,7 @@
       "building": "36",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9022389,
       "longitude": 33.3941006
@@ -3118,6 +3129,7 @@
       "building": "2а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9032313,
       "longitude": 33.3951431
@@ -3129,6 +3141,7 @@
       "building": "3",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9010742,
       "longitude": 33.3983363
@@ -3140,6 +3153,7 @@
       "building": "34",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50006",
       "latitude": 47.9004417,
       "longitude": 33.4060695
@@ -3151,6 +3165,7 @@
       "building": "20а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9033415,
       "longitude": 33.4067055
@@ -3162,6 +3177,7 @@
       "building": "49",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50006",
       "latitude": 47.9013014,
       "longitude": 33.407078
@@ -3173,6 +3189,7 @@
       "building": "39",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9044191,
       "longitude": 33.4089541
@@ -3184,6 +3201,7 @@
       "building": "9",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8947657,
       "longitude": 33.4095349
@@ -3195,6 +3213,7 @@
       "building": "98",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": "50006",
       "latitude": 47.8990314,
       "longitude": 33.4244475
@@ -3206,6 +3225,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9099552,
       "longitude": 33.392569
@@ -3217,6 +3237,7 @@
       "building": "42",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9093418,
       "longitude": 33.3927965
@@ -3228,6 +3249,7 @@
       "building": "40",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9089653,
       "longitude": 33.3930877
@@ -3239,6 +3261,7 @@
       "building": "4-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9096771,
       "longitude": 33.3927578
@@ -3250,6 +3273,7 @@
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9097376,
       "longitude": 33.3933847
@@ -3261,6 +3285,7 @@
       "building": "58",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9079277,
       "longitude": 33.4159727
@@ -3272,6 +3297,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9072699,
       "longitude": 33.4206125
@@ -3283,6 +3309,7 @@
       "building": "10",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9114619,
       "longitude": 33.3919568
@@ -3294,6 +3321,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9030006,
       "longitude": 33.457774
@@ -3305,6 +3333,7 @@
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9034644,
       "longitude": 33.4603658
@@ -3316,6 +3345,7 @@
       "building": "24",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9178625,
       "longitude": 33.4667409
@@ -3327,6 +3357,7 @@
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": "50055",
       "latitude": 47.9047464,
       "longitude": 33.4579111
@@ -3338,6 +3369,7 @@
       "building": "76",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9114718,
       "longitude": 33.4550141
@@ -3349,6 +3381,7 @@
       "building": "4г",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8876539,
       "longitude": 33.3906145
@@ -3360,6 +3393,7 @@
       "building": "33",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9043731,
       "longitude": 33.3550394
@@ -3371,6 +3405,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.908194,
       "longitude": 33.3406497
@@ -3382,6 +3417,7 @@
       "building": "1А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9053666,
       "longitude": 33.375654
@@ -3393,6 +3429,7 @@
       "building": "44а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50002",
       "latitude": 47.9030968,
       "longitude": 33.3539995
@@ -3404,6 +3441,7 @@
       "building": "3а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9090802,
       "longitude": 33.3826153
@@ -3415,6 +3453,7 @@
       "building": "78а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9043089,
       "longitude": 33.4225075
@@ -3426,6 +3465,7 @@
       "building": "11",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9071984,
       "longitude": 33.339151
@@ -3437,6 +3477,7 @@
       "building": "29в",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9082738,
       "longitude": 33.3853187
@@ -3448,6 +3489,7 @@
       "building": "13-О",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50002",
       "latitude": 47.9085214,
       "longitude": 33.349745
@@ -3459,6 +3501,7 @@
       "building": "80",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50007",
       "latitude": 47.9071561,
       "longitude": 33.3758344
@@ -3470,6 +3513,7 @@
       "building": "11а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9071986,
       "longitude": 33.3401936
@@ -3481,6 +3525,7 @@
       "building": "7а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8910159,
       "longitude": 33.3143954
@@ -3492,6 +3537,7 @@
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8853902,
       "longitude": 33.286787
@@ -3503,6 +3549,7 @@
       "building": "31",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8831177,
       "longitude": 33.3638437
@@ -3514,6 +3561,7 @@
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8829254,
       "longitude": 33.3877289
@@ -3525,6 +3573,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8808537,
       "longitude": 33.3692411
@@ -3536,6 +3585,7 @@
       "building": "65в",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8805047,
       "longitude": 33.2563583
@@ -3547,6 +3597,7 @@
       "building": "35",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8427224,
       "longitude": 33.3475457
@@ -3558,6 +3609,7 @@
       "building": "64",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9243917,
       "longitude": 33.4477245
@@ -3569,6 +3621,7 @@
       "building": "34",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9207104,
       "longitude": 33.4399511
@@ -3580,6 +3633,7 @@
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8338192,
       "longitude": 33.3457869
@@ -3591,6 +3645,7 @@
       "building": "34",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8410219,
       "longitude": 33.3480332
@@ -3602,6 +3657,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8327944,
       "longitude": 33.343456
@@ -3613,6 +3669,7 @@
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50099",
       "latitude": 47.9089137,
       "longitude": 33.3400347
@@ -3624,6 +3681,7 @@
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9023282,
       "longitude": 33.340776
@@ -3635,6 +3693,7 @@
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9036569,
       "longitude": 33.3443342
@@ -3646,6 +3705,7 @@
       "building": "2б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9006405,
       "longitude": 33.3445668
@@ -3657,6 +3717,7 @@
       "building": "39а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.907264,
       "longitude": 33.3434298
@@ -3668,6 +3729,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9468759,
       "longitude": 33.4408888
@@ -3679,6 +3741,7 @@
       "building": "29п",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8999566,
       "longitude": 33.3958546
@@ -3690,6 +3753,7 @@
       "building": "44а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8806768,
       "longitude": 33.3601636
@@ -3701,6 +3765,7 @@
       "building": "35б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9061131,
       "longitude": 33.3426971
@@ -3712,6 +3777,7 @@
       "building": "93",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50024",
       "latitude": 47.9160351,
       "longitude": 33.3336917
@@ -3723,6 +3789,7 @@
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50069",
       "latitude": 47.905933,
       "longitude": 33.3816321
@@ -3734,6 +3801,7 @@
       "building": "28а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9007931,
       "longitude": 33.3940566
@@ -3745,6 +3813,7 @@
       "building": "11",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6841204,
       "longitude": 33.1667897
@@ -3756,6 +3825,7 @@
       "building": "11а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6839623,
       "longitude": 33.1663102
@@ -3767,6 +3837,7 @@
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9455257,
       "longitude": 33.4382176
@@ -3778,6 +3849,7 @@
       "building": "21а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9018387,
       "longitude": 33.3928501
@@ -3789,6 +3861,7 @@
       "building": "30-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9066619,
       "longitude": 33.3971027
@@ -3800,6 +3873,7 @@
       "building": "14",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9359967,
       "longitude": 33.4400655
@@ -3811,6 +3885,7 @@
       "building": "26а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50076",
       "latitude": 47.9350924,
       "longitude": 33.4244434
@@ -3822,6 +3897,7 @@
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9449838,
       "longitude": 33.4262561
@@ -3833,6 +3909,7 @@
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9608975,
       "longitude": 33.4261317
@@ -3844,6 +3921,7 @@
       "building": "4а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9602691,
       "longitude": 33.4367189
@@ -3855,6 +3933,7 @@
       "building": "24",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9632838,
       "longitude": 33.4346936
@@ -3866,6 +3945,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9586937,
       "longitude": 33.4301336
@@ -3877,6 +3957,7 @@
       "building": "1г",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9631565,
       "longitude": 33.4280624
@@ -3888,6 +3969,7 @@
       "building": "22",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9678004,
       "longitude": 33.4473229
@@ -3899,6 +3981,7 @@
       "building": "27а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9433539,
       "longitude": 33.4189841
@@ -3910,6 +3993,7 @@
       "building": "31а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9358071,
       "longitude": 33.4337808
@@ -3921,6 +4005,7 @@
       "building": "24а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9492089,
       "longitude": 33.4532138
@@ -3932,6 +4017,7 @@
       "building": "28а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9020449,
       "longitude": 33.3361006
@@ -3943,6 +4029,7 @@
       "building": "6б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50031",
       "latitude": 47.9832198,
       "longitude": 33.4417983
@@ -3954,6 +4041,7 @@
       "building": "2б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.999043,
       "longitude": 33.4500089
@@ -3965,6 +4053,7 @@
       "building": "23",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50079",
       "latitude": 48.1479907,
       "longitude": 33.5865327
@@ -3976,6 +4065,7 @@
       "building": "1е",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1455258,
       "longitude": 33.5617963
@@ -3987,6 +4077,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50079",
       "latitude": 48.1434568,
       "longitude": 33.5651624
@@ -3998,6 +4089,7 @@
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50079",
       "latitude": 48.1454172,
       "longitude": 33.5633014
@@ -4009,6 +4101,7 @@
       "building": "44",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9079754,
       "longitude": 33.4053758
@@ -4020,6 +4113,7 @@
       "building": "15А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50024",
       "latitude": 47.9133658,
       "longitude": 33.3367855
@@ -4031,6 +4125,7 @@
       "building": "30",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9020411,
       "longitude": 33.3502685
@@ -4042,6 +4137,7 @@
       "building": "3а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8334522,
       "longitude": 33.3456768
@@ -4053,6 +4149,7 @@
       "building": "53а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9951335,
       "longitude": 33.4902794
@@ -4064,6 +4161,7 @@
       "building": "66А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50059",
       "latitude": 48.0103235,
       "longitude": 33.4806742
@@ -4075,6 +4173,7 @@
       "building": "21Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0220233,
       "longitude": 33.4685241
@@ -4086,6 +4185,7 @@
       "building": "39",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50059",
       "latitude": 48.0213867,
       "longitude": 33.4734103
@@ -4097,6 +4197,7 @@
       "building": "50",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50059",
       "latitude": 48.0137658,
       "longitude": 33.4766406
@@ -4108,6 +4209,7 @@
       "building": "3б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0026744,
       "longitude": 33.4449309
@@ -4119,6 +4221,7 @@
       "building": "6а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0313137,
       "longitude": 33.4786551
@@ -4130,6 +4233,7 @@
       "building": "17",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.033429,
       "longitude": 33.4766573
@@ -4141,6 +4245,7 @@
       "building": "16",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.034305,
       "longitude": 33.4792488
@@ -4152,6 +4257,7 @@
       "building": "14а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0422189,
       "longitude": 33.4837621
@@ -4163,6 +4269,7 @@
       "building": "32В",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0507805,
       "longitude": 33.4854324
@@ -4174,6 +4281,7 @@
       "building": "28а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50076",
       "latitude": 47.9355785,
       "longitude": 33.4224928
@@ -4185,6 +4293,7 @@
       "building": "23",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9015179,
       "longitude": 33.4598475
@@ -4196,6 +4305,7 @@
       "building": "48а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50042",
       "latitude": 47.9720416,
       "longitude": 33.4356923
@@ -4207,6 +4317,7 @@
       "building": "93а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0710258,
       "longitude": 33.5067648
@@ -4218,6 +4329,7 @@
       "building": "1б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0744185,
       "longitude": 33.5152114
@@ -4229,6 +4341,7 @@
       "building": "81/1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0678618,
       "longitude": 33.5002041
@@ -4240,6 +4353,7 @@
       "building": "60",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50019",
       "latitude": 47.9077286,
       "longitude": 33.3134542
@@ -4251,6 +4365,7 @@
       "building": "1-К",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9085421,
       "longitude": 33.3417075
@@ -4262,6 +4377,7 @@
       "building": "17",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8369867,
       "longitude": 33.3496691
@@ -4273,6 +4389,7 @@
       "building": "53Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0117126,
       "longitude": 33.4751749
@@ -4284,6 +4401,7 @@
       "building": "14а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50079",
       "latitude": 48.1449454,
       "longitude": 33.583955
@@ -4295,6 +4413,7 @@
       "building": "9в",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8819283,
       "longitude": 33.3832897
@@ -4306,6 +4425,7 @@
       "building": "28б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9946084,
       "longitude": 33.4885306
@@ -4317,6 +4437,7 @@
       "building": "41А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50056",
       "latitude": 47.9558287,
       "longitude": 33.4479446
@@ -4328,6 +4449,7 @@
       "building": "32Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50037",
       "latitude": 48.0509253,
       "longitude": 33.4855414
@@ -4339,6 +4461,7 @@
       "building": "12а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1472385,
       "longitude": 33.5476927
@@ -4350,6 +4473,7 @@
       "building": "55",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50082",
       "latitude": 48.07091,
       "longitude": 33.5148844
@@ -4361,6 +4485,7 @@
       "building": "25",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9415824,
       "longitude": 33.4142686
@@ -4372,6 +4497,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6881738,
       "longitude": 33.1507245
@@ -4383,6 +4509,7 @@
       "building": "17",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8954454,
       "longitude": 33.4038069
@@ -4394,6 +4521,7 @@
       "building": "20",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9405412,
       "longitude": 33.435172
@@ -4405,6 +4533,7 @@
       "building": "1г",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0740459,
       "longitude": 33.5144222
@@ -4416,6 +4545,7 @@
       "building": "53б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0099739,
       "longitude": 33.4832459
@@ -4427,6 +4557,7 @@
       "building": "4а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9991148,
       "longitude": 33.4552925
@@ -4438,6 +4569,7 @@
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9707996,
       "longitude": 33.4426421
@@ -4449,6 +4581,7 @@
       "building": "1к",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.876532,
       "longitude": 33.3575247
@@ -4460,6 +4593,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50084",
       "latitude": 47.9630788,
       "longitude": 33.4265433
@@ -4471,6 +4605,7 @@
       "building": "50",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8799775,
       "longitude": 33.3713703
@@ -4482,6 +4617,7 @@
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9006553,
       "longitude": 33.3931467
@@ -4493,6 +4629,7 @@
       "building": "24",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8992327,
       "longitude": 33.3951787
@@ -4504,6 +4641,7 @@
       "building": "13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0341677,
       "longitude": 33.483118
@@ -4515,6 +4653,7 @@
       "building": "40",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50042",
       "latitude": 47.9745483,
       "longitude": 33.4359328
@@ -4526,6 +4665,7 @@
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50076",
       "latitude": 47.9353857,
       "longitude": 33.418752
@@ -4537,6 +4677,7 @@
       "building": "28",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0217651,
       "longitude": 33.4716738
@@ -4548,6 +4689,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50031",
       "latitude": 47.9856948,
       "longitude": 33.4387185
@@ -4559,6 +4701,7 @@
       "building": "29а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9337085,
       "longitude": 33.4384159
@@ -4570,6 +4713,7 @@
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0305638,
       "longitude": 33.4751162
@@ -4581,6 +4725,7 @@
       "building": "19а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0369735,
       "longitude": 33.4796422
@@ -4592,6 +4737,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50008",
       "latitude": 47.9472025,
       "longitude": 33.4401701
@@ -4603,6 +4749,7 @@
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50004",
       "latitude": 47.8953161,
       "longitude": 33.337562
@@ -4614,6 +4761,7 @@
       "building": "1к",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9086294,
       "longitude": 33.3416549
@@ -4625,6 +4773,7 @@
       "building": "34а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6834905,
       "longitude": 33.1575455
@@ -4636,6 +4785,7 @@
       "building": "41",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9018188,
       "longitude": 33.3395335
@@ -4647,6 +4797,7 @@
       "building": "10-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9061483,
       "longitude": 33.3309961
@@ -4658,6 +4809,7 @@
       "building": "11",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9119446,
       "longitude": 33.339421
@@ -4669,6 +4821,7 @@
       "building": "44/6",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9023097,
       "longitude": 33.3514315
@@ -4680,6 +4833,7 @@
       "building": "18",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9037148,
       "longitude": 33.3421825
@@ -4691,6 +4845,7 @@
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50014",
       "latitude": 47.9875439,
       "longitude": 33.43776
@@ -4702,6 +4857,7 @@
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9050667,
       "longitude": 33.3721746
@@ -4713,6 +4869,7 @@
       "building": "89",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9072973,
       "longitude": 33.2974929
@@ -4724,6 +4881,7 @@
       "building": "14-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9490311,
       "longitude": 33.4528756
@@ -4735,6 +4893,7 @@
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.843523,
       "longitude": 33.3563463
@@ -4746,6 +4905,7 @@
       "building": "39",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9005422,
       "longitude": 33.4027296
@@ -4757,6 +4917,7 @@
       "building": "3",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.910517,
       "longitude": 33.3935393
@@ -4768,6 +4929,7 @@
       "building": "54",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50069",
       "latitude": 47.9364645,
       "longitude": 33.3951768
@@ -4779,6 +4941,7 @@
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9016838,
       "longitude": 33.4199786
@@ -4790,6 +4953,7 @@
       "building": "153",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9226811,
       "longitude": 33.4700042
@@ -4801,6 +4965,7 @@
       "building": "58-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50046",
       "latitude": 47.8796065,
       "longitude": 33.2549447
@@ -4812,6 +4977,7 @@
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50021",
       "latitude": 47.9608413,
       "longitude": 33.4271538
@@ -4823,6 +4989,7 @@
       "building": "11",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.902739,
       "longitude": 33.3412541
@@ -4834,6 +5001,7 @@
       "building": "6а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.7999689,
       "longitude": 33.2438152
@@ -4845,6 +5013,7 @@
       "building": "7а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8050365,
       "longitude": 33.2416601
@@ -4856,6 +5025,7 @@
       "building": "32",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8236615,
       "longitude": 33.265863
@@ -4867,6 +5037,7 @@
       "building": "19/1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9777945,
       "longitude": 33.5122147
@@ -4878,6 +5049,7 @@
       "building": "1-Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0746811,
       "longitude": 33.5151646
@@ -4889,6 +5061,7 @@
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9046336,
       "longitude": 33.403622
@@ -4900,6 +5073,7 @@
       "building": "1Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50000",
       "latitude": 48.0746354,
       "longitude": 33.5150632
@@ -4911,6 +5085,7 @@
       "building": "42б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9035152,
       "longitude": 33.3505836
@@ -4922,6 +5097,7 @@
       "building": "43",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6809378,
       "longitude": 33.1575751
@@ -4933,6 +5109,7 @@
       "building": "40а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9000117,
       "longitude": 33.3492829
@@ -4944,6 +5121,7 @@
       "building": "11-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0014629,
       "longitude": 33.4824872
@@ -4955,6 +5133,7 @@
       "building": "21а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9373433,
       "longitude": 33.4276425
@@ -4966,6 +5145,7 @@
       "building": "16",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9376039,
       "longitude": 33.419779
@@ -4977,6 +5157,7 @@
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9992686,
       "longitude": 33.4817251
@@ -4988,6 +5169,7 @@
       "building": "12а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9655117,
       "longitude": 33.4352539
@@ -4999,6 +5181,7 @@
       "building": "13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0344034,
       "longitude": 33.4832921
@@ -5010,6 +5193,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.901597,
       "longitude": 33.3426848
@@ -5021,6 +5205,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9083784,
       "longitude": 33.3755341
@@ -5032,6 +5217,7 @@
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0168562,
       "longitude": 33.468565
@@ -5043,6 +5229,7 @@
       "building": "24",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9632755,
       "longitude": 33.4349264
@@ -5054,6 +5241,7 @@
       "building": "1в",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9139157,
       "longitude": 33.355597
@@ -5065,6 +5253,7 @@
       "building": "16-Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9483088,
       "longitude": 33.4560353
@@ -5076,6 +5265,7 @@
       "building": "37",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9042208,
       "longitude": 33.3581936
@@ -5087,6 +5277,7 @@
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9721202,
       "longitude": 33.4441048
@@ -5098,6 +5289,7 @@
       "building": "35",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8412462,
       "longitude": 33.3468747
@@ -5109,6 +5301,7 @@
       "building": "41",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9971865,
       "longitude": 33.4440066
@@ -5120,6 +5313,7 @@
       "building": "13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9957896,
       "longitude": 33.4397054
@@ -5131,6 +5325,7 @@
       "building": "36",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9753309,
       "longitude": 33.4359771
@@ -5142,6 +5337,7 @@
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9091041,
       "longitude": 33.4233986
@@ -5153,6 +5349,7 @@
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0047047,
       "longitude": 33.4474406
@@ -5164,6 +5361,7 @@
       "building": "7Д",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50084",
       "latitude": 47.9644842,
       "longitude": 33.4366
@@ -5175,6 +5373,7 @@
       "building": "1А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50031",
       "latitude": 47.9853183,
       "longitude": 33.4389304
@@ -5186,6 +5385,7 @@
       "building": "26",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0374255,
       "longitude": 33.4810716
@@ -5197,6 +5397,7 @@
       "building": "3",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9360513,
       "longitude": 33.4012824
@@ -5208,6 +5409,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": "50038",
       "latitude": 47.9398689,
       "longitude": 33.4408185
@@ -5219,6 +5421,7 @@
       "building": "22",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9393069,
       "longitude": 33.4112943
@@ -5230,6 +5433,7 @@
       "building": "25",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9055316,
       "longitude": 33.3424035
@@ -5241,6 +5445,7 @@
       "building": "10А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9021081,
       "longitude": 33.2957092
@@ -5252,6 +5457,7 @@
       "building": "21а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9404648,
       "longitude": 33.411712
@@ -5263,6 +5469,7 @@
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9424509,
       "longitude": 33.4109733
@@ -5274,6 +5481,7 @@
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.942357,
       "longitude": 33.4107024
@@ -5285,6 +5493,7 @@
       "building": "8а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50007",
       "latitude": 47.9041631,
       "longitude": 33.383169
@@ -5296,6 +5505,7 @@
       "building": "55",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50082",
       "latitude": 48.0710453,
       "longitude": 33.5143428
@@ -5307,6 +5517,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.68707,
       "longitude": 33.1480375
@@ -5318,6 +5529,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6870159,
       "longitude": 33.1477651
@@ -5329,6 +5541,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6879495,
       "longitude": 33.1512928
@@ -5340,6 +5553,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.687142,
       "longitude": 33.1484691
@@ -5351,6 +5565,7 @@
       "building": "6б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": "50031",
       "latitude": 47.9826054,
       "longitude": 33.4412395
@@ -5362,6 +5577,7 @@
       "building": "6б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9824579,
       "longitude": 33.44124
@@ -5373,6 +5589,7 @@
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50089",
       "latitude": 48.1434287,
       "longitude": 33.5832327
@@ -5384,6 +5601,7 @@
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": "50089",
       "latitude": 48.1434231,
       "longitude": 33.5835431
@@ -5395,6 +5613,7 @@
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0132511,
       "longitude": 33.4652334
@@ -5406,6 +5625,7 @@
       "building": "40",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9121781,
       "longitude": 33.3964953
@@ -5417,6 +5637,7 @@
       "building": "72",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9074921,
       "longitude": 33.4204105
@@ -5428,6 +5649,7 @@
       "building": "38",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9089878,
       "longitude": 33.4052065
@@ -5439,6 +5661,7 @@
       "building": "62б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9079343,
       "longitude": 33.4175457
@@ -5450,6 +5673,7 @@
       "building": "28а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9010406,
       "longitude": 33.3940516
@@ -5461,6 +5685,7 @@
       "building": "42",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9092552,
       "longitude": 33.3926895
@@ -5472,6 +5697,7 @@
       "building": "3",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": "50027",
       "latitude": 47.9105526,
       "longitude": 33.3930735
@@ -5483,6 +5709,7 @@
       "building": "13А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9494524,
       "longitude": 33.4517491
@@ -5494,6 +5721,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.964513,
       "longitude": 33.4572873
@@ -5505,6 +5733,7 @@
       "building": "54",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9014157,
       "longitude": 33.33974
@@ -5516,6 +5745,7 @@
       "building": "35",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6823329,
       "longitude": 33.1591618
@@ -5527,6 +5757,7 @@
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.895589,
       "longitude": 33.3375443
@@ -5538,6 +5769,7 @@
       "building": "44/13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9017481,
       "longitude": 33.338388
@@ -5549,6 +5781,7 @@
       "building": "54",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": "50086",
       "latitude": 47.9082494,
       "longitude": 33.4094803
@@ -5560,6 +5793,7 @@
       "building": "26а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9157017,
       "longitude": 33.445089
@@ -5571,6 +5805,7 @@
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9012108,
       "longitude": 33.4192944
@@ -5582,6 +5817,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0426132,
       "longitude": 33.4811273
@@ -5593,6 +5829,7 @@
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0374296,
       "longitude": 33.4803516
@@ -5604,6 +5841,7 @@
       "building": "1е",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1453161,
       "longitude": 33.5620301
@@ -5615,6 +5853,7 @@
       "building": "1е",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.14534,
       "longitude": 33.5617036
@@ -5626,6 +5865,7 @@
       "building": "1к",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1454388,
       "longitude": 33.561401
@@ -5637,6 +5877,7 @@
       "building": "1-У",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.144778,
       "longitude": 33.5626316
@@ -5648,6 +5889,7 @@
       "building": "5А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": "50050",
       "latitude": 47.9236286,
       "longitude": 33.4481362
@@ -5659,6 +5901,7 @@
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9018121,
       "longitude": 33.419996
@@ -5670,6 +5913,7 @@
       "building": "13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6835941,
       "longitude": 33.1653723
@@ -5681,6 +5925,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9037048,
       "longitude": 33.3410436
@@ -5692,6 +5937,7 @@
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0740252,
       "longitude": 33.5163206
@@ -5703,6 +5949,7 @@
       "building": "36",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0149948,
       "longitude": 33.4629089
@@ -5714,6 +5961,7 @@
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9707766,
       "longitude": 33.4426801
@@ -5725,6 +5973,7 @@
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.030978,
       "longitude": 33.480734
@@ -5736,6 +5985,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0290515,
       "longitude": 33.4796658
@@ -5747,6 +5997,7 @@
       "building": "9",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0322121,
       "longitude": 33.4816442
@@ -5758,6 +6009,7 @@
       "building": "26",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0220361,
       "longitude": 33.4714254
@@ -5769,6 +6021,7 @@
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9721121,
       "longitude": 33.4449721
@@ -5780,6 +6033,7 @@
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.972109,
       "longitude": 33.4454315
@@ -5791,6 +6045,7 @@
       "building": "3-Г",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9383802,
       "longitude": 33.4264666
@@ -5802,6 +6057,7 @@
       "building": "21-Ж",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9996161,
       "longitude": 33.480564
@@ -5813,6 +6069,7 @@
       "building": "14-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9652475,
       "longitude": 33.4356934
@@ -5824,6 +6081,7 @@
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0303296,
       "longitude": 33.475602
@@ -5835,6 +6093,7 @@
       "building": "5-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9708685,
       "longitude": 33.4423667
@@ -5846,6 +6105,7 @@
       "building": "35",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6822994,
       "longitude": 33.1591523
@@ -5857,6 +6117,7 @@
       "building": "66-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0103655,
       "longitude": 33.4809208
@@ -5868,6 +6129,7 @@
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8993784,
       "longitude": 33.3963802
@@ -5879,6 +6141,7 @@
       "building": "10",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9081836,
       "longitude": 33.3489829
@@ -5890,6 +6153,7 @@
       "building": "18",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.897296,
       "longitude": 33.2937053
@@ -5901,6 +6165,7 @@
       "building": "21-К",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9995479,
       "longitude": 33.4781259
@@ -5912,6 +6177,7 @@
       "building": "34-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.951521,
       "longitude": 33.4572369
@@ -5923,6 +6189,7 @@
       "building": "44-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1429167,
       "longitude": 33.5891533
@@ -5934,6 +6201,7 @@
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9372787,
       "longitude": 33.427062
@@ -5945,6 +6213,7 @@
       "building": "36-Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
+      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9447193,
       "longitude": 33.4254152

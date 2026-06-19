@@ -139,6 +139,7 @@ function insertLocations(locations) {
         'street, \n' +
         'city, \n' +
         'region, \n' +
+        'district, \n' +
         'post_code, \n' +
         'latitude, \n' +
         'longitude \n' +
@@ -162,6 +163,7 @@ function insertLocations(locations) {
                 `${sqlString(fullStreet)}, \n`+
                 `${sqlString(location.city)}, \n`+
                 `${sqlString(location.region)}, \n`+
+                `${sqlString(location.district)}, \n`+
                 `${sqlString(location.post_code)}, \n`+
                 `${location.latitude}, \n`+
                 `${location.longitude} \n`+
