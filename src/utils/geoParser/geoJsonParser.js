@@ -494,7 +494,7 @@ const parseGeoJson = (filePath) => {
                   Якщо в реальній БД воно називається approved_at,
                   тоді краще перейменувати і тут.
                 */
-                appoved_at: null,
+                approved_at: null,
 
                 rejection_reason: null
             };

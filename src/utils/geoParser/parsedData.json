@@ -59,7 +59,7 @@
       "working_hours": "Mo-Su 07:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -73,7 +73,7 @@
       "working_hours": "08:30-19:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -87,7 +87,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -101,7 +101,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -115,7 +115,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -129,7 +129,7 @@
       "working_hours": "Mo-Fr 08:00-17:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -143,7 +143,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -157,7 +157,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -176,7 +176,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -195,7 +195,7 @@
       "working_hours": "Mo-Su 09:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -209,7 +209,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -223,7 +223,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -237,7 +237,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -251,7 +251,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -269,7 +269,7 @@
       "working_hours": "24/7",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -287,7 +287,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -301,7 +301,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -319,7 +319,7 @@
       "working_hours": "Mo-Su 06:00-23:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -333,7 +333,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -347,7 +347,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -361,7 +361,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -375,7 +375,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -398,7 +398,7 @@
       "working_hours": "Mo-Fr 09:00-17:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -412,7 +412,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -426,7 +426,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -440,7 +440,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -454,7 +454,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -474,7 +474,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -488,7 +488,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -502,7 +502,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -516,7 +516,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -544,7 +544,7 @@
       "working_hours": "24/7",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -565,7 +565,7 @@
       "working_hours": "Mo-Fr 00:00-24:00; Su 08:00-17:00; Sa 09:00-13:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -579,7 +579,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -593,7 +593,7 @@
       "working_hours": "Mo-Su 07:00-21:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -607,7 +607,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -621,7 +621,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -635,7 +635,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -655,7 +655,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -669,7 +669,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -683,7 +683,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -697,7 +697,7 @@
       "working_hours": "Mo-Fr 08:00-18:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -711,7 +711,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -725,7 +725,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -739,7 +739,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -753,7 +753,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -767,7 +767,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -781,7 +781,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -795,7 +795,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -809,7 +809,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -823,7 +823,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -837,7 +837,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -855,7 +855,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -869,7 +869,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -883,7 +883,7 @@
       "working_hours": "10:00-21:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -897,7 +897,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -911,7 +911,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -925,7 +925,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -943,7 +943,7 @@
       "working_hours": "Mo-Su 09:00-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -963,7 +963,7 @@
       "working_hours": "Mo-Su 11:00-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -977,7 +977,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -991,7 +991,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1005,7 +1005,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1019,7 +1019,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1040,7 +1040,7 @@
       "working_hours": "Mo-Fr 09:00-18:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1063,7 +1063,7 @@
       "working_hours": "Mo-Su 8:00-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1077,7 +1077,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1091,7 +1091,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1105,7 +1105,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1119,7 +1119,7 @@
       "working_hours": "Mo-Su 08:00-13:00, 13:30-21:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1133,7 +1133,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1147,7 +1147,7 @@
       "working_hours": "07:00-23:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1161,7 +1161,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1175,7 +1175,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1189,7 +1189,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1203,7 +1203,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1221,7 +1221,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1235,7 +1235,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1249,7 +1249,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1263,7 +1263,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1277,7 +1277,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1295,7 +1295,7 @@
       "working_hours": "11:00-24:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1309,7 +1309,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1323,7 +1323,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1344,7 +1344,7 @@
       "working_hours": "Mo-Su 08:00-19:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1362,7 +1362,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1384,7 +1384,7 @@
       "working_hours": "Mo-Su 7:00-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1398,7 +1398,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1412,7 +1412,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1426,7 +1426,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1440,7 +1440,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1454,7 +1454,7 @@
       "working_hours": "Mo-Su 07:30-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1468,7 +1468,7 @@
       "working_hours": "24/7",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1482,7 +1482,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1496,7 +1496,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1510,7 +1510,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1524,7 +1524,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1538,7 +1538,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1552,7 +1552,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1566,7 +1566,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1580,7 +1580,7 @@
       "working_hours": "24/7",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1594,7 +1594,7 @@
       "working_hours": "Mo-Su 09:00-19:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1608,7 +1608,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1627,7 +1627,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1641,7 +1641,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1659,7 +1659,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1673,7 +1673,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1687,7 +1687,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1701,7 +1701,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1715,7 +1715,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1733,7 +1733,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1747,7 +1747,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1761,7 +1761,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1775,7 +1775,7 @@
       "working_hours": "Mo-Su 08:00-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1793,7 +1793,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1811,7 +1811,7 @@
       "working_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1825,7 +1825,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1839,7 +1839,7 @@
       "working_hours": "24/7",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1853,7 +1853,7 @@
       "working_hours": "Mo-Sa 08:00-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1867,7 +1867,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1881,7 +1881,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1895,7 +1895,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1909,7 +1909,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1923,7 +1923,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1937,7 +1937,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1955,7 +1955,7 @@
       "working_hours": "Mo-Fr 10:00-18:00; Sa 10:00-15:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1969,7 +1969,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -1988,7 +1988,7 @@
       "working_hours": "Відділення: Пн-Пт 09:00-18:00 Каса: Пн-Пт 09:00-17:45 Тех. перерва: 12:30-13:30",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2002,7 +2002,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2016,7 +2016,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2030,7 +2030,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2044,7 +2044,7 @@
       "working_hours": "Mo-Fr 09:00-18:00; Sa 10:00-15:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2058,7 +2058,7 @@
       "working_hours": "24/7",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2077,7 +2077,7 @@
       "working_hours": "Mo-Fr 09:00-17:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2091,7 +2091,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2105,7 +2105,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2124,7 +2124,7 @@
       "working_hours": "Mo-Sa 09:00-18:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2142,7 +2142,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2156,7 +2156,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2170,7 +2170,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2184,7 +2184,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2198,7 +2198,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2212,7 +2212,7 @@
       "working_hours": "Mo-Su 09:00-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2226,7 +2226,7 @@
       "working_hours": "Mo-Su 08:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2240,7 +2240,7 @@
       "working_hours": "Mo-Su 08:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2259,7 +2259,7 @@
       "working_hours": "Mo-Fr 08:00-17:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2273,7 +2273,7 @@
       "working_hours": "Mo-Su 07:30-20:30",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2287,7 +2287,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2306,7 +2306,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2320,7 +2320,7 @@
       "working_hours": "Mo-Su 09:00-14:00,14:30-21:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2334,7 +2334,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2348,7 +2348,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2362,7 +2362,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2376,7 +2376,7 @@
       "working_hours": "Mo-Su 11:00-23:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2390,7 +2390,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2404,7 +2404,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2418,7 +2418,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2432,7 +2432,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2446,7 +2446,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2460,7 +2460,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2474,7 +2474,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2488,7 +2488,7 @@
       "working_hours": "24/7",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2502,7 +2502,7 @@
       "working_hours": "24/7",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2520,7 +2520,7 @@
       "working_hours": "Mo-Fr 09:00-18:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2534,7 +2534,7 @@
       "working_hours": "Mo-Su 08:00-22:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2553,7 +2553,7 @@
       "working_hours": "Відділення: Пн-Пт 09:00-18:00 Каса: Пн-Пт 09:00-17:45 Тех. перерва: 12:30-13:30",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2567,7 +2567,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2581,7 +2581,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2595,7 +2595,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2609,7 +2609,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2623,7 +2623,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2637,7 +2637,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2651,7 +2651,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2665,7 +2665,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2679,7 +2679,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2693,7 +2693,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2707,7 +2707,7 @@
       "working_hours": "Mo-Su 08:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2725,7 +2725,7 @@
       "working_hours": "Mo-Su 09:00-18:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2739,7 +2739,7 @@
       "working_hours": "Mo-Su 08:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2753,7 +2753,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2767,7 +2767,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2781,7 +2781,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2795,7 +2795,7 @@
       "working_hours": "Mo-Fr 09:00-18:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2815,7 +2815,7 @@
       "working_hours": "Mo-Su 08:00-21:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2838,7 +2838,7 @@
       "working_hours": "Mo-Su 09:00-19:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2852,7 +2852,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2873,7 +2873,7 @@
       "working_hours": "Mo-Su 08:00-21:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2887,7 +2887,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2901,7 +2901,7 @@
       "working_hours": "Mo-Su 08:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2915,7 +2915,7 @@
       "working_hours": "Mo-Su 08:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2929,7 +2929,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2943,7 +2943,7 @@
       "working_hours": "Mo-Su 08:00-21:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2957,7 +2957,7 @@
       "working_hours": "Mo-Su 10:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2971,7 +2971,7 @@
       "working_hours": null,
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     },
     {
@@ -2985,7 +2985,7 @@
       "working_hours": "Mo-Su 08:00-20:00",
       "created_at": null,
       "updated_at": null,
-      "appoved_at": null,
+      "approved_at": null,
       "rejection_reason": null
     }
   ],

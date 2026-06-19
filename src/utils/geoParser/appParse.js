@@ -146,16 +146,27 @@ function insertLocations(locations) {
         ' values\n'
 
     const values = locations
-        .map(location => `    (`+
-            `${location.location_id}, \n`+
-            `${location.organization_id}, \n`+
-            `${sqlString(location.street + ' ' + location.building)}, \n`+
-            `${sqlString(location.city)}, \n`+
-            `${sqlString(location.region)}, \n`+
-            `${sqlString(location.post_code)}, \n`+
-            `${location.latitude}, \n`+
-            `${location.longitude} \n`+
-            `)`);
+        .map(location => {
+            /*
+              Уникаємо склеювання "null" (наприклад, "вулиця null" або "null null"),
+              якщо вулиця або будинок відсутні в об'єкті location.
+            */
+            const addressParts = [];
+            if (location.street) addressParts.push(location.street);
+            if (location.building) addressParts.push(location.building);
+            const fullStreet = addressParts.length > 0 ? addressParts.join(' ') : null;
+
+            return `    (`+
+                `${location.location_id}, \n`+
+                `${location.organization_id}, \n`+
+                `${sqlString(fullStreet)}, \n`+
+                `${sqlString(location.city)}, \n`+
+                `${sqlString(location.region)}, \n`+
+                `${sqlString(location.post_code)}, \n`+
+                `${location.latitude}, \n`+
+                `${location.longitude} \n`+
+                `)`;
+        });
 
     return header + values.join(',\n')
 }
