@@ -63,14 +63,33 @@ export async function assignCategoryToOrganization(orgId, categoryId) {
 // Пошук організацій за query parameters
 export async function findOrganizations(filters, pagination) {
     try {
-        const { categoryId, status, geoParams } = filters ?? {};
+        const { categoryId, status, geoParams, districts } = filters ?? {};
+
+        const locationConditions = {};
+
+        if (geoParams) {
+            const { minLat, maxLat, minLng, maxLng } = getBoundingBox(geoParams);
+            locationConditions.latitude = { gte: minLat, lte: maxLat };
+            locationConditions.longitude = { gte: minLng, lte: maxLng };
+        }
+
+        if (districts && districts.length > 0) {
+            locationConditions.district = { in: districts };
+        }
+
+        const where = {
+            status: status ?? OrganizationStatus.approved,
+            ...categoryFilter(categoryId),
+        };
+
+        if (Object.keys(locationConditions).length > 0) {
+            where.locations = {
+                some: locationConditions,
+            };
+        }
 
         return await prisma.organization.findMany({
-            where: {
-                status: status ?? OrganizationStatus.approved,
-                ...categoryFilter(categoryId),
-                ...geoFilter(geoParams),
-            },
+            where,
             include: organizationWithCategoriesAndLocations(),
             orderBy: {
                 createdAt: 'desc',
@@ -81,7 +100,7 @@ export async function findOrganizations(filters, pagination) {
 
     } catch (error) {
         console.error('Database Error:', error);
-        throw new Error('Failed to fetch organizations by query');
+        throw new Error(`Failed to fetch organizations by query: ${error.message}`);
     }
 }
 

@@ -9,13 +9,24 @@ import { parseCSV } from '../utils/csvParser.js'
 
 // GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5
 export const getOrganisations = async (req, res) => {
-	const { status, category_id: categoryId, lat, lng, radiusKm, limit, offset } = req.query
+	const { status, category_id: categoryId, lat, lng, radiusKm, limit, offset, district } = req.query
+
+	let districts = undefined
+	if (district !== undefined) {
+		if (Array.isArray(district)) {
+			districts = district.flatMap(d => typeof d === 'string' ? d.split(',').map(s => s.trim()) : []).filter(Boolean)
+		} else if (typeof district === 'string') {
+			districts = district.split(',').map(s => s.trim()).filter(Boolean)
+		}
+	}
+
 	const filters = {
 		categoryId,
 		status,
 		geoParams: lat !== undefined && lng !== undefined && radiusKm !== undefined
 			? { lat, lng, radiusKm }
 			: undefined,
+		districts,
 	}
 	// Задаємо ліміт: якщо ліміт передано у запиті, обмежуємо його максимум 15 елементами.
 	// Якщо ліміт не передано, за замовчуванням повертаємо 15 елементів.
