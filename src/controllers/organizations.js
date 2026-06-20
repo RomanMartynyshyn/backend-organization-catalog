@@ -3,6 +3,7 @@ import {
 	findOrganizations,
 	findOrganizationById,
 	setOrganizationStatus,
+	getUniqueDistricts,
 } from '../repositories/organization.js'
 import { OrganizationStatus } from '../db/definitions.js'
 import { parseCSV } from '../utils/csvParser.js'
@@ -55,6 +56,15 @@ export const getOrganisations = async (req, res) => {
 
 	res.json(organizations.map(mapOrganisationToDto))
 
+}
+
+// GET /api/organizations/districts
+// Цей контролер спрацьовує, коли фронтенд просить список унікальних районів.
+// Він отримує дані з бази і просто віддає їх у форматі JSON,
+// щоб фронтенд міг відмалювати випадаючий список.
+export const getDistricts = async (req, res) => {
+	const districts = await getUniqueDistricts();
+	res.json(districts);
 }
 
 // GET /api/organizations/:id

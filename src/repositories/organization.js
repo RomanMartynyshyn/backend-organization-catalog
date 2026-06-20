@@ -105,9 +105,14 @@ export async function findOrganizations(filters, pagination) {
         return await prisma.organization.findMany({
             where,
             include: organizationWithCategoriesAndLocations(),
-            orderBy: {
-                createdAt: 'desc',
-            },
+            orderBy: [
+                // Додали вторинне сортування за id. 
+                // Це потрібно, щоб пагінація працювала стабільно і не видавала 
+                // одні й ті самі "дублікати" організацій на різних сторінках, 
+                // коли час їхнього створення (createdAt) абсолютно однаковий.
+                { createdAt: 'desc' },
+                { id: 'asc' }
+            ],
             // Пагінація: take = ліміт записів, skip = зміщення (для сторінок).
             ...(pagination?.limit !== undefined ? { take: Number(pagination.limit) } : {}),
             ...(pagination?.offset !== undefined ? { skip: Number(pagination.offset) } : {}),
@@ -116,6 +121,31 @@ export async function findOrganizations(filters, pagination) {
     } catch (error) {
         console.error('Database Error:', error);
         throw new Error(`Failed to fetch organizations by query: ${error.message}`);
+    }
+}
+
+// Нова функція для отримання списку всіх унікальних районів з бази даних.
+// Вона потрібна фронтенду, щоб автоматично будувати випадаючий список районів
+// для фільтрації, замість того, щоб вписувати ці райони в код фронтенду вручну.
+export async function getUniqueDistricts() {
+    try {
+        const locations = await prisma.location.findMany({
+            where: {
+                district: { not: null },
+            },
+            select: {
+                district: true,
+            },
+            distinct: ['district'],
+        });
+        
+        return locations
+            .map((loc) => loc.district)
+            .filter((d) => d && d !== 'Поза межами відомих районів')
+            .sort((a, b) => a.localeCompare(b, 'uk')); // сортуємо за алфавітом
+    } catch (error) {
+        console.error('Database Error:', error);
+        throw new Error('Failed to fetch unique districts');
     }
 }
 
