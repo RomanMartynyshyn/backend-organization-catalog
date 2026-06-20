@@ -7,15 +7,24 @@ import {
 import { OrganizationStatus } from '../db/definitions.js'
 import { parseCSV } from '../utils/csvParser.js'
 
-// GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5
+// GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5&district=<district>
 export const getOrganisations = async (req, res) => {
 	const { status, category_id: categoryId, lat, lng, radiusKm, limit, offset, district } = req.query
 
+	// Нормалізація параметра `district`.
+	// Фронтенд може передати район у різних форматах:
+	//   - Один рядок:       ?district=Саксаганський район
+	//   - Кілька через кому: ?district=Саксаганський район,Інгулецький район
+	//   - Масив (повторні): ?district=Саксаганський район&district=Інгулецький район
+	// У всіх випадках ми зводимо до єдиного масиву рядків `districts`.
 	let districts = undefined
 	if (district !== undefined) {
 		if (Array.isArray(district)) {
+			// Express автоматично парсить повторні ключі як масив.
+			// Кожен елемент може бути або рядком, або вже розділеним через кому.
 			districts = district.flatMap(d => typeof d === 'string' ? d.split(',').map(s => s.trim()) : []).filter(Boolean)
 		} else if (typeof district === 'string') {
+			// Один рядок — розбиваємо за комою і видаляємо зайві пробіли.
 			districts = district.split(',').map(s => s.trim()).filter(Boolean)
 		}
 	}
@@ -26,7 +35,7 @@ export const getOrganisations = async (req, res) => {
 		geoParams: lat !== undefined && lng !== undefined && radiusKm !== undefined
 			? { lat, lng, radiusKm }
 			: undefined,
-		districts,
+		districts, // масив районів або undefined, якщо параметр не передано
 	}
 	// Задаємо ліміт: якщо ліміт передано у запиті, обмежуємо його максимум 15 елементами.
 	// Якщо ліміт не передано, за замовчуванням повертаємо 15 елементів.
