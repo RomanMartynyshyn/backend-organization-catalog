@@ -1,9 +1,11 @@
-import 'dotenv/config';
+import dotenv from 'dotenv';
+dotenv.config({ override: true });
 import express from 'express';
 import cors from 'cors';
 import errorHandler from './src/middleware/errorHandler.js';
 import organizationsRoutes from './src/routes/organizations.js';
 import categoriesRoutes from './src/routes/categories.js';
+import districtsRoutes from './src/routes/districts.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -16,6 +18,7 @@ app.use(express.urlencoded({ extended: true })); // Для парсингу appl
 // Підключення роутів
 app.use('/api/organizations', organizationsRoutes);
 app.use('/api/categories', categoriesRoutes);
+app.use('/api/districts', districtsRoutes);
 
 app.get('/', (req, res) => {
     res.json({ message: "Catalog API is running" });

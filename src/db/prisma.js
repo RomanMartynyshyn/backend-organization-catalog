@@ -1,4 +1,5 @@
-import "dotenv/config";
+import dotenv from 'dotenv';
+dotenv.config({ override: true });
 import { PrismaMariaDb } from "@prisma/adapter-mariadb";
 import { PrismaClient } from "../../generated/prisma/index.js";
 
@@ -11,6 +12,7 @@ const connectionConfig = {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
     connectionLimit: 5,
+    allowPublicKeyRetrieval: true,
 };
 
 // Опційно: Unix socket для shared хостингу (якщо TCP не дозволений)
