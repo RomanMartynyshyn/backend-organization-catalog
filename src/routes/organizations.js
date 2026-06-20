@@ -31,6 +31,12 @@ router.get('/',
   validate,
   asyncHandler(organizationsController.getOrganisations)
 );
+
+// Додали новий маршрут для отримання списку районів.
+// Важливо: він має стояти ПЕРЕД маршрутом `/:id` (рядок нижче), 
+// інакше слово "districts" сприйматиметься як ID організації, і виникне помилка.
+router.get('/districts', asyncHandler(organizationsController.getDistricts));
+
 router.get('/:id',
   param('id').isInt({ min: 1 }).withMessage('id має бути цілим числом'), 
   validate,
