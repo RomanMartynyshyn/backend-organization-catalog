@@ -63,8 +63,8 @@ export const getOrganisations = async (req, res) => {
 // Він отримує дані з бази і просто віддає їх у форматі JSON,
 // щоб фронтенд міг відмалювати випадаючий список.
 export const getDistricts = async (req, res) => {
-	const districts = await getUniqueDistricts();
-	res.json(districts);
+	const locations = await getUniqueDistricts();
+	res.json(locations);
 }
 
 // GET /api/organizations/:id
