@@ -9,6 +9,6 @@ const router = express.Router();
 // GET /api/districts
 // Публічний ендпоінт — авторизація не потрібна.
 // asyncHandler перехоплює помилки з контролера і передає їх у глобальний errorHandler.
-router.get('/', asyncHandler(districtsController.getAll));
+router.get('/', asyncHandler(districtsController.getAllDistricts));
 
 export default router;
