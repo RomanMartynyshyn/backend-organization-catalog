@@ -7,6 +7,17 @@ import { getDistrictByCoords } from './districtResolver.js';
 */
 const CITY = 'Кривий Ріг';
 const REGION = 'Дніпропетровська';
+const DISTRICTS = [
+    {id: 1, name: 'Саксаганський район'},
+    {id: 2, name: 'Центрально-Міський район'},
+    {id: 3, name: 'Металургійний район'},
+    {id: 4, name: 'Довгинцівський район'},
+    {id: 5, name: 'Інгулецький район'},
+    {id: 6, name: 'Покровський район'},
+    {id: 7, name: 'Тернівський район'}
+];
+
+const districtsMap = new Map(DISTRICTS.map((district) => [district.name, district]));
 
 /*
   У GeoJSON категорія організації може бути записана в різних полях.
@@ -557,6 +568,9 @@ const parseGeoJson = (filePath) => {
         const longitude = coordinates[0] ?? null;
         const latitude = coordinates[1] ?? null;
 
+        const districtName = getDistrictByCoords(latitude, longitude)
+        const district = districtsMap.get(districtName)
+
         /*
           Кожен feature у GeoJSON відповідає одній фізичній локації.
           Навіть якщо організація вже існує, локацію все одно додаємо нову.
@@ -565,11 +579,11 @@ const parseGeoJson = (filePath) => {
         locations.push({
             location_id: locationId++,
             organization_id: organization.org_id,
+            district_id: district.id,
             street: properties['addr:street'] ?? null,
             building: properties['addr:housenumber'] ?? null,
             city: CITY,
             region: REGION,
-            district: getDistrictByCoords(latitude, longitude),
             post_code: properties['addr:postcode'] ?? null,
             latitude,
             longitude
@@ -584,7 +598,8 @@ const parseGeoJson = (filePath) => {
         CATEGORIES: categories,
         ORGANIZATIONS: organizations,
         LOCATIONS: locations,
-        ORGANIZATION_CATEGORIES: organizationCategories
+        ORGANIZATION_CATEGORIES: organizationCategories,
+        DISTRICTS: DISTRICTS
     };
 };
 
