@@ -21,6 +21,7 @@ const validateGeoParamsPresence = (value, { req }) => {
 
 router.get('/',
   query('status').optional().isIn(['pending', 'approved', 'rejected', 'archived']).withMessage('status має бути pending, approved, rejected або archived'),
+  // TODO remove category_id after frontend is updated
   query('category_id').optional().isInt({ min: 1 }).withMessage('category_id має бути цілим додатним числом'),
   query('categoryId').optional().isInt({ min: 1 }).withMessage('category_id має бути цілим додатним числом'),
   query('lat').custom(validateGeoParamsPresence).bail().optional().isFloat({ min: -90, max: 90 }).withMessage('lat має бути числом в межах від -90 до 90'),
