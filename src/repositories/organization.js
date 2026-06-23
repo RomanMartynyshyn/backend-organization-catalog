@@ -63,13 +63,14 @@ export async function assignCategoryToOrganization(orgId, categoryId) {
 // Підтримує фільтрацію за: категорією, статусом, географічним радіусом та районом.
 export async function findOrganizations(filters, pagination) {
     try {
-        const { categoryId, status, geoParams, districtIds } = filters ?? {};
+        const { categoryId, status, geoParams, districtIds, search } = filters ?? {};
 
         return await prisma.organization.findMany({
             where: {
                 status: status ?? OrganizationStatus.approved,
                 ...categoryFilter(categoryId),
                 ...locationFilter(geoParams, districtIds),
+                ...searchFilter(search),
             },
             include: organizationWithCategoriesAndLocations(),
             orderBy: [
@@ -178,6 +179,19 @@ function categoryFilter(categoryId) {
         },
     }
 }
+
+function searchFilter(search) {
+    if (!search) {
+        return {};
+    }
+    return {
+        OR: [
+            { name: { contains: search } },
+            { description: { contains: search } },
+        ],
+    };
+}
+
 
 // Include functions
 function organizationWithCategoriesAndLocations() {

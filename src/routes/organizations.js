@@ -21,8 +21,6 @@ const validateGeoParamsPresence = (value, { req }) => {
 
 router.get('/',
   query('status').optional().isIn(['pending', 'approved', 'rejected', 'archived']).withMessage('status має бути pending, approved, rejected або archived'),
-  // TODO remove category_id after frontend is updated
-  query('category_id').optional().isInt({ min: 1 }).withMessage('category_id має бути цілим додатним числом'),
   query('categoryId').optional().isInt({ min: 1 }).withMessage('category_id має бути цілим додатним числом'),
   query('lat').custom(validateGeoParamsPresence).bail().optional().isFloat({ min: -90, max: 90 }).withMessage('lat має бути числом в межах від -90 до 90'),
   query('lng').optional().isFloat({ min: -180, max: 180 }).withMessage('lng має бути числом в межах від -180 до 180'),
@@ -33,6 +31,7 @@ router.get('/',
   query('districtId.*').isInt({ min: 1 }).withMessage('districtId має бути цілим додатним числом'),
   query('limit').optional().isInt({ min: 1 }).withMessage('limit має бути цілим додатним числом'),
   query('offset').optional().isInt({ min: 0 }).withMessage('offset має бути цілим невід’ємним числом'),
+  query('search').optional().isString().withMessage('search має бути рядком'),
   validate,
   asyncHandler(organizationsController.getOrganisations)
 );
