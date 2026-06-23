@@ -42,8 +42,10 @@ export const createOrganizationValidation = [
     .optional({ nullable: true, checkFalsy: true })
     .isObject(),
   body("socialLinks.facebook")
+      .optional({ nullable: true, checkFalsy: true })
       .isURL(),
   body("socialLinks.instagram")
+      .optional({ nullable: true, checkFalsy: true })
       .isURL(),
 
   body("workingHours")

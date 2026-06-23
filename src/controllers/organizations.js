@@ -9,7 +9,7 @@ import { parseCSV } from '../utils/csvParser.js'
 
 // GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5&districtId=<districtId>
 export const getOrganisations = async (req, res) => {
-	const { status, category_id, categoryId, lat, lng, radiusKm, limit, offset, districtId } = req.query
+	const { status, category_id, categoryId, lat, lng, radiusKm, limit, offset, districtId, search } = req.query
 
 	const districtIds = Array.isArray(districtId)
 		? districtId
@@ -22,6 +22,7 @@ export const getOrganisations = async (req, res) => {
 			? { lat, lng, radiusKm }
 			: undefined,
 		districtIds: districtIds, // масив районів або undefined, якщо параметр не передано
+		search: search,
 	}
 	// Задаємо ліміт: якщо ліміт передано у запиті, обмежуємо його максимум 15 елементами.
 	// Якщо ліміт не передано, за замовчуванням повертаємо 15 елементів.
