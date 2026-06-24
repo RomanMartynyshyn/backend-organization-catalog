@@ -85,21 +85,23 @@ function insertCategories(categories) {
     return header + values.join(',\n')
 }
 
-function sqlString(stringValue) {
-    // Екрануємо текстові значення для безпечної вставки в SQL.
-    if (!!stringValue) {
-        return `'${stringValue.replace(/'/g, "''")}'`
-    }
-    return 'NULL'
+function insertDistricts(districts) {
+    // Формуємо SQL-запит для таблиці districts.
+    const header = 'INSERT INTO districts (' +
+        'district_id, ' +
+        'name' +
+        ')\n' +
+        ' values\n'
+
+    const values = districts
+        .map(district => `    (`+
+            `${district.id},`+
+            `${sqlString(district.name)}`+
+            `)`);
+
+    return header + values.join(',\n')
 }
 
-function sqlJson(jsonObject) {
-    // Зберігаємо JSON як SQL-рядок або NULL, якщо об'єкт порожній.
-    if (Object.keys(jsonObject).length > 0) {
-        return `'${JSON.stringify(jsonObject).replace(/'/g, "''")}'`
-    }
-    return 'NULL'
-}
 
 function insertOrganizations(organizations) {
     // Формуємо SQL-запит для таблиці organizations.
@@ -144,7 +146,7 @@ function insertLocations(locations) {
         'street, \n' +
         'city, \n' +
         'region, \n' +
-        'district, \n' +
+        'district_id, \n' +
         'post_code, \n' +
         'latitude, \n' +
         'longitude \n' +
@@ -168,7 +170,7 @@ function insertLocations(locations) {
                 `${sqlString(fullStreet)}, \n`+
                 `${sqlString(location.city)}, \n`+
                 `${sqlString(location.region)}, \n`+
-                `${sqlString(location.district)}, \n`+
+                `${location.district_id}, \n`+
                 `${sqlString(location.post_code)}, \n`+
                 `${location.latitude}, \n`+
                 `${location.longitude} \n`+
@@ -194,6 +196,24 @@ function insertOrganizationCategories(organizationCategories) {
 
     return header + values.join(',\n')
 }
+
+// SQL utils
+function sqlString(stringValue) {
+    // Екрануємо текстові значення для безпечної вставки в SQL.
+    if (!!stringValue) {
+        return `'${stringValue.replace(/'/g, "''")}'`
+    }
+    return 'NULL'
+}
+
+function sqlJson(jsonObject) {
+    // Зберігаємо JSON як SQL-рядок або NULL, якщо об'єкт порожній.
+    if (Object.keys(jsonObject).length > 0) {
+        return `'${JSON.stringify(jsonObject).replace(/'/g, "''")}'`
+    }
+    return 'NULL'
+}
+
 /*
   Основна функція додатку.
 
@@ -233,6 +253,7 @@ const main = () => {
          */
         const sqlStatements =
             insertCategories(parsedData.CATEGORIES) + ';\n\n' +
+            insertDistricts(parsedData.DISTRICTS) + ';\n\n' +
             insertOrganizations(parsedData.ORGANIZATIONS) + ';\n\n' +
             insertLocations(parsedData.LOCATIONS) + ';\n\n' +
             insertOrganizationCategories(parsedData.ORGANIZATION_CATEGORIES) + ';\n\n'

@@ -2993,11 +2993,11 @@
     {
       "location_id": 1,
       "organization_id": 1,
+      "district_id": 1,
       "street": "вулиця Володимира Зінченка",
       "building": "31",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50076",
       "latitude": 47.9307881,
       "longitude": 33.4225808
@@ -3005,11 +3005,11 @@
     {
       "location_id": 2,
       "organization_id": 2,
+      "district_id": 2,
       "street": "Німецька вулиця",
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9062664,
       "longitude": 33.3454639
@@ -3017,11 +3017,11 @@
     {
       "location_id": 3,
       "organization_id": 2,
+      "district_id": 3,
       "street": "вулиця Степана Бандери",
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9047051,
       "longitude": 33.4033828
@@ -3029,11 +3029,11 @@
     {
       "location_id": 4,
       "organization_id": 3,
+      "district_id": 3,
       "street": "вулиця Соборності",
       "building": "29б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50006",
       "latitude": 47.8997265,
       "longitude": 33.394818
@@ -3041,11 +3041,11 @@
     {
       "location_id": 5,
       "organization_id": 4,
+      "district_id": 3,
       "street": "Соборна вулиця",
       "building": "33б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9001432,
       "longitude": 33.3983547
@@ -3053,11 +3053,11 @@
     {
       "location_id": 6,
       "organization_id": 5,
+      "district_id": 3,
       "street": "вулиця Степана Тільги",
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8966168,
       "longitude": 33.3962271
@@ -3065,11 +3065,11 @@
     {
       "location_id": 7,
       "organization_id": 6,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "22А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.897667,
       "longitude": 33.3949218
@@ -3077,11 +3077,11 @@
     {
       "location_id": 8,
       "organization_id": 7,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "12",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50006",
       "latitude": 47.8947151,
       "longitude": 33.3956843
@@ -3089,11 +3089,11 @@
     {
       "location_id": 9,
       "organization_id": 8,
+      "district_id": 3,
       "street": "Мистецька вулиця",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.900533,
       "longitude": 33.3994431
@@ -3101,11 +3101,11 @@
     {
       "location_id": 10,
       "organization_id": 9,
+      "district_id": 3,
       "street": "вулиця Соборності",
       "building": "37",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9008404,
       "longitude": 33.4014275
@@ -3113,11 +3113,11 @@
     {
       "location_id": 11,
       "organization_id": 10,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "36",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9022389,
       "longitude": 33.3941006
@@ -3125,11 +3125,11 @@
     {
       "location_id": 12,
       "organization_id": 11,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "2а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9032313,
       "longitude": 33.3951431
@@ -3137,11 +3137,11 @@
     {
       "location_id": 13,
       "organization_id": 12,
+      "district_id": 3,
       "street": "Мистецька вулиця",
       "building": "3",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9010742,
       "longitude": 33.3983363
@@ -3149,11 +3149,11 @@
     {
       "location_id": 14,
       "organization_id": 13,
+      "district_id": 3,
       "street": "вулиця Соборності",
       "building": "34",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50006",
       "latitude": 47.9004417,
       "longitude": 33.4060695
@@ -3161,11 +3161,11 @@
     {
       "location_id": 15,
       "organization_id": 14,
+      "district_id": 3,
       "street": "вулиця Віталія Матусевича",
       "building": "20а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9033415,
       "longitude": 33.4067055
@@ -3173,11 +3173,11 @@
     {
       "location_id": 16,
       "organization_id": 15,
+      "district_id": 3,
       "street": "вулиця Соборності",
       "building": "49",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50006",
       "latitude": 47.9013014,
       "longitude": 33.407078
@@ -3185,11 +3185,11 @@
     {
       "location_id": 17,
       "organization_id": 16,
+      "district_id": 3,
       "street": "вулиця Віталія Матусевича",
       "building": "39",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9044191,
       "longitude": 33.4089541
@@ -3197,11 +3197,11 @@
     {
       "location_id": 18,
       "organization_id": 17,
+      "district_id": 3,
       "street": "вулиця Дениса Комара",
       "building": "9",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8947657,
       "longitude": 33.4095349
@@ -3209,11 +3209,11 @@
     {
       "location_id": 19,
       "organization_id": 15,
+      "district_id": 4,
       "street": "вулиця Соборності",
       "building": "98",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": "50006",
       "latitude": 47.8990314,
       "longitude": 33.4244475
@@ -3221,11 +3221,11 @@
     {
       "location_id": 20,
       "organization_id": 18,
+      "district_id": 3,
       "street": "Університетський проспект",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9099552,
       "longitude": 33.392569
@@ -3233,11 +3233,11 @@
     {
       "location_id": 21,
       "organization_id": 19,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "42",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9093418,
       "longitude": 33.3927965
@@ -3245,11 +3245,11 @@
     {
       "location_id": 22,
       "organization_id": 20,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "40",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9089653,
       "longitude": 33.3930877
@@ -3257,11 +3257,11 @@
     {
       "location_id": 23,
       "organization_id": 21,
+      "district_id": 3,
       "street": "Університетський проспект",
       "building": "4-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9096771,
       "longitude": 33.3927578
@@ -3269,11 +3269,11 @@
     {
       "location_id": 24,
       "organization_id": 22,
+      "district_id": 3,
       "street": "Університетський проспект",
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9097376,
       "longitude": 33.3933847
@@ -3281,11 +3281,11 @@
     {
       "location_id": 25,
       "organization_id": 23,
+      "district_id": 4,
       "street": "Університетський проспект",
       "building": "58",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9079277,
       "longitude": 33.4159727
@@ -3293,11 +3293,11 @@
     {
       "location_id": 26,
       "organization_id": 15,
+      "district_id": 4,
       "street": "вулиця Петра Дорошенка",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9072699,
       "longitude": 33.4206125
@@ -3305,11 +3305,11 @@
     {
       "location_id": 27,
       "organization_id": 24,
+      "district_id": 1,
       "street": "площа 95-й Квартал",
       "building": "10",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9114619,
       "longitude": 33.3919568
@@ -3317,11 +3317,11 @@
     {
       "location_id": 28,
       "organization_id": 25,
+      "district_id": 4,
       "street": "Кокчетавська вулиця",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9030006,
       "longitude": 33.457774
@@ -3329,11 +3329,11 @@
     {
       "location_id": 29,
       "organization_id": 26,
+      "district_id": 4,
       "street": "Магістральна вулиця",
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9034644,
       "longitude": 33.4603658
@@ -3341,11 +3341,11 @@
     {
       "location_id": 30,
       "organization_id": 27,
+      "district_id": 4,
       "street": "Колійна вулиця",
       "building": "24",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9178625,
       "longitude": 33.4667409
@@ -3353,11 +3353,11 @@
     {
       "location_id": 31,
       "organization_id": 28,
+      "district_id": 4,
       "street": "Магістральна вулиця",
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": "50055",
       "latitude": 47.9047464,
       "longitude": 33.4579111
@@ -3365,11 +3365,11 @@
     {
       "location_id": 32,
       "organization_id": 15,
+      "district_id": 4,
       "street": "вулиця Гетьмана Івана Мазепи",
       "building": "76",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9114718,
       "longitude": 33.4550141
@@ -3377,11 +3377,11 @@
     {
       "location_id": 33,
       "organization_id": 29,
+      "district_id": 3,
       "street": "Нікопольське шосе",
       "building": "4г",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8876539,
       "longitude": 33.3906145
@@ -3389,11 +3389,11 @@
     {
       "location_id": 34,
       "organization_id": 30,
+      "district_id": 2,
       "street": "Центральний проспект",
       "building": "33",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9043731,
       "longitude": 33.3550394
@@ -3401,11 +3401,11 @@
     {
       "location_id": 35,
       "organization_id": 31,
+      "district_id": 2,
       "street": "площа Визволення",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.908194,
       "longitude": 33.3406497
@@ -3413,11 +3413,11 @@
     {
       "location_id": 36,
       "organization_id": 32,
+      "district_id": 1,
       "street": "проспект Героїв-Підпільників",
       "building": "1А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9053666,
       "longitude": 33.375654
@@ -3425,11 +3425,11 @@
     {
       "location_id": 37,
       "organization_id": 33,
+      "district_id": 2,
       "street": "вулиця Чкалова",
       "building": "44а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50002",
       "latitude": 47.9030968,
       "longitude": 33.3539995
@@ -3437,11 +3437,11 @@
     {
       "location_id": 38,
       "organization_id": 34,
+      "district_id": 1,
       "street": "площа Шахтарської Слави",
       "building": "3а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9090802,
       "longitude": 33.3826153
@@ -3449,11 +3449,11 @@
     {
       "location_id": 39,
       "organization_id": 35,
+      "district_id": 4,
       "street": "вулиця Героїв АТО",
       "building": "78а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9043089,
       "longitude": 33.4225075
@@ -3461,11 +3461,11 @@
     {
       "location_id": 40,
       "organization_id": 36,
+      "district_id": 2,
       "street": "площа Визволення",
       "building": "11",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9071984,
       "longitude": 33.339151
@@ -3473,11 +3473,11 @@
     {
       "location_id": 41,
       "organization_id": 37,
+      "district_id": 1,
       "street": "проспект Миру",
       "building": "29в",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9082738,
       "longitude": 33.3853187
@@ -3485,11 +3485,11 @@
     {
       "location_id": 42,
       "organization_id": 38,
+      "district_id": 2,
       "street": "вулиця Гірничих Інженерів",
       "building": "13-О",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50002",
       "latitude": 47.9085214,
       "longitude": 33.349745
@@ -3497,11 +3497,11 @@
     {
       "location_id": 43,
       "organization_id": 39,
+      "district_id": 1,
       "street": "Гетьманська вулиця",
       "building": "80",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50007",
       "latitude": 47.9071561,
       "longitude": 33.3758344
@@ -3509,11 +3509,11 @@
     {
       "location_id": 44,
       "organization_id": 40,
+      "district_id": 2,
       "street": "площа Визволення",
       "building": "11а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9071986,
       "longitude": 33.3401936
@@ -3521,11 +3521,11 @@
     {
       "location_id": 45,
       "organization_id": 41,
+      "district_id": 2,
       "street": "вулиця Рахманінова",
       "building": "7а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8910159,
       "longitude": 33.3143954
@@ -3533,11 +3533,11 @@
     {
       "location_id": 46,
       "organization_id": 42,
+      "district_id": 2,
       "street": "вулиця Миколаївське Шосе",
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8853902,
       "longitude": 33.286787
@@ -3545,11 +3545,11 @@
     {
       "location_id": 47,
       "organization_id": 43,
+      "district_id": 3,
       "street": "Каховська вулиця",
       "building": "31",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8831177,
       "longitude": 33.3638437
@@ -3557,11 +3557,11 @@
     {
       "location_id": 48,
       "organization_id": 44,
+      "district_id": 3,
       "street": "вулиця Криворіжсталі",
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8829254,
       "longitude": 33.3877289
@@ -3569,11 +3569,11 @@
     {
       "location_id": 49,
       "organization_id": 45,
+      "district_id": 3,
       "street": "Тбіліська вулиця",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8808537,
       "longitude": 33.3692411
@@ -3581,11 +3581,11 @@
     {
       "location_id": 50,
       "organization_id": 46,
+      "district_id": 2,
       "street": "вулиця Всебратське-2",
       "building": "65в",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8805047,
       "longitude": 33.2563583
@@ -3593,11 +3593,11 @@
     {
       "location_id": 51,
       "organization_id": 47,
+      "district_id": 5,
       "street": "вулиця Подлєпи",
       "building": "35",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8427224,
       "longitude": 33.3475457
@@ -3605,11 +3605,11 @@
     {
       "location_id": 52,
       "organization_id": 32,
+      "district_id": 4,
       "street": "Вечірньокутська вулиця",
       "building": "64",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9243917,
       "longitude": 33.4477245
@@ -3617,11 +3617,11 @@
     {
       "location_id": 53,
       "organization_id": 48,
+      "district_id": 4,
       "street": "вулиця Дніпровське Шосе",
       "building": "34",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9207104,
       "longitude": 33.4399511
@@ -3629,11 +3629,11 @@
     {
       "location_id": 54,
       "organization_id": 49,
+      "district_id": 5,
       "street": "вулиця Кармелюка",
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8338192,
       "longitude": 33.3457869
@@ -3641,11 +3641,11 @@
     {
       "location_id": 55,
       "organization_id": 15,
+      "district_id": 5,
       "street": "Південний проспект",
       "building": "34",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8410219,
       "longitude": 33.3480332
@@ -3653,11 +3653,11 @@
     {
       "location_id": 56,
       "organization_id": 50,
+      "district_id": 5,
       "street": "Південний проспект",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8327944,
       "longitude": 33.343456
@@ -3665,11 +3665,11 @@
     {
       "location_id": 57,
       "organization_id": 51,
+      "district_id": 2,
       "street": "площа Визволення",
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50099",
       "latitude": 47.9089137,
       "longitude": 33.3400347
@@ -3677,11 +3677,11 @@
     {
       "location_id": 58,
       "organization_id": 52,
+      "district_id": 2,
       "street": "Поштовий проспект",
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9023282,
       "longitude": 33.340776
@@ -3689,11 +3689,11 @@
     {
       "location_id": 59,
       "organization_id": 53,
+      "district_id": 2,
       "street": "Німецька вулиця",
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9036569,
       "longitude": 33.3443342
@@ -3701,11 +3701,11 @@
     {
       "location_id": 60,
       "organization_id": 54,
+      "district_id": 2,
       "street": "Каунаська вулиця",
       "building": "2б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9006405,
       "longitude": 33.3445668
@@ -3713,11 +3713,11 @@
     {
       "location_id": 61,
       "organization_id": 15,
+      "district_id": 2,
       "street": "Поштовий проспект",
       "building": "39а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.907264,
       "longitude": 33.3434298
@@ -3725,11 +3725,11 @@
     {
       "location_id": 62,
       "organization_id": 55,
+      "district_id": 1,
       "street": "майдан Олександра Химиченка",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9468759,
       "longitude": 33.4408888
@@ -3737,11 +3737,11 @@
     {
       "location_id": 63,
       "organization_id": 56,
+      "district_id": 3,
       "street": "вулиця Соборності",
       "building": "29п",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8999566,
       "longitude": 33.3958546
@@ -3749,11 +3749,11 @@
     {
       "location_id": 64,
       "organization_id": 57,
+      "district_id": 3,
       "street": "Південний проспект",
       "building": "44а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8806768,
       "longitude": 33.3601636
@@ -3761,11 +3761,11 @@
     {
       "location_id": 65,
       "organization_id": 58,
+      "district_id": 2,
       "street": "Поштовий проспект",
       "building": "35б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9061131,
       "longitude": 33.3426971
@@ -3773,11 +3773,11 @@
     {
       "location_id": 66,
       "organization_id": 59,
+      "district_id": 2,
       "street": "Кривбасівська вулиця",
       "building": "93",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50024",
       "latitude": 47.9160351,
       "longitude": 33.3336917
@@ -3785,11 +3785,11 @@
     {
       "location_id": 67,
       "organization_id": 60,
+      "district_id": 1,
       "street": "проспект Миру",
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50069",
       "latitude": 47.905933,
       "longitude": 33.3816321
@@ -3797,11 +3797,11 @@
     {
       "location_id": 68,
       "organization_id": 61,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "28а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9007931,
       "longitude": 33.3940566
@@ -3809,11 +3809,11 @@
     {
       "location_id": 69,
       "organization_id": 62,
+      "district_id": 5,
       "street": "проспект Перемоги",
       "building": "11",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6841204,
       "longitude": 33.1667897
@@ -3821,11 +3821,11 @@
     {
       "location_id": 70,
       "organization_id": 63,
+      "district_id": 5,
       "street": "проспект Перемоги",
       "building": "11а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6839623,
       "longitude": 33.1663102
@@ -3833,11 +3833,11 @@
     {
       "location_id": 71,
       "organization_id": 64,
+      "district_id": 1,
       "street": "Соборна вулиця",
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9455257,
       "longitude": 33.4382176
@@ -3845,11 +3845,11 @@
     {
       "location_id": 72,
       "organization_id": 65,
+      "district_id": 3,
       "street": "вулиця Юрія Камінського",
       "building": "21а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9018387,
       "longitude": 33.3928501
@@ -3857,11 +3857,11 @@
     {
       "location_id": 73,
       "organization_id": 66,
+      "district_id": 3,
       "street": "вулиця Героїв АТО",
       "building": "30-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50000-50479",
       "latitude": 47.9066619,
       "longitude": 33.3971027
@@ -3869,11 +3869,11 @@
     {
       "location_id": 74,
       "organization_id": 67,
+      "district_id": 4,
       "street": "Європейський бульвар",
       "building": "14",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9359967,
       "longitude": 33.4400655
@@ -3881,11 +3881,11 @@
     {
       "location_id": 75,
       "organization_id": 68,
+      "district_id": 1,
       "street": "вулиця Павла Глазового",
       "building": "26а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50076",
       "latitude": 47.9350924,
       "longitude": 33.4244434
@@ -3893,11 +3893,11 @@
     {
       "location_id": 76,
       "organization_id": 69,
+      "district_id": 1,
       "street": "вулиця Генерала Радієвського",
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9449838,
       "longitude": 33.4262561
@@ -3905,11 +3905,11 @@
     {
       "location_id": 77,
       "organization_id": 70,
+      "district_id": 1,
       "street": "Спасівська вулиця",
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9608975,
       "longitude": 33.4261317
@@ -3917,11 +3917,11 @@
     {
       "location_id": 78,
       "organization_id": 71,
+      "district_id": 1,
       "street": "проспект 200-річчя Кривого Рогу",
       "building": "4а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9602691,
       "longitude": 33.4367189
@@ -3929,11 +3929,11 @@
     {
       "location_id": 79,
       "organization_id": 72,
+      "district_id": 1,
       "street": "проспект 200-річчя Кривого Рогу",
       "building": "24",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9632838,
       "longitude": 33.4346936
@@ -3941,11 +3941,11 @@
     {
       "location_id": 80,
       "organization_id": 73,
+      "district_id": 1,
       "street": "Виноградна вулиця",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9586937,
       "longitude": 33.4301336
@@ -3953,11 +3953,11 @@
     {
       "location_id": 81,
       "organization_id": 15,
+      "district_id": 1,
       "street": "вулиця Віктора Оцерклевича",
       "building": "1г",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9631565,
       "longitude": 33.4280624
@@ -3965,11 +3965,11 @@
     {
       "location_id": 82,
       "organization_id": 15,
+      "district_id": 6,
       "street": "бульвар Миколи Вороного",
       "building": "22",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9678004,
       "longitude": 33.4473229
@@ -3977,11 +3977,11 @@
     {
       "location_id": 83,
       "organization_id": 74,
+      "district_id": 1,
       "street": "вулиця Володимира Великого",
       "building": "27а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9433539,
       "longitude": 33.4189841
@@ -3989,11 +3989,11 @@
     {
       "location_id": 84,
       "organization_id": 75,
+      "district_id": 1,
       "street": "Вечірній бульвар",
       "building": "31а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9358071,
       "longitude": 33.4337808
@@ -4001,11 +4001,11 @@
     {
       "location_id": 85,
       "organization_id": 15,
+      "district_id": 4,
       "street": "вулиця Лісового",
       "building": "24а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9492089,
       "longitude": 33.4532138
@@ -4013,11 +4013,11 @@
     {
       "location_id": 86,
       "organization_id": 76,
+      "district_id": 2,
       "street": "Свято-Миколаївська вулиця",
       "building": "28а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9020449,
       "longitude": 33.3361006
@@ -4025,11 +4025,11 @@
     {
       "location_id": 87,
       "organization_id": 77,
+      "district_id": 6,
       "street": "Женевська вулиця",
       "building": "6б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50031",
       "latitude": 47.9832198,
       "longitude": 33.4417983
@@ -4037,11 +4037,11 @@
     {
       "location_id": 88,
       "organization_id": 78,
+      "district_id": 6,
       "street": "Шурупова вулиця",
       "building": "2б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.999043,
       "longitude": 33.4500089
@@ -4049,11 +4049,11 @@
     {
       "location_id": 89,
       "organization_id": 79,
+      "district_id": 7,
       "street": "Ботанічна вулиця",
       "building": "23",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50079",
       "latitude": 48.1479907,
       "longitude": 33.5865327
@@ -4061,11 +4061,11 @@
     {
       "location_id": 90,
       "organization_id": 80,
+      "district_id": 7,
       "street": "вулиця Володимира Терещенка",
       "building": "1е",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1455258,
       "longitude": 33.5617963
@@ -4073,11 +4073,11 @@
     {
       "location_id": 91,
       "organization_id": 15,
+      "district_id": 7,
       "street": "вулиця Антона Ігнатченка",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50079",
       "latitude": 48.1434568,
       "longitude": 33.5651624
@@ -4085,11 +4085,11 @@
     {
       "location_id": 92,
       "organization_id": 81,
+      "district_id": 7,
       "street": "вулиця Володимира Терещенка",
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50079",
       "latitude": 48.1454172,
       "longitude": 33.5633014
@@ -4097,11 +4097,11 @@
     {
       "location_id": 93,
       "organization_id": 82,
+      "district_id": 3,
       "street": "Університетський проспект",
       "building": "44",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9079754,
       "longitude": 33.4053758
@@ -4109,11 +4109,11 @@
     {
       "location_id": 94,
       "organization_id": 32,
+      "district_id": 2,
       "street": "вулиця Петра Калнишевського",
       "building": "15А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50024",
       "latitude": 47.9133658,
       "longitude": 33.3367855
@@ -4121,11 +4121,11 @@
     {
       "location_id": 95,
       "organization_id": 83,
+      "district_id": 2,
       "street": "вулиця Олександра Поля",
       "building": "30",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9020411,
       "longitude": 33.3502685
@@ -4133,11 +4133,11 @@
     {
       "location_id": 96,
       "organization_id": 84,
+      "district_id": 5,
       "street": "Переяславська вулиця",
       "building": "3а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8334522,
       "longitude": 33.3456768
@@ -4145,11 +4145,11 @@
     {
       "location_id": 97,
       "organization_id": 85,
+      "district_id": 6,
       "street": "Електрозаводська вулиця",
       "building": "53а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9951335,
       "longitude": 33.4902794
@@ -4157,11 +4157,11 @@
     {
       "location_id": 98,
       "organization_id": 15,
+      "district_id": 6,
       "street": "вулиця Федора Караманиць",
       "building": "66А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50059",
       "latitude": 48.0103235,
       "longitude": 33.4806742
@@ -4169,11 +4169,11 @@
     {
       "location_id": 99,
       "organization_id": 86,
+      "district_id": 6,
       "street": "вулиця Кропивницького",
       "building": "21Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0220233,
       "longitude": 33.4685241
@@ -4181,11 +4181,11 @@
     {
       "location_id": 100,
       "organization_id": 87,
+      "district_id": 6,
       "street": "вулиця Федора Караманиць",
       "building": "39",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50059",
       "latitude": 48.0213867,
       "longitude": 33.4734103
@@ -4193,11 +4193,11 @@
     {
       "location_id": 101,
       "organization_id": 88,
+      "district_id": 6,
       "street": "вулиця Федора Караманиць",
       "building": "50",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50059",
       "latitude": 48.0137658,
       "longitude": 33.4766406
@@ -4205,11 +4205,11 @@
     {
       "location_id": 102,
       "organization_id": 15,
+      "district_id": 6,
       "street": "Електрична вулиця",
       "building": "3б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0026744,
       "longitude": 33.4449309
@@ -4217,11 +4217,11 @@
     {
       "location_id": 103,
       "organization_id": 89,
+      "district_id": 6,
       "street": "вулиця Лисяка",
       "building": "6а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0313137,
       "longitude": 33.4786551
@@ -4229,11 +4229,11 @@
     {
       "location_id": 104,
       "organization_id": 32,
+      "district_id": 6,
       "street": "вулиця Романа Шухевича",
       "building": "17",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.033429,
       "longitude": 33.4766573
@@ -4241,11 +4241,11 @@
     {
       "location_id": 105,
       "organization_id": 90,
+      "district_id": 6,
       "street": "вулиця Романа Шухевича",
       "building": "16",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.034305,
       "longitude": 33.4792488
@@ -4253,11 +4253,11 @@
     {
       "location_id": 106,
       "organization_id": 91,
+      "district_id": 7,
       "street": "вулиця Дмитра Войчишена",
       "building": "14а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0422189,
       "longitude": 33.4837621
@@ -4265,11 +4265,11 @@
     {
       "location_id": 107,
       "organization_id": 92,
+      "district_id": 7,
       "street": "вулиця Сергія Колачевського",
       "building": "32В",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0507805,
       "longitude": 33.4854324
@@ -4277,11 +4277,11 @@
     {
       "location_id": 108,
       "organization_id": 93,
+      "district_id": 1,
       "street": "вулиця Павла Глазового",
       "building": "28а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50076",
       "latitude": 47.9355785,
       "longitude": 33.4224928
@@ -4289,11 +4289,11 @@
     {
       "location_id": 109,
       "organization_id": 32,
+      "district_id": 4,
       "street": "Магістральна вулиця",
       "building": "23",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9015179,
       "longitude": 33.4598475
@@ -4301,11 +4301,11 @@
     {
       "location_id": 110,
       "organization_id": 94,
+      "district_id": 6,
       "street": "вулиця Едуарда Фукса",
       "building": "48а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50042",
       "latitude": 47.9720416,
       "longitude": 33.4356923
@@ -4313,11 +4313,11 @@
     {
       "location_id": 111,
       "organization_id": 95,
+      "district_id": 7,
       "street": "вулиця Сергія Колачевського",
       "building": "93а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0710258,
       "longitude": 33.5067648
@@ -4325,11 +4325,11 @@
     {
       "location_id": 112,
       "organization_id": 96,
+      "district_id": 7,
       "street": "Чарівна вулиця",
       "building": "1б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0744185,
       "longitude": 33.5152114
@@ -4337,11 +4337,11 @@
     {
       "location_id": 113,
       "organization_id": 85,
+      "district_id": 7,
       "street": "вулиця Сергія Колачевського",
       "building": "81/1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0678618,
       "longitude": 33.5002041
@@ -4349,11 +4349,11 @@
     {
       "location_id": 114,
       "organization_id": 97,
+      "district_id": 2,
       "street": "Прорізна вулиця",
       "building": "60",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50019",
       "latitude": 47.9077286,
       "longitude": 33.3134542
@@ -4361,11 +4361,11 @@
     {
       "location_id": 115,
       "organization_id": 66,
+      "district_id": 2,
       "street": "площа Визволення",
       "building": "1-К",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9085421,
       "longitude": 33.3417075
@@ -4373,11 +4373,11 @@
     {
       "location_id": 116,
       "organization_id": 98,
+      "district_id": 5,
       "street": "вулиця Савицького",
       "building": "17",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8369867,
       "longitude": 33.3496691
@@ -4385,11 +4385,11 @@
     {
       "location_id": 117,
       "organization_id": 99,
+      "district_id": 6,
       "street": "вулиця Кропивницького",
       "building": "53Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0117126,
       "longitude": 33.4751749
@@ -4397,11 +4397,11 @@
     {
       "location_id": 118,
       "organization_id": 100,
+      "district_id": 7,
       "street": "Ботанічна вулиця",
       "building": "14а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50079",
       "latitude": 48.1449454,
       "longitude": 33.583955
@@ -4409,11 +4409,11 @@
     {
       "location_id": 119,
       "organization_id": 15,
+      "district_id": 3,
       "street": "вулиця Криворіжсталі",
       "building": "9в",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8819283,
       "longitude": 33.3832897
@@ -4421,11 +4421,11 @@
     {
       "location_id": 120,
       "organization_id": 101,
+      "district_id": 6,
       "street": "Електрозаводська вулиця",
       "building": "28б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9946084,
       "longitude": 33.4885306
@@ -4433,11 +4433,11 @@
     {
       "location_id": 121,
       "organization_id": 32,
+      "district_id": 1,
       "street": "Сонячний мікрорайон",
       "building": "41А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50056",
       "latitude": 47.9558287,
       "longitude": 33.4479446
@@ -4445,11 +4445,11 @@
     {
       "location_id": 122,
       "organization_id": 102,
+      "district_id": 7,
       "street": "вулиця Сергія Колачевського",
       "building": "32Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50037",
       "latitude": 48.0509253,
       "longitude": 33.4855414
@@ -4457,11 +4457,11 @@
     {
       "location_id": 123,
       "organization_id": 103,
+      "district_id": 7,
       "street": "вулиця Бірюзова",
       "building": "12а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1472385,
       "longitude": 33.5476927
@@ -4469,11 +4469,11 @@
     {
       "location_id": 124,
       "organization_id": 104,
+      "district_id": 7,
       "street": "вулиця Сергія Колачевського",
       "building": "55",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50082",
       "latitude": 48.07091,
       "longitude": 33.5148844
@@ -4481,11 +4481,11 @@
     {
       "location_id": 125,
       "organization_id": 105,
+      "district_id": 1,
       "street": "вулиця Володимира Великого",
       "building": "25",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9415824,
       "longitude": 33.4142686
@@ -4493,11 +4493,11 @@
     {
       "location_id": 126,
       "organization_id": 106,
+      "district_id": 5,
       "street": "вулиця Каткова",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6881738,
       "longitude": 33.1507245
@@ -4505,11 +4505,11 @@
     {
       "location_id": 127,
       "organization_id": 107,
+      "district_id": 3,
       "street": "вулиця Вадима Гурова",
       "building": "17",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8954454,
       "longitude": 33.4038069
@@ -4517,11 +4517,11 @@
     {
       "location_id": 128,
       "organization_id": 108,
+      "district_id": 1,
       "street": "Вечірній бульвар",
       "building": "20",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9405412,
       "longitude": 33.435172
@@ -4529,11 +4529,11 @@
     {
       "location_id": 129,
       "organization_id": 109,
+      "district_id": 7,
       "street": "Чарівна вулиця",
       "building": "1г",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0740459,
       "longitude": 33.5144222
@@ -4541,11 +4541,11 @@
     {
       "location_id": 130,
       "organization_id": 110,
+      "district_id": 6,
       "street": "вулиця Федора Караманиць",
       "building": "53б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0099739,
       "longitude": 33.4832459
@@ -4553,11 +4553,11 @@
     {
       "location_id": 131,
       "organization_id": 111,
+      "district_id": 6,
       "street": "вулиця Булди",
       "building": "4а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9991148,
       "longitude": 33.4552925
@@ -4565,11 +4565,11 @@
     {
       "location_id": 132,
       "organization_id": 112,
+      "district_id": 1,
       "street": "вулиця Олексія Різниченка",
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9707996,
       "longitude": 33.4426421
@@ -4577,11 +4577,11 @@
     {
       "location_id": 133,
       "organization_id": 113,
+      "district_id": 3,
       "street": "вулиця Криворіжсталі",
       "building": "1к",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.876532,
       "longitude": 33.3575247
@@ -4589,11 +4589,11 @@
     {
       "location_id": 134,
       "organization_id": 114,
+      "district_id": 1,
       "street": "вулиця Курчатова",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50084",
       "latitude": 47.9630788,
       "longitude": 33.4265433
@@ -4601,11 +4601,11 @@
     {
       "location_id": 135,
       "organization_id": 115,
+      "district_id": 3,
       "street": "вулиця Криворіжсталі",
       "building": "50",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8799775,
       "longitude": 33.3713703
@@ -4613,11 +4613,11 @@
     {
       "location_id": 136,
       "organization_id": 116,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9006553,
       "longitude": 33.3931467
@@ -4625,11 +4625,11 @@
     {
       "location_id": 137,
       "organization_id": 116,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "24",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8992327,
       "longitude": 33.3951787
@@ -4637,11 +4637,11 @@
     {
       "location_id": 138,
       "organization_id": 117,
+      "district_id": 6,
       "street": "Армавірська вулиця",
       "building": "13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0341677,
       "longitude": 33.483118
@@ -4649,11 +4649,11 @@
     {
       "location_id": 139,
       "organization_id": 118,
+      "district_id": 6,
       "street": "вулиця Едуарда Фукса",
       "building": "40",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50042",
       "latitude": 47.9745483,
       "longitude": 33.4359328
@@ -4661,11 +4661,11 @@
     {
       "location_id": 140,
       "organization_id": 119,
+      "district_id": 1,
       "street": "вулиця Павла Глазового",
       "building": "4",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50076",
       "latitude": 47.9353857,
       "longitude": 33.418752
@@ -4673,11 +4673,11 @@
     {
       "location_id": 141,
       "organization_id": 116,
+      "district_id": 6,
       "street": "вулиця Федора Караманиць",
       "building": "28",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0217651,
       "longitude": 33.4716738
@@ -4685,11 +4685,11 @@
     {
       "location_id": 142,
       "organization_id": 120,
+      "district_id": 6,
       "street": "Січеславська вулиця",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50031",
       "latitude": 47.9856948,
       "longitude": 33.4387185
@@ -4697,11 +4697,11 @@
     {
       "location_id": 143,
       "organization_id": 121,
+      "district_id": 4,
       "street": "вулиця Водопʼянова",
       "building": "29а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9337085,
       "longitude": 33.4384159
@@ -4709,11 +4709,11 @@
     {
       "location_id": 144,
       "organization_id": 2,
+      "district_id": 6,
       "street": "вулиця Романа Шухевича",
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0305638,
       "longitude": 33.4751162
@@ -4721,11 +4721,11 @@
     {
       "location_id": 145,
       "organization_id": 15,
+      "district_id": 6,
       "street": "вулиця Романа Шухевича",
       "building": "19а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0369735,
       "longitude": 33.4796422
@@ -4733,11 +4733,11 @@
     {
       "location_id": 146,
       "organization_id": 66,
+      "district_id": 1,
       "street": "майдан Олександра Химиченка",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50008",
       "latitude": 47.9472025,
       "longitude": 33.4401701
@@ -4745,11 +4745,11 @@
     {
       "location_id": 147,
       "organization_id": 122,
+      "district_id": 2,
       "street": "вулиця Мартіна Шимановського",
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50004",
       "latitude": 47.8953161,
       "longitude": 33.337562
@@ -4757,11 +4757,11 @@
     {
       "location_id": 148,
       "organization_id": 123,
+      "district_id": 2,
       "street": "площа Визволення",
       "building": "1к",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9086294,
       "longitude": 33.3416549
@@ -4769,11 +4769,11 @@
     {
       "location_id": 149,
       "organization_id": 124,
+      "district_id": 5,
       "street": "проспект Перемоги",
       "building": "34а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6834905,
       "longitude": 33.1575455
@@ -4781,11 +4781,11 @@
     {
       "location_id": 150,
       "organization_id": 125,
+      "district_id": 2,
       "street": "Свято-Миколаївська вулиця",
       "building": "41",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9018188,
       "longitude": 33.3395335
@@ -4793,11 +4793,11 @@
     {
       "location_id": 151,
       "organization_id": 32,
+      "district_id": 2,
       "street": "Свято-Миколаївська вулиця",
       "building": "10-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9061483,
       "longitude": 33.3309961
@@ -4805,11 +4805,11 @@
     {
       "location_id": 152,
       "organization_id": 126,
+      "district_id": 2,
       "street": "вулиця Калнишевського",
       "building": "11",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9119446,
       "longitude": 33.339421
@@ -4817,11 +4817,11 @@
     {
       "location_id": 153,
       "organization_id": 127,
+      "district_id": 2,
       "street": "вулиця Чкалова",
       "building": "44/6",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9023097,
       "longitude": 33.3514315
@@ -4829,11 +4829,11 @@
     {
       "location_id": 154,
       "organization_id": 128,
+      "district_id": 2,
       "street": "Поштовий проспект",
       "building": "18",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9037148,
       "longitude": 33.3421825
@@ -4841,11 +4841,11 @@
     {
       "location_id": 155,
       "organization_id": 2,
+      "district_id": 6,
       "street": "Січеславська вулиця",
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50014",
       "latitude": 47.9875439,
       "longitude": 33.43776
@@ -4853,11 +4853,11 @@
     {
       "location_id": 156,
       "organization_id": 129,
+      "district_id": 1,
       "street": "проспект Миру",
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9050667,
       "longitude": 33.3721746
@@ -4865,11 +4865,11 @@
     {
       "location_id": 157,
       "organization_id": 130,
+      "district_id": 2,
       "street": "Прорізна вулиця",
       "building": "89",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9072973,
       "longitude": 33.2974929
@@ -4877,11 +4877,11 @@
     {
       "location_id": 158,
       "organization_id": 116,
+      "district_id": 4,
       "street": "вулиця Лісового",
       "building": "14-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9490311,
       "longitude": 33.4528756
@@ -4889,11 +4889,11 @@
     {
       "location_id": 159,
       "organization_id": 131,
+      "district_id": 5,
       "street": "Ярославська вулиця",
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.843523,
       "longitude": 33.3563463
@@ -4901,11 +4901,11 @@
     {
       "location_id": 160,
       "organization_id": 132,
+      "district_id": 3,
       "street": "вулиця Соборності",
       "building": "39",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9005422,
       "longitude": 33.4027296
@@ -4913,11 +4913,11 @@
     {
       "location_id": 161,
       "organization_id": 133,
+      "district_id": 1,
       "street": "Університетський проспект",
       "building": "3",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.910517,
       "longitude": 33.3935393
@@ -4925,11 +4925,11 @@
     {
       "location_id": 162,
       "organization_id": 134,
+      "district_id": 1,
       "street": "вулиця Упіта",
       "building": "54",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50069",
       "latitude": 47.9364645,
       "longitude": 33.3951768
@@ -4937,11 +4937,11 @@
     {
       "location_id": 163,
       "organization_id": 135,
+      "district_id": 4,
       "street": "вулиця Петра Дорошенка",
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9016838,
       "longitude": 33.4199786
@@ -4949,11 +4949,11 @@
     {
       "location_id": 164,
       "organization_id": 136,
+      "district_id": 4,
       "street": "вулиця Гетьмана Івана Мазепи",
       "building": "153",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9226811,
       "longitude": 33.4700042
@@ -4961,11 +4961,11 @@
     {
       "location_id": 165,
       "organization_id": 32,
+      "district_id": 2,
       "street": "вулиця Всебратське-2",
       "building": "58-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50046",
       "latitude": 47.8796065,
       "longitude": 33.2549447
@@ -4973,11 +4973,11 @@
     {
       "location_id": 166,
       "organization_id": 137,
+      "district_id": 1,
       "street": "Спасівська вулиця",
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50021",
       "latitude": 47.9608413,
       "longitude": 33.4271538
@@ -4985,11 +4985,11 @@
     {
       "location_id": 167,
       "organization_id": 138,
+      "district_id": 2,
       "street": "вулиця Олександра Поля",
       "building": "11",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.902739,
       "longitude": 33.3412541
@@ -4997,11 +4997,11 @@
     {
       "location_id": 168,
       "organization_id": 139,
+      "district_id": 2,
       "street": "Рахманівська вулиця",
       "building": "6а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.7999689,
       "longitude": 33.2438152
@@ -5009,11 +5009,11 @@
     {
       "location_id": 169,
       "organization_id": 140,
+      "district_id": 2,
       "street": "вулиця Бориса Глінки",
       "building": "7а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8050365,
       "longitude": 33.2416601
@@ -5021,11 +5021,11 @@
     {
       "location_id": 170,
       "organization_id": 141,
+      "district_id": 2,
       "street": "вулиця Яцьківа",
       "building": "32",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.8236615,
       "longitude": 33.265863
@@ -5033,11 +5033,11 @@
     {
       "location_id": 171,
       "organization_id": 142,
+      "district_id": 6,
       "street": "Коломийцевська вулиця",
       "building": "19/1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9777945,
       "longitude": 33.5122147
@@ -5045,11 +5045,11 @@
     {
       "location_id": 172,
       "organization_id": 32,
+      "district_id": 7,
       "street": "Чарівна вулиця",
       "building": "1-Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0746811,
       "longitude": 33.5151646
@@ -5057,11 +5057,11 @@
     {
       "location_id": 173,
       "organization_id": 143,
+      "district_id": 3,
       "street": "вулиця Віталія Матусевича",
       "building": "17а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9046336,
       "longitude": 33.403622
@@ -5069,11 +5069,11 @@
     {
       "location_id": 174,
       "organization_id": 144,
+      "district_id": 7,
       "street": "Чарівна вулиця",
       "building": "1Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50000",
       "latitude": 48.0746354,
       "longitude": 33.5150632
@@ -5081,11 +5081,11 @@
     {
       "location_id": 175,
       "organization_id": 145,
+      "district_id": 2,
       "street": "вулиця Петра Веропотвеляна",
       "building": "42б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9035152,
       "longitude": 33.3505836
@@ -5093,11 +5093,11 @@
     {
       "location_id": 176,
       "organization_id": 32,
+      "district_id": 5,
       "street": "вулиця Генерала Безручка",
       "building": "43",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6809378,
       "longitude": 33.1575751
@@ -5105,11 +5105,11 @@
     {
       "location_id": 177,
       "organization_id": 146,
+      "district_id": 2,
       "street": "вулиця Глінки",
       "building": "40а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9000117,
       "longitude": 33.3492829
@@ -5117,11 +5117,11 @@
     {
       "location_id": 178,
       "organization_id": 32,
+      "district_id": 6,
       "street": "5-й Зарічний мікрорайон",
       "building": "11-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0014629,
       "longitude": 33.4824872
@@ -5129,11 +5129,11 @@
     {
       "location_id": 179,
       "organization_id": 147,
+      "district_id": 1,
       "street": "вулиця Івана Авраменка",
       "building": "21а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9373433,
       "longitude": 33.4276425
@@ -5141,11 +5141,11 @@
     {
       "location_id": 180,
       "organization_id": 148,
+      "district_id": 1,
       "street": "Бульварний провулок",
       "building": "16",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9376039,
       "longitude": 33.419779
@@ -5153,11 +5153,11 @@
     {
       "location_id": 181,
       "organization_id": 149,
+      "district_id": 6,
       "street": "5-Заречный",
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9992686,
       "longitude": 33.4817251
@@ -5165,11 +5165,11 @@
     {
       "location_id": 182,
       "organization_id": 150,
+      "district_id": 1,
       "street": "проспект 200-річчя Кривого Рогу",
       "building": "12а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9655117,
       "longitude": 33.4352539
@@ -5177,11 +5177,11 @@
     {
       "location_id": 183,
       "organization_id": 151,
+      "district_id": 6,
       "street": "вулиця Джона Маккейна",
       "building": "13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0344034,
       "longitude": 33.4832921
@@ -5189,11 +5189,11 @@
     {
       "location_id": 184,
       "organization_id": 152,
+      "district_id": 2,
       "street": "Комерційна вулиця",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.901597,
       "longitude": 33.3426848
@@ -5201,11 +5201,11 @@
     {
       "location_id": 185,
       "organization_id": 153,
+      "district_id": 1,
       "street": "вулиця Деміденка",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9083784,
       "longitude": 33.3755341
@@ -5213,11 +5213,11 @@
     {
       "location_id": 186,
       "organization_id": 154,
+      "district_id": 6,
       "street": "вулиця Військового Тилу",
       "building": "7",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0168562,
       "longitude": 33.468565
@@ -5225,11 +5225,11 @@
     {
       "location_id": 187,
       "organization_id": 32,
+      "district_id": 1,
       "street": "проспект 200-річчя Кривого Рогу",
       "building": "24",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9632755,
       "longitude": 33.4349264
@@ -5237,11 +5237,11 @@
     {
       "location_id": 188,
       "organization_id": 155,
+      "district_id": 2,
       "street": "вулиця Електроніки",
       "building": "1в",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9139157,
       "longitude": 33.355597
@@ -5249,11 +5249,11 @@
     {
       "location_id": 189,
       "organization_id": 32,
+      "district_id": 4,
       "street": "вулиця Незалежності України",
       "building": "16-Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9483088,
       "longitude": 33.4560353
@@ -5261,11 +5261,11 @@
     {
       "location_id": 190,
       "organization_id": 156,
+      "district_id": 2,
       "street": "Центральний проспект",
       "building": "37",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9042208,
       "longitude": 33.3581936
@@ -5273,11 +5273,11 @@
     {
       "location_id": 191,
       "organization_id": 32,
+      "district_id": 6,
       "street": "вулиця Миколи Світальського",
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9721202,
       "longitude": 33.4441048
@@ -5285,11 +5285,11 @@
     {
       "location_id": 192,
       "organization_id": 32,
+      "district_id": 5,
       "street": "Південний проспект",
       "building": "35",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.8412462,
       "longitude": 33.3468747
@@ -5297,11 +5297,11 @@
     {
       "location_id": 193,
       "organization_id": 157,
+      "district_id": 6,
       "street": "Січеславська вулиця",
       "building": "41",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9971865,
       "longitude": 33.4440066
@@ -5309,11 +5309,11 @@
     {
       "location_id": 194,
       "organization_id": 158,
+      "district_id": 6,
       "street": "Січеславська вулиця",
       "building": "13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9957896,
       "longitude": 33.4397054
@@ -5321,11 +5321,11 @@
     {
       "location_id": 195,
       "organization_id": 159,
+      "district_id": 6,
       "street": "вулиця Едуарда Фукса",
       "building": "36",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9753309,
       "longitude": 33.4359771
@@ -5333,11 +5333,11 @@
     {
       "location_id": 196,
       "organization_id": 160,
+      "district_id": 4,
       "street": "Дніпровське шосе",
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9091041,
       "longitude": 33.4233986
@@ -5345,11 +5345,11 @@
     {
       "location_id": 197,
       "organization_id": 161,
+      "district_id": 6,
       "street": "Електрична вулиця",
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0047047,
       "longitude": 33.4474406
@@ -5357,11 +5357,11 @@
     {
       "location_id": 198,
       "organization_id": 162,
+      "district_id": 1,
       "street": "проспект 200-річчя Кривого Рогу",
       "building": "7Д",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50084",
       "latitude": 47.9644842,
       "longitude": 33.4366
@@ -5369,11 +5369,11 @@
     {
       "location_id": 199,
       "organization_id": 163,
+      "district_id": 6,
       "street": "вулиця Едуарда Фукса",
       "building": "1А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50031",
       "latitude": 47.9853183,
       "longitude": 33.4389304
@@ -5381,11 +5381,11 @@
     {
       "location_id": 200,
       "organization_id": 126,
+      "district_id": 6,
       "street": "вулиця Мусоргського",
       "building": "26",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0374255,
       "longitude": 33.4810716
@@ -5393,11 +5393,11 @@
     {
       "location_id": 201,
       "organization_id": 164,
+      "district_id": 1,
       "street": "вулиця Володимира Великого",
       "building": "3",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9360513,
       "longitude": 33.4012824
@@ -5405,11 +5405,11 @@
     {
       "location_id": 202,
       "organization_id": 165,
+      "district_id": 4,
       "street": "вулиця Водопʼянова",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": "50038",
       "latitude": 47.9398689,
       "longitude": 33.4408185
@@ -5417,11 +5417,11 @@
     {
       "location_id": 203,
       "organization_id": 166,
+      "district_id": 1,
       "street": "вулиця Володимира Великого",
       "building": "22",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9393069,
       "longitude": 33.4112943
@@ -5429,11 +5429,11 @@
     {
       "location_id": 204,
       "organization_id": 32,
+      "district_id": 2,
       "street": "Поштовий проспект",
       "building": "25",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9055316,
       "longitude": 33.3424035
@@ -5441,11 +5441,11 @@
     {
       "location_id": 205,
       "organization_id": 167,
+      "district_id": 2,
       "street": "Алмазна вулиця",
       "building": "10А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9021081,
       "longitude": 33.2957092
@@ -5453,11 +5453,11 @@
     {
       "location_id": 206,
       "organization_id": 168,
+      "district_id": 1,
       "street": "вулиця Володимира Великого",
       "building": "21а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9404648,
       "longitude": 33.411712
@@ -5465,11 +5465,11 @@
     {
       "location_id": 207,
       "organization_id": 169,
+      "district_id": 1,
       "street": "вулиця Володимира Великого",
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.9424509,
       "longitude": 33.4109733
@@ -5477,11 +5477,11 @@
     {
       "location_id": 208,
       "organization_id": 170,
+      "district_id": 1,
       "street": "вулиця Володимира Великого",
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50071",
       "latitude": 47.942357,
       "longitude": 33.4107024
@@ -5489,11 +5489,11 @@
     {
       "location_id": 209,
       "organization_id": 170,
+      "district_id": 3,
       "street": "Святогеоргіївська вулиця",
       "building": "8а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50007",
       "latitude": 47.9041631,
       "longitude": 33.383169
@@ -5501,11 +5501,11 @@
     {
       "location_id": 210,
       "organization_id": 171,
+      "district_id": 7,
       "street": "вулиця Сергія Колачевського",
       "building": "55",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50082",
       "latitude": 48.0710453,
       "longitude": 33.5143428
@@ -5513,11 +5513,11 @@
     {
       "location_id": 211,
       "organization_id": 172,
+      "district_id": 5,
       "street": "вулиця Каткова",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.68707,
       "longitude": 33.1480375
@@ -5525,11 +5525,11 @@
     {
       "location_id": 212,
       "organization_id": 173,
+      "district_id": 5,
       "street": "вулиця Каткова",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6870159,
       "longitude": 33.1477651
@@ -5537,11 +5537,11 @@
     {
       "location_id": 213,
       "organization_id": 106,
+      "district_id": 5,
       "street": "вулиця Каткова",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6879495,
       "longitude": 33.1512928
@@ -5549,11 +5549,11 @@
     {
       "location_id": 214,
       "organization_id": 170,
+      "district_id": 5,
       "street": "вулиця Каткова",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.687142,
       "longitude": 33.1484691
@@ -5561,11 +5561,11 @@
     {
       "location_id": 215,
       "organization_id": 170,
+      "district_id": 6,
       "street": "Женевська вулиця",
       "building": "6б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": "50031",
       "latitude": 47.9826054,
       "longitude": 33.4412395
@@ -5573,11 +5573,11 @@
     {
       "location_id": 216,
       "organization_id": 174,
+      "district_id": 6,
       "street": "Женевська вулиця",
       "building": "6б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9824579,
       "longitude": 33.44124
@@ -5585,11 +5585,11 @@
     {
       "location_id": 217,
       "organization_id": 175,
+      "district_id": 7,
       "street": "вулиця Маршака",
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50089",
       "latitude": 48.1434287,
       "longitude": 33.5832327
@@ -5597,11 +5597,11 @@
     {
       "location_id": 218,
       "organization_id": 176,
+      "district_id": 7,
       "street": "вулиця Маршака",
       "building": "1а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": "50089",
       "latitude": 48.1434231,
       "longitude": 33.5835431
@@ -5609,11 +5609,11 @@
     {
       "location_id": 219,
       "organization_id": 177,
+      "district_id": 6,
       "street": "вулиця Захисників Азовсталі",
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0132511,
       "longitude": 33.4652334
@@ -5621,11 +5621,11 @@
     {
       "location_id": 220,
       "organization_id": 178,
+      "district_id": 1,
       "street": "вулиця Ярослава Мудрого",
       "building": "40",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9121781,
       "longitude": 33.3964953
@@ -5633,11 +5633,11 @@
     {
       "location_id": 221,
       "organization_id": 179,
+      "district_id": 4,
       "street": "Гагаріна",
       "building": "72",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9074921,
       "longitude": 33.4204105
@@ -5645,11 +5645,11 @@
     {
       "location_id": 222,
       "organization_id": 180,
+      "district_id": 3,
       "street": "Гагарина",
       "building": "38",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9089878,
       "longitude": 33.4052065
@@ -5657,11 +5657,11 @@
     {
       "location_id": 223,
       "organization_id": 181,
+      "district_id": 4,
       "street": "Гагарина",
       "building": "62б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9079343,
       "longitude": 33.4175457
@@ -5669,11 +5669,11 @@
     {
       "location_id": 224,
       "organization_id": 182,
+      "district_id": 3,
       "street": "Металлургов",
       "building": "28а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9010406,
       "longitude": 33.3940516
@@ -5681,11 +5681,11 @@
     {
       "location_id": 225,
       "organization_id": 32,
+      "district_id": 3,
       "street": "проспект Металургів",
       "building": "42",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.9092552,
       "longitude": 33.3926895
@@ -5693,11 +5693,11 @@
     {
       "location_id": 226,
       "organization_id": 183,
+      "district_id": 1,
       "street": "Університетський проспект",
       "building": "3",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": "50027",
       "latitude": 47.9105526,
       "longitude": 33.3930735
@@ -5705,11 +5705,11 @@
     {
       "location_id": 227,
       "organization_id": 126,
+      "district_id": 4,
       "street": "вулиця Лісового",
       "building": "13А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9494524,
       "longitude": 33.4517491
@@ -5717,11 +5717,11 @@
     {
       "location_id": 228,
       "organization_id": 126,
+      "district_id": 1,
       "street": "Гірницький мікрорайон",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.964513,
       "longitude": 33.4572873
@@ -5729,11 +5729,11 @@
     {
       "location_id": 229,
       "organization_id": 116,
+      "district_id": 2,
       "street": "Свято-Миколаївська вулиця",
       "building": "54",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9014157,
       "longitude": 33.33974
@@ -5741,11 +5741,11 @@
     {
       "location_id": 230,
       "organization_id": 116,
+      "district_id": 5,
       "street": "проспект Перемоги",
       "building": "35",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": "50102",
       "latitude": 47.6823329,
       "longitude": 33.1591618
@@ -5753,11 +5753,11 @@
     {
       "location_id": 231,
       "organization_id": 184,
+      "district_id": 2,
       "street": "вулиця Мартіна Шимановського",
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.895589,
       "longitude": 33.3375443
@@ -5765,11 +5765,11 @@
     {
       "location_id": 232,
       "organization_id": 15,
+      "district_id": 2,
       "street": "Свято-Миколаївська вулиця",
       "building": "44/13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": "50000",
       "latitude": 47.9017481,
       "longitude": 33.338388
@@ -5777,11 +5777,11 @@
     {
       "location_id": 233,
       "organization_id": 185,
+      "district_id": 3,
       "street": "Haharina Ave",
       "building": "54",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": "50086",
       "latitude": 47.9082494,
       "longitude": 33.4094803
@@ -5789,11 +5789,11 @@
     {
       "location_id": 234,
       "organization_id": 186,
+      "district_id": 4,
       "street": "Паровозна вулиця",
       "building": "26а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9157017,
       "longitude": 33.445089
@@ -5801,11 +5801,11 @@
     {
       "location_id": 235,
       "organization_id": 32,
+      "district_id": 4,
       "street": "вулиця Петра Дорошенка",
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9012108,
       "longitude": 33.4192944
@@ -5813,11 +5813,11 @@
     {
       "location_id": 236,
       "organization_id": 32,
+      "district_id": 7,
       "street": "вулиця Симона Петлюри",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0426132,
       "longitude": 33.4811273
@@ -5825,11 +5825,11 @@
     {
       "location_id": 237,
       "organization_id": 110,
+      "district_id": 6,
       "street": "вулиця Романа Шухевича",
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0374296,
       "longitude": 33.4803516
@@ -5837,11 +5837,11 @@
     {
       "location_id": 238,
       "organization_id": 181,
+      "district_id": 7,
       "street": "вулиця Володимира Терещенка",
       "building": "1е",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1453161,
       "longitude": 33.5620301
@@ -5849,11 +5849,11 @@
     {
       "location_id": 239,
       "organization_id": 32,
+      "district_id": 7,
       "street": "вулиця Володимира Терещенка",
       "building": "1е",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.14534,
       "longitude": 33.5617036
@@ -5861,11 +5861,11 @@
     {
       "location_id": 240,
       "organization_id": 179,
+      "district_id": 7,
       "street": "вулиця Володимира Терещенка",
       "building": "1к",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1454388,
       "longitude": 33.561401
@@ -5873,11 +5873,11 @@
     {
       "location_id": 241,
       "organization_id": 116,
+      "district_id": 7,
       "street": "вулиця Володимира Терещенка",
       "building": "1-У",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.144778,
       "longitude": 33.5626316
@@ -5885,11 +5885,11 @@
     {
       "location_id": 242,
       "organization_id": 187,
+      "district_id": 4,
       "street": "Вечірньокутська вулиця",
       "building": "5А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": "50050",
       "latitude": 47.9236286,
       "longitude": 33.4481362
@@ -5897,11 +5897,11 @@
     {
       "location_id": 243,
       "organization_id": 188,
+      "district_id": 4,
       "street": "вулиця Петра Дорошенка",
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.9018121,
       "longitude": 33.419996
@@ -5909,11 +5909,11 @@
     {
       "location_id": 244,
       "organization_id": 189,
+      "district_id": 5,
       "street": "проспект Перемоги",
       "building": "13",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6835941,
       "longitude": 33.1653723
@@ -5921,11 +5921,11 @@
     {
       "location_id": 245,
       "organization_id": 190,
+      "district_id": 2,
       "street": "вулиця Олександра Поля",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9037048,
       "longitude": 33.3410436
@@ -5933,11 +5933,11 @@
     {
       "location_id": 246,
       "organization_id": 116,
+      "district_id": 7,
       "street": "Чарівна вулиця",
       "building": "1",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.0740252,
       "longitude": 33.5163206
@@ -5945,11 +5945,11 @@
     {
       "location_id": 247,
       "organization_id": 191,
+      "district_id": 6,
       "street": "вулиця Корнія Речмидила",
       "building": "36",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0149948,
       "longitude": 33.4629089
@@ -5957,11 +5957,11 @@
     {
       "location_id": 248,
       "organization_id": 15,
+      "district_id": 1,
       "street": "вулиця Олексія Різниченка",
       "building": "5а",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9707766,
       "longitude": 33.4426801
@@ -5969,11 +5969,11 @@
     {
       "location_id": 249,
       "organization_id": 192,
+      "district_id": 6,
       "street": "вулиця Джона Маккейна",
       "building": "5",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.030978,
       "longitude": 33.480734
@@ -5981,11 +5981,11 @@
     {
       "location_id": 250,
       "organization_id": 35,
+      "district_id": 6,
       "street": "вулиця Джона Маккейна",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0290515,
       "longitude": 33.4796658
@@ -5993,11 +5993,11 @@
     {
       "location_id": 251,
       "organization_id": 35,
+      "district_id": 6,
       "street": "вулиця Джона Маккейна",
       "building": "9",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0322121,
       "longitude": 33.4816442
@@ -6005,11 +6005,11 @@
     {
       "location_id": 252,
       "organization_id": 193,
+      "district_id": 6,
       "street": "вулиця Федора Караманиць",
       "building": "26",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0220361,
       "longitude": 33.4714254
@@ -6017,11 +6017,11 @@
     {
       "location_id": 253,
       "organization_id": 179,
+      "district_id": 6,
       "street": "вулиця Миколи Світальського",
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9721121,
       "longitude": 33.4449721
@@ -6029,11 +6029,11 @@
     {
       "location_id": 254,
       "organization_id": 194,
+      "district_id": 6,
       "street": "вулиця Миколи Світальського",
       "building": "15",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.972109,
       "longitude": 33.4454315
@@ -6041,11 +6041,11 @@
     {
       "location_id": 255,
       "organization_id": 116,
+      "district_id": 1,
       "street": "вулиця Івана Авраменка",
       "building": "3-Г",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9383802,
       "longitude": 33.4264666
@@ -6053,11 +6053,11 @@
     {
       "location_id": 256,
       "organization_id": 116,
+      "district_id": 6,
       "street": "4-й Зарічний мікрорайон",
       "building": "21-Ж",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9996161,
       "longitude": 33.480564
@@ -6065,11 +6065,11 @@
     {
       "location_id": 257,
       "organization_id": 116,
+      "district_id": 1,
       "street": "проспект 200-річчя Кривого Рогу",
       "building": "14-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9652475,
       "longitude": 33.4356934
@@ -6077,11 +6077,11 @@
     {
       "location_id": 258,
       "organization_id": 116,
+      "district_id": 6,
       "street": "вулиця Романа Шухевича",
       "building": "2",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0303296,
       "longitude": 33.475602
@@ -6089,11 +6089,11 @@
     {
       "location_id": 259,
       "organization_id": 116,
+      "district_id": 1,
       "street": "вулиця Олексія Різниченка",
       "building": "5-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9708685,
       "longitude": 33.4423667
@@ -6101,11 +6101,11 @@
     {
       "location_id": 260,
       "organization_id": 116,
+      "district_id": 5,
       "street": "проспект Перемоги",
       "building": "35",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Інгулецький район",
       "post_code": null,
       "latitude": 47.6822994,
       "longitude": 33.1591523
@@ -6113,11 +6113,11 @@
     {
       "location_id": 261,
       "organization_id": 116,
+      "district_id": 6,
       "street": "вулиця Федора Караманиць",
       "building": "66-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 48.0103655,
       "longitude": 33.4809208
@@ -6125,11 +6125,11 @@
     {
       "location_id": 262,
       "organization_id": 190,
+      "district_id": 3,
       "street": "вулиця Соборності",
       "building": "8",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Металургійний район",
       "post_code": null,
       "latitude": 47.8993784,
       "longitude": 33.3963802
@@ -6137,11 +6137,11 @@
     {
       "location_id": 263,
       "organization_id": 195,
+      "district_id": 2,
       "street": "вулиця Гірничих Інженерів",
       "building": "10",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.9081836,
       "longitude": 33.3489829
@@ -6149,11 +6149,11 @@
     {
       "location_id": 264,
       "organization_id": 116,
+      "district_id": 2,
       "street": "Алмазна вулиця",
       "building": "18",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Центрально-Міський район",
       "post_code": null,
       "latitude": 47.897296,
       "longitude": 33.2937053
@@ -6161,11 +6161,11 @@
     {
       "location_id": 265,
       "organization_id": 116,
+      "district_id": 6,
       "street": "4-й Зарічний мікрорайон",
       "building": "21-К",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Покровський район",
       "post_code": null,
       "latitude": 47.9995479,
       "longitude": 33.4781259
@@ -6173,11 +6173,11 @@
     {
       "location_id": 266,
       "organization_id": 116,
+      "district_id": 4,
       "street": "вулиця Лісового",
       "building": "34-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Довгинцівський район",
       "post_code": null,
       "latitude": 47.951521,
       "longitude": 33.4572369
@@ -6185,11 +6185,11 @@
     {
       "location_id": 267,
       "organization_id": 32,
+      "district_id": 7,
       "street": "вулиця Героїв Маріуполя",
       "building": "44-А",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Тернівський район",
       "post_code": null,
       "latitude": 48.1429167,
       "longitude": 33.5891533
@@ -6197,11 +6197,11 @@
     {
       "location_id": 268,
       "organization_id": 32,
+      "district_id": 1,
       "street": "вулиця Івана Авраменка",
       "building": "21",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9372787,
       "longitude": 33.427062
@@ -6209,11 +6209,11 @@
     {
       "location_id": 269,
       "organization_id": 32,
+      "district_id": 1,
       "street": "вулиця Володимира Великого",
       "building": "36-Б",
       "city": "Кривий Ріг",
       "region": "Дніпропетровська",
-      "district": "Саксаганський район",
       "post_code": null,
       "latitude": 47.9447193,
       "longitude": 33.4254152
@@ -6999,6 +6999,36 @@
     {
       "org_id": 195,
       "category_id": 4
+    }
+  ],
+  "DISTRICTS": [
+    {
+      "id": 1,
+      "name": "Саксаганський район"
+    },
+    {
+      "id": 2,
+      "name": "Центрально-Міський район"
+    },
+    {
+      "id": 3,
+      "name": "Металургійний район"
+    },
+    {
+      "id": 4,
+      "name": "Довгинцівський район"
+    },
+    {
+      "id": 5,
+      "name": "Інгулецький район"
+    },
+    {
+      "id": 6,
+      "name": "Покровський район"
+    },
+    {
+      "id": 7,
+      "name": "Тернівський район"
     }
   ]
 }

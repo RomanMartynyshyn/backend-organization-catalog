@@ -42,8 +42,10 @@ export const createOrganizationValidation = [
     .optional({ nullable: true, checkFalsy: true })
     .isObject(),
   body("socialLinks.facebook")
+      .optional({ nullable: true, checkFalsy: true })
       .isURL(),
   body("socialLinks.instagram")
+      .optional({ nullable: true, checkFalsy: true })
       .isURL(),
 
   body("workingHours")
@@ -107,10 +109,8 @@ export const createOrganizationValidation = [
     .withMessage("Longitude is required for each location")
     .isFloat({ min: -180, max: 180 }),
 
-  body("locations.*.district")
-    .trim()
+  body("locations.*.districtId")
     .optional()
-    .isString()
-    .isLength({ max: 50 })
-    .withMessage("District is optional for each location")
+    .isInt({ min: 1 })
+    .withMessage("Each district ID must be a positive integer"),
 ];
