@@ -3,8 +3,6 @@ import { body, param, query } from 'express-validator';
 import * as organizationsController from '../controllers/organizations.js';
 import validate from '../middleware/validate.js';
 import asyncHandler from '../middleware/asyncHandler.js';
-import upload from '../middleware/upload.js';
-import { createOrganizationValidation } from '../validators/organization/organizationValidators.js';
 const router = express.Router();
 
 const geoFields = ['lat', 'lng', 'radiusKm'];
@@ -38,21 +36,15 @@ router.get('/',
 router.get('/districts', asyncHandler(organizationsController.getDistricts));
 
 router.get('/:id',
-  param('id').isInt({ min: 1 }).withMessage('id має бути цілим числом'), 
+  param('id').isInt({ min: 1 }).withMessage('id має бути цілим числом'),
   validate,
   asyncHandler(organizationsController.getById)
 );
 
-router.post('/', createOrganizationValidation, validate, asyncHandler(organizationsController.create));
-router.post('/import', 
-  upload.single('file'), 
-  validate,
-  asyncHandler(organizationsController.importCSV)
-);
 router.put('/:id/status',
   param('id').isInt({ min: 1 }).withMessage('id має бути цілим числом'),
   body('status').isIn(['approved', 'rejected', 'archived']).withMessage('status має бути approved, rejected або archived'),
-  body('rejectionReason').optional({nullable: true}).isString().withMessage('rejectionReason має бути рядком'),
+  body('rejectionReason').optional({ nullable: true }).isString().withMessage('rejectionReason має бути рядком'),
   validate,
   asyncHandler(organizationsController.updateStatus)
 );
