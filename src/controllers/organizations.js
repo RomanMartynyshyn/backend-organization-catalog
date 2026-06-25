@@ -5,7 +5,6 @@ import {
 	setOrganizationStatus,
 } from '../repositories/organization.js'
 import { OrganizationStatus } from '../db/definitions.js'
-import { parseCSV } from '../utils/csvParser.js'
 
 // GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5&districtId=<districtId>
 export const getOrganisations = async (req, res) => {
@@ -120,57 +119,6 @@ export const updateStatus = async (req, res) => {
 		rejectionReason ?? null,
 	)
 	res.json(mapOrganisationToDto(updatedOrg))
-}
-
-// POST /api/organizations/import
-export const importCSV = async (req, res) => {
-	if (!req.file) {
-		return res.status(400).json({
-			errors: [{ field: 'file', message: 'CSV file is required' }]
-		})
-	}
-
-	const { rows, errors: parseErrors } = await parseCSV(req.file.buffer)
-
-	if (!rows.length && parseErrors.length) {
-		return res.status(400).json({
-			errors: parseErrors.map(e => ({
-				field: e.field || `row_${e.row}`,
-				message: e.error || e.message
-			}))
-		})
-	}
-
-	const errors = [...parseErrors]
-	const validRows = []
-
-	// Валідація рядків
-	for (const [i, row] of rows.entries()) {
-		const rowNum = i + 2
-		if (!row.name || row.name.trim().length < 2) {
-			errors.push({
-				row: rowNum,
-				field: 'name',
-				message: 'name is required (min 2 chars)',
-			})
-			continue
-		}
-		validRows.push({ ...row, _rowNum: rowNum })
-	}
-
-	const created = []
-
-	for (const row of validRows) {
-		const org = await createOrganization({
-			name: row.name.trim(),
-			description: row.description?.trim() || null,
-			websiteUrl: row.websiteUrl?.trim() || null,
-			// TODO locations
-		})
-		created.push(org.id)
-	}
-
-	res.status(207).json({ created: created.length, errors })
 }
 
 function mapOrganisationToDto(org) {

@@ -3,7 +3,6 @@ import { body, param, query } from 'express-validator';
 import * as organizationsController from '../controllers/organizations.js';
 import validate from '../middleware/validate.js';
 import asyncHandler from '../middleware/asyncHandler.js';
-import upload from '../middleware/upload.js';
 import { createOrganizationValidation } from '../validators/organization/organizationValidators.js';
 const router = express.Router();
 
@@ -43,11 +42,7 @@ router.get('/:id',
 );
 
 router.post('/', createOrganizationValidation, validate, asyncHandler(organizationsController.create));
-router.post('/import', 
-  upload.single('file'), 
-  validate,
-  asyncHandler(organizationsController.importCSV)
-);
+
 router.put('/:id/status',
   param('id').isInt({ min: 1 }).withMessage('id має бути цілим числом'),
   body('status').isIn(['approved', 'rejected', 'archived']).withMessage('status має бути approved, rejected або archived'),
