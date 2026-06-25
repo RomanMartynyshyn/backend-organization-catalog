@@ -24,6 +24,7 @@ TRUNCATE TABLE organization_categories;
 TRUNCATE TABLE categories;
 TRUNCATE TABLE organizations;
 TRUNCATE TABLE locations;
+TRUNCATE TABLE districts;
 SET FOREIGN_KEY_CHECKS = 1;
 `;
 
