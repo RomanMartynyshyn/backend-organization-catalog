@@ -1,3 +1,0 @@
-name,description,website_url
-<org>Test</org>,bad format,not-a-url
-<script>alert(1)</script>,hack,xxx
