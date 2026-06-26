@@ -13,9 +13,6 @@
 * База даних: [MySQL](https://dev.mysql.com/doc/)
 * ORM: [Prisma](https://www.prisma.io/docs)
 * Валідація: [express-validator](https://www.prisma.io/docs)
-* Обробка файлів:
-  - [multer](https://www.prisma.io/docs) (multipart/form-data)
-  - [csv-parser](https://www.npmjs.com/package/csv-parser) (парсинг CSV-файлів)
 
 ### Як запустити локально
 
@@ -87,19 +84,19 @@ npm run db:seed
 
 **GET /api/organizations** — Отримати список підтверджених організацій.
 
-Підтримує наступні query-параметри для фільтрації та пагінації:
+Підтримує наступні query-параметри для фільтрації, геопошуку та пагінації:
 
 | Параметр     | Тип | Опис |
 |--------------|---|---|
 | `categoryId` | number | Фільтрація за ID категорії |
 | `status`     | string | Фільтрація за статусом (`pending`, `approved`, `rejected`, `archived`) |
-| `district`   | string | Фільтрація за районом. Підтримує один або кілька районів через кому: `?district=Саксаганський район,Інгулецький район` |
+| `districtId` | number або array | Фільтрація за ID району. Можна передати кілька разів: `?districtId=1&districtId=2` |
 | `lat`        | float | Географічна широта центру пошуку (потрібен разом з `lng` та `radiusKm`) |
 | `lng`        | float | Географічна довгота центру пошуку (потрібен разом з `lat` та `radiusKm`) |
 | `radiusKm`   | float | Радіус пошуку в кілометрах навколо вказаної точки |
 | `limit`      | number | Кількість організацій на сторінку (максимум 15, за замовчуванням 15) |
 | `offset`     | number | Зміщення для пагінації (за замовчуванням 0) |
-| `search`     | string | Фільтрація за назвою організації |
+| `search`     | string | Пошук за назвою або описом організації |
 
 **GET /api/organizations/:id** — Детальна інформація про конкретну організацію.
 
@@ -111,11 +108,9 @@ npm run db:seed
 
 **POST /api/organizations** — Створити заявку на нову організацію (статус `pending`).
 
-**POST /api/organizations/import** — Масове завантаження організацій через CSV-файл.
-
 ### Модерація (Адміністратор)
 
-**PUT /api/organizations/:id/status** — Змінити статус організації (`pending`, `approved`, `rejected`, `archived`). При відхиленні можна передати поле `rejectionReason`.
+**PUT /api/organizations/:id/status** — Змінити статус організації (`approved`, `rejected`, `archived`). При відхиленні можна передати поле `rejectionReason`.
 
 ## Правила валідації та обробки помилок
 Всі помилки валідації та сервера повертаються в єдиному форматі:
@@ -133,5 +128,3 @@ npm run db:seed
 - **500 Internal Server Error** — внутрішня помилка сервера.
 
 Валідація форм використовує `express-validator`.
-
-Парсинг CSV підтримує файли до 8MB у кодуванні UTF-8 (максимум 500 рядків).
