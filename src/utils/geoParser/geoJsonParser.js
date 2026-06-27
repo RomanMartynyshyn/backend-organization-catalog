@@ -1,21 +1,39 @@
 import fs from 'fs';
-import { getDistrictByCoords } from './districtResolver.js';
+import { getDistrictByCoords, getOtgByPostcode, getUniqueOtgs } from './districtResolver.js';
 
 /*
-  Усі організації у GeoJSON належать до Кривого Рогу,
-  тому city не беремо з файлу, а хардкодимо.
+  Базовий список районів міста Кривого Рогу.
+  Пізніше до нього будуть динамічно додані ОТГ.
 */
-const CITY = 'Кривий Ріг';
-const REGION = 'Дніпропетровська';
 const DISTRICTS = [
-    {id: 1, name: 'Саксаганський район'},
-    {id: 2, name: 'Центрально-Міський район'},
-    {id: 3, name: 'Металургійний район'},
-    {id: 4, name: 'Довгинцівський район'},
-    {id: 5, name: 'Інгулецький район'},
-    {id: 6, name: 'Покровський район'},
-    {id: 7, name: 'Тернівський район'}
+  { id: 1, name: 'Саксаганський район' },
+  { id: 2, name: 'Центрально-Міський район' },
+  { id: 3, name: 'Металургійний район' },
+  { id: 4, name: 'Довгинцівський район' },
+  { id: 5, name: 'Інгулецький район' },
+  { id: 6, name: 'Покровський район' },
+  { id: 7, name: 'Тернівський район' }
 ];
+
+/*
+  Динамічно додаємо унікальні ОТГ (Об'єднані Територіальні Громади)
+  в загальний масив DISTRICTS як повноцінні адміністративні одиниці.
+  ID для них генеруються автоматично, продовжуючи нумерацію районів.
+*/
+const otgs = getUniqueOtgs();
+let nextDistrictId = 8;
+for (const otg of otgs) {
+  DISTRICTS.push({ id: nextDistrictId++, name: otg });
+}
+
+/*
+  Додаємо fallback-значення, щоб парсер не падав.
+  Якщо координати організації знаходяться за межами відомих полігонів
+  та відсутній поштовий індекс, вони отримають відповідну мітку,
+  яка також буде збережена в базі.
+*/
+DISTRICTS.push({ id: nextDistrictId++, name: 'Поза межами відомих районів' });
+DISTRICTS.push({ id: nextDistrictId++, name: 'Координати відсутні' });
 
 const districtsMap = new Map(DISTRICTS.map((district) => [district.name, district]));
 
@@ -37,16 +55,16 @@ const CATEGORY_KEYS = ['amenity', 'shop', 'office', 'tourism', 'healthcare'];
   Сирі категорії з GeoJSON ми будемо приводити саме до цих значень.
 */
 const BUSINESS_CATEGORIES = {
-    FOOD: 'Заклади харчування',
-    GROCERY: 'Продукти та супермаркети',
-    MALLS: 'Торгові центри та Універмаги',
-    CLOTHES: 'Одяг, взуття та аксесуари',
-    ELECTRONICS: 'Електроніка та побутова техніка',
-    HOME: 'Будинок, ремонт та будівництво',
-    HEALTH: "Медицина та здоров'я",
-    BEAUTY: 'Послуги краси',
-    BUSINESS: 'Бізнес, фінанси та сервіси',
-    TOURISM: 'Туризм та відпочинок'
+  FOOD: 'Заклади харчування',
+  GROCERY: 'Продукти та супермаркети',
+  MALLS: 'Торгові центри та Універмаги',
+  CLOTHES: 'Одяг, взуття та аксесуари',
+  ELECTRONICS: 'Електроніка та побутова техніка',
+  HOME: 'Будинок, ремонт та будівництво',
+  HEALTH: "Медицина та здоров'я",
+  BEAUTY: 'Послуги краси',
+  BUSINESS: 'Бізнес, фінанси та сервіси',
+  TOURISM: 'Туризм та відпочинок'
 };
 
 /*
@@ -60,55 +78,55 @@ const BUSINESS_CATEGORIES = {
   Якщо сирої категорії тут немає, організація не отримає категорію.
 */
 const RAW_CATEGORY_TO_BUSINESS_CATEGORY = {
-    cafe: BUSINESS_CATEGORIES.FOOD,
-    restaurant: BUSINESS_CATEGORIES.FOOD,
-    fast_food: BUSINESS_CATEGORIES.FOOD,
-    bar: BUSINESS_CATEGORIES.FOOD,
-    pub: BUSINESS_CATEGORIES.FOOD,
+  cafe: BUSINESS_CATEGORIES.FOOD,
+  restaurant: BUSINESS_CATEGORIES.FOOD,
+  fast_food: BUSINESS_CATEGORIES.FOOD,
+  bar: BUSINESS_CATEGORIES.FOOD,
+  pub: BUSINESS_CATEGORIES.FOOD,
 
-    supermarket: BUSINESS_CATEGORIES.GROCERY,
-    convenience: BUSINESS_CATEGORIES.GROCERY,
+  supermarket: BUSINESS_CATEGORIES.GROCERY,
+  convenience: BUSINESS_CATEGORIES.GROCERY,
 
-    mall: BUSINESS_CATEGORIES.MALLS,
-    department_store: BUSINESS_CATEGORIES.MALLS,
+  mall: BUSINESS_CATEGORIES.MALLS,
+  department_store: BUSINESS_CATEGORIES.MALLS,
 
-    clothes: BUSINESS_CATEGORIES.CLOTHES,
-    shoes: BUSINESS_CATEGORIES.CLOTHES,
-    jewelry: BUSINESS_CATEGORIES.CLOTHES,
-    bag: BUSINESS_CATEGORIES.CLOTHES,
+  clothes: BUSINESS_CATEGORIES.CLOTHES,
+  shoes: BUSINESS_CATEGORIES.CLOTHES,
+  jewelry: BUSINESS_CATEGORIES.CLOTHES,
+  bag: BUSINESS_CATEGORIES.CLOTHES,
 
-    electronics: BUSINESS_CATEGORIES.ELECTRONICS,
-    computer: BUSINESS_CATEGORIES.ELECTRONICS,
-    mobile_phone: BUSINESS_CATEGORIES.ELECTRONICS,
-    appliance: BUSINESS_CATEGORIES.ELECTRONICS,
+  electronics: BUSINESS_CATEGORIES.ELECTRONICS,
+  computer: BUSINESS_CATEGORIES.ELECTRONICS,
+  mobile_phone: BUSINESS_CATEGORIES.ELECTRONICS,
+  appliance: BUSINESS_CATEGORIES.ELECTRONICS,
 
-    doityourself: BUSINESS_CATEGORIES.HOME,
-    hardware: BUSINESS_CATEGORIES.HOME,
-    furniture: BUSINESS_CATEGORIES.HOME,
-    building_materials: BUSINESS_CATEGORIES.HOME,
+  doityourself: BUSINESS_CATEGORIES.HOME,
+  hardware: BUSINESS_CATEGORIES.HOME,
+  furniture: BUSINESS_CATEGORIES.HOME,
+  building_materials: BUSINESS_CATEGORIES.HOME,
 
-    pharmacy: BUSINESS_CATEGORIES.HEALTH,
-    clinic: BUSINESS_CATEGORIES.HEALTH,
-    hospital: BUSINESS_CATEGORIES.HEALTH,
-    dentist: BUSINESS_CATEGORIES.HEALTH,
-    doctors: BUSINESS_CATEGORIES.HEALTH,
+  pharmacy: BUSINESS_CATEGORIES.HEALTH,
+  clinic: BUSINESS_CATEGORIES.HEALTH,
+  hospital: BUSINESS_CATEGORIES.HEALTH,
+  dentist: BUSINESS_CATEGORIES.HEALTH,
+  doctors: BUSINESS_CATEGORIES.HEALTH,
 
-    beauty: BUSINESS_CATEGORIES.BEAUTY,
-    hairdresser: BUSINESS_CATEGORIES.BEAUTY,
-    cosmetics: BUSINESS_CATEGORIES.BEAUTY,
+  beauty: BUSINESS_CATEGORIES.BEAUTY,
+  hairdresser: BUSINESS_CATEGORIES.BEAUTY,
+  cosmetics: BUSINESS_CATEGORIES.BEAUTY,
 
-    bank: BUSINESS_CATEGORIES.BUSINESS,
-    atm: BUSINESS_CATEGORIES.BUSINESS,
-    company: BUSINESS_CATEGORIES.BUSINESS,
-    it: BUSINESS_CATEGORIES.BUSINESS,
-    lawyer: BUSINESS_CATEGORIES.BUSINESS,
-    insurance: BUSINESS_CATEGORIES.BUSINESS,
+  bank: BUSINESS_CATEGORIES.BUSINESS,
+  atm: BUSINESS_CATEGORIES.BUSINESS,
+  company: BUSINESS_CATEGORIES.BUSINESS,
+  it: BUSINESS_CATEGORIES.BUSINESS,
+  lawyer: BUSINESS_CATEGORIES.BUSINESS,
+  insurance: BUSINESS_CATEGORIES.BUSINESS,
 
-    hotel: BUSINESS_CATEGORIES.TOURISM,
-    guest_house: BUSINESS_CATEGORIES.TOURISM,
-    hostel: BUSINESS_CATEGORIES.TOURISM,
-    museum: BUSINESS_CATEGORIES.TOURISM,
-    attraction: BUSINESS_CATEGORIES.TOURISM
+  hotel: BUSINESS_CATEGORIES.TOURISM,
+  guest_house: BUSINESS_CATEGORIES.TOURISM,
+  hostel: BUSINESS_CATEGORIES.TOURISM,
+  museum: BUSINESS_CATEGORIES.TOURISM,
+  attraction: BUSINESS_CATEGORIES.TOURISM
 };
 
 /*
@@ -123,7 +141,7 @@ const RAW_CATEGORY_TO_BUSINESS_CATEGORY = {
   Це потрібно для правильного групування однакових організацій.
 */
 const normalizeName = (name) => {
-    return name.trim().toLowerCase().replace(/\s+/g, ' ');
+  return name.trim().toLowerCase().replace(/\s+/g, ' ');
 };
 
 /*
@@ -131,7 +149,7 @@ const normalizeName = (name) => {
   Наприклад " Supermarket " -> "supermarket".
 */
 const normalizeCategoryValue = (categoryName) => {
-    return String(categoryName).trim().toLowerCase();
+  return String(categoryName).trim().toLowerCase();
 };
 
 /*
@@ -141,11 +159,11 @@ const normalizeCategoryValue = (categoryName) => {
   Ми беремо перше доступне значення.
 */
 const getOrganizationName = (properties) => {
-    return properties.name
-        ?? properties['name:ua']
-        ?? properties['name:uk']
-        ?? properties['name:en']
-        ?? null;
+  return properties.name
+    ?? properties['name:ua']
+    ?? properties['name:uk']
+    ?? properties['name:en']
+    ?? null;
 };
 
 /*
@@ -161,9 +179,9 @@ const getOrganizationName = (properties) => {
   ["public_building", "lawyer"]
 */
 const getRawCategoryNames = (properties) => {
-    return CATEGORY_KEYS
-        .map((key) => properties[key])
-        .filter((categoryName) => categoryName !== undefined && categoryName !== null);
+  return CATEGORY_KEYS
+    .map((key) => properties[key])
+    .filter((categoryName) => categoryName !== undefined && categoryName !== null);
 };
 
 /*
@@ -174,23 +192,23 @@ const getRawCategoryNames = (properties) => {
   для одного запису випадково.
 */
 const getBusinessCategoryName = (properties) => {
-    const rawCategoryNames = getRawCategoryNames(properties);
+  const rawCategoryNames = getRawCategoryNames(properties);
 
-    for (const rawCategoryName of rawCategoryNames) {
-        const normalizedRawCategoryName = normalizeCategoryValue(rawCategoryName);
-        const businessCategoryName = RAW_CATEGORY_TO_BUSINESS_CATEGORY[normalizedRawCategoryName];
+  for (const rawCategoryName of rawCategoryNames) {
+    const normalizedRawCategoryName = normalizeCategoryValue(rawCategoryName);
+    const businessCategoryName = RAW_CATEGORY_TO_BUSINESS_CATEGORY[normalizedRawCategoryName];
 
-        if (businessCategoryName) {
-            return businessCategoryName;
-        }
+    if (businessCategoryName) {
+      return businessCategoryName;
     }
+  }
 
-    /*
-      Якщо жодну сиру категорію не вдалося замапити,
-      повертаємо null. У такому випадку організація буде створена,
-      але без зв'язку з категорією.
-    */
-    return null;
+  /*
+    Якщо жодну сиру категорію не вдалося замапити,
+    повертаємо null. У такому випадку організація буде створена,
+    але без зв'язку з категорією.
+  */
+  return null;
 };
 
 /*
@@ -208,13 +226,13 @@ const getBusinessCategoryName = (properties) => {
   будуть різними організаціями.
 */
 const getOrganizationGroupKey = (organizationName, businessCategoryName) => {
-    const normalizedOrganizationName = normalizeName(organizationName);
+  const normalizedOrganizationName = normalizeName(organizationName);
 
-    const normalizedBusinessCategoryName = businessCategoryName
-        ? normalizeName(businessCategoryName)
-        : 'without-category';
+  const normalizedBusinessCategoryName = businessCategoryName
+    ? normalizeName(businessCategoryName)
+    : 'without-category';
 
-    return `${normalizedOrganizationName}:${normalizedBusinessCategoryName}`;
+  return `${normalizedOrganizationName}:${normalizedBusinessCategoryName}`;
 };
 
 /*
@@ -222,10 +240,10 @@ const getOrganizationGroupKey = (organizationName, businessCategoryName) => {
   У GeoJSON сайт може бути записаний у різних полях.
 */
 const getWebsiteUrl = (properties) => {
-    return properties.website
-        ?? properties['contact:website']
-        ?? properties.url
-        ?? null;
+  return properties.website
+    ?? properties['contact:website']
+    ?? properties.url
+    ?? null;
 };
 
 /*
@@ -238,14 +256,14 @@ const getWebsiteUrl = (properties) => {
   ["+380501111111", "+380672222222"]
 */
 const splitPhoneNumbers = (phoneValue) => {
-    if (!phoneValue) {
-        return [];
-    }
+  if (!phoneValue) {
+    return [];
+  }
 
-    return String(phoneValue)
-        .split(';')
-        .map((phoneNumber) => phoneNumber.trim())
-        .filter((phoneNumber) => phoneNumber.length > 0);
+  return String(phoneValue)
+    .split(';')
+    .map((phoneNumber) => phoneNumber.trim())
+    .filter((phoneNumber) => phoneNumber.length > 0);
 };
 
 /*
@@ -253,19 +271,19 @@ const splitPhoneNumbers = (phoneValue) => {
   Навіть якщо номер один, у результаті все одно буде масив.
 */
 const getPhoneNumbers = (properties) => {
-    const phoneFields = [
-        properties.phone,
-        properties['contact:phone'],
-        properties['phone:UA']
-    ];
+  const phoneFields = [
+    properties.phone,
+    properties['contact:phone'],
+    properties['phone:UA']
+  ];
 
-    const phoneNumbers = phoneFields.flatMap(splitPhoneNumbers);
+  const phoneNumbers = phoneFields.flatMap(splitPhoneNumbers);
 
-    /*
-      Set використовується для видалення дублікатів.
-      Наприклад, якщо один і той самий номер є і в phone, і в contact:phone.
-    */
-    return [...new Set(phoneNumbers)];
+  /*
+    Set використовується для видалення дублікатів.
+    Наприклад, якщо один і той самий номер є і в phone, і в contact:phone.
+  */
+  return [...new Set(phoneNumbers)];
 };
 
 /*
@@ -286,25 +304,25 @@ const getPhoneNumbers = (properties) => {
   }
 */
 const getSocialLinks = (properties) => {
-    const socialLinks = {};
+  const socialLinks = {};
 
-    const facebook = properties['contact:facebook'] ?? properties.facebook ?? null;
-    const instagram = properties['contact:instagram'] ?? properties.instagram ?? null;
-    const telegram = properties['contact:telegram'] ?? properties.telegram ?? null;
+  const facebook = properties['contact:facebook'] ?? properties.facebook ?? null;
+  const instagram = properties['contact:instagram'] ?? properties.instagram ?? null;
+  const telegram = properties['contact:telegram'] ?? properties.telegram ?? null;
 
-    if (facebook) {
-        socialLinks.facebook = facebook;
-    }
+  if (facebook) {
+    socialLinks.facebook = facebook;
+  }
 
-    if (instagram) {
-        socialLinks.instagram = instagram;
-    }
+  if (instagram) {
+    socialLinks.instagram = instagram;
+  }
 
-    if (telegram) {
-        socialLinks.telegram = telegram;
-    }
+  if (telegram) {
+    socialLinks.telegram = telegram;
+  }
 
-    return socialLinks;
+  return socialLinks;
 };
 
 /*
@@ -324,20 +342,20 @@ const getSocialLinks = (properties) => {
   }
 */
 const getContacts = (properties) => {
-    const contacts = {};
+  const contacts = {};
 
-    const phoneNumbers = getPhoneNumbers(properties);
-    const email = properties.email ?? properties['contact:email'] ?? null;
+  const phoneNumbers = getPhoneNumbers(properties);
+  const email = properties.email ?? properties['contact:email'] ?? null;
 
-    if (phoneNumbers.length > 0) {
-        contacts.phone_numbers = phoneNumbers;
-    }
+  if (phoneNumbers.length > 0) {
+    contacts.phone_numbers = phoneNumbers;
+  }
 
-    if (email) {
-        contacts.email = email;
-    }
+  if (email) {
+    contacts.email = email;
+  }
 
-    return contacts;
+  return contacts;
 };
 
 /*
@@ -345,17 +363,17 @@ const getContacts = (properties) => {
   ми об'єднуємо старі й нові номери.
 */
 const mergePhoneNumbers = (oldContacts, newContacts) => {
-    const oldPhoneNumbers = oldContacts.phone_numbers ?? [];
-    const newPhoneNumbers = newContacts.phone_numbers ?? [];
+  const oldPhoneNumbers = oldContacts.phone_numbers ?? [];
+  const newPhoneNumbers = newContacts.phone_numbers ?? [];
 
-    const mergedPhoneNumbers = [...new Set([
-        ...oldPhoneNumbers,
-        ...newPhoneNumbers
-    ])];
+  const mergedPhoneNumbers = [...new Set([
+    ...oldPhoneNumbers,
+    ...newPhoneNumbers
+  ])];
 
-    if (mergedPhoneNumbers.length > 0) {
-        oldContacts.phone_numbers = mergedPhoneNumbers;
-    }
+  if (mergedPhoneNumbers.length > 0) {
+    oldContacts.phone_numbers = mergedPhoneNumbers;
+  }
 };
 
 /*
@@ -366,41 +384,41 @@ const mergePhoneNumbers = (oldContacts, newContacts) => {
   але не перезаписує хороші існуючі значення порожніми.
 */
 const mergeOrganizationData = (organization, properties) => {
-    const newContacts = getContacts(properties);
-    const newSocialLinks = getSocialLinks(properties);
-    const newWebsiteUrl = getWebsiteUrl(properties);
+  const newContacts = getContacts(properties);
+  const newSocialLinks = getSocialLinks(properties);
+  const newWebsiteUrl = getWebsiteUrl(properties);
 
-    mergePhoneNumbers(organization.contacts, newContacts);
+  mergePhoneNumbers(organization.contacts, newContacts);
 
-    if (!organization.contacts.email && newContacts.email) {
-        organization.contacts.email = newContacts.email;
-    }
+  if (!organization.contacts.email && newContacts.email) {
+    organization.contacts.email = newContacts.email;
+  }
 
-    /*
-      Соцмережі можна безпечно об'єднати.
-      Якщо в новому записі є instagram, а в старому був facebook,
-      у результаті будуть обидва поля.
-    */
-    organization.social_links = {
-        ...organization.social_links,
-        ...newSocialLinks
-    };
+  /*
+    Соцмережі можна безпечно об'єднати.
+    Якщо в новому записі є instagram, а в старому був facebook,
+    у результаті будуть обидва поля.
+  */
+  organization.social_links = {
+    ...organization.social_links,
+    ...newSocialLinks
+  };
 
-    /*
-      Якщо сайт уже був знайдений раніше, залишаємо його.
-      Якщо не був — записуємо новий.
-    */
-    if (!organization.website_url && newWebsiteUrl) {
-        organization.website_url = newWebsiteUrl;
-    }
+  /*
+    Якщо сайт уже був знайдений раніше, залишаємо його.
+    Якщо не був — записуємо новий.
+  */
+  if (!organization.website_url && newWebsiteUrl) {
+    organization.website_url = newWebsiteUrl;
+  }
 
-    if (!organization.working_hours && properties.opening_hours) {
-        organization.working_hours = properties.opening_hours;
-    }
+  if (!organization.working_hours && properties.opening_hours) {
+    organization.working_hours = properties.opening_hours;
+  }
 
-    if (!organization.description && properties.description) {
-        organization.description = properties.description;
-    }
+  if (!organization.description && properties.description) {
+    organization.description = properties.description;
+  }
 };
 
 /*
@@ -413,194 +431,218 @@ const mergeOrganizationData = (organization, properties) => {
   - ORGANIZATION_CATEGORIES
 */
 const parseGeoJson = (filePath) => {
-    const fileContent = fs.readFileSync(filePath, 'utf-8');
-    const geoJson = JSON.parse(fileContent);
+  const fileContent = fs.readFileSync(filePath, 'utf-8');
+  const geoJson = JSON.parse(fileContent);
+
+  /*
+    Map використовується для швидкого пошуку вже створених організацій.
+    Ключем є name + businessCategory.
+  */
+  const organizationsMap = new Map();
+
+  /*
+    Map для категорій потрібен, щоб не створювати одну й ту саму
+    категорію багато разів.
+  */
+  const categoriesMap = new Map();
+
+  /*
+    Set для зв'язків потрібен, щоб не дублювати пари:
+    org_id + category_id.
+  */
+  const organizationCategoriesSet = new Set();
+
+  /*
+    Ці масиви імітують таблиці нашої БД.
+  */
+  const organizations = [];
+  const categories = [];
+  const locations = [];
+  const organizationCategories = [];
+
+  /*
+    Оскільки ми поки не вставляємо дані в MySQL,
+    ID генеруються вручну.
+    У реальній БД це може робити AUTO_INCREMENT.
+  */
+  let organizationId = 1;
+  let categoryId = 1;
+  let locationId = 1;
+
+  for (const feature of geoJson.features ?? []) {
+    const properties = feature.properties ?? {};
+    const geometry = feature.geometry ?? {};
 
     /*
-      Map використовується для швидкого пошуку вже створених організацій.
-      Ключем є name + businessCategory.
+      Спочатку дістаємо назву організації.
+      Якщо назви немає — пропускаємо запис, бо без name
+      ми не зможемо нормально створити ORGANIZATION.
     */
-    const organizationsMap = new Map();
+    const organizationName = getOrganizationName(properties);
 
-    /*
-      Map для категорій потрібен, щоб не створювати одну й ту саму
-      категорію багато разів.
-    */
-    const categoriesMap = new Map();
-
-    /*
-      Set для зв'язків потрібен, щоб не дублювати пари:
-      org_id + category_id.
-    */
-    const organizationCategoriesSet = new Set();
-
-    /*
-      Ці масиви імітують таблиці нашої БД.
-    */
-    const organizations = [];
-    const categories = [];
-    const locations = [];
-    const organizationCategories = [];
-
-    /*
-      Оскільки ми поки не вставляємо дані в MySQL,
-      ID генеруються вручну.
-      У реальній БД це може робити AUTO_INCREMENT.
-    */
-    let organizationId = 1;
-    let categoryId = 1;
-    let locationId = 1;
-
-    for (const feature of geoJson.features ?? []) {
-        const properties = feature.properties ?? {};
-        const geometry = feature.geometry ?? {};
-
-        /*
-          Спочатку дістаємо назву організації.
-          Якщо назви немає — пропускаємо запис, бо без name
-          ми не зможемо нормально створити ORGANIZATION.
-        */
-        const organizationName = getOrganizationName(properties);
-
-        if (!organizationName) {
-            continue;
-        }
-
-        /*
-          Далі визначаємо бізнес-категорію.
-          Вона може бути null, якщо сирі дані не вдалося замапити.
-        */
-        const businessCategoryName = getBusinessCategoryName(properties);
-
-        /*
-          Організації групуються за назвою + бізнес-категорією.
-          Це зменшує ризик випадково об'єднати різні бізнеси з однаковою назвою.
-        */
-        const organizationGroupKey = getOrganizationGroupKey(
-            organizationName,
-            businessCategoryName
-        );
-
-        let organization = organizationsMap.get(organizationGroupKey);
-
-        /*
-          Якщо такої організації ще не було — створюємо її.
-          Якщо вже була — пізніше просто додамо нову локацію
-          і, за потреби, доповнимо контакти.
-        */
-        if (!organization) {
-            // Створюємо нову організацію тільки один раз для унікальної комбінації name + category.
-            organization = {
-                org_id: organizationId++,
-                name: organizationName,
-                description: properties.description ?? null,
-                status: 'approved',
-                social_links: getSocialLinks(properties),
-                website_url: getWebsiteUrl(properties),
-                contacts: getContacts(properties),
-                working_hours: properties.opening_hours ?? null,
-                created_at: null,
-                updated_at: null,
-
-                /*
-                  Поле відповідає колонці approved_at у схемі БД.
-                  Раніше була опечатка: appoved_at (пропущена буква "r").
-                */
-                approved_at: null,
-
-                rejection_reason: null
-            };
-
-            organizationsMap.set(organizationGroupKey, organization);
-            organizations.push(organization);
-        } else {
-            /*
-              Якщо організація вже існує, то не створюємо дубль.
-              Просто доповнюємо її новими даними з поточного feature.
-            */
-            mergeOrganizationData(organization, properties);
-        }
-
-        /*
-          Якщо бізнес-категорія визначена, додаємо її в CATEGORIES
-          і створюємо зв'язок ORGANIZATION_CATEGORIES.
-        */
-        if (businessCategoryName !== null) {
-            // Додаємо категорію тільки якщо вона була розпізнана з сирих полів.
-            let category = categoriesMap.get(businessCategoryName);
-
-            if (!category) {
-                category = {
-                    category_id: categoryId++,
-                    name: businessCategoryName
-                };
-
-                categoriesMap.set(businessCategoryName, category);
-                categories.push(category);
-            }
-
-            const relationKey = `${organization.org_id}:${category.category_id}`;
-
-            /*
-              Один і той самий зв'язок організація-категорія
-              не повинен дублюватися.
-            */
-            if (!organizationCategoriesSet.has(relationKey)) {
-                organizationCategoriesSet.add(relationKey);
-
-                // Зв'язок організації з категорією зберігаємо без дублювань.
-                organizationCategories.push({
-                    org_id: organization.org_id,
-                    category_id: category.category_id
-                });
-            }
-        }
-
-        const coordinates = geometry.coordinates ?? [];
-
-        /*
-          Важливо:
-          у GeoJSON координати мають порядок:
-          [longitude, latitude]
-    
-          Тобто спочатку довгота, потім широта.
-        */
-        const longitude = coordinates[0] ?? null;
-        const latitude = coordinates[1] ?? null;
-
-        const districtName = getDistrictByCoords(latitude, longitude)
-        const district = districtsMap.get(districtName)
-
-        /*
-          Кожен feature у GeoJSON відповідає одній фізичній локації.
-          Навіть якщо організація вже існує, локацію все одно додаємо нову.
-        */
-        // Кожен feature перетворюємо на окремий запис локації, навіть якщо організація вже існує.
-        locations.push({
-            location_id: locationId++,
-            organization_id: organization.org_id,
-            district_id: district.id,
-            street: properties['addr:street'] ?? null,
-            building: properties['addr:housenumber'] ?? null,
-            city: CITY,
-            region: REGION,
-            post_code: properties['addr:postcode'] ?? null,
-            latitude,
-            longitude
-        });
+    if (!organizationName) {
+      continue;
     }
 
     /*
-      Повертаємо структуру, яка за формою схожа на таблиці БД.
-      Потім ці масиви можна буде використати для INSERT-запитів.
+      Далі визначаємо бізнес-категорію.
+      Вона може бути null, якщо сирі дані не вдалося замапити.
     */
-    return {
-        CATEGORIES: categories,
-        ORGANIZATIONS: organizations,
-        LOCATIONS: locations,
-        ORGANIZATION_CATEGORIES: organizationCategories,
-        DISTRICTS: DISTRICTS
-    };
+    const businessCategoryName = getBusinessCategoryName(properties);
+
+    /*
+      Організації групуються за назвою + бізнес-категорією.
+      Це зменшує ризик випадково об'єднати різні бізнеси з однаковою назвою.
+    */
+    const organizationGroupKey = getOrganizationGroupKey(
+      organizationName,
+      businessCategoryName
+    );
+
+    let organization = organizationsMap.get(organizationGroupKey);
+
+    /*
+      Якщо такої організації ще не було — створюємо її.
+      Якщо вже була — пізніше просто додамо нову локацію
+      і, за потреби, доповнимо контакти.
+    */
+    if (!organization) {
+      // Створюємо нову організацію тільки один раз для унікальної комбінації name + category.
+      organization = {
+        org_id: organizationId++,
+        name: organizationName,
+        description: properties.description ?? null,
+        status: 'approved',
+        social_links: getSocialLinks(properties),
+        website_url: getWebsiteUrl(properties),
+        contacts: getContacts(properties),
+        working_hours: properties.opening_hours ?? null,
+        created_at: null,
+        updated_at: null,
+
+        /*
+          Поле відповідає колонці approved_at у схемі БД.
+          Раніше була опечатка: appoved_at (пропущена буква "r").
+        */
+        approved_at: null,
+
+        rejection_reason: null
+      };
+
+      organizationsMap.set(organizationGroupKey, organization);
+      organizations.push(organization);
+    } else {
+      /*
+        Якщо організація вже існує, то не створюємо дубль.
+        Просто доповнюємо її новими даними з поточного feature.
+      */
+      mergeOrganizationData(organization, properties);
+    }
+
+    /*
+      Якщо бізнес-категорія визначена, додаємо її в CATEGORIES
+      і створюємо зв'язок ORGANIZATION_CATEGORIES.
+    */
+    if (businessCategoryName !== null) {
+      // Додаємо категорію тільки якщо вона була розпізнана з сирих полів.
+      let category = categoriesMap.get(businessCategoryName);
+
+      if (!category) {
+        category = {
+          category_id: categoryId++,
+          name: businessCategoryName
+        };
+
+        categoriesMap.set(businessCategoryName, category);
+        categories.push(category);
+      }
+
+      const relationKey = `${organization.org_id}:${category.category_id}`;
+
+      /*
+        Один і той самий зв'язок організація-категорія
+        не повинен дублюватися.
+      */
+      if (!organizationCategoriesSet.has(relationKey)) {
+        organizationCategoriesSet.add(relationKey);
+
+        // Зв'язок організації з категорією зберігаємо без дублювань.
+        organizationCategories.push({
+          org_id: organization.org_id,
+          category_id: category.category_id
+        });
+      }
+    }
+
+    const coordinates = geometry.coordinates ?? [];
+
+    /*
+      Важливо:
+      у GeoJSON координати мають порядок:
+      [longitude, latitude]
+
+      Тобто спочатку довгота, потім широта.
+    */
+    const longitude = coordinates[0] ?? null;
+    const latitude = coordinates[1] ?? null;
+
+    /*
+      Спочатку перевіряємо координати по полігонах міста Кривого Рогу.
+      Якщо організація знаходиться всередині міста — вона отримає
+      конкретний міський район (Саксаганський, Інгулецький тощо).
+
+      Тільки якщо координати не потрапили в жоден полігон міста —
+      шукаємо населений пункт за поштовим індексом (для приміських організацій).
+      Індекси самого міста Кривий Ріг ігноруються в districtResolver.js,
+      тому getOtgByPostcode для них завжди поверне null.
+    */
+    const postCode = properties['addr:postcode'] ?? properties.postcode ?? null;
+    let districtName = getDistrictByCoords(latitude, longitude);
+
+    if (districtName === 'Поза межами відомих районів') {
+      districtName = getOtgByPostcode(postCode) ?? districtName;
+    }
+
+    const district = districtsMap.get(districtName);
+
+    /*
+      Захисний механізм.
+      Якщо функція пошуку повернула назву району/ОТГ, якої немає у districtsMap,
+      викидаємо помилку, щоб уникнути некоректних зв'язків у БД.
+    */
+    if (!district) {
+      throw new Error(`District not found in map for name: "${districtName}". Available districts: ${Array.from(districtsMap.keys()).join(', ')}`);
+    }
+
+    /*
+      Кожен feature у GeoJSON відповідає одній фізичній локації.
+      Навіть якщо організація вже існує, локацію все одно додаємо нову.
+      city та region прибрані — вони визначаються через ієрархію admin_units.
+    */
+    // Кожен feature перетворюємо на окремий запис локації, навіть якщо організація вже існує.
+    locations.push({
+      location_id: locationId++,
+      organization_id: organization.org_id,
+      district_id: district.id,
+      street: properties['addr:street'] ?? null,
+      building: properties['addr:housenumber'] ?? null,
+      post_code: properties['addr:postcode'] ?? null,
+      latitude,
+      longitude
+    });
+  }
+
+  /*
+    Повертаємо структуру, яка за формою схожа на таблиці БД.
+    Потім ці масиви можна буде використати для INSERT-запитів.
+  */
+  return {
+    CATEGORIES: categories,
+    ORGANIZATIONS: organizations,
+    LOCATIONS: locations,
+    ORGANIZATION_CATEGORIES: organizationCategories,
+    DISTRICTS: DISTRICTS
+  };
 };
 
 export default parseGeoJson;

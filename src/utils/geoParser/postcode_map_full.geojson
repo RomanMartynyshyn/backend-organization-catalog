@@ -1,0 +1,1622 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "49915",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50000",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50002",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50005",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50006",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50008",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50011",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50014",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50019",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50023",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50024",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50025",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50026",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50027",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50029",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50030",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50031",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50036",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50037",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50038",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50040",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50042",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50046",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50047",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50048",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50053",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50054",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50055",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50056",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50057",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50065",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50066",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50069",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50071",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50073",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50074",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50076",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50079",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50081",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50082",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50083",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50084",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50085",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50086",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50089",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50090",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50093",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50096",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50097",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50101",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50102",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50103",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50106",
+        "settlement": "м. Кривий Ріг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50480",
+        "settlement": "с-ще Гірницьке",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50481",
+        "settlement": "с. Новоіванівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50482",
+        "settlement": "с-ще Авангард",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50483",
+        "settlement": "с-ще Коломійцеве",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50484",
+        "settlement": "с. Тернуватий Кут",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Кривий Ріг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53001",
+        "settlement": "с. Глеюватка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53002",
+        "settlement": "с. Красна Балка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlement": "с. Новопілля",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53004",
+        "settlement": "с. Коломійцеве",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53005",
+        "settlement": "с. Андрусівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53006",
+        "settlement": "с. Анастасівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53007",
+        "settlement": "с. Зелений Луг",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53008",
+        "settlement": "с. Братсько-Семенівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53009",
+        "settlement": "с. Бурлацьке",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53010",
+        "settlement": "с. Червоне",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53011",
+        "settlement": "с. Калинівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53012",
+        "settlement": "с. Недайвода",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53013",
+        "settlement": "с. Веселий Кут",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53014",
+        "settlement": "с. Високе Поле",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53015",
+        "settlement": "с. Вільний Посад",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53016",
+        "settlement": "с. Вільний Табір",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53017",
+        "settlement": "с. Водяне",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53018",
+        "settlement": "с. Гомельське",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53019",
+        "settlement": "с. Грузька Григорівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlement": "с. Лозуватка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53021",
+        "settlement": "с. Грузьке",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53022",
+        "settlement": "с. Мар'янівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53023",
+        "settlement": "с. Дружба",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53024",
+        "settlement": "с. Запорожець",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53025",
+        "settlement": "с. Зелений Гай",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53026",
+        "settlement": "с-ще Рудничне",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53027",
+        "settlement": "с. Златопіль",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53028",
+        "settlement": "с. Золота Поляна",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53029",
+        "settlement": "с. Зоря",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53030",
+        "settlement": "с. Іванівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53031",
+        "settlement": "с. Радіонівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53032",
+        "settlement": "с. Вільне",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53033",
+        "settlement": "с. Інгулець",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53034",
+        "settlement": "с. Кам'яне Поле",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53035",
+        "settlement": "с. Кам'янське",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53036",
+        "settlement": "с. Лісове",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53037",
+        "settlement": "с. Іванівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53038",
+        "settlement": "с. Красне",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53039",
+        "settlement": "с. Кривбас",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53040",
+        "settlement": "с. Шевченківське",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlement": "с. Зелене Поле",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53042",
+        "settlement": "с. Нова Надія",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53043",
+        "settlement": "с. Кудашівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53044",
+        "settlement": "с. Садове",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53045",
+        "settlement": "с-ще Лісопитомник",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53046",
+        "settlement": "с. Львів",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53047",
+        "settlement": "с. Дніпровка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53048",
+        "settlement": "с. Маяк",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53049",
+        "settlement": "с. Нова Зоря",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53050",
+        "settlement": "с. Софіївка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53051",
+        "settlement": "с. Новий Мир",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53052",
+        "settlement": "с-ще Христофорівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53053",
+        "settlement": "с. Новий Шлях",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53054",
+        "settlement": "с. Гейківка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53055",
+        "settlement": "с-ще Нові Садки",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53056",
+        "settlement": "с. Новогригорівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53057",
+        "settlement": "с. Новоганнівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53058",
+        "settlement": "с. Новоіванівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53059",
+        "settlement": "с. Новолозуватка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53060",
+        "settlement": "с. Данилівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53061",
+        "settlement": "с-ще Мусіївка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53062",
+        "settlement": "с. Новомайське",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53063",
+        "settlement": "с. Новомар'янівське",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53064",
+        "settlement": "с. Базарове",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53065",
+        "settlement": "с. Новоселівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53066",
+        "settlement": "с. Павлівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53067",
+        "settlement": "с-ще Пичугине",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53068",
+        "settlement": "с. Надія",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53069",
+        "settlement": "с. Раєво-Олександрівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53070",
+        "settlement": "с. Широке",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53071",
+        "settlement": "с. Красівське",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53072",
+        "settlement": "с. Новожитомир",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53073",
+        "settlement": "с. Златоустівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53074",
+        "settlement": "с. Романівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53075",
+        "settlement": "с. Новий Кременчук",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53076",
+        "settlement": "с. Близнюки",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53077",
+        "settlement": "с. Тернівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53078",
+        "settlement": "с. Тернуватка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53079",
+        "settlement": "с. Трудове",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53080",
+        "settlement": "с. Веселе",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53081",
+        "settlement": "с-ще Радушне",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53082",
+        "settlement": "с. Новопокровка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53084",
+        "settlement": "с. Чабанове",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53085",
+        "settlement": "с. Степове",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53086",
+        "settlement": "с-ще Червона Поляна",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53087",
+        "settlement": "с. Червоні Поди",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53088",
+        "settlement": "с. Карачунівка",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53089",
+        "settlement": "с. Шевченкове",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53092",
+        "settlement": "с. Ранній Ранок",
+        "community": "Криворізький",
+        "region": "Дніпропетровська",
+        "district": "Криворізький"
+      },
+      "geometry": null
+    }
+  ]
+}

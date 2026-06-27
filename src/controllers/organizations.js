@@ -6,13 +6,15 @@ import {
 } from '../repositories/organization.js'
 import { OrganizationStatus } from '../db/definitions.js'
 
-// GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5&districtId=<districtId>
+// GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5&adminUnitId=<adminUnitId>
 export const getOrganisations = async (req, res) => {
-	const { status, category_id, categoryId, lat, lng, radiusKm, limit, offset, districtId, search } = req.query
+	const { status, category_id, categoryId, lat, lng, radiusKm, limit, offset, adminUnitId, search } = req.query
 
-	const districtIds = Array.isArray(districtId)
-		? districtId
-		: districtId ? [districtId] : undefined;
+	// Підтримка передачі одного або кількох adminUnitId через query-параметр.
+	// Раніше було districtId, замінено на adminUnitId відповідно до нової структури ADMIN_UNITS.
+	const adminUnitIds = Array.isArray(adminUnitId)
+		? adminUnitId
+		: adminUnitId ? [adminUnitId] : undefined;
 
 	const filters = {
 		categoryId: categoryId ?? category_id,
@@ -20,7 +22,7 @@ export const getOrganisations = async (req, res) => {
 		geoParams: lat !== undefined && lng !== undefined && radiusKm !== undefined
 			? { lat, lng, radiusKm }
 			: undefined,
-		districtIds: districtIds, // масив районів або undefined, якщо параметр не передано
+		districtIds: adminUnitIds, // передаємо в репозиторій під старою назвою (districtFilter всередині вже застосовує adminUnitId)
 		search: search,
 	}
 	// Задаємо ліміт: якщо ліміт передано у запиті, обмежуємо його максимум 15 елементами.
@@ -64,7 +66,7 @@ export const getById = async (req, res) => {
 
 // POST /api/organizations
 export const create = async (req, res) => {
-	const { name, description, websiteUrl, contacts, socialLinks, workingHours, categoryIds, locations } = req.body
+	const { name, description, websiteUrl, contacts, socialLinks, workingHours, categoryIds, locations, primaryLocationId } = req.body
 
 	if (!Array.isArray(categoryIds) || categoryIds.length === 0) {
 		return res.status(400).json({
@@ -80,6 +82,8 @@ export const create = async (req, res) => {
 			contacts,
 			socialLinks,
 			workingHours,
+			// Головна локація організації (первинна адреса для відображення на картці та в картках)
+			primaryLocationId: primaryLocationId ?? null,
 		},
 		categoryIds,
 		locations,
@@ -128,12 +132,11 @@ function mapOrganisationToDto(org) {
 		locations: org.locations?.map(l => ({
 			id: l.locationId,
 			street: l.street,
-			city: l.city,
-			region: l.region,
-			postCode: l.postCode,
 			latitude: l.latitude,
 			longitude: l.longitude,
-			district: l.district?.name ?? null
+			// Адміністративна одиниця (ADMIN_UNITS): район міста або ОТГ.
+			// city/region/postCode вилучено, інформація передається через adminUnit.
+			adminUnit: l.adminUnit ?? null,
 		})) ?? [],
 	}
 }

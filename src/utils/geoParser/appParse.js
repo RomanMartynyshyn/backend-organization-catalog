@@ -47,9 +47,9 @@ const sqlInsertsFilePath = path.join(__dirname, 'inserts.sql');
   щоб файл був красиво відформатований і його було зручно читати.
 */
 const saveParsedData = (data, filePath) => {
-    const jsonData = JSON.stringify(data, null, 2);
+  const jsonData = JSON.stringify(data, null, 2);
 
-    fs.writeFileSync(filePath, jsonData, 'utf-8');
+  fs.writeFileSync(filePath, jsonData, 'utf-8');
 };
 
 /*
@@ -59,159 +59,165 @@ const saveParsedData = (data, filePath) => {
   який імітує таблицю БД.
 */
 const printTableStats = (data) => {
-    console.log('Парсинг завершено.');
-    console.log('Кількість записів у таблицях:');
+  console.log('Парсинг завершено.');
+  console.log('Кількість записів у таблицях:');
 
-    console.log(`CATEGORIES: ${data.CATEGORIES.length}`);
-    console.log(`ORGANIZATIONS: ${data.ORGANIZATIONS.length}`);
-    console.log(`LOCATIONS: ${data.LOCATIONS.length}`);
-    console.log(`ORGANIZATION_CATEGORIES: ${data.ORGANIZATION_CATEGORIES.length}`);
+  console.log(`CATEGORIES: ${data.CATEGORIES.length}`);
+  console.log(`ORGANIZATIONS: ${data.ORGANIZATIONS.length}`);
+  console.log(`LOCATIONS: ${data.LOCATIONS.length}`);
+  console.log(`ORGANIZATION_CATEGORIES: ${data.ORGANIZATION_CATEGORIES.length}`);
+  console.log(`ADMIN_UNITS: ${data.DISTRICTS.length}`);
 };
 
 function insertCategories(categories) {
-    // Формуємо SQL-запит для таблиці categories.
-    const header = 'INSERT INTO categories (' +
-        'id, ' +
-        'name' +
-        ')\n' +
-        ' values\n'
+  // Формуємо SQL-запит для таблиці categories.
+  const header = 'INSERT INTO categories (' +
+    'id, ' +
+    'name' +
+    ')\n' +
+    ' values\n'
 
-    const values = categories
-        .map(category => `    (`+
-            `${category.category_id},`+
-            `${sqlString(category.name)}`+
-            `)`);
+  const values = categories
+    .map(category => `    (` +
+      `${category.category_id},` +
+      `${sqlString(category.name)}` +
+      `)`);
 
-    return header + values.join(',\n')
+  return header + values.join(',\n')
 }
 
-function insertDistricts(districts) {
-    // Формуємо SQL-запит для таблиці districts.
-    const header = 'INSERT INTO districts (' +
-        'district_id, ' +
-        'name' +
-        ')\n' +
-        ' values\n'
+function insertAdminUnits(districts) {
+  // Формуємо SQL-запит для таблиці admin_units.
+  // Замість старої таблиці districts тепер використовується admin_units,
+  // яка об'єднує райони міста, ОТГ та fallback-значення в єдину ієрархію.
+  const header = 'INSERT INTO admin_units (\n' +
+    'admin_unit_id,\n' +
+    'parent_id,\n' +
+    'type,\n' +
+    'name\n' +
+    ')\n values\n';
 
-    const values = districts
-        .map(district => `    (`+
-            `${district.id},`+
-            `${sqlString(district.name)}`+
-            `)`);
+  const values = districts.map(district => {
+    // Перші 7 записів — райони міста Кривого Рогу.
+    // Все що після — або ОТГ, або fallback-мітки.
+    const isCityDistrict = district.id <= 7;
+    const isFallback = district.name === 'Поза межами відомих районів'
+      || district.name === 'Координати відсутні';
+    const type = isFallback ? 'fallback'
+      : isCityDistrict ? 'city_district'
+        : 'otg';
 
-    return header + values.join(',\n')
+    return `    (${district.id}, NULL, ${sqlString(type)}, ${sqlString(district.name)})`;
+  });
+
+  return header + values.join(',\n');
 }
-
 
 function insertOrganizations(organizations) {
-    // Формуємо SQL-запит для таблиці organizations.
-    const header = 'INSERT INTO organizations (' +
-        'id, \n' +
-        'name, \n' +
-        'description, \n' +
-        'website_url, \n' +
-        'social_links, \n' +
-        'contacts, \n' +
-        'working_hours, \n' +
-        'status, \n' +
-        'approved_at, \n' +
-        'created_at, \n' +
-        'updated_at\n' +
-        ')\n' +
-        ' values\n'
+  // Формуємо SQL-запит для таблиці organizations.
+  const header = 'INSERT INTO organizations (' +
+    'id, \n' +
+    'name, \n' +
+    'description, \n' +
+    'website_url, \n' +
+    'social_links, \n' +
+    'contacts, \n' +
+    'working_hours, \n' +
+    'status, \n' +
+    'approved_at, \n' +
+    'created_at, \n' +
+    'updated_at\n' +
+    ')\n' +
+    ' values\n'
 
-    const values = organizations
-        .map(organization => `    (`+
-            `${organization.org_id}, \n`+
-            `${sqlString(organization.name)}, \n`+
-            `${sqlString(organization.description)}, \n`+
-            `${sqlString(organization.website_url)}, \n`+
-            `${sqlJson(organization.social_links)}, \n`+
-            `${sqlJson(organization.contacts)}, \n`+
-            `${sqlString(organization.working_hours)}, \n`+
-            `'approved', \n`+
-            `NOW(), \n`+
-            `NOW(), \n`+
-            `NOW()\n` +
-            `)`);
+  const values = organizations
+    .map(organization => `    (` +
+      `${organization.org_id}, \n` +
+      `${sqlString(organization.name)}, \n` +
+      `${sqlString(organization.description)}, \n` +
+      `${sqlString(organization.website_url)}, \n` +
+      `${sqlJson(organization.social_links)}, \n` +
+      `${sqlJson(organization.contacts)}, \n` +
+      `${sqlString(organization.working_hours)}, \n` +
+      `'approved', \n` +
+      `NOW(), \n` +
+      `NOW(), \n` +
+      `NOW()\n` +
+      `)`);
 
-    return header + values.join(',\n')
+  return header + values.join(',\n')
 }
 
 function insertLocations(locations) {
-    // Формуємо SQL-запит для таблиці locations.
-    const header = 'INSERT INTO locations (' +
-        'location_id, \n' +
-        'organization_id, \n' +
-        'street, \n' +
-        'city, \n' +
-        'region, \n' +
-        'district_id, \n' +
-        'post_code, \n' +
-        'latitude, \n' +
-        'longitude \n' +
-        ')\n' +
-        ' values\n'
+  // Формуємо SQL-запит для таблиці locations.
+  // city та region прибрані — вони визначаються через ієрархію admin_units.
+  // district_id замінено на admin_unit_id відповідно до нової структури ADMIN_UNITS.
+  const header = 'INSERT INTO locations (\n' +
+    'location_id,\n' +
+    'organization_id,\n' +
+    'street,\n' +
+    'admin_unit_id,\n' +
+    'post_code,\n' +
+    'latitude,\n' +
+    'longitude\n' +
+    ')\n values\n';
 
-    const values = locations
-        .map(location => {
-            /*
-              Уникаємо склеювання "null" (наприклад, "вулиця null" або "null null"),
-              якщо вулиця або будинок відсутні в об'єкті location.
-            */
-            const addressParts = [];
-            if (location.street) addressParts.push(location.street);
-            if (location.building) addressParts.push(location.building);
-            const fullStreet = addressParts.length > 0 ? addressParts.join(' ') : null;
+  const values = locations.map(location => {
+    /*
+      Уникаємо склеювання "null" (наприклад, "вулиця null" або "null null"),
+      якщо вулиця або будинок відсутні в об'єкті location.
+    */
+    const addressParts = [];
+    if (location.street) addressParts.push(location.street);
+    if (location.building) addressParts.push(location.building);
+    const fullStreet = addressParts.length > 0 ? addressParts.join(' ') : null;
 
-            return `    (`+
-                `${location.location_id}, \n`+
-                `${location.organization_id}, \n`+
-                `${sqlString(fullStreet)}, \n`+
-                `${sqlString(location.city)}, \n`+
-                `${sqlString(location.region)}, \n`+
-                `${location.district_id}, \n`+
-                `${sqlString(location.post_code)}, \n`+
-                `${location.latitude}, \n`+
-                `${location.longitude} \n`+
-                `)`;
-        });
+    return `    (` +
+      `${location.location_id},\n` +
+      `${location.organization_id},\n` +
+      `${sqlString(fullStreet)},\n` +
+      `${location.district_id},\n` +
+      `${sqlString(location.post_code)},\n` +
+      `${location.latitude},\n` +
+      `${location.longitude}\n` +
+      `)`;
+  });
 
-    return header + values.join(',\n')
+  return header + values.join(',\n');
 }
 
 function insertOrganizationCategories(organizationCategories) {
-    // Формуємо SQL-запит для зв'язувальної таблиці organization_categories.
-    const header = 'INSERT INTO organization_categories (' +
-        'organization_id, \n' +
-        'category_id\n' +
-        ')\n' +
-        ' values\n'
+  // Формуємо SQL-запит для зв'язувальної таблиці organization_categories.
+  const header = 'INSERT INTO organization_categories (' +
+    'organization_id, \n' +
+    'category_id\n' +
+    ')\n' +
+    ' values\n'
 
-    const values = organizationCategories
-        .map(organizationCategory => `    (`+
-            `${organizationCategory.org_id}, \n`+
-            `${organizationCategory.category_id}\n`+
-            `)`)
+  const values = organizationCategories
+    .map(organizationCategory => `    (` +
+      `${organizationCategory.org_id}, \n` +
+      `${organizationCategory.category_id}\n` +
+      `)`)
 
-    return header + values.join(',\n')
+  return header + values.join(',\n')
 }
 
 // SQL utils
 function sqlString(stringValue) {
-    // Екрануємо текстові значення для безпечної вставки в SQL.
-    if (!!stringValue) {
-        return `'${stringValue.replace(/'/g, "''")}'`
-    }
-    return 'NULL'
+  // Екрануємо текстові значення для безпечної вставки в SQL.
+  if (!!stringValue) {
+    return `'${stringValue.replace(/'/g, "''")}'`
+  }
+  return 'NULL'
 }
 
 function sqlJson(jsonObject) {
-    // Зберігаємо JSON як SQL-рядок або NULL, якщо об'єкт порожній.
-    if (Object.keys(jsonObject).length > 0) {
-        return `'${JSON.stringify(jsonObject).replace(/'/g, "''")}'`
-    }
-    return 'NULL'
+  // Зберігаємо JSON як SQL-рядок або NULL, якщо об'єкт порожній.
+  if (Object.keys(jsonObject).length > 0) {
+    return `'${JSON.stringify(jsonObject).replace(/'/g, "''")}'`
+  }
+  return 'NULL'
 }
 
 /*
@@ -228,56 +234,57 @@ function sqlJson(jsonObject) {
   - помилка всередині парсера.
 */
 const main = () => {
-    try {
-        /*
-          Викликаємо парсер і передаємо шлях до GeoJSON-файлу.
+  try {
+    /*
+      Викликаємо парсер і передаємо шлях до GeoJSON-файлу.
 
-          parseGeoJson повертає об'єкт виду:
-          {
-            CATEGORIES: [],
-            ORGANIZATIONS: [],
-            LOCATIONS: [],
-            ORGANIZATION_CATEGORIES: []
-          }
-        */
-        const parsedData = parseGeoJson(inputFilePath);
+      parseGeoJson повертає об'єкт виду:
+      {
+        CATEGORIES: [],
+        ORGANIZATIONS: [],
+        LOCATIONS: [],
+        ORGANIZATION_CATEGORIES: [],
+        DISTRICTS: []
+      }
+    */
+    const parsedData = parseGeoJson(inputFilePath);
 
-        /*
-          Зберігаємо результат парсингу у файл parsedData.json.
-        */
-        saveParsedData(parsedData, outputFilePath);
+    /*
+      Зберігаємо результат парсингу у файл parsedData.json.
+    */
+    saveParsedData(parsedData, outputFilePath);
 
 
-        /*
-          Generate SQL INSERT statements for each table.
-         */
-        const sqlStatements =
-            insertCategories(parsedData.CATEGORIES) + ';\n\n' +
-            insertDistricts(parsedData.DISTRICTS) + ';\n\n' +
-            insertOrganizations(parsedData.ORGANIZATIONS) + ';\n\n' +
-            insertLocations(parsedData.LOCATIONS) + ';\n\n' +
-            insertOrganizationCategories(parsedData.ORGANIZATION_CATEGORIES) + ';\n\n'
-        ;
-        // Записуємо готові INSERT-и у файл, щоб їх можна було одразу виконати в БД.
-        fs.writeFileSync(sqlInsertsFilePath, sqlStatements, 'utf-8');
-        
-        /*
-          Виводимо кількість записів у кожній "таблиці".
-        */
-        printTableStats(parsedData);
+    /*
+      Generate SQL INSERT statements for each table.
+     */
+    const sqlStatements =
+      insertCategories(parsedData.CATEGORIES) + ';\n\n' +
+      insertAdminUnits(parsedData.DISTRICTS) + ';\n\n' +
+      insertOrganizations(parsedData.ORGANIZATIONS) + ';\n\n' +
+      insertLocations(parsedData.LOCATIONS) + ';\n\n' +
+      insertOrganizationCategories(parsedData.ORGANIZATION_CATEGORIES) + ';\n\n'
+      ;
+    // Записуємо готові INSERT-и у файл, щоб їх можна було одразу виконати в БД.
+    fs.writeFileSync(sqlInsertsFilePath, sqlStatements, 'utf-8');
 
-        /*
-          Додатково показуємо шлях, куди був збережений результат.
-        */
-        console.log(`Результат збережено у файл: ${outputFilePath}`);
-    } catch (error) {
-        /*
-          Якщо щось пішло не так, програма не впаде мовчки,
-          а виведе зрозуміле повідомлення про помилку.
-        */
-        console.error('Помилка під час парсингу GeoJSON:');
-        console.error(error.message);
-    }
+    /*
+      Виводимо кількість записів у кожній "таблиці".
+    */
+    printTableStats(parsedData);
+
+    /*
+      Додатково показуємо шлях, куди був збережений результат.
+    */
+    console.log(`Результат збережено у файл: ${outputFilePath}`);
+  } catch (error) {
+    /*
+      Якщо щось пішло не так, програма не впаде мовчки,
+      а виведе зрозуміле повідомлення про помилку.
+    */
+    console.error('Помилка під час парсингу GeoJSON:');
+    console.error(error.message);
+  }
 };
 
 /*

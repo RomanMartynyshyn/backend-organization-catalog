@@ -16,6 +16,10 @@ export async function createOrganization(newOrganization, categoryIds, locations
                 socialLinks: newOrganization.socialLinks,
                 workingHours: newOrganization.workingHours,
                 status: OrganizationStatus.pending,
+                // Зв'язок з головною локацією: передається після того, як локації будуть створені.
+                ...(newOrganization.primaryLocationId != null
+                    ? { primaryLocationId: newOrganization.primaryLocationId }
+                    : {}),
                 categories: {
                     create: categoryIds.map((categoryId) => ({
                         category: {
@@ -28,12 +32,12 @@ export async function createOrganization(newOrganization, categoryIds, locations
                 locations: {
                     create: locations.map((location) => ({
                         street: location.street,
-                        city: location.city,
-                        region: location.region,
-                        postCode: location.postCode,
                         latitude: location.latitude,
                         longitude: location.longitude,
-                        districtId: location.districtId,
+                        // Посилання на адміністративну одиницю (ADMIN_UNITS).
+                        // city/region/postCode більше не зберігаються окремо —
+                        // вони визначаються ієрархією через adminUnitId.
+                        adminUnitId: location.adminUnitId,
                     })),
                 },
             },
@@ -133,7 +137,7 @@ export async function setOrganizationStatus(
 
 /// Filter functions
 function locationFilter(geoParams, districtIds) {
-    if (!geoParams && !districtIds) {}
+    if (!geoParams && !districtIds) { }
 
     return {
         locations: {
@@ -153,20 +157,22 @@ function geoFilter(geoParams) {
     const { minLat, maxLat, minLng, maxLng } = getBoundingBox(geoParams);
 
     return {
-        latitude: {gte: minLat, lte: maxLat},
-        longitude: {gte: minLng, lte: maxLng},
+        latitude: { gte: minLat, lte: maxLat },
+        longitude: { gte: minLng, lte: maxLng },
     };
 }
 
-function districtFilter(districtIds) {
-    if (!districtIds) {
+function districtFilter(adminUnitIds) {
+    if (!adminUnitIds) {
         return {};
     }
 
-    const districtIdsNumbers = districtIds.map(Number);
+    const adminUnitIdsNumbers = adminUnitIds.map(Number);
 
+    // Фільтруємо за adminUnitId окремих локацій організацій.
+    // Раніше було districtId, нова єдина таблиця ADMIN_UNITS об'єднує райони та ОТГ.
     return {
-        districtId: { in: districtIdsNumbers }
+        adminUnitId: { in: adminUnitIdsNumbers }
     };
 }
 
@@ -203,15 +209,16 @@ function organizationWithCategoriesAndLocations() {
             select: {
                 locationId: true,
                 street: true,
-                city: true,
-                region: true,
-                postCode: true,
                 latitude: true,
                 longitude: true,
-                district: {
+                // Адміністративна одиниця (район або ОТГ).
+                // city/region/postCode вилучено — всі ці дані є частиною ієрархії ADMIN_UNITS.
+                adminUnit: {
                     select: {
-                        districtId: true,
+                        adminUnitId: true,
                         name: true,
+                        type: true,
+                        parentId: true,
                     },
                 }
             },

@@ -78,25 +78,6 @@ export const createOrganizationValidation = [
     .optional()
     .withMessage("Street is optional for each location"),
 
-  body("locations.*.city")
-    .trim()
-    .notEmpty()
-    .isLength({ max: 50 })
-    .withMessage("City is required for each location"),
-
-  body("locations.*.region")
-    .trim()
-    .notEmpty()
-    .isLength({ max: 50 })
-    .withMessage("Region is required for each location"),
-
-  body("locations.*.postCode")
-    .trim()
-    .optional()
-    .isString()
-    .withMessage("Post code is optional for each location")
-    .isLength({ min: 5, max: 5 }),
-
   body("locations.*.latitude")
     .trim()
     .notEmpty()
@@ -109,8 +90,19 @@ export const createOrganizationValidation = [
     .withMessage("Longitude is required for each location")
     .isFloat({ min: -180, max: 180 }),
 
-  body("locations.*.districtId")
+  // Адміністративна одиниця (район міста або ОТГ).
+  // Відповідає таблиці ADMIN_UNITS, яка об'єднує всі типи адміністративних одиниць.
+  // city, region та postCode більше не передаються окремо — вони визначаються
+  // ієрархією через поле admin_unit_id.
+  body("locations.*.adminUnitId")
     .optional()
     .isInt({ min: 1 })
-    .withMessage("Each district ID must be a positive integer"),
+    .withMessage("Each admin unit ID must be a positive integer"),
+
+  // Головна локація організації (первинна адреса).
+  // Відповідає полю primary_location_id у таблиці ORGANIZATIONS.
+  body("primaryLocationId")
+    .optional({ nullable: true })
+    .isInt({ min: 1 })
+    .withMessage("primaryLocationId must be a positive integer"),
 ];
