@@ -42,11 +42,11 @@ export const createOrganizationValidation = [
     .optional({ nullable: true, checkFalsy: true })
     .isObject(),
   body("socialLinks.facebook")
-      .optional({ nullable: true, checkFalsy: true })
-      .isURL(),
+    .optional({ nullable: true, checkFalsy: true })
+    .isURL(),
   body("socialLinks.instagram")
-      .optional({ nullable: true, checkFalsy: true })
-      .isURL(),
+    .optional({ nullable: true, checkFalsy: true })
+    .isURL(),
 
   body("workingHours")
     .optional({ nullable: true, checkFalsy: true })
@@ -109,6 +109,12 @@ export const createOrganizationValidation = [
     .withMessage("Longitude is required for each location")
     .isFloat({ min: -180, max: 180 }),
 
+  body("locations.*.districtId")
+    .optional()
+    .isInt({ min: 1 })
+    .withMessage("Each district ID must be a positive integer"),
+
+  // Нове поле `adminUnitId`, що підтримує ширший спектр адміністративних одиниць.
   body("locations.*.adminUnitId")
     .optional()
     .isInt({ min: 1 })

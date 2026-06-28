@@ -1,7 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getDistrictByCoords } from './src/utils/geoParser/districtResolver.js';
+// Виправив імпорт: стара назва getDistrictByCoords більше не існує це залишилось після рефакторингу.
+// Змінив її на правильну назву getAdminUnitByCoords відповідно до поточного API districtResolver.js
+import { getAdminUnitByCoords } from './src/utils/geoParser/districtResolver.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -17,7 +19,7 @@ async function testAllDatabaseLocations() {
   }
 
   const db = JSON.parse(fs.readFileSync(parsedDataPath, 'utf8'));
-  
+
   const organizations = db.ORGANIZATIONS || [];
   const locations = db.LOCATIONS || [];
 
@@ -25,20 +27,20 @@ async function testAllDatabaseLocations() {
   console.log("------------------------------------------------------------------------");
 
   // Беремо перші 15 організацій для наочного тесту
-  const testPool = organizations.slice(0, 5); 
+  const testPool = organizations.slice(0, 5);
   let counter = 0;
 
   for (const org of testPool) {
     const orgName = org.name || "Без назви";
-    
-    // КРИТИЧНЕ ВИПРАВЛЕННЯ: Твій JSON використовує 'org_id' в ORGANIZATIONS
-    const currentOrgId = org.org_id; 
+
+    // КРИТИЧНЕ ВИПРАВЛЕННЯ: JSON використовує 'org_id' в ORGANIZATIONS
+    const currentOrgId = org.org_id;
 
     if (!currentOrgId) continue;
 
     // Зв'язуємо з 'organization_id' в таблиці LOCATIONS
     const linkedLocation = locations.find(loc => loc.organization_id === currentOrgId);
-    
+
     if (!linkedLocation) {
       console.log(`📍 \x1b[33m${orgName}\x1b[0m — локацію в базі не знайдено`);
       console.log("------------------------------------------------------------------------");
@@ -51,9 +53,9 @@ async function testAllDatabaseLocations() {
     if (!lat || !lon) continue;
 
     counter++;
-    
-    // Визначаємо район по нашому kr_districts.geojson файлу
-    const district = await getDistrictByCoords(lat, lon);
+
+    // Тут оновив виклик функції: тепер ми визначаємо адмін. одиницю через оновлений resolver.
+    const district = await getAdminUnitByCoords(lat, lon);
 
     console.log(`[#${counter}] 📍 \x1b[36m${orgName}\x1b[0m`);
     console.log(`🏠 Адреса: вул. ${linkedLocation.street}, буд. ${linkedLocation.building}`);
