@@ -1,23 +1,43 @@
 import fs from 'fs';
-import { getDistrictByCoords } from './districtResolver.js';
+import { getAdminUnitByCoords } from './districtResolver.js';
 
 /*
-  Усі організації у GeoJSON належать до Кривого Рогу,
-  тому city не беремо з файлу, а хардкодимо.
+   Trade off: city Кривий Ріг залишаємо, заповнені дані неповні
+   щоб мати змогу внести місто якого немає в базі.
 */
 const CITY = 'Кривий Ріг';
 const REGION = 'Дніпропетровська';
-const DISTRICTS = [
-    {id: 1, name: 'Саксаганський район'},
-    {id: 2, name: 'Центрально-Міський район'},
-    {id: 3, name: 'Металургійний район'},
-    {id: 4, name: 'Довгинцівський район'},
-    {id: 5, name: 'Інгулецький район'},
-    {id: 6, name: 'Покровський район'},
-    {id: 7, name: 'Тернівський район'}
+const ADMIN_UNITS = [
+    {admin_unit_id: 1, parent_id: 0, type: 'region', name: 'Дніпропетровська область'},
+    {admin_unit_id: 2, parent_id: 1, type: 'raion', name: 'Криворізький район'},
+    {admin_unit_id: 3, parent_id: 2, type: 'community', name: 'Криворізька міська громада'},
+    {admin_unit_id: 4, parent_id: 3, type: 'city', name: 'Кривий Ріг'},
+    {admin_unit_id: 5, parent_id: 4, type: 'district', name: 'Саксаганський район'},
+    {admin_unit_id: 6, parent_id: 4, type: 'district', name: 'Центрально-Міський район'},
+    {admin_unit_id: 7, parent_id: 4, type: 'district', name: 'Металургійний район'},
+    {admin_unit_id: 8, parent_id: 4, type: 'district', name: 'Довгинцівський район'},
+    {admin_unit_id: 9, parent_id: 4, type: 'district', name: 'Інгулецький район'},
+    {admin_unit_id: 10, parent_id: 4, type: 'district', name: 'Покровський район'},
+    {admin_unit_id: 11, parent_id: 4, type: 'district', name: 'Тернівський район'},
+    {admin_unit_id: 12, parent_id: 2, type: 'community', name: 'Софіївська селищна громада'},
+    {admin_unit_id: 13, parent_id: 2, type: 'community', name: 'Лозуватська сільська громада'},
+    {admin_unit_id: 14, parent_id: 2, type: 'community', name: 'Апостолівська міська громада'},
+    {admin_unit_id: 15, parent_id: 14, type: 'town', name: 'Апостоловe'},
+    {admin_unit_id: 16, parent_id: 2, type: 'community', name: 'Грушівська сільська громада'},
+    {admin_unit_id: 17, parent_id: 2, type: 'community', name: 'Глеюватська сільська громада'},
+    {admin_unit_id: 18, parent_id: 2, type: 'community', name: 'Новопільська сільська громада'},
+    {admin_unit_id: 19, parent_id: 2, type: 'community', name: 'Вакулівська сільська громада'},
+    {admin_unit_id: 20, parent_id: 2, type: 'community', name: 'Девладівська сільська громада'},
+    {admin_unit_id: 21, parent_id: 2, type: 'community', name: 'Нивотрудівська сільська громада'},
+    {admin_unit_id: 22, parent_id: 2, type: 'community', name: 'Зеленодольська міська громада'},
+    {admin_unit_id: 23, parent_id: 22, type: 'town', name: 'Зеленодольськ'},
+    {admin_unit_id: 24, parent_id: 2, type: 'community', name: 'Гречаноподівська сільська громада'},
+    {admin_unit_id: 25, parent_id: 2, type: 'community', name: 'Широківська селищна громада'},
+    {admin_unit_id: 26, parent_id: 2, type: 'community', name: 'Карпівська сільська громада'},
+    {admin_unit_id: 27, parent_id: 2, type: 'community', name: 'Новолатівська сільська громада'},
 ];
 
-const districtsMap = new Map(DISTRICTS.map((district) => [district.name, district]));
+const adminUnitsMap = new Map(ADMIN_UNITS.map((adminUnit) => [adminUnit.name, adminUnit]));
 
 /*
   У GeoJSON категорія організації може бути записана в різних полях.
@@ -411,6 +431,7 @@ const mergeOrganizationData = (organization, properties) => {
   - ORGANIZATIONS
   - LOCATIONS
   - ORGANIZATION_CATEGORIES
+  - ADMIN_UNITS
 */
 const parseGeoJson = (filePath) => {
     const fileContent = fs.readFileSync(filePath, 'utf-8');
@@ -568,8 +589,14 @@ const parseGeoJson = (filePath) => {
         const longitude = coordinates[0] ?? null;
         const latitude = coordinates[1] ?? null;
 
-        const districtName = getDistrictByCoords(latitude, longitude)
-        const district = districtsMap.get(districtName)
+        const adminUnitName = getAdminUnitByCoords(latitude, longitude)
+        if (!adminUnitName) {
+            console.error("Admin unit name not found for coordinates:", coordinates)
+        }
+        const adminUnit = adminUnitsMap.get(adminUnitName)
+        if (!adminUnit) {
+            console.error("Admin unit not found for adminUnitName:", adminUnitName)
+        }
 
         /*
           Кожен feature у GeoJSON відповідає одній фізичній локації.
@@ -579,7 +606,7 @@ const parseGeoJson = (filePath) => {
         locations.push({
             location_id: locationId++,
             organization_id: organization.org_id,
-            district_id: district.id,
+            admin_unit_id: adminUnit?.admin_unit_id ?? null,
             street: properties['addr:street'] ?? null,
             building: properties['addr:housenumber'] ?? null,
             city: CITY,
@@ -599,7 +626,7 @@ const parseGeoJson = (filePath) => {
         ORGANIZATIONS: organizations,
         LOCATIONS: locations,
         ORGANIZATION_CATEGORIES: organizationCategories,
-        DISTRICTS: DISTRICTS
+        ADMIN_UNITS: ADMIN_UNITS
     };
 };
 

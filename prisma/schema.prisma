@@ -65,7 +65,7 @@ model OrganizationCategory {
 model Location {
   locationId     Int  @id @default(autoincrement()) @map("location_id")
   organizationId Int  @map("organization_id")
-  districtId     Int? @map("district_id") // TODO remove nullability after reimport DB
+  adminUnitId    Int? @map("admin_unit_id") // TODO remove nullability after reimport DB
 
   street   String? @db.VarChar(50)
   city     String  @db.VarChar(50)
@@ -76,21 +76,23 @@ model Location {
   longitude Decimal @db.Decimal(10, 7)
 
   organization Organization @relation(fields: [organizationId], references: [id])
-  district     District?    @relation(fields: [districtId], references: [districtId])
+  adminUnit    AdminUnit?   @relation(fields: [adminUnitId], references: [adminUnitId])
 
   @@index([city])
   @@index([region])
   @@index([latitude, longitude])
   @@index([organizationId])
-  @@index([districtId])
+  @@index([adminUnitId])
   @@map("locations")
 }
 
-model District {
-  districtId Int    @id @default(autoincrement()) @map("district_id")
-  name       String @unique @db.VarChar(50)
+model AdminUnit {
+  adminUnitId Int     @id @default(autoincrement()) @map("admin_unit_id")
+  parentId    Int     @map("parent_id")
+  type        String?
+  name        String
 
   locations Location[]
 
-  @@map("districts")
+  @@map("admin_units")
 }

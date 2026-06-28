@@ -6,6 +6,9 @@ import { getBoundingBox } from '../utils/geoUtils.js';
 
 // Створення нової організації.
 export async function createOrganization(newOrganization, categoryIds, locations) {
+    const normalizedCategoryIds = categoryIds ?? [];
+    const normalizedLocations = locations ?? [];
+
     try {
         return await prisma.organization.create({
             data: {
@@ -17,7 +20,7 @@ export async function createOrganization(newOrganization, categoryIds, locations
                 workingHours: newOrganization.workingHours,
                 status: OrganizationStatus.pending,
                 categories: {
-                    create: categoryIds.map((categoryId) => ({
+                    create: normalizedCategoryIds.map((categoryId) => ({
                         category: {
                             connect: {
                                 id: Number(categoryId),
@@ -26,14 +29,14 @@ export async function createOrganization(newOrganization, categoryIds, locations
                     })),
                 },
                 locations: {
-                    create: locations.map((location) => ({
+                    create: normalizedLocations.map((location) => ({
                         street: location.street,
                         city: location.city,
                         region: location.region,
                         postCode: location.postCode,
                         latitude: location.latitude,
                         longitude: location.longitude,
-                        districtId: location.districtId,
+                        adminUnitId: location.adminUnitId,
                     })),
                 },
             },
@@ -60,16 +63,16 @@ export async function assignCategoryToOrganization(orgId, categoryId) {
     }
 }
 
-// Підтримує фільтрацію за: категорією, статусом, географічним радіусом та районом.
+// Підтримує фільтрацію за: категорією, статусом, географічним радіусом та адміністративною одиницею.
 export async function findOrganizations(filters, pagination) {
     try {
-        const { categoryId, status, geoParams, districtIds, search } = filters ?? {};
+        const { categoryId, status, geoParams, adminUnitIds, search } = filters ?? {};
 
         return await prisma.organization.findMany({
             where: {
                 status: status ?? OrganizationStatus.approved,
                 ...categoryFilter(categoryId),
-                ...locationFilter(geoParams, districtIds),
+                ...locationFilter(geoParams, adminUnitIds),
                 ...searchFilter(search),
             },
             include: organizationWithCategoriesAndLocations(),
@@ -132,14 +135,16 @@ export async function setOrganizationStatus(
 }
 
 /// Filter functions
-function locationFilter(geoParams, districtIds) {
-    if (!geoParams && !districtIds) {}
+function locationFilter(geoParams, adminUnitIds) {
+    if (!geoParams && !adminUnitIds) {
+        return {};
+    }
 
     return {
         locations: {
             some: {
                 ...geoFilter(geoParams),
-                ...districtFilter(districtIds),
+                ...adminUnitFilter(adminUnitIds),
             },
         },
     };
@@ -158,15 +163,16 @@ function geoFilter(geoParams) {
     };
 }
 
-function districtFilter(districtIds) {
-    if (!districtIds) {
+// TODO also search all children of adminUnit
+function adminUnitFilter(adminUnitIds) {
+    if (!adminUnitIds) {
         return {};
     }
 
-    const districtIdsNumbers = districtIds.map(Number);
+    const adminUnitIdsNumbers = adminUnitIds.map(Number);
 
     return {
-        districtId: { in: districtIdsNumbers }
+        adminUnitId: { in: adminUnitIdsNumbers }
     };
 }
 
@@ -188,6 +194,15 @@ function searchFilter(search) {
         OR: [
             { name: { contains: search } },
             { description: { contains: search } },
+            {
+                locations: {
+                    some: {
+                        adminUnit: {
+                            name: { contains: search },
+                        },
+                    },
+                },
+            },
         ],
     };
 }
@@ -208,9 +223,11 @@ function organizationWithCategoriesAndLocations() {
                 postCode: true,
                 latitude: true,
                 longitude: true,
-                district: {
+                adminUnit: {
                     select: {
-                        districtId: true,
+                        adminUnitId: true,
+                        parentId: true,
+                        type: true,
                         name: true,
                     },
                 }

@@ -65,6 +65,7 @@ const printTableStats = (data) => {
     console.log(`CATEGORIES: ${data.CATEGORIES.length}`);
     console.log(`ORGANIZATIONS: ${data.ORGANIZATIONS.length}`);
     console.log(`LOCATIONS: ${data.LOCATIONS.length}`);
+    console.log(`ADMIN_UNITS: ${data.ADMIN_UNITS.length}`);
     console.log(`ORGANIZATION_CATEGORIES: ${data.ORGANIZATION_CATEGORIES.length}`);
 };
 
@@ -85,18 +86,22 @@ function insertCategories(categories) {
     return header + values.join(',\n')
 }
 
-function insertDistricts(districts) {
+function insertAdminUnits(adminUnits) {
     // Формуємо SQL-запит для таблиці districts.
-    const header = 'INSERT INTO districts (' +
-        'district_id, ' +
-        'name' +
+    const header = 'INSERT INTO admin_units (' +
+        'admin_unit_id, \n' +
+        'parent_id, \n' +
+        'type, \n' +
+        'name \n' +
         ')\n' +
         ' values\n'
 
-    const values = districts
-        .map(district => `    (`+
-            `${district.id},`+
-            `${sqlString(district.name)}`+
+    const values = adminUnits
+        .map(adminUnit => `    (`+
+            `${adminUnit.admin_unit_id}, \n`+
+            `${adminUnit.parent_id}, \n`+
+            `${sqlString(adminUnit.type)}, \n`+
+            `${sqlString(adminUnit.name)} \n`+
             `)`);
 
     return header + values.join(',\n')
@@ -146,7 +151,7 @@ function insertLocations(locations) {
         'street, \n' +
         'city, \n' +
         'region, \n' +
-        'district_id, \n' +
+        'admin_unit_id, \n' +
         'post_code, \n' +
         'latitude, \n' +
         'longitude \n' +
@@ -170,7 +175,7 @@ function insertLocations(locations) {
                 `${sqlString(fullStreet)}, \n`+
                 `${sqlString(location.city)}, \n`+
                 `${sqlString(location.region)}, \n`+
-                `${location.district_id}, \n`+
+                `${location.admin_unit_id}, \n`+
                 `${sqlString(location.post_code)}, \n`+
                 `${location.latitude}, \n`+
                 `${location.longitude} \n`+
@@ -238,6 +243,7 @@ const main = () => {
             ORGANIZATIONS: [],
             LOCATIONS: [],
             ORGANIZATION_CATEGORIES: []
+            ADMIN_UNITS: []
           }
         */
         const parsedData = parseGeoJson(inputFilePath);
@@ -253,7 +259,7 @@ const main = () => {
          */
         const sqlStatements =
             insertCategories(parsedData.CATEGORIES) + ';\n\n' +
-            insertDistricts(parsedData.DISTRICTS) + ';\n\n' +
+            insertAdminUnits(parsedData.ADMIN_UNITS) + ';\n\n' +
             insertOrganizations(parsedData.ORGANIZATIONS) + ';\n\n' +
             insertLocations(parsedData.LOCATIONS) + ';\n\n' +
             insertOrganizationCategories(parsedData.ORGANIZATION_CATEGORIES) + ';\n\n'
@@ -276,7 +282,7 @@ const main = () => {
           а виведе зрозуміле повідомлення про помилку.
         */
         console.error('Помилка під час парсингу GeoJSON:');
-        console.error(error.message);
+        console.error(error);
     }
 };
 
