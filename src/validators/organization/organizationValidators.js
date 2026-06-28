@@ -109,8 +109,6 @@ export const createOrganizationValidation = [
     .withMessage("Longitude is required for each location")
     .isFloat({ min: -180, max: 180 }),
 
-  // Тимчасово зберігаємо `districtId` для зворотної сумісності з поточним фронтендом.
-  // TODO: Видалити після того, як фронтенд перейде на використання `adminUnitId`.
   body("locations.*.districtId")
     .optional()
     .isInt({ min: 1 })
