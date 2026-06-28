@@ -6,22 +6,22 @@ import {
 } from '../repositories/organization.js'
 import { OrganizationStatus } from '../db/definitions.js'
 
-// GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5&districtId=<districtId>
+// GET /api/organizations?status=<status>&category_id=<categoryId>&limit=<limit>&offset=<offset>&lat=47.9387000&lng=33.4324000&radiusKm=5&adminUnitId=<adminUnitId>
 export const getOrganisations = async (req, res) => {
-	const { status, category_id, categoryId, lat, lng, radiusKm, limit, offset, districtId, search } = req.query
+	const { status, categoryId, lat, lng, radiusKm, limit, offset, adminUnitId, search } = req.query
 
-	const districtIds = Array.isArray(districtId)
-		? districtId
-		: districtId ? [districtId] : undefined;
+	const adminUnitIds = Array.isArray(adminUnitId)
+		? adminUnitId
+		: adminUnitId ? [adminUnitId] : undefined;
 
 	const filters = {
-		categoryId: categoryId ?? category_id,
+		categoryId: categoryId,
 		status,
 		geoParams: lat !== undefined && lng !== undefined && radiusKm !== undefined
 			? { lat, lng, radiusKm }
 			: undefined,
-		districtIds: districtIds, // масив районів або undefined, якщо параметр не передано
-		search: search,
+		adminUnitIds,
+		search,
 	}
 	// Задаємо ліміт: якщо ліміт передано у запиті, обмежуємо його максимум 15 елементами.
 	// Якщо ліміт не передано, за замовчуванням повертаємо 15 елементів.
@@ -133,7 +133,7 @@ function mapOrganisationToDto(org) {
 			postCode: l.postCode,
 			latitude: l.latitude,
 			longitude: l.longitude,
-			district: l.district?.name ?? null
+			adminUnit: l.adminUnit?.name ?? null
 		})) ?? [],
 	}
 }

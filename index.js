@@ -5,7 +5,7 @@ import cors from 'cors';
 import errorHandler from './src/middleware/errorHandler.js';
 import organizationsRoutes from './src/routes/organizations.js';
 import categoriesRoutes from './src/routes/categories.js';
-import districtsRoutes from './src/routes/districts.js';
+import adminUnitsRoutes from './src/routes/adminUnits.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true })); // Для парсингу appl
 // Підключення роутів
 app.use('/api/organizations', organizationsRoutes);
 app.use('/api/categories', categoriesRoutes);
-app.use('/api/districts', districtsRoutes);
+app.use('/api/admin-units', adminUnitsRoutes);
 
 app.get('/', (req, res) => {
     res.json({ message: "Catalog API is running" });

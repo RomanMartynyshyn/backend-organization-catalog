@@ -109,8 +109,8 @@ export const createOrganizationValidation = [
     .withMessage("Longitude is required for each location")
     .isFloat({ min: -180, max: 180 }),
 
-  body("locations.*.districtId")
+  body("locations.*.adminUnitId")
     .optional()
     .isInt({ min: 1 })
-    .withMessage("Each district ID must be a positive integer"),
+    .withMessage("Each admin unit ID must be a positive integer"),
 ];

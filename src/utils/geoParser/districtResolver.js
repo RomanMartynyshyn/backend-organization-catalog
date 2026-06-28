@@ -33,7 +33,7 @@ function initGeoData() {
 initGeoData();
 
 // Повертає назву району для координат, якщо точка потрапила всередину полігона.
-export function getDistrictByCoords(lat, lon) {
+export function getAdminUnitByCoords(lat, lon) {
   if (krDistricts.length === 0) {
     initGeoData();
   }
@@ -42,11 +42,23 @@ export function getDistrictByCoords(lat, lon) {
 
   const pt = point([parseFloat(lon), parseFloat(lat)]);
 
+  const adminUnitFeatures = [];
   // Перевіряємо кожен полігон району, поки не знайдемо збіг.
   for (const feature of krDistricts) {
     if (turfBooleanPointInPolygon(pt, feature)) {
-      return feature.properties.name || 'Назва району відсутня';
+      adminUnitFeatures.push(feature);
     }
+  }
+
+  // if (adminUnitFeatures.length > 1)
+  //   for (const feature of adminUnitFeatures) {
+  //     console.log(feature.properties.admin_level + ' - ' + feature.properties.name)
+  //   }
+
+  if (adminUnitFeatures.length > 0) {
+    adminUnitFeatures
+        .sort((a, b) => b.properties.admin_level - a.properties.admin_level)
+    return adminUnitFeatures[0].properties.name || 'Назва району відсутня';
   }
 
   return 'Поза межами відомих районів';
