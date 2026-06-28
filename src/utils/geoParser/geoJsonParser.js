@@ -1,11 +1,11 @@
 import fs from 'fs';
 import { getAdminUnitByCoords } from './districtResolver.js';
-
+import { getOtgByPostcode } from './postcodeResolver.js';
 /*
    Trade off: city Кривий Ріг залишаємо, заповнені дані неповні
    щоб мати змогу внести місто якого немає в базі.
 */
-const CITY = 'Кривий Ріг';
+const KRYVYI_RIG = 'Кривий Ріг';
 const REGION = 'Дніпропетровська';
 const ADMIN_UNITS = [
     {admin_unit_id: 1, parent_id: 0, type: 'region', name: 'Дніпропетровська область'},
@@ -598,6 +598,21 @@ const parseGeoJson = (filePath) => {
             console.error("Admin unit not found for adminUnitName:", adminUnitName)
         }
 
+        const postCode = properties['addr:postcode'] ?? null
+
+        let city;
+        if (adminUnit.type === 'city' || adminUnit.type === 'town') {
+            city = adminUnit.name
+        } else if (adminUnit.type === 'district') {
+            city = KRYVYI_RIG
+        } else {
+            city = getOtgByPostcode(postCode)
+        }
+
+        if (!city) {
+            city = adminUnit.name
+        }
+
         /*
           Кожен feature у GeoJSON відповідає одній фізичній локації.
           Навіть якщо організація вже існує, локацію все одно додаємо нову.
@@ -609,9 +624,9 @@ const parseGeoJson = (filePath) => {
             admin_unit_id: adminUnit?.admin_unit_id ?? null,
             street: properties['addr:street'] ?? null,
             building: properties['addr:housenumber'] ?? null,
-            city: CITY,
+            city: city,
             region: REGION,
-            post_code: properties['addr:postcode'] ?? null,
+            post_code: postCode,
             latitude,
             longitude
         });
