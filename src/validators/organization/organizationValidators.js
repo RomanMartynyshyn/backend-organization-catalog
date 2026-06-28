@@ -42,11 +42,11 @@ export const createOrganizationValidation = [
     .optional({ nullable: true, checkFalsy: true })
     .isObject(),
   body("socialLinks.facebook")
-      .optional({ nullable: true, checkFalsy: true })
-      .isURL(),
+    .optional({ nullable: true, checkFalsy: true })
+    .isURL(),
   body("socialLinks.instagram")
-      .optional({ nullable: true, checkFalsy: true })
-      .isURL(),
+    .optional({ nullable: true, checkFalsy: true })
+    .isURL(),
 
   body("workingHours")
     .optional({ nullable: true, checkFalsy: true })
@@ -109,6 +109,8 @@ export const createOrganizationValidation = [
     .withMessage("Longitude is required for each location")
     .isFloat({ min: -180, max: 180 }),
 
+  // Замінив `districtId` на `adminUnitId`, тому що ми розширили модель даних:
+  // тепер ми можемо зберігати не тільки райони, але й інші адміністративні одиниці.
   body("locations.*.adminUnitId")
     .optional()
     .isInt({ min: 1 })
