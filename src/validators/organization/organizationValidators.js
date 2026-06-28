@@ -109,8 +109,14 @@ export const createOrganizationValidation = [
     .withMessage("Longitude is required for each location")
     .isFloat({ min: -180, max: 180 }),
 
-  // Замінив `districtId` на `adminUnitId`, тому що ми розширили модель даних:
-  // тепер ми можемо зберігати не тільки райони, але й інші адміністративні одиниці.
+  // Тимчасово зберігаємо `districtId` для зворотної сумісності з поточним фронтендом.
+  // TODO: Видалити після того, як фронтенд перейде на використання `adminUnitId`.
+  body("locations.*.districtId")
+    .optional()
+    .isInt({ min: 1 })
+    .withMessage("Each district ID must be a positive integer"),
+
+  // Нове поле `adminUnitId`, що підтримує ширший спектр адміністративних одиниць.
   body("locations.*.adminUnitId")
     .optional()
     .isInt({ min: 1 })
