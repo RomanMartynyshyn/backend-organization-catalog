@@ -595,7 +595,7 @@ const parseGeoJson = (filePath) => {
         }
         const adminUnit = adminUnitsMap.get(adminUnitName)
         if (!adminUnit) {
-            console.error("Admin unit not found for adminUnitName:", adminUnitName)
+            console.error("Admin unit not found for adminUnitName:", adminUnitName, "coordinates:", coordinates)
         }
 
         const postCode = properties['addr:postcode'] ?? null

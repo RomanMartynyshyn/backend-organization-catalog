@@ -3092,6 +3092,46 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53800",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53801",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53802",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53803",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53804",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53861",
         "settlementName": "с. Велика Долина"
       },
