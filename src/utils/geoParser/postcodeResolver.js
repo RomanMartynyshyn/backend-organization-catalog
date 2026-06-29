@@ -36,9 +36,9 @@ function initPostcodeData() {
         const postcode = String(feature.properties.postcode ?? '').trim();
         const settlementName = feature.properties.settlementName ?? null;
 
-        if (!postcode || !settlementName) continue;
-
-        postcodeToOtgMap.set(postcode, settlementName);
+        if (!postcodeToOtgMap.has(postcode)) {
+            postcodeToOtgMap.set(postcode, settlementName);
+        }
         uniqueOtgs.add(settlementName);
     }
 }

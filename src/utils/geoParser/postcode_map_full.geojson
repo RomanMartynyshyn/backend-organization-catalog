@@ -20,6 +20,38 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "50000",
+        "settlementName": "с-ще Авангард"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50000",
+        "settlementName": "с-ще Гірницьке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50000",
+        "settlementName": "с. Новоіванівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "50000",
+        "settlementName": "с. Тернуватий Кут"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "50001",
         "settlementName": "м. Кривий Ріг"
       },
@@ -916,6 +948,30 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53001",
+        "settlementName": "с. Веселий Кут"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53001",
+        "settlementName": "с. Зоря"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53001",
+        "settlementName": "с-ще Рудничне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53002",
         "settlementName": "с. Красна Балка"
       },
@@ -926,6 +982,254 @@
       "properties": {
         "postcode": "53003",
         "settlementName": "с. Новопілля"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Андрусівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Близнюки"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Братсько-Семенівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Бурлацьке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Водяне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Вільний Посад"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Вільний Табір"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Дніпровка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Златопіль"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Золота Поляна"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Кам'янське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Красне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Красівське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с-ще Лісопитомник"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Львів"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Маяк"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Нова Зоря"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Нова Надія"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Новий Шлях"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Новогригорівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Новомайське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Новомар'янівське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Новоселівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с-ще Нові Садки"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с-ще Пичугине"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Романівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Садове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Степове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Трудове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Червоні Поди"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53003",
+        "settlementName": "с. Шевченкове"
       },
       "geometry": null
     },
@@ -1004,6 +1308,14 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53012",
+        "settlementName": "с. Тернуватка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53013",
         "settlementName": "с. Веселий Кут"
       },
@@ -1068,8 +1380,176 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Анастасівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Базарове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Данилівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Дружба"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Зелений Гай"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Зелений Луг"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Іванівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Інгулець"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Карачунівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Кудашівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Надія"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Новий Кременчук"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Новий Мир"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Новоганнівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Новолозуватка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Павлівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Раєво-Олександрівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Софіївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с. Тернівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53020",
+        "settlementName": "с-ще Червона Поляна"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53021",
         "settlementName": "с. Грузьке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53021",
+        "settlementName": "с. Грузька Григорівка"
       },
       "geometry": null
     },
@@ -1230,6 +1710,86 @@
       "properties": {
         "postcode": "53041",
         "settlementName": "с. Зелене Поле"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Високе Поле"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Гомельське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Запорожець"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Калинівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Кам'яне Поле"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Лісове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Новопокровка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Новоіванівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Чабанове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53041",
+        "settlementName": "с. Шевченківське"
       },
       "geometry": null
     },
@@ -1612,6 +2172,14 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53091",
+        "settlementName": "с. Кривбас"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53092",
         "settlementName": "с. Ранній Ранок"
       },
@@ -1622,6 +2190,206 @@
       "properties": {
         "postcode": "53100",
         "settlementName": "с-ще Софіївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Авдотівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Братське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Вишневе"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Вільне Життя"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Володимирівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Запорізьке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Зелене"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Кам'янка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Катерино-Наталівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Катеринівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с-ще Лошкарівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Михайлівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Назарівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Непереможне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Новопетрівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Новохортиця"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Олександро-Білівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Олексіївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Петрове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Петрівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Променисте"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Степове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Тарасівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Трудолюбівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53100",
+        "settlementName": "с. Широке"
       },
       "geometry": null
     },
@@ -1836,6 +2604,262 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Андріївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Вербове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Веселе Поле"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Володимирівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Ганно-Миколаївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Гончарове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Грушки"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Довгівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Зав'ялівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Зелений Гай"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Ковалеве"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Кодак"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Козацька Слобода"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Кринички"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Криничувате"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Любе"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Макорти"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Мар'є-Дмитрівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Мар'є-Костянтинівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Мар'ївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Мотина Балка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Нова Зоря"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Новомихайлівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Олександрівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Ордо-Василівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Поле"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Потоцьке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Південне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Райполе"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Сергіївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Спокій"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53130",
+        "settlementName": "с. Яр"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53131",
         "settlementName": "с. Яр"
       },
@@ -1910,6 +2934,14 @@
       "properties": {
         "postcode": "53140",
         "settlementName": "с. Запорізьке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53140",
+        "settlementName": "с. Миколаївка"
       },
       "geometry": null
     },
@@ -2116,6 +3148,46 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53170",
+        "settlementName": "с. Калашники"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53170",
+        "settlementName": "с. Нововітебське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53170",
+        "settlementName": "с. Новоподільське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53170",
+        "settlementName": "с. Тернуватка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53170",
+        "settlementName": "с. Явдохівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53171",
         "settlementName": "с. Жовте"
       },
@@ -2132,8 +3204,88 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53172",
+        "settlementName": "с. Дачне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53172",
+        "settlementName": "с. Одрубок"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53172",
+        "settlementName": "с. Українка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53173",
         "settlementName": "с. Мар'ївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53173",
+        "settlementName": "с. Базавлучок"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53173",
+        "settlementName": "с. Жовте"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53173",
+        "settlementName": "с. Новоолексіївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53173",
+        "settlementName": "с. Нові Ковна"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53173",
+        "settlementName": "с. Павлівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53173",
+        "settlementName": "с. Петропавлівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53173",
+        "settlementName": "с. Садове"
       },
       "geometry": null
     },
@@ -2268,8 +3420,304 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Андріївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Веселий Став"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Вишневе"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Городуватка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Дем'янівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Зелений Гай"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Зелений Став"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Казанківка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Малинівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Могилівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Новомалинівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Плугатар"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Полтавка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Радевичеве"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Розівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Тихий Став"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Цвіткове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Червоне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Широка Дача"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Широка Долина"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Яблунівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Явдотівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Латівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Нове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Новоселівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Весела Дача"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Григорівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Дачне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Запоріжжя"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Кошове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Надія"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Новоукраїнка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Одрадне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Оленівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Подидар"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53700",
+        "settlementName": "с. Щасливе"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53701",
         "settlementName": "с. Весела Дача"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53701",
+        "settlementName": "с-ще Широке"
       },
       "geometry": null
     },
@@ -2284,6 +3732,14 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53702",
+        "settlementName": "с-ще Широке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53703",
         "settlementName": "с. Вишневе"
       },
@@ -2292,8 +3748,24 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53703",
+        "settlementName": "с-ще Широке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53704",
         "settlementName": "с. Ганнівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53704",
+        "settlementName": "с-ще Широке"
       },
       "geometry": null
     },
@@ -2428,6 +3900,62 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53720",
+        "settlementName": "с. Інгулець"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53720",
+        "settlementName": "с. Курганка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53720",
+        "settlementName": "с. Макарівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53720",
+        "settlementName": "с. Новолатівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53720",
+        "settlementName": "с. Стародобровільське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53720",
+        "settlementName": "с. Червоний Ранок"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53720",
+        "settlementName": "с. Шведове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53721",
         "settlementName": "с. Новомалинівка"
       },
@@ -2436,8 +3964,24 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53721",
+        "settlementName": "с. Мирне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53722",
         "settlementName": "с. Явдотівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53722",
+        "settlementName": "с. Зелена Балка"
       },
       "geometry": null
     },
@@ -2500,8 +4044,32 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53730",
+        "settlementName": "с. Олександрія"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53730",
+        "settlementName": "с. Благодатне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53731",
         "settlementName": "с. Миролюбівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53731",
+        "settlementName": "с. Карпівка"
       },
       "geometry": null
     },
@@ -2516,8 +4084,120 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53732",
+        "settlementName": "с. Красний Під"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53732",
+        "settlementName": "с. Нове Життя"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53732",
+        "settlementName": "с. Озерне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53732",
+        "settlementName": "с. Олександрівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53732",
+        "settlementName": "с. Степове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53733",
         "settlementName": "с. Степове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Водяне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Калинівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Кравці"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Кряжове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Миролюбівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Подове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Пологи"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Свистунове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53733",
+        "settlementName": "с. Трудолюбівка"
       },
       "geometry": null
     },
@@ -2532,8 +4212,24 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53734",
+        "settlementName": "с. Шестірня"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53735",
         "settlementName": "с. Нове Життя"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53736",
+        "settlementName": "с. Ганнівка"
       },
       "geometry": null
     },
@@ -2788,8 +4484,40 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53800",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53800",
+        "settlementName": "с. Новомар'янівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53801",
         "settlementName": "с. Новосеменівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53801",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53802",
+        "settlementName": "м. Апостолове"
       },
       "geometry": null
     },
@@ -2812,8 +4540,32 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53803",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53804",
         "settlementName": "с-ще Тік"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53804",
+        "settlementName": "м. Апостолове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53804",
+        "settlementName": "с-ще Українка"
       },
       "geometry": null
     },
@@ -2836,6 +4588,14 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53810",
+        "settlementName": "с. Шевченко"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53811",
         "settlementName": "с. Вільне"
       },
@@ -2846,6 +4606,14 @@
       "properties": {
         "postcode": "53812",
         "settlementName": "с. Володимирівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53812",
+        "settlementName": "с. Козацький Кут"
       },
       "geometry": null
     },
@@ -2910,6 +4678,14 @@
       "properties": {
         "postcode": "53820",
         "settlementName": "с. Михайлівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53820",
+        "settlementName": "с. Жовте"
       },
       "geometry": null
     },
@@ -2996,6 +4772,14 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53830",
+        "settlementName": "с. Новоіванівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53831",
         "settlementName": "с. Новоіванівка"
       },
@@ -3004,8 +4788,104 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53831",
+        "settlementName": "с. Сергіївка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53831",
+        "settlementName": "с. Слов'янка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53831",
+        "settlementName": "с. Тарасо-Григорівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53831",
+        "settlementName": "с. Червона Колона"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53832",
         "settlementName": "с-ще Жовте"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53832",
+        "settlementName": "с. Єлизаветпілля"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53832",
+        "settlementName": "с. Веселі Чумаки"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53832",
+        "settlementName": "с. Вільне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53832",
+        "settlementName": "с. Зоряне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53832",
+        "settlementName": "с. Нива Трудова"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53832",
+        "settlementName": "с. Новоукраїнське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53832",
+        "settlementName": "с. Садове"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53832",
+        "settlementName": "с. Солдатське"
       },
       "geometry": null
     },
@@ -3028,8 +4908,40 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53840",
+        "settlementName": "с-ще Вільний Запорожець"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53840",
+        "settlementName": "с. Грушівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53841",
         "settlementName": "с. Запорізьке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53841",
+        "settlementName": "с. Нова Січ"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53841",
+        "settlementName": "с. Новосеменівка"
       },
       "geometry": null
     },
@@ -3044,6 +4956,22 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53842",
+        "settlementName": "с. Запорізьке"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53842",
+        "settlementName": "с. Усть-Кам'янка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53850",
         "settlementName": "с. Грушівка"
       },
@@ -3052,8 +4980,40 @@
     {
       "type": "Feature",
       "properties": {
+        "postcode": "53850",
+        "settlementName": "с. Широчани"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53851",
+        "settlementName": "с. Михайло-Заводське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53851",
+        "settlementName": "с. Михайлівка"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "postcode": "53852",
         "settlementName": "с. Червоний Тік"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53852",
+        "settlementName": "с. Катеринівка"
       },
       "geometry": null
     },
@@ -3092,40 +5052,16 @@
     {
       "type": "Feature",
       "properties": {
-        "postcode": "53800",
-        "settlementName": "м. Апостолове"
+        "postcode": "53860",
+        "settlementName": "с. Велика Долина"
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "postcode": "53801",
-        "settlementName": "м. Апостолове"
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "postcode": "53802",
-        "settlementName": "м. Апостолове"
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "postcode": "53803",
-        "settlementName": "м. Апостолове"
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "postcode": "53804",
-        "settlementName": "м. Апостолове"
+        "postcode": "53860",
+        "settlementName": "с. Мала Долина"
       },
       "geometry": null
     },
@@ -3134,6 +5070,46 @@
       "properties": {
         "postcode": "53861",
         "settlementName": "с. Велика Долина"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53864",
+        "settlementName": "с-ще Гранітне"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53864",
+        "settlementName": "с-ще Токівське"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53864",
+        "settlementName": "с-ще Тік"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53864",
+        "settlementName": "с. Червоний Тік"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "53865",
+        "settlementName": "с. Мар'янське"
       },
       "geometry": null
     }
